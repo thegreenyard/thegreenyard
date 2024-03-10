@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "The Green Yard"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: blog.qmd
+        text: Blog
+      - href: videos.qmd
+        text: Videos
+      - href: contact.qmd
+        text: Contact Us
+  favicon: "images/favicon.png"
+  page-footer:
+    right: "Check out our [YouTube Channel](https://www.youtube.com/@thegreenyardaz)"
+  google-analytics: ""
+    
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+editor: visual
+
+execute:
+  freeze: auto
