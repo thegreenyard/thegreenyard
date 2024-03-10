@@ -3,8 +3,8 @@ project:
 
 website:
   title: "The Green Yard"
-  logo: "images/logo.jpg"
   navbar:
+    logo: "images/logo.jpg"
     left:
       - href: index.qmd
         text: Home
