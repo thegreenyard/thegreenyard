@@ -1,9 +1,3 @@
----
-layout: default
-title: The Green Yard
-description: Transforming our yard into a green oasis
-theme: jekyll-theme-cayman
----
 
 # Welcome to The Green Yard!
 
