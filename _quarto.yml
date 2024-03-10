@@ -5,6 +5,7 @@ website:
   title: "The Green Yard"
   navbar:
     logo: "images/logo.jpg"
+    title: false
     left:
       - href: index.qmd
         text: Home
