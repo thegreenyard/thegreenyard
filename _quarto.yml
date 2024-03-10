@@ -2,10 +2,9 @@ project:
   type: website
 
 website:
-  site: "The Green Yard"
+  title: "The Green Yard"
   navbar:
     search: true
-    title: false
     logo: "images/logo.jpg"
     left:
       - href: index.qmd
