@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "images/logo.jpg"
+  title: "The Green Yard"
   navbar:
     left:
       - href: index.qmd
