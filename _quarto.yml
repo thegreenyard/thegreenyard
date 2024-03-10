@@ -4,7 +4,6 @@ project:
 website:
   title: "The Green Yard"
   navbar:
-    search: true
     logo: "images/logo.jpg"
     left:
       - href: index.qmd
