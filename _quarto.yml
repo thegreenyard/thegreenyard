@@ -3,9 +3,9 @@ project:
 
 website:
   title: false
-  search: true
-  logo: "images/logo.jpg"
   navbar:
+    search: true
+    logo: "images/logo.jpg"
     left:
       - href: index.qmd
         text: Home
