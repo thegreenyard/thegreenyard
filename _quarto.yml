@@ -15,7 +15,6 @@ website:
         text: Videos
       - href: contact.qmd
         text: Contact Us
-    right: 
   favicon: "images/favicon.png"
   page-footer:
     right: "Check out our [YouTube Channel](https://www.youtube.com/@thegreenyardaz)"
