@@ -2,9 +2,10 @@ project:
   type: website
 
 website:
-  title: "The Green Yard"
+  title: false
   navbar:
     left:
+      - logo: "images/logo.jpg"
       - href: index.qmd
         text: Home
       - href: about.qmd
@@ -15,6 +16,8 @@ website:
         text: Videos
       - href: contact.qmd
         text: Contact Us
+    right: 
+      - search: true
   favicon: "images/favicon.png"
   page-footer:
     right: "Check out our [YouTube Channel](https://www.youtube.com/@thegreenyardaz)"
