@@ -5,4 +5,4 @@ title: About
 
 # About Me
 
-![Profile Picture](images/my-picture.png)
+![Profile Picture](images/Screen Shot 2023-06-28 at 4.08.04 PM.png)
