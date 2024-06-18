@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.thegreenyardaz.com/about.html</loc>
-    <lastmod>2024-03-13T06:32:00.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thegreenyardaz.com/test.html</loc>
-    <lastmod>2024-03-13T06:32:00.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thegreenyardaz.com/videos.html</loc>
-    <lastmod>2024-03-13T06:32:00.129Z</lastmod>
+    <loc>https://www.thegreenyardaz.com/contact.html</loc>
+    <lastmod>2024-06-18T16:31:29.202Z</lastmod>
   </url>
   <url>
     <loc>https://www.thegreenyardaz.com/blog.html</loc>
-    <lastmod>2024-03-13T06:32:00.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.thegreenyardaz.com/contact.html</loc>
-    <lastmod>2024-03-13T06:32:00.129Z</lastmod>
+    <lastmod>2024-06-18T16:31:29.202Z</lastmod>
   </url>
   <url>
     <loc>https://www.thegreenyardaz.com/index.html</loc>
-    <lastmod>2024-03-13T06:32:00.129Z</lastmod>
+    <lastmod>2024-06-18T16:31:29.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thegreenyardaz.com/test.html</loc>
+    <lastmod>2024-06-18T16:31:29.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thegreenyardaz.com/videos.html</loc>
+    <lastmod>2024-06-18T16:31:29.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.thegreenyardaz.com/about.html</loc>
+    <lastmod>2024-06-18T16:31:29.202Z</lastmod>
   </url>
 </urlset>
