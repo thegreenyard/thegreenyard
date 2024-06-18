@@ -1,6 +1,5 @@
 project:
   type: website
-
 website:
   title: "The Green Yard"
   navbar:
