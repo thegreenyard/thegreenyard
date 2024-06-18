@@ -16,17 +16,6 @@ website:
         text: Videos
       - href: contact.qmd
         text: Contact Us
-  format:
-  html:
-    head:
-      extra:
-        - "<style>"
-        - "  .navbar-logo {"
-        - "    max-width: 200px;
-        - "    height: auto; /* Maintain aspect ratio */"
-        - "  }"
-        - "</style>"
-    theme: default
 
   favicon: "images/favicon.png"
   page-footer:
