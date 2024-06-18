@@ -1,3 +1,7 @@
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID_HERE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 # Welcome to The Green Yard!
 
 Hello and welcome to The Green Yard! My name is Schuyler, and I'm excited to share my journey with you. My wife and I just moved into a new house in the heart of Phoenix, and we're on a mission to transform our brown, slightly landscaped, and mostly unusable yard into a beautiful, green, profitable, and livable landscape.
