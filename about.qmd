@@ -1,8 +1,5 @@
 ---
 layout: default
-title: About
----
-
-# About Me
+<img src="images/Screen Shot 2023-06-28 at 4.08.04 PM.png"
 
 ![Profile Picture](images/Screen Shot 2023-06-28 at 4.08.04 PM.png)
