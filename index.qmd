@@ -3,14 +3,13 @@ layout: default
 title: Home
 ---
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; height: auto;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/_qtJWZNEXuc?autoplay=1&mute=1&loop=1&playlist=_qtJWZNEXuc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 # Welcome to My GitHub Pages Site
 
 Here is some content for your homepage.
-
 
 
 
