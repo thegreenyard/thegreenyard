@@ -4,6 +4,4 @@ layout: default
 
 # About The Green Yard
 
-(images/Screen Shot 2023-06-28 at 4.08.04 PM.png)
-
-
+![](images/Screen Shot 2023-06-28 at 4.08.04 PM.png)
