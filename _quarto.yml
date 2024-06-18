@@ -3,7 +3,6 @@ project:
 
 website:
   title: "The Green Yard"
-  sidebar: false  # Disable the sidebar
   navbar:
     logo: "images/logo.jpg"
     title: false
