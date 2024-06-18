@@ -16,6 +16,18 @@ website:
         text: Videos
       - href: contact.qmd
         text: Contact Us
+  format:
+  html:
+    head:
+      extra:
+        - "<style>"
+        - "  .navbar-logo {"
+        - "    max-width: 200px; /* Adjust the size as needed */"
+        - "    height: auto; /* Maintain aspect ratio */"
+        - "  }"
+        - "</style>"
+    theme: default
+
   favicon: "images/favicon.png"
   page-footer:
     right: "Check out our [YouTube Channel](https://www.youtube.com/@thegreenyardaz)"
