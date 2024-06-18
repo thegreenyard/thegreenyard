@@ -7,12 +7,6 @@ title: Home
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/_qtJWZNEXuc?autoplay=1&mute=1&loop=1&playlist=_qtJWZNEXuc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-# Welcome to My GitHub Pages Site
-
-Here is some content for your homepage.
-
-
-
 # Welcome to The Green Yard!
 
 Hello and welcome to The Green Yard! My name is Schuyler, and I'm excited to share my journey with you. My wife and I just moved into a new house in the heart of Phoenix, and we're on a mission to transform our brown, slightly landscaped, and mostly unusable yard into a beautiful, green, profitable, and livable landscape.
