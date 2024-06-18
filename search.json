@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About Me\n\n\n\nProfile Picture"
-  },
-  {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Welcome to The Green Yard!",
@@ -40,5 +33,12 @@
     "title": "Welcome to The Green Yard!",
     "section": "Get in Touch",
     "text": "Get in Touch\nHave a question or suggestion? Want to share your own gardening journey? We’d love to hear from you! Drop us a line at contact@thegreenyard.com and let’s connect.\nRemember to live green, plant lots, and, of course, have fun!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "The Green Yard",
+    "section": "",
+    "text": "&lt;img src=“images/Screen Shot 2023-06-28 at 4.08.04 PM.png”"
   }
 ]
