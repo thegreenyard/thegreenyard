@@ -22,7 +22,7 @@ website:
       extra:
         - "<style>"
         - "  .navbar-logo {"
-        - "    max-width: 200px; /* Adjust the size as needed */"
+        - "    max-width: 200px;
         - "    height: auto; /* Maintain aspect ratio */"
         - "  }"
         - "</style>"
