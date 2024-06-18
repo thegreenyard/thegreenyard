@@ -4,4 +4,27 @@ layout: default
 
 # About The Green Yard
 
-![](images/Screen Shot 2023-06-28 at 4.08.04 PM.png)
+![Planting a Sweet Granadilla](images/Screen Shot 2023-06-28 at 4.08.04 PM.png)
+
+## Experience
+
+### Company A (2020 - Present)
+
+I have gained valuable experience working at Company A. Here are some highlights:
+
+- Implemented new strategies that increased efficiency by 30%.
+- Led a team of 10 professionals in achieving project milestones.
+
+![Office Team](images/office-team.jpg)
+
+## Education
+
+### University of Example (2015 - 2019)
+
+Studied Computer Science with a focus on artificial intelligence and machine learning.
+
+![University Campus](images/university-campus.jpg)
+
+## Hobbies
+
+In my free time, I enjoy:
