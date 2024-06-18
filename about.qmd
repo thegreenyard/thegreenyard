@@ -1,1 +1,8 @@
+---
+layout: default
+title: About
+---
 
+# About Me
+
+![Profile Picture](images/my-picture.png)
