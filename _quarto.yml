@@ -11,7 +11,7 @@ website:
       - href: about.qmd
         text: About
       - href: blog.qmd
-        text: Blog
+        text: Plants
       - href: videos.qmd
         text: Videos
       - href: contact.qmd
