@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,50 +76,17 @@
     <p>Welcome to our guide on plants that thrive in the Phoenix area! Here, you'll discover a variety of plants perfectly suited to the unique desert climate. Click on each image to explore more about how to grow, care for, and enjoy these resilient plants in your garden.</p>
 
     <div class="grid-container">
+        <!-- First Image: Mexican Papaya -->
         <div class="item">
             <a href="blog/item1.html">
-                <img src="images/item1.jpg" alt="Item 1">
-                <h3>Plant 1</h3>
+                <img src="images/Image.jfif" alt="Mexican Papaya">
+                <h3>Mexican Papaya</h3>
             </a>
         </div>
 
-        <div class="item">
-            <a href="blog/item2.html">
-                <img src="images/item2.jpg" alt="Item 2">
-                <h3>Plant 2</h3>
-            </a>
-        </div>
-
-        <div class="item">
-            <a href="blog/item3.html">
-                <img src="images/item3.jpg" alt="Item 3">
-                <h3>Plant 3</h3>
-            </a>
-        </div>
-
-        <div class="item">
-            <a href="blog/item4.html">
-                <img src="images/item4.jpg" alt="Item 4">
-                <h3>Plant 4</h3>
-            </a>
-        </div>
-
-        <div class="item">
-            <a href="blog/item5.html">
-                <img src="images/item5.jpg" alt="Item 5">
-                <h3>Plant 5</h3>
-            </a>
-        </div>
-
-        <div class="item">
-            <a href="blog/item6.html">
-                <img src="images/item6.jpg" alt="Item 6">
-                <h3>Plant 6</h3>
-            </a>
-        </div>
-
-        <!-- Add more items as needed -->
+        <!-- Add more items here -->
     </div>
 
 </body>
 </html>
+
