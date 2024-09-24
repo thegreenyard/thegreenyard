@@ -1,6 +1,6 @@
 /* styles.css */
 .navbar-brand img {
-    max-height: 200px; /* Larger size */
+    max-height: 100px; /* Larger size */
     width: auto;       /* Maintain aspect ratio */
 }
 
