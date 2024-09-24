@@ -21,15 +21,15 @@ website:
   page-footer:
     right: "Check out our [YouTube Channel](https://www.youtube.com/@thegreenyardaz)"
   google-analytics: ""
-    
 
 format:
   html:
     theme: lux
-    css: styles.css
+    css: styles.css  # This should link to your CSS file
     toc: true
 
 editor: visual
 
 execute:
   freeze: auto
+
