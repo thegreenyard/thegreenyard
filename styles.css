@@ -4,3 +4,7 @@
     width: auto;       /* Maintain aspect ratio */
 }
 
+/* Example CSS for top menu links */
+nav a {
+    font-size: 18px;  /* Increase this number for larger text */
+}
