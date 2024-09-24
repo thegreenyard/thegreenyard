@@ -8,6 +8,8 @@ Welcome to our guide on plants that thrive in the Phoenix area! Here, you'll dis
 
 ![Mexican Papaya](images/Image.jpg)
 
+![Fruit Punch Mango](Screen Shot 2024-08-09 at 10.10.37 AM.png)
+
 <div class="grid-container">
 
     <div class="item">
