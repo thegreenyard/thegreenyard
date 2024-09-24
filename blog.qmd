@@ -12,14 +12,14 @@ Welcome to our guide on plants that thrive in the Phoenix area! Here, you'll dis
 
     <div class="item">
         <a href="blog/item1.html">
-            ![Mexican Papaya](images/Image.jfif)
+            ![Mexican Papaya](images/Image.jpg)
             <h3>Mexican Papaya</h3>
         </a>
     </div>
 
     <div class="item">
         <a href="blog/item2.html">
-            ![Sweet Granadilla](images/Screen Shot 2023-06-28 at 4.08.04 PM.png)
+            ![Fruit Punch Mango](Screen Shot 2024-08-09 at 10.10.37 AM.png)
             <h3>Sweet Granadilla</h3>
         </a>
     </div>
