@@ -28,6 +28,13 @@
     "text": "In my free time, I enjoy:"
   },
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "The Green Yard",
+    "section": "",
+    "text": "&lt;!DOCTYPE html&gt;\n\n\n\n\n\nClickable Items\n\n\n\n\n&lt;h1&gt;Welcome to My Page&lt;/h1&gt;\n&lt;p&gt;Click on an item below to read more about it!&lt;/p&gt;\n\n&lt;div class=\"item\"&gt;\n    &lt;a href=\"blog/item1.html\"&gt;\n        &lt;img src=\"images/item1.jpg\" alt=\"Item 1\"&gt;\n        &lt;h3&gt;Item 1&lt;/h3&gt;\n    &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;div class=\"item\"&gt;\n    &lt;a href=\"blog/item2.html\"&gt;\n        &lt;img src=\"images/item2.jpg\" alt=\"Item 2\"&gt;\n        &lt;h3&gt;Item 2&lt;/h3&gt;\n    &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Add more items as needed --&gt;"
+  },
+  {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Welcome to The Green Yard!",
