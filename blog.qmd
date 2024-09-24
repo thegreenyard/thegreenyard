@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Items</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .item {
+            display: inline-block;
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: white;
+            transition: transform 0.2s;
+        }
+        .item:hover {
+            transform: scale(1.05);
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        h3 {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
 
+    <h1>Welcome to My Page</h1>
+    <p>Click on an item below to read more about it!</p>
+
+    <div class="item">
+        <a href="blog/item1.html">
+            <img src="images/item1.jpg" alt="Item 1">
+            <h3>Item 1</h3>
+        </a>
+    </div>
+
+    <div class="item">
+        <a href="blog/item2.html">
+            <img src="images/item2.jpg" alt="Item 2">
+            <h3>Item 2</h3>
+        </a>
+    </div>
+
+    <!-- Add more items as needed -->
+
+</body>
+</html>
