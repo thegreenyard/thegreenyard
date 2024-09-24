@@ -6,9 +6,8 @@ layout: default
 
 Welcome to our guide on plants that thrive in the Phoenix area! Here, you'll discover a variety of plants perfectly suited to the unique desert climate. Click on each image to explore more about how to grow, care for, and enjoy these resilient plants in your garden.
 
-![Mexican Papaya](images/Image.jpg)
-
-![Fruit Punch Mango](images/Screen Shot 2024-08-09 at 10.10.37 AM.png)
+| ![Mexican Papaya](images/Image.jpg) | ![Fruit Punch Mango](images/Screen Shot 2024-08-09 at 10.10.37 AM.png) |
+|:--:|:--:|
 
 <div class="grid-container">
 
