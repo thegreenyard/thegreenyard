@@ -80,7 +80,7 @@
         <!-- First Image: Mexican Papaya -->
         <div class="item">
             <a href="blog/item1.html">
-                <img src="images/Image.jpg" alt="Mexican Papaya">
+                <![Planting a Sweet Granadilla](images/Screen Shot 2023-06-28 at 4.08.04 PM.png)img src="images/Image.jpg" alt="Mexican Papaya">
                 <h3>Mexican Papaya</h3>
             </a>
         </div>
