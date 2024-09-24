@@ -80,7 +80,7 @@
         <!-- First Image: Mexican Papaya -->
         <div class="item">
             <a href="blog/item1.html">
-                <img src="images/Image.jfif" alt="Mexican Papaya">
+                <img src="images/Image.jpg" alt="Mexican Papaya">
                 <h3>Mexican Papaya</h3>
             </a>
         </div>
