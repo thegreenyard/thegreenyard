@@ -120,8 +120,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#plants-for-phoenix-gardens" id="toc-plants-for-phoenix-gardens" class="nav-link active" data-scroll-target="#plants-for-phoenix-gardens">Plants for Phoenix Gardens</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -129,103 +135,80 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
-<h1>
-Plants for Phoenix Gardens
-</h1>
-<p>
-Welcome to our guide on plants that thrive in the Phoenix area! Here, you’ll discover a variety of plants perfectly suited to the unique desert climate. Click on each image to explore more about how to grow, care for, and enjoy these resilient plants in your garden.
-</p>
-
-
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>
-Plants for Phoenix Gardens
-</title>
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 36px;
-            color: #2c3e50;
-        }
-
-        p {
-            font-size: 18px;
-            color: #34495e;
-            margin-bottom: 30px;
-        }
-
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            justify-items: center;
-        }
-
-        .item {
-            border: 1px solid #ccc;
-            padding: 10px;
-            background-color: white;
-            transition: transform 0.2s;
-            text-align: center;
-        }
-
-        .item:hover {
-            transform: scale(1.05);
-        }
-
-        img {
-            width: 100%;
-            height: auto;
-            max-width: 200px;
-            object-fit: cover;
-            border: 2px solid black; /* Added thin black border */
-        }
-
-        h3 {
-            font-size: 18px;
-            color: #333;
-        }
-
-        /* Responsive layout for smaller screens */
-        @media (max-width: 768px) {
-            .grid-container {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 480px) {
-            .grid-container {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
-
+<section id="plants-for-phoenix-gardens" class="level1">
+<h1>Plants for Phoenix Gardens</h1>
+<p>Welcome to our guide on plants that thrive in the Phoenix area! Here, you’ll discover a variety of plants perfectly suited to the unique desert climate. Click on each image to explore more about how to grow, care for, and enjoy these resilient plants in your garden.</p>
 <div class="grid-container">
-<pre><code>    &lt;!-- First Image: Mexican Papaya --&gt;
-    &lt;div class="item"&gt;
-        &lt;a href="blog/item1.html"&gt;
-            &lt;![Planting a Sweet Granadilla](images/Screen Shot 2023-06-28 at 4.08.04 PM.png)img src="images/Image.jpg" alt="Mexican Papaya"&gt;
-            &lt;h3&gt;Mexican Papaya&lt;/h3&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
+<pre><code>&lt;div class="item"&gt;
+    &lt;a href="blog/item1.html"&gt;
+        ![Mexican Papaya](images/Image.jfif)
+        &lt;h3&gt;Mexican Papaya&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
 
-    &lt;!-- Add more items here --&gt;
-&lt;/div&gt;</code></pre>
+&lt;div class="item"&gt;
+    &lt;a href="blog/item2.html"&gt;
+        ![Sweet Granadilla](images/Screen Shot 2023-06-28 at 4.08.04 PM.png)
+        &lt;h3&gt;Sweet Granadilla&lt;/h3&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
 
-
-
-
+&lt;!-- Add more items as needed --&gt;</code></pre>
 </div>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center;
+    }
+
+    .item {
+        border: 2px solid black; /* Black border around each square */
+        padding: 10px;
+        background-color: white;
+        transition: transform 0.2s;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center align items */
+        justify-content: flex-start; /* Align items at the top */
+    }
+
+    .item:hover {
+        transform: scale(1.05);
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 200px; /* Adjust this size as needed */
+        object-fit: cover;
+        border: 2px solid black; /* Thin black border around images */
+    }
+
+    h3 {
+        font-size: 18px;
+        color: #333;
+        margin-top: 10px; /* Add some space above the title */
+    }
+
+    /* Responsive layout for smaller screens */
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
