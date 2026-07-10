@@ -585,3 +585,7 @@ body:has(.home-hero) .content-block {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+/* Forces Quarto to publish the hero image without displaying it */
+.hero-image-preload {
+  display: none !important;
+}
