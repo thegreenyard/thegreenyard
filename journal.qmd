@@ -1,0 +1,11 @@
+---
+title: "Journal"
+description: "Stories, tours, growing lessons, and updates from The Green Yard."
+toc: false
+---
+
+# The Green Yard Journal
+
+This is where we will share stories and companion articles for our newest videos.
+
+New journal posts are coming soon.
