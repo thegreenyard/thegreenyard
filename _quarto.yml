@@ -1,35 +1,48 @@
 project:
   type: website
+
 website:
   title: "The Green Yard"
+
   navbar:
-    logo: "images/logo.jpg"
-    title: false
+    logo: "images/green-yard-logo.jpg"
+    logo-alt: "The Green Yard"
+    title: "LIVE GREEN,\nPLANT LOTS\nAND HAVE FUN!"
+    background: "#082f24"
+    foreground: "#ffffff"
+    search: true
+
     left:
       - href: index.qmd
         text: Home
+
+      - href: videos.qmd
+        text: Tours
+
+      - href: blog.qmd
+        text: Grow in Phoenix
+
+      - href: journal.qmd
+        text: Journal
+
       - href: about.qmd
         text: About
-      - href: blog.qmd
-        text: Plants
-      - href: videos.qmd
-        text: Videos
+
       - href: contact.qmd
-        text: Contact Us
+        text: Contact
 
   favicon: "images/favicon.png"
+
   page-footer:
-    right: "Check out our [YouTube Channel](https://www.youtube.com/@thegreenyardaz)"
-  google-analytics: ""
+    right: "Visit [The Green Yard on YouTube](https://www.youtube.com/@thegreenyardaz)"
 
 format:
   html:
     theme: lux
-    css: styles.css  # This should link to your CSS file
+    css: styles.css
     toc: true
 
 editor: visual
 
 execute:
   freeze: auto
-
