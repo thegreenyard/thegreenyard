@@ -4,38 +4,34 @@ toc: false
 page-layout: full
 ---
 
-<div class="home-hero">
-  <div class="home-hero-overlay"></div>
+::: {.home-hero}
 
-  <div class="home-hero-content">
-    <h1>What does abundance look like around the world?</h1>
+<div class="home-hero-overlay"></div>
 
-    <p>
-      The Green Yard explores food forests, edible landscapes, and the
-      people creating abundance through plants and food in different places.
-    </p>
+::: {.home-hero-content}
 
-    <div class="home-hero-buttons">
-      <a class="hero-button hero-button-primary" href="videos.qmd">
-        Explore the Tours
-      </a>
+# What does abundance look like around the world?
 
-      <a class="hero-button hero-button-secondary"
-         href="https://www.youtube.com/@thegreenyardaz"
-         target="_blank">
-        ▶ Watch on YouTube
-      </a>
-    </div>
-  </div>
-</div>
+The Green Yard explores food forests, edible landscapes, and the people creating abundance through plants and food in different places.
 
-<div class="homepage-placeholder">
+::: {.home-hero-buttons}
+
+[Explore the Tours](videos.qmd){.hero-button .hero-button-primary}
+
+[▶ Watch on YouTube](https://www.youtube.com/@thegreenyardaz){.hero-button .hero-button-secondary target="_blank"}
+
+:::
+
+:::
+
+:::
+
+::: {.homepage-placeholder}
 
 ## Welcome to The Green Yard
 
-We are rebuilding our website to share food forests, edible landscapes, growing
-lessons, and stories of abundance from around the world.
+We are rebuilding our website to share food forests, edible landscapes, growing lessons, and stories of abundance from around the world.
 
 More tours and stories are coming soon.
 
-</div>
+:::
