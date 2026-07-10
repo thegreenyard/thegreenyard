@@ -7,8 +7,8 @@ website:
   navbar:
     logo: "images/green-yard-logo.jpg"
     logo-alt: "The Green Yard"
-    title: "LIVE GREEN,\nPLANT LOTS\nAND HAVE FUN!"
-    background: "#082f24"
+    title: false
+    background: "#07382c"
     foreground: "#ffffff"
     search: true
 
