@@ -361,7 +361,7 @@ body:has(.home-hero) main {
   display: flex;
   align-items: center;
 
-  background-image: url("images/home-hero.jpg");
+  background-image: url("/images/home-hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
