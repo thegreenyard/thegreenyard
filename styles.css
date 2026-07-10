@@ -263,3 +263,66 @@
     letter-spacing: 0.015em;
   }
 }
+/* =========================================================
+   FINAL HEADER SIZE AND SPACING ADJUSTMENTS
+   ========================================================= */
+
+/* Make the header a little shorter */
+.navbar {
+  min-height: 135px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Make the logo slightly smaller */
+.navbar-brand img {
+  width: 108px;
+  height: 108px;
+  max-height: none !important;
+  object-fit: contain;
+}
+
+/* Add more breathing room between the logo and menu */
+.navbar-brand {
+  margin-right: 65px;
+}
+
+/* Keep the navigation vertically centered */
+.navbar .container-fluid,
+.navbar .container-xxl {
+  align-items: center;
+}
+
+/* Adjust smaller desktop and tablet screens */
+@media (max-width: 1450px) {
+  .navbar {
+    min-height: 125px;
+  }
+
+  .navbar-brand img {
+    width: 98px;
+    height: 98px;
+  }
+
+  .navbar-brand {
+    margin-right: 42px;
+  }
+}
+
+/* Keep the current mobile layout comfortable */
+@media (max-width: 991.98px) {
+  .navbar {
+    min-height: 105px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .navbar-brand img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+  }
+}
