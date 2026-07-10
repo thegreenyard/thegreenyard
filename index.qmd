@@ -4,6 +4,8 @@ toc: false
 page-layout: full
 ---
 
+![](images/home-hero.jpg){.hero-image-preload}
+
 ::: {.home-hero}
 
 <div class="home-hero-overlay"></div>
