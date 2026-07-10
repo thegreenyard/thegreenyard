@@ -1,72 +1,74 @@
 /* =========================================================
-   THE GREEN YARD — HEADER AND NAVIGATION
+   THE GREEN YARD HEADER
    ========================================================= */
 
-/* Main navigation bar */
 .navbar {
   background: linear-gradient(
     90deg,
-    #06291f 0%,
-    #0b3b2c 55%,
-    #06291f 100%
+    #062d23 0%,
+    #0a3c2e 52%,
+    #062d23 100%
   ) !important;
 
-  min-height: 165px;
-  padding: 12px 34px;
+  min-height: 155px;
+  padding: 12px 38px;
   border-bottom: none;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
 }
 
-/* Allow the header to use the full available width */
+/* Let the header use nearly the full screen width */
 .navbar .container-fluid,
 .navbar .container-xxl {
-  max-width: 1800px;
   width: 100%;
+  max-width: 1900px;
   margin: 0 auto;
 }
 
-/* Logo and slogan area */
+/* Logo and slogan group */
 .navbar-brand {
   display: flex;
   align-items: center;
-  gap: 24px;
-  margin-right: 60px;
+  flex-shrink: 0;
+  gap: 22px;
+  margin-right: 45px;
   padding: 0;
 }
 
-/* Your original logo */
+/* Your existing logo remains unchanged */
 .navbar-brand img {
-  width: 145px;
-  height: 145px;
-  max-height: none;
+  width: 125px;
+  height: 125px;
+  max-height: none !important;
   object-fit: contain;
-  border-radius: 4px;
+  flex-shrink: 0;
 }
 
-/* Slogan beside the logo */
-.navbar-title {
+/* Add the slogan as separate text beside the logo */
+.navbar-brand::after {
+  content: "LIVE GREEN,\A PLANT LOTS\A AND HAVE FUN!";
+  white-space: pre;
+
   display: block;
-  white-space: pre-line;
+  width: 225px;
+  padding-left: 22px;
+  border-left: 1px solid rgba(190, 220, 106, 0.55);
 
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 1.32;
+  line-height: 1.35;
   letter-spacing: 0.035em;
 
-  padding-left: 24px;
-  border-left: 1px solid rgba(208, 225, 113, 0.55);
-
   /*
-     This makes the first two lines white and gives
-     the final line a light-green accent.
+     White upper lines with a green lower line,
+     similar to the mock-up.
   */
   background: linear-gradient(
     to bottom,
     #ffffff 0%,
-    #ffffff 65%,
-    #a8d05f 65%,
-    #a8d05f 100%
+    #ffffff 66%,
+    #b7db61 66%,
+    #b7db61 100%
   );
 
   -webkit-background-clip: text;
@@ -74,46 +76,60 @@
   color: transparent;
 }
 
-/* Menu alignment */
+/* Keep menu links on one line */
+.navbar-collapse {
+  flex-grow: 1;
+}
+
 .navbar-nav {
   align-items: center;
-  gap: 18px;
+  flex-wrap: nowrap;
+  gap: 26px;
+}
+
+/* Push the menu into the available center/right space */
+.navbar-nav.me-auto {
+  margin-left: auto !important;
+  margin-right: 20px !important;
 }
 
 /* Menu links */
 .navbar-nav .nav-link {
   position: relative;
-  color: #ffffff !important;
+  white-space: nowrap;
 
+  color: #ffffff !important;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 500;
+  letter-spacing: 0.02em;
 
-  padding: 13px 10px !important;
+  padding: 13px 5px !important;
+
   transition:
     color 0.2s ease,
     transform 0.2s ease;
 }
 
-/* Menu hover effect */
+/* Hover effect */
 .navbar-nav .nav-link:hover {
-  color: #c7e36e !important;
+  color: #c6e56a !important;
   transform: translateY(-1px);
 }
 
-/* Underline beneath the active page */
+/* Active page */
 .navbar-nav .nav-link.active {
-  color: #c7e36e !important;
+  color: #c6e56a !important;
 }
 
 .navbar-nav .nav-link.active::after {
   content: "";
   position: absolute;
-  left: 10px;
-  right: 10px;
-  bottom: 4px;
+  left: 5px;
+  right: 5px;
+  bottom: 3px;
   height: 2px;
-  background: #c7e36e;
+  background: #c6e56a;
 }
 
 /* Search icon */
@@ -128,17 +144,17 @@
 }
 
 .navbar-toggler:focus {
-  box-shadow: 0 0 0 0.15rem rgba(199, 227, 110, 0.4);
+  box-shadow: 0 0 0 0.15rem rgba(198, 229, 106, 0.4);
 }
 
 /* =========================================================
-   TABLET AND SMALL LAPTOPS
+   MEDIUM-SIZED SCREENS
    ========================================================= */
 
-@media (max-width: 1200px) {
+@media (max-width: 1450px) {
   .navbar {
-    min-height: 135px;
-    padding: 10px 22px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .navbar-brand {
@@ -147,28 +163,27 @@
   }
 
   .navbar-brand img {
-    width: 112px;
-    height: 112px;
+    width: 105px;
+    height: 105px;
   }
 
-  .navbar-title {
-    font-size: 18px;
-    padding-left: 17px;
+  .navbar-brand::after {
+    width: 190px;
+    padding-left: 16px;
+    font-size: 17px;
   }
 
   .navbar-nav {
-    gap: 8px;
+    gap: 14px;
   }
 
   .navbar-nav .nav-link {
     font-size: 15px;
-    padding-left: 7px !important;
-    padding-right: 7px !important;
   }
 }
 
 /* =========================================================
-   MOBILE HEADER
+   TABLET AND MOBILE
    ========================================================= */
 
 @media (max-width: 991.98px) {
@@ -178,9 +193,9 @@
   }
 
   .navbar-brand {
-    gap: 13px;
-    margin-right: 0;
     max-width: calc(100% - 70px);
+    gap: 12px;
+    margin-right: 0;
   }
 
   .navbar-brand img {
@@ -188,23 +203,28 @@
     height: 88px;
   }
 
-  .navbar-title {
-    font-size: 15px;
-    line-height: 1.28;
-    padding-left: 13px;
+  .navbar-brand::after {
+    width: auto;
+    padding-left: 12px;
+    font-size: 14px;
+    line-height: 1.3;
   }
 
-  /* Open mobile menu */
   .navbar-collapse {
-    margin-top: 14px;
-    padding: 15px 12px 18px;
-    background: #082f24;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 12px;
+    padding: 14px 12px 18px;
+    background: #07382c;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
   }
 
   .navbar-nav {
     align-items: flex-start;
-    gap: 3px;
+    gap: 2px;
+  }
+
+  .navbar-nav.me-auto {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   .navbar-nav .nav-link {
@@ -218,7 +238,10 @@
   }
 }
 
-/* Very small phones */
+/* =========================================================
+   VERY SMALL PHONES
+   ========================================================= */
+
 @media (max-width: 480px) {
   .navbar {
     min-height: 95px;
@@ -226,17 +249,17 @@
   }
 
   .navbar-brand {
-    gap: 9px;
+    gap: 8px;
   }
 
   .navbar-brand img {
-    width: 70px;
-    height: 70px;
+    width: 68px;
+    height: 68px;
   }
 
-  .navbar-title {
-    font-size: 12px;
-    padding-left: 9px;
-    letter-spacing: 0.02em;
+  .navbar-brand::after {
+    padding-left: 8px;
+    font-size: 11px;
+    letter-spacing: 0.015em;
   }
 }
