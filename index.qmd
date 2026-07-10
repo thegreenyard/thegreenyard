@@ -1,5 +1,5 @@
 ---
-title: false
+title: ""
 toc: false
 page-layout: full
 ---
