@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - images/**
+    
 website:
   title: "The Green Yard"
 
