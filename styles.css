@@ -558,3 +558,30 @@ body:has(.home-hero) main {
     padding: 45px 22px;
   }
 }
+/* =========================================================
+   REMOVE QUARTO SPACE BETWEEN HEADER AND HOMEPAGE HERO
+   ========================================================= */
+
+body:has(.home-hero) #quarto-header {
+  margin-bottom: 0 !important;
+}
+
+body:has(.home-hero) #quarto-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+body:has(.home-hero) main.content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+body:has(.home-hero) .page-columns {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+body:has(.home-hero) .content-block {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
