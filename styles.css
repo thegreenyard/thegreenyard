@@ -1,10 +1,242 @@
-/* styles.css */
-.navbar-brand img {
-    max-height: 100px; /* small size */
-    width: auto;       /* Maintain aspect ratio */
+/* =========================================================
+   THE GREEN YARD — HEADER AND NAVIGATION
+   ========================================================= */
+
+/* Main navigation bar */
+.navbar {
+  background: linear-gradient(
+    90deg,
+    #06291f 0%,
+    #0b3b2c 55%,
+    #06291f 100%
+  ) !important;
+
+  min-height: 165px;
+  padding: 12px 34px;
+  border-bottom: none;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
 }
 
-/* Example CSS for top menu links */
-nav a {
-    font-size: 18px;  /* Increase this number for larger text */
+/* Allow the header to use the full available width */
+.navbar .container-fluid,
+.navbar .container-xxl {
+  max-width: 1800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Logo and slogan area */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-right: 60px;
+  padding: 0;
+}
+
+/* Your original logo */
+.navbar-brand img {
+  width: 145px;
+  height: 145px;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Slogan beside the logo */
+.navbar-title {
+  display: block;
+  white-space: pre-line;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.32;
+  letter-spacing: 0.035em;
+
+  padding-left: 24px;
+  border-left: 1px solid rgba(208, 225, 113, 0.55);
+
+  /*
+     This makes the first two lines white and gives
+     the final line a light-green accent.
+  */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 65%,
+    #a8d05f 65%,
+    #a8d05f 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Menu alignment */
+.navbar-nav {
+  align-items: center;
+  gap: 18px;
+}
+
+/* Menu links */
+.navbar-nav .nav-link {
+  position: relative;
+  color: #ffffff !important;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+
+  padding: 13px 10px !important;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* Menu hover effect */
+.navbar-nav .nav-link:hover {
+  color: #c7e36e !important;
+  transform: translateY(-1px);
+}
+
+/* Underline beneath the active page */
+.navbar-nav .nav-link.active {
+  color: #c7e36e !important;
+}
+
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 4px;
+  height: 2px;
+  background: #c7e36e;
+}
+
+/* Search icon */
+.navbar .quarto-search-button,
+.navbar #quarto-search {
+  color: #ffffff !important;
+}
+
+/* Mobile menu button */
+.navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.15rem rgba(199, 227, 110, 0.4);
+}
+
+/* =========================================================
+   TABLET AND SMALL LAPTOPS
+   ========================================================= */
+
+@media (max-width: 1200px) {
+  .navbar {
+    min-height: 135px;
+    padding: 10px 22px;
+  }
+
+  .navbar-brand {
+    gap: 16px;
+    margin-right: 25px;
+  }
+
+  .navbar-brand img {
+    width: 112px;
+    height: 112px;
+  }
+
+  .navbar-title {
+    font-size: 18px;
+    padding-left: 17px;
+  }
+
+  .navbar-nav {
+    gap: 8px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 15px;
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+  }
+}
+
+/* =========================================================
+   MOBILE HEADER
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+  .navbar {
+    min-height: 115px;
+    padding: 10px 16px;
+  }
+
+  .navbar-brand {
+    gap: 13px;
+    margin-right: 0;
+    max-width: calc(100% - 70px);
+  }
+
+  .navbar-brand img {
+    width: 88px;
+    height: 88px;
+  }
+
+  .navbar-title {
+    font-size: 15px;
+    line-height: 1.28;
+    padding-left: 13px;
+  }
+
+  /* Open mobile menu */
+  .navbar-collapse {
+    margin-top: 14px;
+    padding: 15px 12px 18px;
+    background: #082f24;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .navbar-nav {
+    align-items: flex-start;
+    gap: 3px;
+  }
+
+  .navbar-nav .nav-link {
+    width: 100%;
+    font-size: 16px;
+    padding: 11px 8px !important;
+  }
+
+  .navbar-nav .nav-link.active::after {
+    display: none;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .navbar {
+    min-height: 95px;
+    padding: 8px 10px;
+  }
+
+  .navbar-brand {
+    gap: 9px;
+  }
+
+  .navbar-brand img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .navbar-title {
+    font-size: 12px;
+    padding-left: 9px;
+    letter-spacing: 0.02em;
+  }
 }
