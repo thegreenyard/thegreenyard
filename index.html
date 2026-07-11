@@ -136,6 +136,216 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<style>
+  /* =========================================================
+     HOMEPAGE LAYOUT
+     ========================================================= */
+
+  body:has(#gy-home-hero) {
+    overflow-x: hidden !important;
+  }
+
+  body:has(#gy-home-hero) #quarto-content,
+  body:has(#gy-home-hero) main.content,
+  body:has(#gy-home-hero) .page-columns,
+  body:has(#gy-home-hero) .content,
+  body:has(#gy-home-hero) .content-block {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body:has(#gy-home-hero) main.content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+
+  /* =========================================================
+     FULL-WIDTH HERO
+     ========================================================= */
+
+  #gy-home-hero {
+    position: relative;
+
+    width: 100vw !important;
+    max-width: none !important;
+
+    left: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: 0 !important;
+
+    min-height: 610px;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    isolation: isolate;
+
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: #082f24;
+  }
+
+  #gy-home-hero .gy-slideshow {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #gy-home-hero .gy-slide {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+    max-width: none;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    object-fit: cover;
+    object-position: center;
+
+    opacity: 0;
+    transform: scale(1.02);
+
+    transition: opacity 1.5s ease-in-out;
+    animation: gyHeroZoom 12s ease-out infinite alternate;
+
+    pointer-events: none;
+  }
+
+  #gy-home-hero .gy-slide.is-active {
+    opacity: 1;
+  }
+
+  @keyframes gyHeroZoom {
+    from {
+      transform: scale(1.02);
+    }
+
+    to {
+      transform: scale(1.08);
+    }
+  }
+
+  #gy-home-hero .gy-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+
+    background:
+      linear-gradient(
+        90deg,
+        rgba(3, 29, 22, 0.94) 0%,
+        rgba(3, 29, 22, 0.80) 38%,
+        rgba(3, 29, 22, 0.38) 68%,
+        rgba(3, 29, 22, 0.12) 100%
+      );
+
+    pointer-events: none;
+  }
+
+  #gy-home-hero .gy-content {
+    position: relative;
+    z-index: 2;
+
+    width: min(760px, 90%);
+    margin-left: max(5vw, 45px);
+    padding: 72px 0;
+
+    color: #ffffff;
+  }
+
+  #gy-home-hero .gy-content::before {
+    content: "What does abundance look like around the world?";
+
+    display: block;
+    max-width: 760px;
+    margin: 0 0 24px;
+
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(40px, 3.8vw, 58px);
+    font-weight: 600;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.42);
+  }
+
+  #gy-home-hero .gy-description {
+    max-width: 650px;
+    margin: 0 0 32px;
+
+    color: rgba(255, 255, 255, 0.96);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  }
+
+  #gy-home-hero .gy-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  #gy-home-hero .gy-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 54px;
+    padding: 14px 24px;
+
+    border-radius: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.035em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition:
+      transform 0.2s ease,
+      background-color 0.2s ease;
+  }
+
+  #gy-home-hero .gy-button-primary {
+    color: #ffffff;
+    background: #256844;
+    border: 1px solid #256844;
+  }
+
+  #gy-home-hero .gy-button-primary:hover {
+    color: #ffffff;
+    background: #317b53;
+    transform: translateY(-2px);
+  }
+
+  #gy-home-hero .gy-button-secondary {
+    color: #ffffff;
+    background: rgba(4, 28, 21, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.82);
+  }
+
+  #gy-home-hero .gy-button-secondary:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+  }
+
+
   /* =========================================================
      FEATURED TOUR + EXPLORE BY LOCATION
      ========================================================= */
@@ -144,12 +354,13 @@ ul.task-list li input[type="checkbox"] {
     width: 100%;
     padding: 78px 5vw 86px;
     box-sizing: border-box;
+
     background: #f7f5ef;
   }
 
   .gy-discover-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
     gap: 58px;
 
     width: 100%;
@@ -180,7 +391,7 @@ ul.task-list li input[type="checkbox"] {
     letter-spacing: -0.02em;
   }
 
-  .gy-featured-tour &gt; p,
+  .gy-featured-tour > p,
   .gy-location-intro {
     max-width: 650px;
     margin: 0 0 24px;
@@ -289,6 +500,7 @@ ul.task-list li input[type="checkbox"] {
     font-size: 26px;
 
     transform: translate(-50%, -50%);
+
     transition:
       transform 0.25s ease,
       background-color 0.25s ease;
@@ -322,11 +534,6 @@ ul.task-list li input[type="checkbox"] {
     background: #17382c;
     text-decoration: none !important;
     box-shadow: 0 8px 22px rgba(18, 47, 36, 0.12);
-  }
-
-  .gy-location-card:nth-child(4),
-  .gy-location-card:nth-child(5) {
-    grid-column: span 1;
   }
 
   .gy-location-card img {
@@ -402,7 +609,7 @@ ul.task-list li input[type="checkbox"] {
 
 
   /* =========================================================
-     DISCOVER SECTION — TABLETS
+     RESPONSIVE LAYOUT
      ========================================================= */
 
   @media (max-width: 1050px) {
@@ -414,248 +621,6 @@ ul.task-list li input[type="checkbox"] {
     .gy-location-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
-  }
-
-
-  /* =========================================================
-     DISCOVER SECTION — PHONES
-     ========================================================= */
-
-  @media (max-width: 700px) {
-    .gy-discover-section {
-      padding: 58px 22px 66px;
-    }
-
-    .gy-discover-grid {
-      gap: 54px;
-    }
-
-    .gy-featured-tour h2,
-    .gy-location-panel h2 {
-      font-size: 32px;
-    }
-
-    .gy-location-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .gy-location-card {
-      min-height: 210px;
-    }
-
-    .gy-featured-play {
-      width: 64px;
-      height: 64px;
-      font-size: 22px;
-    }
-  }
-<style>
-  /* Remove Quarto's homepage content constraints */
-  body:has(#gy-home-hero) {
-    overflow-x: hidden !important;
-  }
-
-  body:has(#gy-home-hero) #quarto-content,
-  body:has(#gy-home-hero) main.content,
-  body:has(#gy-home-hero) .page-columns,
-  body:has(#gy-home-hero) .content,
-  body:has(#gy-home-hero) .content-block {
-    width: 100% !important;
-    max-width: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  body:has(#gy-home-hero) main.content {
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-  }
-
-  /* Full-width homepage hero */
-  #gy-home-hero {
-    position: relative;
-
-    width: 100vw !important;
-    max-width: none !important;
-
-    left: 50% !important;
-    margin-left: -50vw !important;
-    margin-right: 0 !important;
-
-    min-height: 610px;
-
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    isolation: isolate;
-
-    border: 0 !important;
-    border-radius: 0 !important;
-    background: #082f24;
-  }
-
-  #gy-home-hero .gy-slideshow {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  #gy-home-hero .gy-slide {
-    position: absolute;
-    inset: 0;
-
-    width: 100%;
-    height: 100%;
-    max-width: none;
-
-    margin: 0;
-    padding: 0;
-    border: 0;
-
-    object-fit: cover;
-    object-position: center;
-
-    opacity: 0;
-    transform: scale(1.02);
-
-    transition: opacity 1.5s ease-in-out;
-    animation: gyHeroZoom 12s ease-out infinite alternate;
-
-    pointer-events: none;
-  }
-
-  #gy-home-hero .gy-slide.is-active {
-    opacity: 1;
-  }
-
-  @keyframes gyHeroZoom {
-    from {
-      transform: scale(1.02);
-    }
-
-    to {
-      transform: scale(1.08);
-    }
-  }
-
-  #gy-home-hero .gy-overlay {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-
-    background:
-      linear-gradient(
-        90deg,
-        rgba(3, 29, 22, 0.94) 0%,
-        rgba(3, 29, 22, 0.80) 38%,
-        rgba(3, 29, 22, 0.38) 68%,
-        rgba(3, 29, 22, 0.12) 100%
-      );
-
-    pointer-events: none;
-  }
-
-  #gy-home-hero .gy-content {
-    position: relative;
-    z-index: 2;
-
-    width: min(760px, 90%);
-    margin-left: max(5vw, 45px);
-    padding: 72px 0;
-
-    color: #ffffff;
-  }
-
-  /* Title generated in CSS so Quarto cannot pull it outside */
-  #gy-home-hero .gy-content::before {
-    content: "What does abundance look like around the world?";
-
-    display: block;
-    max-width: 760px;
-    margin: 0 0 24px;
-
-    color: #ffffff;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(40px, 3.8vw, 58px);
-    font-weight: 600;
-    line-height: 1.08;
-    letter-spacing: -0.02em;
-
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.42);
-  }
-
-  #gy-home-hero .gy-description {
-    max-width: 650px;
-    margin: 0 0 32px;
-
-    color: rgba(255, 255, 255, 0.96);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 1.6;
-
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
-  }
-
-  #gy-home-hero .gy-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-  }
-
-  #gy-home-hero .gy-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    min-height: 54px;
-    padding: 14px 24px;
-
-    border-radius: 5px;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.035em;
-    text-decoration: none;
-    text-transform: uppercase;
-
-    transition:
-      transform 0.2s ease,
-      background-color 0.2s ease;
-  }
-
-  #gy-home-hero .gy-button-primary {
-    color: #ffffff;
-    background: #256844;
-    border: 1px solid #256844;
-  }
-
-  #gy-home-hero .gy-button-primary:hover {
-    color: #ffffff;
-    background: #317b53;
-    transform: translateY(-2px);
-  }
-
-  #gy-home-hero .gy-button-secondary {
-    color: #ffffff;
-    background: rgba(4, 28, 21, 0.30);
-    border: 1px solid rgba(255, 255, 255, 0.82);
-  }
-
-  #gy-home-hero .gy-button-secondary:hover {
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.15);
-    transform: translateY(-2px);
-  }
-
-  .gy-welcome {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 65px 35px;
   }
 
   @media (max-width: 767px) {
@@ -702,6 +667,35 @@ ul.task-list li input[type="checkbox"] {
     }
   }
 
+  @media (max-width: 700px) {
+    .gy-discover-section {
+      padding: 58px 22px 66px;
+    }
+
+    .gy-discover-grid {
+      gap: 54px;
+    }
+
+    .gy-featured-tour h2,
+    .gy-location-panel h2 {
+      font-size: 32px;
+    }
+
+    .gy-location-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .gy-location-card {
+      min-height: 210px;
+    }
+
+    .gy-featured-play {
+      width: 64px;
+      height: 64px;
+      font-size: 22px;
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     #gy-home-hero .gy-slide {
       animation: none;
@@ -709,6 +703,7 @@ ul.task-list li input[type="checkbox"] {
     }
   }
 </style>
+
 
 <section id="gy-home-hero">
 
@@ -755,11 +750,11 @@ ul.task-list li input[type="checkbox"] {
 
 </section>
 
+
 <section class="gy-discover-section">
 
   <div class="gy-discover-grid">
 
-    <!-- FEATURED TOUR -->
     <article class="gy-featured-tour">
 
       <div class="gy-section-label">Featured Tour</div>
@@ -788,7 +783,6 @@ ul.task-list li input[type="checkbox"] {
     </article>
 
 
-    <!-- EXPLORE BY LOCATION -->
     <section class="gy-location-panel">
 
       <div class="gy-section-label">Explore by Location</div>
@@ -848,6 +842,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
 
 </section>
+
 
 <script>
 (function () {
