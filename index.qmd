@@ -14,7 +14,7 @@ page-layout: full
 
 # What does abundance look like around the world?
 
-The Green Yard explores food forests, edible landscapes, and the people creating abundance through plants and food in different places.
+Join us as we explore food forests, edible landscapes, and the inspiring people creating abundance through plants and food around the world.
 
 ::: {.home-hero-buttons}
 
