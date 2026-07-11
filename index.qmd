@@ -315,9 +315,119 @@ page-layout: full
 
 </section>
 
-<section class="gy-welcome">
-  <h2>Welcome to The Green Yard</h2>
-  <p>More coming soon...</p>
+<section class="gy-discover-section">
+
+  <div class="gy-discover-grid">
+
+    <!-- FEATURED TOUR -->
+    <article class="gy-featured-tour">
+
+      <div class="gy-section-label">Featured Tour</div>
+
+      <h2>
+        Touring a Three-Year-Old Tropical Food Forest in Phoenix
+      </h2>
+
+      <p>
+        Step inside a young Phoenix food forest and see how tropical fruit,
+        thoughtful design, and careful water use can create abundance in the desert.
+      </p>
+
+      <a
+        class="gy-watch-button"
+        href="https://www.youtube.com/watch?v=chvUg6YmvGQ"
+        target="_blank"
+        rel="noopener">
+        ▶ Watch Now
+      </a>
+
+      <a
+        class="gy-featured-image"
+        href="https://www.youtube.com/watch?v=chvUg6YmvGQ"
+        target="_blank"
+        rel="noopener"
+        aria-label="Watch the featured Phoenix food forest tour">
+
+        <img
+          src="https://img.youtube.com/vi/chvUg6YmvGQ/maxresdefault.jpg"
+          alt="Three-year-old tropical food forest tour in Phoenix">
+
+        <span class="gy-featured-play">▶</span>
+
+      </a>
+
+    </article>
+
+
+    <!-- EXPLORE BY LOCATION -->
+    <section class="gy-location-panel">
+
+      <div class="gy-section-label">Explore by Location</div>
+
+      <h2>Discover Abundance Around the World</h2>
+
+      <p class="gy-location-intro">
+        Explore food forests, edible landscapes, farms, and community gardens
+        through the people and places that make each location unique.
+      </p>
+
+      <div class="gy-location-grid">
+
+        <a class="gy-location-card" href="videos.html">
+          <img
+            src="images/hero-18-phoenix-skyline.jpg"
+            alt="Phoenix, Arizona">
+          <span class="gy-location-shade"></span>
+          <span class="gy-location-name">Arizona</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </a>
+
+        <a class="gy-location-card" href="videos.html">
+          <img
+            src="images/hero-11-florida-orchard.jpg"
+            alt="Florida orchard and food forest">
+          <span class="gy-location-shade"></span>
+          <span class="gy-location-name">Florida</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </a>
+
+        <a class="gy-location-card" href="videos.html">
+          <img
+            src="images/hero-01-san-diego-community-garden.jpg"
+            alt="California community garden">
+          <span class="gy-location-shade"></span>
+          <span class="gy-location-name">California</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </a>
+
+        <a class="gy-location-card" href="videos.html">
+          <img
+            src="images/hero-10-peru-sand-dunes.jpg"
+            alt="Food-growing landscape near the sand dunes of Peru">
+          <span class="gy-location-shade"></span>
+          <span class="gy-location-name">Peru</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </a>
+
+        <a class="gy-location-card" href="videos.html">
+          <img
+            src="images/hero-06-gardener.jpg"
+            alt="Gardener in South Korea">
+          <span class="gy-location-shade"></span>
+          <span class="gy-location-name">South Korea</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </a>
+
+      </div>
+
+      <p class="gy-map-note">
+        More locations—and an interactive world map—are coming as our tours grow.
+      </p>
+
+    </section>
+
+  </div>
+
 </section>
 
 <script>
