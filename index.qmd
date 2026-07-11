@@ -7,17 +7,113 @@ page-layout: full
 ::: {.home-hero}
 
 ```{=html}
-<div class="youtube-hero-background" aria-hidden="true">
+<div class="hero-slideshow" aria-hidden="true">
 
-<iframe
-src="https://www.youtube.com/embed/ZRJVnwGwWIQ?autoplay=1&mute=1&loop=1&playlist=ZRJVnwGwWIQ&controls=0&rel=0&playsinline=1&disablekb=1&fs=0&modestbranding=1"
-title="The Green Yard Homepage Background"
-frameborder="0"
-allow="autoplay; encrypted-media"
-allowfullscreen>
-</iframe>
+  <img
+    src="images/hero-18-phoenix-skyline.jpg"
+    class="hero-slide active"
+    alt=""
+    fetchpriority="high">
+
+  <img
+    src="images/hero-01-san-diego-community-garden.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-02-lima-urban-garden.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-10-peru-sand-dunes.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-11-florida-orchard.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-04-florida-home-food-forest.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-08-backyard-food-forest.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-13-market-garden.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-07-lima-community-garden.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-16-garden-tour.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-12-mango-grower.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-17-home-garden-harvest.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-09-australia-garden-tour.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-05-california-orchard.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-03-food-forest-tour.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-15-arizona-food-forest.jpg"
+    class="hero-slide"
+    alt="">
+
+  <img
+    src="images/hero-14-phoenix-koi-pond.jpg"
+    class="hero-slide"
+    alt="">
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".hero-slide");
+
+  if (slides.length < 2) return;
+
+  let currentSlide = 0;
+
+  window.setInterval(function () {
+    slides[currentSlide].classList.remove("active");
+
+    currentSlide = (currentSlide + 1) % slides.length;
+
+    slides[currentSlide].classList.add("active");
+  }, 6500);
+});
+</script>
 ```
 
 ::: {.home-hero-overlay}
@@ -41,6 +137,10 @@ Join us as we explore food forests, edible landscapes, and the inspiring people 
 
 :::
 
+::: {.homepage-placeholder}
+
 ## Welcome to The Green Yard
 
 More coming soon...
+
+:::
