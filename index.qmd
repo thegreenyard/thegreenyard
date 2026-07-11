@@ -6,18 +6,27 @@ page-layout: full
 
 ```{=html}
 <style>
-  .gy-hero {
+  /* Remove Quarto spacing from this homepage */
+  body:has(#gy-hero-v2) main.content,
+  body:has(#gy-hero-v2) #quarto-content,
+  body:has(#gy-hero-v2) .page-columns {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  #gy-hero-v2 {
     position: relative !important;
-    width: 100% !important;
+    width: 100vw !important;
     min-height: 610px !important;
+    margin-left: calc(50% - 50vw) !important;
     overflow: hidden !important;
     display: flex !important;
     align-items: center !important;
+    background: #082f24 !important;
     isolation: isolate;
-    background: #082f24;
   }
 
-  .gy-slideshow {
+  #gy-hero-v2 .gy-slideshow-v2 {
     position: absolute !important;
     inset: 0 !important;
     z-index: 0 !important;
@@ -26,7 +35,7 @@ page-layout: full
     overflow: hidden !important;
   }
 
-  .gy-slide {
+  #gy-hero-v2 .gy-slide-v2 {
     position: absolute !important;
     inset: 0 !important;
     width: 100% !important;
@@ -34,20 +43,21 @@ page-layout: full
     max-width: none !important;
     margin: 0 !important;
     padding: 0 !important;
+    border: 0 !important;
     object-fit: cover !important;
     object-position: center center !important;
     opacity: 0 !important;
     transform: scale(1.02);
     transition: opacity 1.5s ease-in-out !important;
-    animation: gySlowZoom 12s ease-out infinite alternate;
+    animation: gyZoomV2 12s ease-out infinite alternate;
     pointer-events: none;
   }
 
-  .gy-slide.is-active {
+  #gy-hero-v2 .gy-slide-v2.is-active {
     opacity: 1 !important;
   }
 
-  @keyframes gySlowZoom {
+  @keyframes gyZoomV2 {
     from {
       transform: scale(1.02);
     }
@@ -57,31 +67,31 @@ page-layout: full
     }
   }
 
-  .gy-overlay {
+  #gy-hero-v2 .gy-overlay-v2 {
     position: absolute !important;
     inset: 0 !important;
     z-index: 1 !important;
     background:
       linear-gradient(
         90deg,
-        rgba(3, 29, 22, 0.93) 0%,
-        rgba(3, 29, 22, 0.79) 38%,
-        rgba(3, 29, 22, 0.36) 68%,
+        rgba(3, 29, 22, 0.94) 0%,
+        rgba(3, 29, 22, 0.80) 38%,
+        rgba(3, 29, 22, 0.38) 68%,
         rgba(3, 29, 22, 0.12) 100%
-      );
+      ) !important;
     pointer-events: none;
   }
 
-  .gy-content {
+  #gy-hero-v2 .gy-content-v2 {
     position: relative !important;
     z-index: 2 !important;
     width: min(760px, 90%) !important;
     margin-left: max(5vw, 45px) !important;
-    padding: 75px 0 !important;
-    color: white !important;
+    padding: 72px 0 !important;
+    color: #ffffff !important;
   }
 
-  .gy-title {
+  #gy-hero-v2 .gy-title-v2 {
     max-width: 760px !important;
     margin: 0 0 24px !important;
     color: #ffffff !important;
@@ -91,26 +101,26 @@ page-layout: full
     line-height: 1.08 !important;
     letter-spacing: -0.02em !important;
     text-transform: none !important;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.38);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.42);
   }
 
-  .gy-description {
+  #gy-hero-v2 .gy-description-v2 {
     max-width: 650px !important;
     margin: 0 0 32px !important;
     color: rgba(255, 255, 255, 0.96) !important;
     font-family: Arial, Helvetica, sans-serif !important;
     font-size: 20px !important;
     line-height: 1.6 !important;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.32);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
   }
 
-  .gy-buttons {
+  #gy-hero-v2 .gy-buttons-v2 {
     display: flex !important;
     flex-wrap: wrap !important;
     gap: 14px !important;
   }
 
-  .gy-button {
+  #gy-hero-v2 .gy-button-v2 {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -123,181 +133,156 @@ page-layout: full
     letter-spacing: 0.035em !important;
     text-decoration: none !important;
     text-transform: uppercase !important;
-    transition: transform 0.2s ease, background 0.2s ease !important;
+    transition: transform 0.2s ease, background-color 0.2s ease !important;
   }
 
-  .gy-button-primary {
+  #gy-hero-v2 .gy-button-primary-v2 {
     color: #ffffff !important;
     background: #256844 !important;
     border: 1px solid #256844 !important;
   }
 
-  .gy-button-primary:hover {
-    color: #ffffff !important;
-    background: #317b53 !important;
-    transform: translateY(-2px);
-  }
-
-  .gy-button-secondary {
+  #gy-hero-v2 .gy-button-secondary-v2 {
     color: #ffffff !important;
     background: rgba(4, 28, 21, 0.30) !important;
     border: 1px solid rgba(255, 255, 255, 0.82) !important;
   }
 
-  .gy-button-secondary:hover {
+  #gy-hero-v2 .gy-button-v2:hover {
     color: #ffffff !important;
-    background: rgba(255, 255, 255, 0.15) !important;
     transform: translateY(-2px);
   }
 
-  .gy-welcome {
+  .gy-welcome-v2 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 65px 35px;
   }
 
-  .gy-welcome h2 {
-    color: #123c2d;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 38px;
-  }
-
   @media (max-width: 767px) {
-    .gy-hero {
-      min-height: 570px !important;
+    #gy-hero-v2 {
+      min-height: 610px !important;
       align-items: flex-end !important;
     }
 
-    .gy-slide {
-      animation: none;
+    #gy-hero-v2 .gy-slide-v2 {
+      animation: none !important;
     }
 
-    .gy-overlay {
-      background: rgba(3, 29, 22, 0.70);
+    #gy-hero-v2 .gy-overlay-v2 {
+      background: rgba(3, 29, 22, 0.72) !important;
     }
 
-    .gy-content {
+    #gy-hero-v2 .gy-content-v2 {
       width: 100% !important;
       margin: 0 !important;
       padding: 52px 24px 46px !important;
       box-sizing: border-box !important;
     }
 
-    .gy-title {
+    #gy-hero-v2 .gy-title-v2 {
       width: 100% !important;
       max-width: 100% !important;
       font-size: clamp(36px, 10vw, 46px) !important;
       line-height: 1.06 !important;
     }
 
-    .gy-description {
+    #gy-hero-v2 .gy-description-v2 {
       width: 100% !important;
       max-width: 100% !important;
       font-size: 16px !important;
       line-height: 1.55 !important;
     }
 
-    .gy-buttons {
+    #gy-hero-v2 .gy-buttons-v2 {
       flex-direction: column !important;
       width: 100% !important;
     }
 
-    .gy-button {
+    #gy-hero-v2 .gy-button-v2 {
       width: 100% !important;
       box-sizing: border-box !important;
     }
   }
-
-  @media (prefers-reduced-motion: reduce) {
-    .gy-slide {
-      animation: none !important;
-      transition: opacity 0.4s ease !important;
-    }
-  }
 </style>
 
-<section class="gy-hero">
+<section id="gy-hero-v2">
 
-  <div class="gy-slideshow" aria-hidden="true">
-
-    <img src="images/hero-18-phoenix-skyline.jpg" class="gy-slide is-active" alt="" fetchpriority="high">
-    <img src="images/hero-01-san-diego-community-garden.jpg" class="gy-slide" alt="">
-    <img src="images/hero-02-lima-urban-garden.jpg" class="gy-slide" alt="">
-    <img src="images/hero-10-peru-sand-dunes.jpg" class="gy-slide" alt="">
-    <img src="images/hero-11-florida-orchard.jpg" class="gy-slide" alt="">
-    <img src="images/hero-04-florida-home-food-forest.jpg" class="gy-slide" alt="">
-    <img src="images/hero-08-backyard-food-forest.jpg" class="gy-slide" alt="">
-    <img src="images/hero-13-market-garden.jpg" class="gy-slide" alt="">
-    <img src="images/hero-07-lima-community-garden.jpg" class="gy-slide" alt="">
-    <img src="images/hero-16-garden-tour.jpg" class="gy-slide" alt="">
-    <img src="images/hero-12-mango-grower.jpg" class="gy-slide" alt="">
-    <img src="images/hero-17-home-garden-harvest.jpg" class="gy-slide" alt="">
-    <img src="images/hero-09-australia-garden-tour.jpg" class="gy-slide" alt="">
-    <img src="images/hero-05-california-orchard.jpg" class="gy-slide" alt="">
-    <img src="images/hero-03-food-forest-tour.jpg" class="gy-slide" alt="">
-    <img src="images/hero-15-arizona-food-forest.jpg" class="gy-slide" alt="">
-    <img src="images/hero-14-phoenix-koi-pond.jpg" class="gy-slide" alt="">
-
+  <div class="gy-slideshow-v2" aria-hidden="true">
+    <img src="images/hero-18-phoenix-skyline.jpg" class="gy-slide-v2 is-active" alt="" fetchpriority="high">
+    <img src="images/hero-01-san-diego-community-garden.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-02-lima-urban-garden.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-10-peru-sand-dunes.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-11-florida-orchard.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-04-florida-home-food-forest.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-08-backyard-food-forest.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-13-market-garden.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-07-lima-community-garden.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-16-garden-tour.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-12-mango-grower.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-17-home-garden-harvest.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-09-australia-garden-tour.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-05-california-orchard.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-03-food-forest-tour.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-15-arizona-food-forest.jpg" class="gy-slide-v2" alt="">
+    <img src="images/hero-14-phoenix-koi-pond.jpg" class="gy-slide-v2" alt="">
   </div>
 
-  <div class="gy-overlay"></div>
+  <div class="gy-overlay-v2"></div>
 
-  <div class="gy-content">
-
-    <h1 class="gy-title">
+  <div class="gy-content-v2">
+    <h1 class="gy-title-v2">
       What does abundance look like around the world?
     </h1>
 
-    <p class="gy-description">
-      Join us as we explore food forests, edible landscapes, and the
-      inspiring people creating abundance through plants and food in
-      different places.
+    <p class="gy-description-v2">
+      Join us as we explore food forests, edible landscapes, and the inspiring
+      people creating abundance through plants and food in different places.
     </p>
 
-    <div class="gy-buttons">
-
-      <a class="gy-button gy-button-primary" href="videos.qmd">
+    <div class="gy-buttons-v2">
+      <a class="gy-button-v2 gy-button-primary-v2" href="videos.html">
         Explore the Tours
       </a>
 
-      <a class="gy-button gy-button-secondary"
-         href="https://www.youtube.com/@thegreenyardaz"
-         target="_blank"
-         rel="noopener">
+      <a
+        class="gy-button-v2 gy-button-secondary-v2"
+        href="https://www.youtube.com/@thegreenyardaz"
+        target="_blank"
+        rel="noopener">
         ▶ Watch on YouTube
       </a>
-
     </div>
-
   </div>
 
 </section>
 
-<section class="gy-welcome">
-
+<section class="gy-welcome-v2">
   <h2>Welcome to The Green Yard</h2>
-
   <p>More coming soon...</p>
-
 </section>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const slides = Array.from(document.querySelectorAll(".gy-slide"));
+  (function () {
+    function startHeroSlideshow() {
+      const slides = document.querySelectorAll("#gy-hero-v2 .gy-slide-v2");
 
-  if (slides.length < 2) {
-    return;
-  }
+      if (slides.length < 2) return;
 
-  let current = 0;
+      let current = 0;
 
-  window.setInterval(function () {
-    slides[current].classList.remove("is-active");
+      window.setInterval(function () {
+        slides[current].classList.remove("is-active");
+        current = (current + 1) % slides.length;
+        slides[current].classList.add("is-active");
+      }, 6500);
+    }
 
-    current = (current + 1) % slides.length;
-
-    slides[current].classList.add("is-active");
-  }, 6500);
-});
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", startHeroSlideshow);
+    } else {
+      startHeroSlideshow();
+    }
+  })();
 </script>
 ```
