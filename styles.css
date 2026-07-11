@@ -1,5 +1,10 @@
 /* =========================================================
-   THE GREEN YARD HEADER
+   THE GREEN YARD — COMPLETE WEBSITE STYLESHEET
+   ========================================================= */
+
+
+/* =========================================================
+   1. HEADER AND NAVIGATION
    ========================================================= */
 
 .navbar {
@@ -10,18 +15,20 @@
     #062d23 100%
   ) !important;
 
-  min-height: 155px;
-  padding: 12px 38px;
+  min-height: 135px;
+  padding: 8px 38px;
+
   border-bottom: none;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
 }
 
-/* Let the header use nearly the full screen width */
+/* Allow the header to use the available screen width */
 .navbar .container-fluid,
 .navbar .container-xxl {
   width: 100%;
   max-width: 1900px;
   margin: 0 auto;
+  align-items: center;
 }
 
 /* Logo and slogan group */
@@ -29,27 +36,30 @@
   display: flex;
   align-items: center;
   flex-shrink: 0;
+
   gap: 22px;
-  margin-right: 45px;
+  margin-right: 65px;
   padding: 0;
 }
 
-/* Your existing logo remains unchanged */
+/* Logo */
 .navbar-brand img {
-  width: 125px;
-  height: 125px;
+  width: 108px;
+  height: 108px;
   max-height: none !important;
+
   object-fit: contain;
   flex-shrink: 0;
 }
 
-/* Add the slogan as separate text beside the logo */
+/* Slogan beside the logo */
 .navbar-brand::after {
   content: "LIVE GREEN,\A PLANT LOTS\A AND HAVE FUN!";
   white-space: pre;
 
   display: block;
   width: 225px;
+
   padding-left: 22px;
   border-left: 1px solid rgba(190, 220, 106, 0.55);
 
@@ -59,10 +69,6 @@
   line-height: 1.35;
   letter-spacing: 0.035em;
 
-  /*
-     White upper lines with a green lower line,
-     similar to the mock-up.
-  */
   background: linear-gradient(
     to bottom,
     #ffffff 0%,
@@ -76,7 +82,7 @@
   color: transparent;
 }
 
-/* Keep menu links on one line */
+/* Navigation layout */
 .navbar-collapse {
   flex-grow: 1;
 }
@@ -87,18 +93,18 @@
   gap: 26px;
 }
 
-/* Push the menu into the available center/right space */
 .navbar-nav.me-auto {
   margin-left: auto !important;
   margin-right: 20px !important;
 }
 
-/* Menu links */
+/* Navigation links */
 .navbar-nav .nav-link {
   position: relative;
   white-space: nowrap;
 
   color: #ffffff !important;
+
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -111,23 +117,24 @@
     transform 0.2s ease;
 }
 
-/* Hover effect */
 .navbar-nav .nav-link:hover {
   color: #c6e56a !important;
   transform: translateY(-1px);
 }
 
-/* Active page */
+/* Active page underline */
 .navbar-nav .nav-link.active {
   color: #c6e56a !important;
 }
 
 .navbar-nav .nav-link.active::after {
   content: "";
+
   position: absolute;
   left: 5px;
   right: 5px;
   bottom: 3px;
+
   height: 2px;
   background: #c6e56a;
 }
@@ -147,28 +154,298 @@
   box-shadow: 0 0 0 0.15rem rgba(198, 229, 106, 0.4);
 }
 
+
 /* =========================================================
-   MEDIUM-SIZED SCREENS
+   2. HOMEPAGE — REMOVE QUARTO CONTENT CONSTRAINTS
+   ========================================================= */
+
+/*
+   These rules apply only to the homepage containing
+   #gy-home-hero. They allow the hero to stretch completely
+   across the browser window.
+*/
+
+body:has(#gy-home-hero) {
+  overflow-x: hidden;
+}
+
+body:has(#gy-home-hero) #quarto-content,
+body:has(#gy-home-hero) main.content,
+body:has(#gy-home-hero) .page-columns,
+body:has(#gy-home-hero) .content,
+body:has(#gy-home-hero) .content-block {
+  width: 100% !important;
+  max-width: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body:has(#gy-home-hero) #quarto-header {
+  margin-bottom: 0 !important;
+}
+
+
+/* =========================================================
+   3. FULL-WIDTH HOMEPAGE HERO
+   ========================================================= */
+
+#gy-home-hero {
+  position: relative;
+
+  /*
+     Break the hero out of any remaining Quarto wrapper and
+     stretch it from the left edge to the right edge.
+  */
+  width: 100vw !important;
+  max-width: none !important;
+
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+
+  min-height: 610px;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+  isolation: isolate;
+
+  background: #082f24;
+}
+
+
+/* =========================================================
+   4. HERO SLIDESHOW
+   ========================================================= */
+
+#gy-home-hero .gy-slideshow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+  background: #082f24;
+}
+
+#gy-home-hero .gy-slide {
+  position: absolute;
+  inset: 0;
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  max-width: none;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  object-fit: cover;
+  object-position: center center;
+
+  opacity: 0;
+  transform: scale(1.02);
+
+  transition: opacity 1.5s ease-in-out;
+  animation: gyHeroZoom 12s ease-out infinite alternate;
+
+  pointer-events: none;
+}
+
+#gy-home-hero .gy-slide.is-active {
+  opacity: 1;
+}
+
+@keyframes gyHeroZoom {
+  from {
+    transform: scale(1.02);
+  }
+
+  to {
+    transform: scale(1.08);
+  }
+}
+
+
+/* =========================================================
+   5. HERO DARK OVERLAY
+   ========================================================= */
+
+#gy-home-hero .gy-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(3, 29, 22, 0.94) 0%,
+      rgba(3, 29, 22, 0.80) 38%,
+      rgba(3, 29, 22, 0.38) 68%,
+      rgba(3, 29, 22, 0.12) 100%
+    );
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   6. HERO TEXT AND BUTTONS
+   ========================================================= */
+
+#gy-home-hero .gy-content {
+  position: relative;
+  z-index: 2;
+
+  width: min(760px, 90%);
+  margin-left: max(5vw, 45px);
+  padding: 72px 0;
+
+  color: #ffffff;
+}
+
+/*
+   The title is generated in CSS so Quarto cannot move it
+   outside the hero.
+*/
+#gy-home-hero .gy-content::before {
+  content: "What does abundance look like around the world?";
+
+  display: block;
+  max-width: 760px;
+
+  margin: 0 0 24px;
+
+  color: #ffffff;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(40px, 3.8vw, 58px);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.42);
+}
+
+#gy-home-hero .gy-description {
+  max-width: 650px;
+  margin: 0 0 32px;
+
+  color: rgba(255, 255, 255, 0.96);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+#gy-home-hero .gy-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+#gy-home-hero .gy-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 54px;
+  padding: 14px 24px;
+
+  border-radius: 5px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+#gy-home-hero .gy-button-primary {
+  color: #ffffff;
+  background: #256844;
+  border: 1px solid #256844;
+}
+
+#gy-home-hero .gy-button-primary:hover {
+  color: #ffffff;
+  background: #317b53;
+  border-color: #317b53;
+  transform: translateY(-2px);
+}
+
+#gy-home-hero .gy-button-secondary {
+  color: #ffffff;
+  background: rgba(4, 28, 21, 0.30);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+}
+
+#gy-home-hero .gy-button-secondary:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   7. CONTENT BELOW THE HERO
+   ========================================================= */
+
+.gy-welcome {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 65px 35px;
+}
+
+.gy-welcome h2 {
+  color: #123c2d;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 38px;
+}
+
+
+/* =========================================================
+   8. MEDIUM-SIZED DESKTOPS AND TABLETS
    ========================================================= */
 
 @media (max-width: 1450px) {
   .navbar {
+    min-height: 125px;
     padding-left: 24px;
     padding-right: 24px;
   }
 
   .navbar-brand {
     gap: 16px;
-    margin-right: 25px;
+    margin-right: 42px;
   }
 
   .navbar-brand img {
-    width: 105px;
-    height: 105px;
+    width: 98px;
+    height: 98px;
   }
 
   .navbar-brand::after {
     width: 190px;
+
     padding-left: 16px;
     font-size: 17px;
   }
@@ -182,30 +459,34 @@
   }
 }
 
+
 /* =========================================================
-   TABLET AND MOBILE
+   9. MOBILE HEADER AND HERO
    ========================================================= */
 
 @media (max-width: 991.98px) {
   .navbar {
-    min-height: 115px;
-    padding: 10px 16px;
+    min-height: 105px;
+    padding: 8px 16px;
   }
 
   .navbar-brand {
     max-width: calc(100% - 70px);
+
     gap: 12px;
     margin-right: 0;
   }
 
   .navbar-brand img {
-    width: 88px;
-    height: 88px;
+    width: 80px;
+    height: 80px;
   }
 
   .navbar-brand::after {
     width: auto;
+
     padding-left: 12px;
+
     font-size: 14px;
     line-height: 1.3;
   }
@@ -213,6 +494,7 @@
   .navbar-collapse {
     margin-top: 12px;
     padding: 14px 12px 18px;
+
     background: #07382c;
     border-top: 1px solid rgba(255, 255, 255, 0.16);
   }
@@ -229,6 +511,7 @@
 
   .navbar-nav .nav-link {
     width: 100%;
+
     font-size: 16px;
     padding: 11px 8px !important;
   }
@@ -238,8 +521,67 @@
   }
 }
 
+
 /* =========================================================
-   VERY SMALL PHONES
+   10. PHONE HERO
+   ========================================================= */
+
+@media (max-width: 767px) {
+  #gy-home-hero {
+    min-height: 610px;
+
+    align-items: flex-end;
+  }
+
+  #gy-home-hero .gy-slide {
+    animation: none;
+  }
+
+  #gy-home-hero .gy-overlay {
+    background: rgba(3, 29, 22, 0.72);
+  }
+
+  #gy-home-hero .gy-content {
+    width: 100%;
+
+    margin: 0;
+    padding: 48px 24px 44px;
+
+    box-sizing: border-box;
+  }
+
+  #gy-home-hero .gy-content::before {
+    max-width: 100%;
+
+    font-size: clamp(34px, 9.5vw, 44px);
+    line-height: 1.06;
+  }
+
+  #gy-home-hero .gy-description {
+    max-width: 100%;
+
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  #gy-home-hero .gy-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #gy-home-hero .gy-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .gy-welcome {
+    padding: 45px 22px;
+  }
+}
+
+
+/* =========================================================
+   11. VERY SMALL PHONES
    ========================================================= */
 
 @media (max-width: 480px) {
@@ -259,418 +601,26 @@
 
   .navbar-brand::after {
     padding-left: 8px;
+
     font-size: 11px;
     letter-spacing: 0.015em;
   }
 }
-/* =========================================================
-   FINAL HEADER SIZE AND SPACING ADJUSTMENTS
-   ========================================================= */
 
-/* Make the header a little shorter */
-.navbar {
-  min-height: 135px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-/* Make the logo slightly smaller */
-.navbar-brand img {
-  width: 108px;
-  height: 108px;
-  max-height: none !important;
-  object-fit: contain;
-}
-
-/* Add more breathing room between the logo and menu */
-.navbar-brand {
-  margin-right: 65px;
-}
-
-/* Keep the navigation vertically centered */
-.navbar .container-fluid,
-.navbar .container-xxl {
-  align-items: center;
-}
-
-/* Adjust smaller desktop and tablet screens */
-@media (max-width: 1450px) {
-  .navbar {
-    min-height: 125px;
-  }
-
-  .navbar-brand img {
-    width: 98px;
-    height: 98px;
-  }
-
-  .navbar-brand {
-    margin-right: 42px;
-  }
-}
-
-/* Keep the current mobile layout comfortable */
-@media (max-width: 991.98px) {
-  .navbar {
-    min-height: 105px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-
-  .navbar-brand img {
-    width: 80px;
-    height: 80px;
-  }
-
-  .navbar-brand {
-    margin-right: 0;
-  }
-}
-/* =========================================================
-   HOMEPAGE HERO SECTION
-   ========================================================= */
-
-/*
-   Removes Quarto's normal page spacing from the homepage so
-   the hero can stretch all the way across the screen.
-*/
-body:has(.home-hero) main.content {
-  padding-top: 0;
-}
-
-body:has(.home-hero) #quarto-content {
-  padding-top: 0;
-}
-
-body:has(.home-hero) .page-columns {
-  display: block;
-}
-
-body:has(.home-hero) main {
-  max-width: none;
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-/* Main hero area */
-.home-hero {
-  position: relative;
-  min-height: 610px;
-
-  display: flex;
-  align-items: center;
-
-  background-image: url("/images/home-hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  overflow: hidden;
-}
-
-/* Dark shading over the image so the words remain readable */
-.home-hero-overlay {
-  position: absolute;
-  inset: 0;
-
-  background:
-    linear-gradient(
-      90deg,
-      rgba(3, 26, 20, 0.91) 0%,
-      rgba(3, 26, 20, 0.76) 37%,
-      rgba(3, 26, 20, 0.29) 67%,
-      rgba(3, 26, 20, 0.08) 100%
-    );
-}
-
-/* Text area */
-.home-hero-content {
-  position: relative;
-  z-index: 2;
-
-  width: min(700px, 90%);
-  margin-left: max(5vw, 45px);
-  padding: 75px 0;
-}
-
-/* Large headline */
-.home-hero-content h1 {
-  margin: 0 0 22px;
-
-  color: #ffffff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(48px, 5vw, 76px);
-  font-weight: 600;
-  line-height: 1.03;
-  letter-spacing: -0.025em;
-}
-
-/* Description */
-.home-hero-content p {
-  max-width: 600px;
-  margin: 0 0 30px;
-
-  color: rgba(255, 255, 255, 0.93);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
-  line-height: 1.65;
-}
-
-/* Button row */
-.home-hero-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-}
-
-/* Shared button design */
-.hero-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  min-height: 52px;
-  padding: 14px 23px;
-
-  border-radius: 5px;
-
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.035em;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  transition:
-    transform 0.2s ease,
-    background-color 0.2s ease,
-    border-color 0.2s ease;
-}
-
-/* Green button */
-.hero-button-primary {
-  color: #ffffff;
-  background: #245c3f;
-  border: 1px solid #245c3f;
-}
-
-.hero-button-primary:hover {
-  color: #ffffff;
-  background: #317452;
-  border-color: #317452;
-  transform: translateY(-2px);
-}
-
-/* Outlined button */
-.hero-button-secondary {
-  color: #ffffff;
-  background: rgba(4, 28, 21, 0.28);
-  border: 1px solid rgba(255, 255, 255, 0.78);
-}
-
-.hero-button-secondary:hover {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.14);
-  border-color: #ffffff;
-  transform: translateY(-2px);
-}
-
-/* Temporary content below the hero */
-.homepage-placeholder {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 65px 35px;
-}
-
-.homepage-placeholder h2 {
-  color: #123c2d;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 38px;
-}
 
 /* =========================================================
-   HERO — TABLETS
+   12. ACCESSIBILITY — REDUCED MOTION
    ========================================================= */
 
-@media (max-width: 991.98px) {
-  .home-hero {
-    min-height: 540px;
-    background-position: 58% center;
+@media (prefers-reduced-motion: reduce) {
+  #gy-home-hero .gy-slide {
+    animation: none;
+    transition: opacity 0.4s ease;
   }
 
-  .home-hero-overlay {
-    background: rgba(3, 26, 20, 0.69);
-  }
-
-  .home-hero-content {
-    width: auto;
-    margin: 0;
-    padding: 65px 35px;
-  }
-
-  .home-hero-content h1 {
-    max-width: 700px;
-    font-size: clamp(42px, 8vw, 62px);
-  }
-
-  .home-hero-content p {
-    font-size: 18px;
+  .navbar-nav .nav-link,
+  #gy-home-hero .gy-button {
+    transition: none;
   }
 }
-
-/* =========================================================
-   HERO — PHONES
-   ========================================================= */
-
-@media (max-width: 600px) {
-  .home-hero {
-    min-height: 500px;
-    align-items: flex-end;
-  }
-
-  .home-hero-content {
-    padding: 55px 22px;
-  }
-
-  .home-hero-content h1 {
-    margin-bottom: 18px;
-    font-size: 41px;
-    line-height: 1.07;
-  }
-
-  .home-hero-content p {
-    margin-bottom: 25px;
-    font-size: 16px;
-    line-height: 1.55;
-  }
-
-  .home-hero-buttons {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .hero-button {
-    width: 100%;
-  }
-
-  .homepage-placeholder {
-    padding: 45px 22px;
-  }
-}
-/* =========================================================
-   REMOVE QUARTO SPACE BETWEEN HEADER AND HOMEPAGE HERO
-   ========================================================= */
-
-body:has(.home-hero) #quarto-header {
-  margin-bottom: 0 !important;
-}
-
-body:has(.home-hero) #quarto-content {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-body:has(.home-hero) main.content {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-body:has(.home-hero) .page-columns {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-body:has(.home-hero) .content-block {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-/* Forces Quarto to publish the hero image without displaying it */
-.hero-image-preload {
-  display: none !important;
-}
-/* =========================================================
-   HOMEPAGE HERO VIDEO
-   ========================================================= */
-
-/* Keep the existing image as a fallback while the video loads */
-.home-hero {
-  position: relative;
-  overflow: hidden;
-}
-
-/* Full-size background video */
-.hero-video {
-  .hero-video {
-    position: absolute;
-    inset: 0;
-    overflow: hidden;
-    z-index: 0;
-}
-   .hero-video iframe {
-
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-
-    width: 177.77777778vh;
-    min-width: 100%;
-    height: 56.25vw;
-    min-height: 100%;
-
-    transform: translate(-50%, -50%);
-
-    border: 0;
-
-    pointer-events: none;
-}
-}
-
-/* Keep the dark overlay above the video */
-.home-hero-overlay {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-}
-
-/* Keep the headline, paragraph, and buttons above everything */
-.home-hero-content {
-  position: relative;
-  z-index: 2;
-}
-
-/* Smaller, more balanced headline */
-.home-hero-content h1 {
-  max-width: 760px;
-  font-size: clamp(40px, 3.8vw, 58px);
-  line-height: 1.08;
-  font-weight: 600;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
-}
-
-/* Refined supporting paragraph */
-.home-hero-content p {
-  max-width: 650px;
-  color: rgba(255, 255, 255, 0.94);
-  font-size: 20px;
-  line-height: 1.6;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-/* Mobile adjustments */
-@media (max-width: 600px) {
-  .home-hero-content h1 {
-    font-size: 38px;
-    line-height: 1.08;
-  }
-
-  .home-hero-content p {
-    font-size: 16px;
-    line-height: 1.55;
-  }
-
-  .hero-video {
-    object-position: center center;
-  }
 }
