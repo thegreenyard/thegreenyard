@@ -1,72 +1,52 @@
-/* =========================================================
-   HOMEPAGE HERO VIDEO
-   ========================================================= */
+---
+title: ""
+toc: false
+page-layout: full
+---
 
-/* Keep the existing image as a fallback while the video loads */
-.home-hero {
-  position: relative;
-  overflow: hidden;
-}
+::: {.home-hero}
 
-/* Full-size background video */
-.hero-video {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
+```{=html}
+<video
+  class="hero-video"
+  autoplay
+  muted
+  loop
+  playsinline
+  webkit-playsinline
+  preload="auto"
+  poster="images/home-hero.jpg">
+  <source src="images/home-hero.mp4" type="video/mp4">
+</video>
+```
 
-  width: 100%;
-  height: 100%;
+::: {.home-hero-overlay}
+:::
 
-  object-fit: cover;
-  object-position: center center;
+::: {.home-hero-content}
 
-  pointer-events: none;
-}
+# What does abundance look like around the world?
 
-/* Keep the dark overlay above the video */
-.home-hero-overlay {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-}
+Join us as we explore food forests, edible landscapes, and the inspiring people creating abundance through plants and food around the world.
 
-/* Keep the headline, paragraph, and buttons above everything */
-.home-hero-content {
-  position: relative;
-  z-index: 2;
-}
+::: {.home-hero-buttons}
 
-/* Smaller, more balanced headline */
-.home-hero-content h1 {
-  max-width: 760px;
-  font-size: clamp(40px, 3.8vw, 58px);
-  line-height: 1.08;
-  font-weight: 600;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
-}
+[Explore Tours](videos.qmd){.hero-button .hero-button-primary}
 
-/* Refined supporting paragraph */
-.home-hero-content p {
-  max-width: 650px;
-  color: rgba(255, 255, 255, 0.94);
-  font-size: 20px;
-  line-height: 1.6;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
+[▶ Watch on YouTube](https://www.youtube.com/@thegreenyardaz){.hero-button .hero-button-secondary target="_blank"}
 
-/* Mobile adjustments */
-@media (max-width: 600px) {
-  .home-hero-content h1 {
-    font-size: 38px;
-    line-height: 1.08;
-  }
+:::
 
-  .home-hero-content p {
-    font-size: 16px;
-    line-height: 1.55;
-  }
+:::
 
-  .hero-video {
-    object-position: center center;
-  }
-}
+:::
+
+::: {.homepage-placeholder}
+
+## Welcome to The Green Yard
+
+We are rebuilding our website to share food forests, edible landscapes, growing lessons, and stories of abundance from around the world.
+
+More tours and stories are coming soon.
+
+:::
