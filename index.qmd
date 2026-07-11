@@ -5,6 +5,51 @@ page-layout: full
 ---
 
 ```{=html}
+/* =========================================================
+   FORCE HOMEPAGE HERO TO FULL BROWSER WIDTH
+   ========================================================= */
+
+body:has(#gy-home-hero) {
+  overflow-x: hidden !important;
+}
+
+body:has(#gy-home-hero) #quarto-content,
+body:has(#gy-home-hero) main.content,
+body:has(#gy-home-hero) .page-columns,
+body:has(#gy-home-hero) .content,
+body:has(#gy-home-hero) .content-block {
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/*
+  Pull the hero out of Quarto's centered content container.
+*/
+#quarto-content #gy-home-hero {
+  position: relative !important;
+
+  width: 100vw !important;
+  max-width: none !important;
+
+  left: 50% !important;
+  right: 50% !important;
+
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* Remove the white gap directly above the hero */
+body:has(#gy-home-hero) main.content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
 <style>
   body:has(#gy-home-hero) main.content,
   body:has(#gy-home-hero) #quarto-content,
