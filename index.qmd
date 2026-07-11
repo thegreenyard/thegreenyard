@@ -4,143 +4,350 @@ toc: false
 page-layout: full
 ---
 
-::: {.home-hero}
-
 ```{=html}
-<div class="hero-slideshow" aria-hidden="true">
+<style>
+  /* Self-contained homepage hero */
+  .gy-hero {
+    position: relative !important;
+    width: 100% !important;
+    min-height: 610px !important;
+    overflow: hidden !important;
+    display: flex !important;
+    align-items: center !important;
+    isolation: isolate;
+    background: #082f24;
+  }
 
-  <img
-    src="images/hero-18-phoenix-skyline.jpg"
-    class="hero-slide active"
-    alt=""
-    fetchpriority="high">
+  .gy-slideshow {
+    position: absolute !important;
+    inset: 0 !important;
+    z-index: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+  }
 
-  <img
-    src="images/hero-01-san-diego-community-garden.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-slide {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+    opacity: 0 !important;
+    transform: scale(1.02);
+    transition: opacity 1.5s ease-in-out !important;
+    animation: gySlowZoom 12s ease-out infinite alternate;
+    pointer-events: none;
+  }
 
-  <img
-    src="images/hero-02-lima-urban-garden.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-slide.is-active {
+    opacity: 1 !important;
+  }
 
-  <img
-    src="images/hero-10-peru-sand-dunes.jpg"
-    class="hero-slide"
-    alt="">
+  @keyframes gySlowZoom {
+    from {
+      transform: scale(1.02);
+    }
 
-  <img
-    src="images/hero-11-florida-orchard.jpg"
-    class="hero-slide"
-    alt="">
+    to {
+      transform: scale(1.08);
+    }
+  }
 
-  <img
-    src="images/hero-04-florida-home-food-forest.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-overlay {
+    position: absolute !important;
+    inset: 0 !important;
+    z-index: 1 !important;
+    background:
+      linear-gradient(
+        90deg,
+        rgba(3, 29, 22, 0.93) 0%,
+        rgba(3, 29, 22, 0.79) 38%,
+        rgba(3, 29, 22, 0.36) 68%,
+        rgba(3, 29, 22, 0.12) 100%
+      );
+    pointer-events: none;
+  }
 
-  <img
-    src="images/hero-08-backyard-food-forest.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-content {
+    position: relative !important;
+    z-index: 2 !important;
+    width: min(760px, 90%) !important;
+    margin-left: max(5vw, 45px) !important;
+    padding: 75px 0 !important;
+    color: white !important;
+  }
 
-  <img
-    src="images/hero-13-market-garden.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-content h1 {
+    max-width: 760px !important;
+    margin: 0 0 24px !important;
+    color: #ffffff !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: clamp(40px, 3.8vw, 58px) !important;
+    font-weight: 600 !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.02em !important;
+    text-transform: none !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.38);
+  }
 
-  <img
-    src="images/hero-07-lima-community-garden.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-content p {
+    max-width: 650px !important;
+    margin: 0 0 32px !important;
+    color: rgba(255, 255, 255, 0.96) !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 20px !important;
+    line-height: 1.6 !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.32);
+  }
 
-  <img
-    src="images/hero-16-garden-tour.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-buttons {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 14px !important;
+  }
 
-  <img
-    src="images/hero-12-mango-grower.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-button {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 54px !important;
+    padding: 14px 24px !important;
+    border-radius: 5px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.035em !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    transition: transform 0.2s ease, background 0.2s ease !important;
+  }
 
-  <img
-    src="images/hero-17-home-garden-harvest.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-button-primary {
+    color: #ffffff !important;
+    background: #256844 !important;
+    border: 1px solid #256844 !important;
+  }
 
-  <img
-    src="images/hero-09-australia-garden-tour.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-button-primary:hover {
+    color: #ffffff !important;
+    background: #317b53 !important;
+    transform: translateY(-2px);
+  }
 
-  <img
-    src="images/hero-05-california-orchard.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-button-secondary {
+    color: #ffffff !important;
+    background: rgba(4, 28, 21, 0.30) !important;
+    border: 1px solid rgba(255, 255, 255, 0.82) !important;
+  }
 
-  <img
-    src="images/hero-03-food-forest-tour.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-button-secondary:hover {
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.15) !important;
+    transform: translateY(-2px);
+  }
 
-  <img
-    src="images/hero-15-arizona-food-forest.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-welcome {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 65px 35px;
+  }
 
-  <img
-    src="images/hero-14-phoenix-koi-pond.jpg"
-    class="hero-slide"
-    alt="">
+  .gy-welcome h2 {
+    color: #123c2d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+  }
 
-</div>
+  @media (max-width: 767px) {
+    .gy-hero {
+      min-height: 570px !important;
+      align-items: flex-end !important;
+    }
+
+    .gy-slide {
+      animation: none;
+    }
+
+    .gy-overlay {
+      background: rgba(3, 29, 22, 0.70);
+    }
+
+    .gy-content {
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 52px 24px 46px !important;
+      box-sizing: border-box !important;
+    }
+
+    .gy-content h1 {
+      width: 100% !important;
+      max-width: 100% !important;
+      font-size: clamp(36px, 10vw, 46px) !important;
+      line-height: 1.06 !important;
+    }
+
+    .gy-content p {
+      width: 100% !important;
+      max-width: 100% !important;
+      font-size: 16px !important;
+      line-height: 1.55 !important;
+    }
+
+    .gy-buttons {
+      flex-direction: column !important;
+      width: 100% !important;
+    }
+
+    .gy-button {
+      width: 100% !important;
+      box-sizing: border-box !important;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .gy-slide {
+      animation: none !important;
+      transition: opacity 0.4s ease !important;
+    }
+  }
+</style>
+
+<section class="gy-hero">
+
+  <div class="gy-slideshow" aria-hidden="true">
+
+    <img src="images/hero-18-phoenix-skyline.jpg"
+         class="gy-slide is-active"
+         alt=""
+         fetchpriority="high">
+
+    <img src="images/hero-01-san-diego-community-garden.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-02-lima-urban-garden.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-10-peru-sand-dunes.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-11-florida-orchard.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-04-florida-home-food-forest.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-08-backyard-food-forest.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-13-market-garden.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-07-lima-community-garden.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-16-garden-tour.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-12-mango-grower.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-17-home-garden-harvest.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-09-australia-garden-tour.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-05-california-orchard.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-03-food-forest-tour.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-15-arizona-food-forest.jpg"
+         class="gy-slide"
+         alt="">
+
+    <img src="images/hero-14-phoenix-koi-pond.jpg"
+         class="gy-slide"
+         alt="">
+
+  </div>
+
+  <div class="gy-overlay"></div>
+
+  <div class="gy-content">
+
+    <h1>What does abundance look like around the world?</h1>
+
+    <p>
+      Join us as we explore food forests, edible landscapes, and the
+      inspiring people creating abundance through plants and food in
+      different places.
+    </p>
+
+    <div class="gy-buttons">
+
+      <a class="gy-button gy-button-primary" href="videos.qmd">
+        Explore the Tours
+      </a>
+
+      <a class="gy-button gy-button-secondary"
+         href="https://www.youtube.com/@thegreenyardaz"
+         target="_blank"
+         rel="noopener">
+        ▶ Watch on YouTube
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="gy-welcome">
+
+  <h2>Welcome to The Green Yard</h2>
+
+  <p>More coming soon...</p>
+
+</section>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const slides = document.querySelectorAll(".hero-slide");
+  const slides = Array.from(document.querySelectorAll(".gy-slide"));
 
-  if (slides.length < 2) return;
+  if (slides.length < 2) {
+    return;
+  }
 
-  let currentSlide = 0;
+  let current = 0;
 
   window.setInterval(function () {
-    slides[currentSlide].classList.remove("active");
+    slides[current].classList.remove("is-active");
 
-    currentSlide = (currentSlide + 1) % slides.length;
+    current = (current + 1) % slides.length;
 
-    slides[currentSlide].classList.add("active");
+    slides[current].classList.add("is-active");
   }, 6500);
 });
 </script>
 ```
-
-::: {.home-hero-overlay}
-:::
-
-::: {.home-hero-content}
-
-# What does abundance look like around the world?
-
-Join us as we explore food forests, edible landscapes, and the inspiring people creating abundance through plants and food in different places.
-
-::: {.home-hero-buttons}
-
-[Explore the Tours](videos.qmd){.hero-button .hero-button-primary}
-
-[▶ Watch on YouTube](https://www.youtube.com/@thegreenyardaz){.hero-button .hero-button-secondary target="_blank"}
-
-:::
-
-:::
-
-:::
-
-::: {.homepage-placeholder}
-
-## Welcome to The Green Yard
-
-More coming soon...
-
-:::
