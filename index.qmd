@@ -12,7 +12,9 @@ page-layout: full
 
 ::: {.home-hero-content}
 
-# What does abundance look like around the world?
+# What does abundance\
+look like\
+around the world?
 
 Join us as we explore food forests, edible landscapes, and the inspiring people creating abundance through plants and food around the world.
 
