@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c4a0e61278e126bb9b05767e1df84202.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-37307ddcd90cdc76b122ec50b21d7fcd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -347,12 +347,12 @@ ul.task-list li input[type="checkbox"] {
 
 
   /* =========================================================
-     FEATURED TOUR + LOCATIONS
+     TOURS + LOCATIONS SECTION
      ========================================================= */
 
   .gy-discover-section {
     width: 100%;
-    padding: 78px 5vw 86px;
+    padding: 78px 5vw 90px;
     box-sizing: border-box;
 
     background: #f7f5ef;
@@ -360,8 +360,9 @@ ul.task-list li input[type="checkbox"] {
 
   .gy-discover-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr);
     gap: 58px;
+    align-items: start;
 
     width: 100%;
     max-width: 1480px;
@@ -369,7 +370,7 @@ ul.task-list li input[type="checkbox"] {
   }
 
   .gy-section-label {
-    margin-bottom: 12px;
+    margin-bottom: 11px;
 
     color: #597548;
     font-family: Arial, Helvetica, sans-serif;
@@ -380,16 +381,36 @@ ul.task-list li input[type="checkbox"] {
     text-transform: uppercase;
   }
 
-  .gy-featured-tour h2,
-  .gy-location-panel h2 {
-    max-width: 100% !important;
-    margin: 0 0 18px !important;
+
+  /* =========================================================
+     LEFT COLUMN — FEATURED + MOST RECENT
+     ========================================================= */
+
+  .gy-tour-column {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+  }
+
+  .gy-tour-card {
+    padding-bottom: 38px;
+    border-bottom: 1px solid rgba(23, 56, 44, 0.14);
+  }
+
+  .gy-tour-card:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .gy-tour-card h2 {
+    max-width: 100%;
+    margin: 0 0 15px !important;
 
     color: #17382c;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(28px, 2vw, 38px) !important;
+    font-size: clamp(27px, 1.9vw, 36px) !important;
     font-weight: 600 !important;
-    line-height: 1.15 !important;
+    line-height: 1.14 !important;
     letter-spacing: -0.015em !important;
     text-transform: none !important;
 
@@ -398,15 +419,18 @@ ul.task-list li input[type="checkbox"] {
     hyphens: none !important;
   }
 
-  .gy-featured-tour > p,
-  .gy-location-intro {
+  .gy-tour-card > p {
     max-width: 650px;
-    margin: 0 0 24px;
+    margin: 0 0 20px;
 
     color: #52615b;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px !important;
-    line-height: 1.7 !important;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .gy-tour-actions {
+    margin-bottom: 22px;
   }
 
   .gy-watch-button {
@@ -414,9 +438,8 @@ ul.task-list li input[type="checkbox"] {
     align-items: center;
     justify-content: center;
 
-    min-height: 48px;
-    margin-bottom: 28px;
-    padding: 12px 21px;
+    min-height: 46px;
+    padding: 11px 20px;
 
     color: #ffffff !important;
     background: #173f30;
@@ -441,7 +464,7 @@ ul.task-list li input[type="checkbox"] {
     transform: translateY(-2px);
   }
 
-  .gy-featured-image {
+  .gy-tour-image {
     position: relative;
 
     display: block;
@@ -452,10 +475,10 @@ ul.task-list li input[type="checkbox"] {
     border-radius: 7px;
 
     background: #17382c;
-    box-shadow: 0 14px 35px rgba(18, 47, 36, 0.16);
+    box-shadow: 0 12px 30px rgba(18, 47, 36, 0.15);
   }
 
-  .gy-featured-image img {
+  .gy-tour-image img {
     display: block;
     width: 100%;
     height: 100%;
@@ -467,7 +490,7 @@ ul.task-list li input[type="checkbox"] {
       filter 0.5s ease;
   }
 
-  .gy-featured-image::after {
+  .gy-tour-image::after {
     content: "";
 
     position: absolute;
@@ -476,17 +499,17 @@ ul.task-list li input[type="checkbox"] {
     background:
       linear-gradient(
         to top,
-        rgba(3, 27, 20, 0.30),
-        rgba(3, 27, 20, 0.03) 65%
+        rgba(3, 27, 20, 0.28),
+        rgba(3, 27, 20, 0.02) 65%
       );
   }
 
-  .gy-featured-image:hover img {
+  .gy-tour-image:hover img {
     transform: scale(1.035);
-    filter: brightness(0.92);
+    filter: brightness(0.93);
   }
 
-  .gy-featured-play {
+  .gy-tour-play {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -496,15 +519,15 @@ ul.task-list li input[type="checkbox"] {
     align-items: center;
     justify-content: center;
 
-    width: 76px;
-    height: 76px;
+    width: 70px;
+    height: 70px;
 
     color: #ffffff;
-    background: rgba(7, 48, 36, 0.86);
+    background: rgba(7, 48, 36, 0.88);
     border: 2px solid rgba(255, 255, 255, 0.88);
     border-radius: 50%;
 
-    font-size: 26px;
+    font-size: 24px;
 
     transform: translate(-50%, -50%);
 
@@ -513,15 +536,42 @@ ul.task-list li input[type="checkbox"] {
       background-color 0.25s ease;
   }
 
-  .gy-featured-image:hover .gy-featured-play {
+  .gy-tour-image:hover .gy-tour-play {
     background: #2a754f;
     transform: translate(-50%, -50%) scale(1.08);
   }
 
 
   /* =========================================================
-     LOCATION CARDS
+     RIGHT COLUMN — LOCATIONS
      ========================================================= */
+
+  .gy-location-panel h2 {
+    max-width: 100%;
+    margin: 0 0 18px !important;
+
+    color: #17382c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(29px, 2vw, 38px) !important;
+    font-weight: 600 !important;
+    line-height: 1.14 !important;
+    letter-spacing: -0.015em !important;
+    text-transform: none !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+  }
+
+  .gy-location-intro {
+    max-width: 650px;
+    margin: 0 0 28px;
+
+    color: #52615b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+  }
 
   .gy-location-grid {
     display: grid;
@@ -533,7 +583,7 @@ ul.task-list li input[type="checkbox"] {
     position: relative;
 
     display: block;
-    min-height: 210px;
+    min-height: 220px;
 
     overflow: hidden;
     border-radius: 6px;
@@ -571,35 +621,35 @@ ul.task-list li input[type="checkbox"] {
 
   .gy-location-name {
     position: absolute;
-    left: 16px !important;
-    right: 16px !important;
-    bottom: 42px !important;
+    left: 16px;
+    right: 16px;
+    bottom: 43px;
     z-index: 2;
 
     color: #ffffff;
 
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 19px !important;
+    font-size: 20px;
     font-weight: 600;
-    line-height: 1.08 !important;
+    line-height: 1.08;
 
-    word-break: normal !important;
-    overflow-wrap: normal !important;
+    word-break: normal;
+    overflow-wrap: normal;
   }
 
   .gy-location-link {
     position: absolute;
-    left: 16px !important;
-    right: 16px !important;
-    bottom: 16px !important;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
     z-index: 2;
 
     color: #d6ed91;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px !important;
+    font-size: 10px;
     font-weight: 800;
-    line-height: 1.2 !important;
+    line-height: 1.2;
     letter-spacing: 0.05em;
     text-transform: uppercase;
   }
@@ -609,7 +659,7 @@ ul.task-list li input[type="checkbox"] {
   }
 
   .gy-map-note {
-    margin: 20px 0 0;
+    margin: 22px 0 0;
 
     color: #6f7d76;
     font-family: Arial, Helvetica, sans-serif;
@@ -626,7 +676,7 @@ ul.task-list li input[type="checkbox"] {
   @media (max-width: 1050px) {
     .gy-discover-grid {
       grid-template-columns: 1fr;
-      gap: 64px;
+      gap: 66px;
     }
 
     .gy-location-grid {
@@ -680,14 +730,14 @@ ul.task-list li input[type="checkbox"] {
 
   @media (max-width: 700px) {
     .gy-discover-section {
-      padding: 58px 22px 66px;
+      padding: 58px 22px 68px;
     }
 
     .gy-discover-grid {
-      gap: 54px;
+      gap: 56px;
     }
 
-    .gy-featured-tour h2,
+    .gy-tour-card h2,
     .gy-location-panel h2 {
       font-size: 30px !important;
       line-height: 1.13 !important;
@@ -702,13 +752,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     .gy-location-name {
-      font-size: 22px !important;
+      font-size: 23px;
     }
 
-    .gy-featured-play {
-      width: 64px;
-      height: 64px;
-      font-size: 22px;
+    .gy-tour-play {
+      width: 62px;
+      height: 62px;
+      font-size: 21px;
     }
   }
 
@@ -769,35 +819,78 @@ ul.task-list li input[type="checkbox"] {
 
   <div class="gy-discover-grid">
 
-    <article class="gy-featured-tour">
 
-      <div class="gy-section-label">Featured Tour</div>
-
-      <h2 class="anchored">
-        Touring a Four-Year-Old Tropical Food Forest in Phoenix
-      </h2>
-
-      <p>
-        Step inside a four-year-old Phoenix food forest and see how tropical
-        fruit trees, thoughtful design, and dense planting can create abundance
-        in the desert.
-      </p>
-
-      <a class="gy-watch-button" href="https://www.youtube.com/watch?v=chvUg6YmvGQ" target="_blank" rel="noopener">
-        ▶ Watch Now
-      </a>
-
-      <a class="gy-featured-image" href="https://www.youtube.com/watch?v=chvUg6YmvGQ" target="_blank" rel="noopener" aria-label="Watch the featured Phoenix food forest tour">
-
-        <img src="https://img.youtube.com/vi/chvUg6YmvGQ/maxresdefault.jpg" alt="Four-year-old tropical food forest tour in Phoenix">
-
-        <span class="gy-featured-play">▶</span>
-
-      </a>
-
-    </article>
+    <!-- LEFT COLUMN: TWO VIDEO TOURS -->
+    <div class="gy-tour-column">
 
 
+      <!-- FEATURED TOUR -->
+      <article class="gy-tour-card">
+
+        <div class="gy-section-label">Featured Tour</div>
+
+        <h2 class="anchored">
+          Touring a Four-Year-Old Tropical Food Forest in Phoenix
+        </h2>
+
+        <p>
+          Step inside a four-year-old Phoenix food forest and discover how
+          tropical fruit trees, thoughtful design, and dense planting create
+          abundance in the desert.
+        </p>
+
+        <div class="gy-tour-actions">
+          <a class="gy-watch-button" href="https://www.youtube.com/watch?v=chvUg6YmvGQ" target="_blank" rel="noopener">
+            ▶ Watch Now
+          </a>
+        </div>
+
+        <a class="gy-tour-image" href="https://www.youtube.com/watch?v=chvUg6YmvGQ" target="_blank" rel="noopener" aria-label="Watch the featured Phoenix tropical food forest tour">
+
+          <img src="https://img.youtube.com/vi/chvUg6YmvGQ/maxresdefault.jpg" alt="Four-year-old tropical food forest tour in Phoenix">
+
+          <span class="gy-tour-play">▶</span>
+
+        </a>
+
+      </article>
+
+
+      <!-- MOST RECENT TOUR -->
+      <article class="gy-tour-card">
+
+        <div class="gy-section-label">Most Recent Tour</div>
+
+        <h2 class="anchored">
+          A Florida Food Forest Packed with Tropical Diversity
+        </h2>
+
+        <p>
+          Explore KC’s densely planted Florida food forest, where tropical fruit
+          trees, edible plants, and unusual species grow together on just
+          0.17 acres.
+        </p>
+
+        <div class="gy-tour-actions">
+          <a class="gy-watch-button" href="https://www.youtube.com/watch?v=1gj5_POLCNo" target="_blank" rel="noopener">
+            ▶ Watch Now
+          </a>
+        </div>
+
+        <a class="gy-tour-image" href="https://www.youtube.com/watch?v=1gj5_POLCNo" target="_blank" rel="noopener" aria-label="Watch the most recent Florida food forest tour">
+
+          <img src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg" alt="Florida food forest packed with tropical diversity">
+
+          <span class="gy-tour-play">▶</span>
+
+        </a>
+
+      </article>
+
+    </div>
+
+
+    <!-- RIGHT COLUMN: LOCATIONS -->
     <section class="gy-location-panel">
 
       <div class="gy-section-label">Explore by Location</div>
