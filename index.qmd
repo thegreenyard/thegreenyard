@@ -593,8 +593,7 @@ page-layout: full
 <section id="gy-home-hero">
 
   <div class="gy-slideshow" aria-hidden="true">
-    <img src="images/hero-01-san-diego-community-garden.jpg" class="gy-slide is-active" alt="" fetchpriority="high">
-    <img src="images/hero-02-lima-urban-garden.jpg" class="gy-slide" alt="">
+    <img src="images/hero-02-lima-urban-garden.jpg" class="gy-slide is-active" alt="" fetchpriority="high">
     <img src="images/hero-10-peru-sand-dunes.jpg" class="gy-slide" alt="">
     <img src="images/hero-11-florida-orchard.jpg" class="gy-slide" alt="">
     <img src="images/hero-04-florida-home-food-forest.jpg" class="gy-slide" alt="">
