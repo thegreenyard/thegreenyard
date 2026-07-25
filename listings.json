@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/tours/index.html",
+    "items": [
+      "/tours/florida-food-forest-tropical-diversity.html"
+    ]
+  },
+  {
     "listing": "/blog.html",
     "items": []
   }
