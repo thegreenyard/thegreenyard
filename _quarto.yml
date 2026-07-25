@@ -2,7 +2,7 @@ project:
   type: website
   resources:
     - images/**
-    
+
 website:
   title: "The Green Yard"
 
@@ -18,10 +18,10 @@ website:
       - href: index.qmd
         text: Home
 
-      - href: videos.qmd
+      - href: tours/index.qmd
         text: Tours
 
-      - href: blog.qmd
+      - href: grow/index.qmd
         text: Grow in Phoenix
 
       - href: journal.qmd
