@@ -216,12 +216,20 @@ page-layout: full
 
 
   /* =========================================================
-     TOURS + LOCATIONS SECTION
+     FULL-WIDTH TOURS + LOCATIONS SECTION
      ========================================================= */
 
   .gy-discover-section {
-    width: 100%;
-    padding: 78px 5vw 90px;
+    position: relative;
+
+    width: 100vw !important;
+    max-width: none !important;
+
+    left: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: 0 !important;
+
+    padding: 76px clamp(28px, 5vw, 90px) 86px;
     box-sizing: border-box;
 
     background: #f7f5ef;
@@ -229,12 +237,12 @@ page-layout: full
 
   .gy-discover-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr);
-    gap: 58px;
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+    gap: clamp(42px, 5vw, 76px);
     align-items: start;
 
     width: 100%;
-    max-width: 1480px;
+    max-width: 1640px;
     margin: 0 auto;
   }
 
@@ -252,32 +260,43 @@ page-layout: full
 
 
   /* =========================================================
-     LEFT COLUMN — FEATURED + MOST RECENT
+     LEFT COLUMN — COMPACT TOUR ROWS
      ========================================================= */
 
   .gy-tour-column {
     display: flex;
     flex-direction: column;
-    gap: 38px;
   }
 
   .gy-tour-card {
-    padding-bottom: 38px;
-    border-bottom: 1px solid rgba(23, 56, 44, 0.14);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(250px, 42%);
+    gap: 28px;
+    align-items: center;
+
+    padding: 0 0 34px;
+    margin: 0 0 34px;
+
+    border-bottom: 1px solid rgba(23, 56, 44, 0.16);
   }
 
   .gy-tour-card:last-child {
     padding-bottom: 0;
+    margin-bottom: 0;
     border-bottom: 0;
+  }
+
+  .gy-tour-copy {
+    min-width: 0;
   }
 
   .gy-tour-card h2 {
     max-width: 100%;
-    margin: 0 0 15px !important;
+    margin: 0 0 14px !important;
 
     color: #17382c;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(27px, 1.9vw, 36px) !important;
+    font-size: clamp(27px, 1.8vw, 35px) !important;
     font-weight: 600 !important;
     line-height: 1.14 !important;
     letter-spacing: -0.015em !important;
@@ -288,18 +307,14 @@ page-layout: full
     hyphens: none !important;
   }
 
-  .gy-tour-card > p {
-    max-width: 650px;
-    margin: 0 0 20px;
+  .gy-tour-card p {
+    max-width: 580px;
+    margin: 0 0 21px;
 
     color: #52615b;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.65;
-  }
-
-  .gy-tour-actions {
-    margin-bottom: 22px;
   }
 
   .gy-watch-button {
@@ -307,7 +322,7 @@ page-layout: full
     align-items: center;
     justify-content: center;
 
-    min-height: 46px;
+    min-height: 45px;
     padding: 11px 20px;
 
     color: #ffffff !important;
@@ -316,7 +331,7 @@ page-layout: full
     border-radius: 4px;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.055em;
     text-decoration: none !important;
@@ -344,7 +359,7 @@ page-layout: full
     border-radius: 7px;
 
     background: #17382c;
-    box-shadow: 0 12px 30px rgba(18, 47, 36, 0.15);
+    box-shadow: 0 10px 25px rgba(18, 47, 36, 0.14);
   }
 
   .gy-tour-image img {
@@ -388,15 +403,15 @@ page-layout: full
     align-items: center;
     justify-content: center;
 
-    width: 70px;
-    height: 70px;
+    width: 58px;
+    height: 58px;
 
     color: #ffffff;
     background: rgba(7, 48, 36, 0.88);
     border: 2px solid rgba(255, 255, 255, 0.88);
     border-radius: 50%;
 
-    font-size: 24px;
+    font-size: 20px;
 
     transform: translate(-50%, -50%);
 
@@ -415,8 +430,13 @@ page-layout: full
      RIGHT COLUMN — LOCATIONS
      ========================================================= */
 
+  .gy-location-panel {
+    padding-left: clamp(34px, 4vw, 64px);
+    border-left: 1px solid rgba(23, 56, 44, 0.16);
+  }
+
   .gy-location-panel h2 {
-    max-width: 100%;
+    max-width: 640px;
     margin: 0 0 18px !important;
 
     color: #17382c;
@@ -438,7 +458,7 @@ page-layout: full
 
     color: #52615b;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.7;
   }
 
@@ -452,7 +472,7 @@ page-layout: full
     position: relative;
 
     display: block;
-    min-height: 220px;
+    min-height: 210px;
 
     overflow: hidden;
     border-radius: 6px;
@@ -490,15 +510,15 @@ page-layout: full
 
   .gy-location-name {
     position: absolute;
-    left: 16px;
-    right: 16px;
-    bottom: 43px;
+    left: 15px;
+    right: 15px;
+    bottom: 42px;
     z-index: 2;
 
     color: #ffffff;
 
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     line-height: 1.08;
 
@@ -508,15 +528,15 @@ page-layout: full
 
   .gy-location-link {
     position: absolute;
-    left: 16px;
-    right: 16px;
-    bottom: 16px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
     z-index: 2;
 
     color: #d6ed91;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 800;
     line-height: 1.2;
     letter-spacing: 0.05em;
@@ -539,19 +559,35 @@ page-layout: full
 
 
   /* =========================================================
-     RESPONSIVE LAYOUT
+     TABLETS
      ========================================================= */
 
-  @media (max-width: 1050px) {
+  @media (max-width: 1120px) {
     .gy-discover-grid {
       grid-template-columns: 1fr;
-      gap: 66px;
+      gap: 62px;
+    }
+
+    .gy-location-panel {
+      padding-left: 0;
+      padding-top: 54px;
+      border-left: 0;
+      border-top: 1px solid rgba(23, 56, 44, 0.16);
     }
 
     .gy-location-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+
+    .gy-tour-card {
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 40%);
+    }
   }
+
+
+  /* =========================================================
+     MOBILE HERO
+     ========================================================= */
 
   @media (max-width: 767px) {
     #gy-home-hero {
@@ -597,19 +633,36 @@ page-layout: full
     }
   }
 
+
+  /* =========================================================
+     MOBILE DISCOVER SECTION
+     ========================================================= */
+
   @media (max-width: 700px) {
     .gy-discover-section {
-      padding: 58px 22px 68px;
+      padding: 56px 22px 68px;
     }
 
     .gy-discover-grid {
-      gap: 56px;
+      gap: 54px;
+    }
+
+    .gy-tour-card {
+      grid-template-columns: 1fr;
+      gap: 23px;
+
+      padding-bottom: 38px;
+      margin-bottom: 38px;
     }
 
     .gy-tour-card h2,
     .gy-location-panel h2 {
       font-size: 30px !important;
       line-height: 1.13 !important;
+    }
+
+    .gy-tour-image {
+      max-width: 100%;
     }
 
     .gy-location-grid {
@@ -624,10 +677,8 @@ page-layout: full
       font-size: 23px;
     }
 
-    .gy-tour-play {
-      width: 62px;
-      height: 62px;
-      font-size: 21px;
+    .gy-location-panel {
+      padding-top: 46px;
     }
   }
 
@@ -693,26 +744,27 @@ page-layout: full
   <div class="gy-discover-grid">
 
 
-    <!-- LEFT COLUMN: TWO VIDEO TOURS -->
+    <!-- LEFT COLUMN: TWO COMPACT TOUR ROWS -->
     <div class="gy-tour-column">
 
 
       <!-- FEATURED TOUR -->
       <article class="gy-tour-card">
 
-        <div class="gy-section-label">Featured Tour</div>
+        <div class="gy-tour-copy">
 
-        <h2>
-          Touring a Four-Year-Old Tropical Food Forest in Phoenix
-        </h2>
+          <div class="gy-section-label">Featured Tour</div>
 
-        <p>
-          Step inside a four-year-old Phoenix food forest and discover how
-          tropical fruit trees, thoughtful design, and dense planting create
-          abundance in the desert.
-        </p>
+          <h2>
+            Touring a Four-Year-Old Tropical Food Forest in Phoenix
+          </h2>
 
-        <div class="gy-tour-actions">
+          <p>
+            Step inside a four-year-old Phoenix food forest and discover how
+            tropical fruit trees, thoughtful design, and dense planting create
+            abundance in the desert.
+          </p>
+
           <a
             class="gy-watch-button"
             href="https://www.youtube.com/watch?v=chvUg6YmvGQ"
@@ -720,6 +772,7 @@ page-layout: full
             rel="noopener">
             ▶ Watch Now
           </a>
+
         </div>
 
         <a
@@ -743,19 +796,20 @@ page-layout: full
       <!-- MOST RECENT TOUR -->
       <article class="gy-tour-card">
 
-        <div class="gy-section-label">Most Recent Tour</div>
+        <div class="gy-tour-copy">
 
-        <h2>
-          A Florida Food Forest Packed with Tropical Diversity
-        </h2>
+          <div class="gy-section-label">Most Recent Tour</div>
 
-        <p>
-          Explore KC’s densely planted Florida food forest, where tropical fruit
-          trees, edible plants, and unusual species grow together on just
-          0.17 acres.
-        </p>
+          <h2>
+            A Florida Food Forest Packed with Tropical Diversity
+          </h2>
 
-        <div class="gy-tour-actions">
+          <p>
+            Explore KC’s densely planted Florida food forest, where tropical
+            fruit trees, edible plants, and unusual species grow together on
+            just 0.17 acres.
+          </p>
+
           <a
             class="gy-watch-button"
             href="https://www.youtube.com/watch?v=1gj5_POLCNo"
@@ -763,6 +817,7 @@ page-layout: full
             rel="noopener">
             ▶ Watch Now
           </a>
+
         </div>
 
         <a
