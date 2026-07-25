@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-description','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -195,7 +195,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmxvcmlkYQ==">Florida <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rm9vZCUyMEZvcmVzdCUyMFRvdXJz">Food Forest Tours <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGlnaC1EZW5zaXR5JTIwUGxhbnRpbmc=">High-Density Planting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzaWRlbnRpYWwlMjBGb29kJTIwRm9yZXN0">Residential Food Forest <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U21hbGwtU3BhY2UlMjBHYXJkZW5pbmc=">Small-Space Gardening <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHJvcGljYWwlMjBGcnVpdA==">Tropical Fruit <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -230,13 +230,38 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1784953378555" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="RmxvcmlkYSUyQ0Zvb2QlMjBGb3Jlc3QlMjBUb3VycyUyQ1Ryb3BpY2FsJTIwRnJ1aXQlMkNIaWdoLURlbnNpdHklMjBQbGFudGluZyUyQ1Jlc2lkZW50aWFsJTIwRm9vZCUyMEZvcmVzdCUyQ1NtYWxsLVNwYWNlJTIwR2FyZGVuaW5n" data-listing-date-sort="1784851200000" data-listing-file-modified-sort="1784954136231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3132">
 <a href="../tours/florida-food-forest-tropical-diversity.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
-<div class="card-text listing-description delink">
+<h5 class="no-anchor card-title listing-title">
+Inside a High-Density Florida Food Forest Packed with Tropical Diversity
+</h5>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('RmxvcmlkYQ=='); return false;">Florida</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Rm9vZCUyMEZvcmVzdCUyMFRvdXJz'); return false;">Food Forest Tours</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VHJvcGljYWwlMjBGcnVpdA=='); return false;">Tropical Fruit</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaC1EZW5zaXR5JTIwUGxhbnRpbmc='); return false;">High-Density Planting</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzaWRlbnRpYWwlMjBGb29kJTIwRm9yZXN0'); return false;">Residential Food Forest</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U21hbGwtU3BhY2UlMjBHYXJkZW5pbmc='); return false;">Small-Space Gardening</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Tour KC’s densely planted 0.17-acre Florida food forest, where tropical fruit trees, edible plants, and unusual species grow together in a remarkably small space.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 24, 2026
+</div>
 </div>
 </div>
 </div></a>
