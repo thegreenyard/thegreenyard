@@ -25,8 +25,8 @@ toc-location: right
 }
 
 .tour-lead {
-  max-width: 850px;
-  margin: 0 0 32px;
+  max-width: 900px;
+  margin: 0 0 40px;
   color: #4b5e56;
   font-size: 1.18rem;
   line-height: 1.75;
@@ -238,37 +238,55 @@ toc-location: right
 
 .part-one {
   display: grid;
-  grid-template-columns: minmax(260px, 42%) 1fr;
-  gap: 26px;
-  align-items: center;
+  grid-template-columns: minmax(360px, 48%) 1fr;
+  align-items: stretch;
   overflow: hidden;
   border: 1px solid rgba(7, 56, 44, 0.14);
   border-radius: 10px;
   background: #f7f5ef;
 }
 
+.part-one-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 310px;
+  padding: 0;
+  background: #082f25;
+}
+
 .part-one img {
+  display: block;
   width: 100%;
-  height: 100%;
-  min-height: 230px;
-  object-fit: cover;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .part-one-copy {
-  padding: 28px 30px 28px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
 }
 
 .part-one-copy h3 {
-  margin-top: 0;
+  margin: 0 0 12px;
   color: #173f30;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.part-one-copy p {
+  margin-top: 0;
 }
 
 .tour-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  align-self: flex-start;
   min-height: 47px;
   margin-top: 12px;
   padding: 12px 21px;
@@ -294,6 +312,19 @@ toc-location: right
   .species-list {
     columns: 2;
   }
+
+  .part-one {
+    grid-template-columns: 1fr;
+  }
+
+  .part-one-image {
+    min-height: auto;
+  }
+
+  .part-one img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 680px) {
@@ -312,25 +343,13 @@ toc-location: right
     columns: 1;
   }
 
-  .part-one {
-    grid-template-columns: 1fr;
-  }
-
-  .part-one img {
-    min-height: auto;
-  }
-
   .part-one-copy {
-    padding: 0 22px 25px;
+    padding: 24px 22px 28px;
   }
 }
 </style>
 
 <main class="tour-page">
-
-<p class="tour-lead">
-In Part 2 of our visit to Gonza Gardens, KC takes us through the backyard, side yard, raised beds, nursery propagation area, and an astonishing collection of tropical and subtropical plants growing in Tampa, Florida. This is a densely planted home food forest where fruit trees, perennial vegetables, rare ornamentals, wildlife habitat, and plant propagation all share the same space.
-</p>
 
 <div class="video-wrap">
   <iframe
@@ -340,6 +359,10 @@ In Part 2 of our visit to Gonza Gardens, KC takes us through the backyard, side 
     allowfullscreen>
   </iframe>
 </div>
+
+<p class="tour-lead">
+In Part 2 of our visit to Gonza Gardens, KC takes us through the backyard, side yard, raised beds, nursery propagation area, and an astonishing collection of tropical and subtropical plants growing in Tampa, Florida. This is a densely planted home food forest where fruit trees, perennial vegetables, rare ornamentals, wildlife habitat, and plant propagation all share the same space.
+</p>
 
 <section class="quick-facts" aria-label="Tour quick facts">
 
@@ -798,9 +821,11 @@ KC and her family also operate Food Forest Finds, an edible plant nursery specia
 
 <div class="part-one">
 
-  <img
-    src="https://img.youtube.com/vi/x9dIR1FEESI/maxresdefault.jpg"
-    alt="A Front Yard Tropical Food Forest in Tampa">
+  <div class="part-one-image">
+    <img
+      src="https://img.youtube.com/vi/x9dIR1FEESI/maxresdefault.jpg"
+      alt="A Front Yard Tropical Food Forest in Tampa">
+  </div>
 
   <div class="part-one-copy">
 
