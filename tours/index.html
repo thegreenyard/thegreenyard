@@ -223,7 +223,7 @@ window.Quarto = {
 
 <style>
   /* =========================================================
-     TOURS LANDING PAGE — FULL-WIDTH LAYOUT
+     TOURS LANDING PAGE
      ========================================================= */
 
   body:has(#gy-tours-hero) {
@@ -285,6 +285,7 @@ window.Quarto = {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background: #082f24;
   }
 
   #gy-tours-hero .gy-tours-slide {
@@ -300,30 +301,18 @@ window.Quarto = {
     padding: 0;
     border: 0;
 
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 
     opacity: 0;
-    transform: scale(1.02);
 
     transition: opacity 1.5s ease-in-out;
-    animation: gyToursHeroZoom 12s ease-out infinite alternate;
 
     pointer-events: none;
   }
 
   #gy-tours-hero .gy-tours-slide.is-active {
     opacity: 1;
-  }
-
-  @keyframes gyToursHeroZoom {
-    from {
-      transform: scale(1.02);
-    }
-
-    to {
-      transform: scale(1.08);
-    }
   }
 
   #gy-tours-hero .gy-tours-overlay {
@@ -334,10 +323,10 @@ window.Quarto = {
     background:
       linear-gradient(
         90deg,
-        rgba(3, 29, 22, 0.96) 0%,
-        rgba(3, 29, 22, 0.83) 38%,
-        rgba(3, 29, 22, 0.47) 67%,
-        rgba(3, 29, 22, 0.18) 100%
+        rgba(3, 29, 22, 0.97) 0%,
+        rgba(3, 29, 22, 0.88) 34%,
+        rgba(3, 29, 22, 0.55) 62%,
+        rgba(3, 29, 22, 0.24) 100%
       );
 
     pointer-events: none;
@@ -430,7 +419,7 @@ window.Quarto = {
 
 
   /* =========================================================
-     PAGE CONTENT
+     MAIN PAGE CONTENT
      ========================================================= */
 
   .gy-tours-main {
@@ -622,7 +611,7 @@ window.Quarto = {
 
 
   /* =========================================================
-     AUTOMATIC QUARTO TOUR LISTING
+     AUTOMATIC TOUR LISTING
      ========================================================= */
 
   .gy-library-intro {
@@ -671,8 +660,8 @@ window.Quarto = {
     display: block;
     width: 100%;
     aspect-ratio: 16 / 9;
-
-    object-fit: cover;
+    object-fit: contain;
+    background: #082f24;
   }
 
   .quarto-grid-item .card-body {
@@ -730,12 +719,8 @@ window.Quarto = {
       align-items: flex-end;
     }
 
-    #gy-tours-hero .gy-tours-slide {
-      animation: none;
-    }
-
     #gy-tours-hero .gy-tours-overlay {
-      background: rgba(3, 29, 22, 0.7);
+      background: rgba(3, 29, 22, 0.72);
     }
 
     #gy-tours-hero .gy-tours-content {
@@ -790,14 +775,8 @@ window.Quarto = {
     }
   }
 
-
-  /* =========================================================
-     REDUCED MOTION
-     ========================================================= */
-
   @media (prefers-reduced-motion: reduce) {
     #gy-tours-hero .gy-tours-slide {
-      animation: none;
       transition: opacity 0.4s ease;
     }
   }
@@ -882,19 +861,7 @@ window.Quarto = {
 
       <a class="gy-location-card" href="#all-tours">
 
-        <img src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg" alt="Food forest tour in Florida" onerror="this.onerror=null;this.src='https://img.youtube.com/vi/1gj5_POLCNo/hqdefault.jpg';">
-
-        <span class="gy-location-copy">
-          <span class="gy-location-name">Florida</span>
-          <span class="gy-location-link">Explore Tours →</span>
-        </span>
-
-      </a>
-
-
-      <a class="gy-location-card" href="#all-tours">
-
-        <img src="https://img.youtube.com/vi/n6hO-1f6b14/maxresdefault.jpg" alt="Food forest tour in Arizona" onerror="this.onerror=null;this.src='https://img.youtube.com/vi/n6hO-1f6b14/hqdefault.jpg';">
+        <img src="../images/hero-01-san-diego-community-garden.jpg" alt="Arizona food forest and edible landscape">
 
         <span class="gy-location-copy">
           <span class="gy-location-name">Arizona</span>
@@ -906,7 +873,19 @@ window.Quarto = {
 
       <a class="gy-location-card" href="#all-tours">
 
-        <img src="https://img.youtube.com/vi/4AXnFuf0Dcg/maxresdefault.jpg" alt="Edible landscape tour in California" onerror="this.onerror=null;this.src='https://img.youtube.com/vi/4AXnFuf0Dcg/hqdefault.jpg';">
+        <img src="../images/hero-08-backyard-food-forest.jpg" alt="Florida food forest and orchard">
+
+        <span class="gy-location-copy">
+          <span class="gy-location-name">Florida</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </span>
+
+      </a>
+
+
+      <a class="gy-location-card" href="#all-tours">
+
+        <img src="../images/hero-18-phoenix-skyline.jpg" alt="California community garden and edible landscape">
 
         <span class="gy-location-copy">
           <span class="gy-location-name">California</span>
@@ -918,7 +897,7 @@ window.Quarto = {
 
       <a class="gy-location-card" href="#all-tours">
 
-        <img src="https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg" alt="Food-growing landscape in Peru" onerror="this.onerror=null;this.src='https://img.youtube.com/vi/0uxQGmZKBeI/hqdefault.jpg';">
+        <img src="../images/hero-09-australia-garden-tour.jpg" alt="Food-growing landscape in Peru">
 
         <span class="gy-location-copy">
           <span class="gy-location-name">Peru</span>
@@ -930,7 +909,7 @@ window.Quarto = {
 
       <a class="gy-location-card" href="#all-tours">
 
-        <img src="https://img.youtube.com/vi/GQN0aOzeB80/maxresdefault.jpg" alt="Community garden tour in South Korea" onerror="this.onerror=null;this.src='https://img.youtube.com/vi/GQN0aOzeB80/hqdefault.jpg';">
+        <img src="../images/hero-13-market-garden.jpg" alt="Gardener and community garden in South Korea">
 
         <span class="gy-location-copy">
           <span class="gy-location-name">South Korea</span>
@@ -1021,7 +1000,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RmxvcmlkYSUyQ1RhbXBhJTJDRm9vZCUyMEZvcmVzdCUyMFRvdXJzJTJDVHJvcGljYWwlMjBGcnVpdCUyQ1pvbmUlMjAxMEElMkNHb256YSUyMEdhcmRlbnM=" data-listing-date-sort="1783641600000" data-listing-file-modified-sort="1784959392141" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3227">
+<div class="g-col-1" data-index="0" data-categories="RmxvcmlkYSUyQ1RhbXBhJTJDRm9vZCUyMEZvcmVzdCUyMFRvdXJzJTJDVHJvcGljYWwlMjBGcnVpdCUyQ1pvbmUlMjAxMEElMkNHb256YSUyMEdhcmRlbnM=" data-listing-date-sort="1783641600000" data-listing-file-modified-sort="1784960283254" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3227">
 <a href="../tours/florida-food-forest-tropical-diversity.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
