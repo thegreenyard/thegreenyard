@@ -1,1 +1,587 @@
+---
+title: "Inside a High-Density Florida Food Forest Packed with Tropical Diversity"
+description: "Tour KC’s densely planted 0.17-acre Florida food forest, where tropical fruit trees, edible plants, and unusual species grow together in a remarkably small space."
+date: 2026-07-24
+author: "The Green Yard"
+image: "https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+categories:
+  - Florida
+  - Food Forest Tours
+  - Tropical Fruit
+  - High-Density Planting
+  - Residential Food Forest
+  - Small-Space Gardening
+page-layout: full
+toc: true
+toc-location: right
+---
 
+```{=html}
+<style>
+  .tour-page {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px 28px 80px;
+  }
+
+  .tour-intro {
+    max-width: 850px;
+    margin-bottom: 34px;
+    color: #52615b;
+    font-size: 19px;
+    line-height: 1.7;
+  }
+
+  .tour-video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin: 0 0 38px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #092f25;
+    box-shadow: 0 14px 36px rgba(11, 47, 36, 0.17);
+  }
+
+  .tour-video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .tour-facts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+    margin: 0 0 52px;
+  }
+
+  .tour-fact {
+    padding: 20px;
+    border: 1px solid rgba(20, 61, 47, 0.13);
+    border-radius: 7px;
+    background: #f7f5ef;
+  }
+
+  .tour-fact-label {
+    display: block;
+    margin-bottom: 6px;
+    color: #647e4b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .tour-fact-value {
+    color: #173f30;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  .tour-section {
+    margin: 56px 0;
+  }
+
+  .tour-section h2 {
+    margin-bottom: 20px;
+    color: #143d2f;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(30px, 3vw, 42px);
+    font-weight: 600;
+    line-height: 1.13;
+  }
+
+  .tour-section p,
+  .tour-section li {
+    color: #44554e;
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  .learn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 24px;
+  }
+
+  .learn-item {
+    padding: 17px 19px;
+    border-left: 4px solid #86a842;
+    background: #f7f5ef;
+    color: #28473b;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+
+  .shorts-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .short-card {
+    overflow: hidden;
+    border: 1px solid rgba(20, 61, 47, 0.14);
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 8px 22px rgba(18, 47, 36, 0.08);
+  }
+
+  .short-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 9 / 16;
+    padding: 20px;
+    background:
+      linear-gradient(
+        145deg,
+        rgba(6, 55, 42, 0.95),
+        rgba(43, 112, 75, 0.78)
+      );
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .short-copy {
+    padding: 15px;
+  }
+
+  .short-copy h3 {
+    margin: 0 0 8px;
+    color: #173f30;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .short-copy p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .species-columns {
+    columns: 3;
+    column-gap: 34px;
+    padding: 26px 30px;
+    background: #f7f5ef;
+    border-radius: 8px;
+  }
+
+  .species-columns li {
+    break-inside: avoid;
+    margin-bottom: 9px;
+  }
+
+  .tour-note {
+    padding: 20px 22px;
+    border-left: 4px solid #86a842;
+    background: #f7f5ef;
+    color: #52615b;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .tour-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 26px;
+  }
+
+  .tour-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 12px 21px;
+    color: #ffffff !important;
+    background: #174936;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-decoration: none !important;
+    text-transform: uppercase;
+  }
+
+  .tour-button-secondary {
+    color: #174936 !important;
+    background: transparent;
+    border: 1px solid #174936;
+  }
+
+  @media (max-width: 950px) {
+    .tour-facts {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .shorts-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .species-columns {
+      columns: 2;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .tour-page {
+      padding: 12px 20px 60px;
+    }
+
+    .tour-intro {
+      font-size: 17px;
+    }
+
+    .tour-facts,
+    .learn-grid,
+    .shorts-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .short-placeholder {
+      aspect-ratio: 16 / 9;
+    }
+
+    .species-columns {
+      columns: 1;
+      padding: 22px;
+    }
+
+    .tour-links {
+      flex-direction: column;
+    }
+
+    .tour-button {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+</style>
+
+<main class="tour-page">
+
+  <p class="tour-intro">
+    KC has transformed approximately 0.17 acres into a densely planted Florida
+    food forest filled with tropical fruit trees, edible plants, and unusual
+    species. This tour shows how tremendous diversity can be grown on a small
+    residential property when every layer of the landscape is used thoughtfully.
+  </p>
+
+  <div class="tour-video">
+    <iframe
+      src="https://www.youtube.com/embed/1gj5_POLCNo"
+      title="Inside a High-Density Florida Food Forest Packed with Tropical Diversity"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <section class="tour-facts" aria-label="Tour quick facts">
+
+    <div class="tour-fact">
+      <span class="tour-fact-label">Location</span>
+      <span class="tour-fact-value">Florida</span>
+    </div>
+
+    <div class="tour-fact">
+      <span class="tour-fact-label">Host</span>
+      <span class="tour-fact-value">KC</span>
+    </div>
+
+    <div class="tour-fact">
+      <span class="tour-fact-label">Property Size</span>
+      <span class="tour-fact-value">Approximately 0.17 Acres</span>
+    </div>
+
+    <div class="tour-fact">
+      <span class="tour-fact-label">Garden Type</span>
+      <span class="tour-fact-value">Residential Food Forest</span>
+    </div>
+
+    <div class="tour-fact">
+      <span class="tour-fact-label">Growing Style</span>
+      <span class="tour-fact-value">High-Density, Multilayered</span>
+    </div>
+
+    <div class="tour-fact">
+      <span class="tour-fact-label">Primary Focus</span>
+      <span class="tour-fact-value">Tropical Fruit Diversity</span>
+    </div>
+
+  </section>
+
+
+  <section class="tour-section">
+
+    <h2>About This Florida Food Forest</h2>
+
+    <p>
+      A food forest does not need to occupy several acres to contain remarkable
+      diversity. KC’s garden demonstrates how a relatively small residential
+      property can become a densely layered edible landscape.
+    </p>
+
+    <p>
+      Rather than treating each fruit tree as an isolated specimen surrounded
+      by open space, the garden uses close planting, vertical layers, and nearly
+      every available growing area. The result is a living collection in which
+      tropical fruit trees, shrubs, vines, and smaller edible plants grow
+      together throughout the property.
+    </p>
+
+    <p>
+      During this tour, we explore the plants, layout, and growing decisions
+      that allow KC to maintain such an extensive collection in a limited area.
+      The garden offers ideas for anyone interested in increasing diversity
+      without owning a large farm or homestead.
+    </p>
+
+  </section>
+
+
+  <section class="tour-section">
+
+    <h2>What You’ll Learn</h2>
+
+    <div class="learn-grid">
+
+      <div class="learn-item">
+        How a small residential property can hold an extensive edible collection
+      </div>
+
+      <div class="learn-item">
+        How high-density planting differs from a conventional orchard layout
+      </div>
+
+      <div class="learn-item">
+        How multiple vertical layers make better use of limited garden space
+      </div>
+
+      <div class="learn-item">
+        Why plant placement becomes especially important in a crowded food forest
+      </div>
+
+      <div class="learn-item">
+        How tropical fruit diversity can become the central theme of a home landscape
+      </div>
+
+      <div class="learn-item">
+        Ideas that can be adapted to smaller backyards and urban properties
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="tour-section">
+
+    <h2>What Makes This Garden Abundant?</h2>
+
+    <p>
+      The defining feature of this food forest is its density. Instead of
+      relying on a few large trees separated by open lawn, the garden fits many
+      edible species into a compact residential landscape.
+    </p>
+
+    <p>
+      The abundance comes not only from the number of plants, but from the way
+      the available space is used. Taller trees create an upper layer, smaller
+      fruit trees and shrubs occupy the middle, while vines, herbs, and other
+      edible plants fill additional niches.
+    </p>
+
+    <p>
+      KC’s garden shows that abundance can mean diversity, experimentation, and
+      the ability to step outside and encounter something edible almost
+      everywhere you look.
+    </p>
+
+  </section>
+
+
+  <section class="tour-section">
+
+    <h2>Shorts From This Tour</h2>
+
+    <p>
+      These five short videos will highlight individual plants, lessons, and
+      memorable moments from the full tour. We can replace each placeholder
+      once the Shorts are published.
+    </p>
+
+    <div class="shorts-grid">
+
+      <article class="short-card">
+        <div class="short-placeholder">Short 1</div>
+        <div class="short-copy">
+          <h3>Featured Plant</h3>
+          <p>
+            A closer look at one of the standout tropical plants growing in the garden.
+          </p>
+        </div>
+      </article>
+
+      <article class="short-card">
+        <div class="short-placeholder">Short 2</div>
+        <div class="short-copy">
+          <h3>High-Density Design</h3>
+          <p>
+            See how KC fits an impressive number of edible species into a small space.
+          </p>
+        </div>
+      </article>
+
+      <article class="short-card">
+        <div class="short-placeholder">Short 3</div>
+        <div class="short-copy">
+          <h3>Rare Tropical Fruit</h3>
+          <p>
+            Discover one of the unusual fruit species featured during the tour.
+          </p>
+        </div>
+      </article>
+
+      <article class="short-card">
+        <div class="short-placeholder">Short 4</div>
+        <div class="short-copy">
+          <h3>Planting in Layers</h3>
+          <p>
+            A quick example of how vertical layers increase the garden’s diversity.
+          </p>
+        </div>
+      </article>
+
+      <article class="short-card">
+        <div class="short-placeholder">Short 5</div>
+        <div class="short-copy">
+          <h3>KC’s Growing Lesson</h3>
+          <p>
+            One practical idea or lesson that other home growers can apply.
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <section class="tour-section">
+
+    <h2>Species Seen in This Tour</h2>
+
+    <p>
+      This section will become the verified plant database for the property.
+      We should add plants only after confirming that they appear in the tour.
+    </p>
+
+    <ul class="species-columns">
+      <li>Verified species list coming soon</li>
+      <li>Tropical fruit trees</li>
+      <li>Smaller fruiting shrubs</li>
+      <li>Edible vines</li>
+      <li>Herbs and support plants</li>
+      <li>Rare or unusual edible species</li>
+    </ul>
+
+    <div class="tour-note">
+      As the species database grows, each plant name can link to its own profile
+      showing every tour where that species appears, the climates where it is
+      growing, and future nursery or resource links.
+    </div>
+
+  </section>
+
+
+  <section class="tour-section">
+
+    <h2>Key Ideas From the Tour</h2>
+
+    <ol>
+      <li>
+        A small residential property can support far more edible diversity than
+        a conventional yard.
+      </li>
+      <li>
+        Vertical layering helps growers make better use of limited land.
+      </li>
+      <li>
+        Dense planting requires thoughtful placement and ongoing observation.
+      </li>
+      <li>
+        A food forest can function as both a productive landscape and a living
+        collection of unusual plants.
+      </li>
+      <li>
+        Abundance does not always mean owning more land—it can mean using the
+        space you already have more creatively.
+      </li>
+    </ol>
+
+  </section>
+
+
+  <section class="tour-section">
+
+    <h2>Products and Resources</h2>
+
+    <p>
+      Products, tools, nurseries, and resources genuinely connected to this
+      garden can eventually be added here. This could include pruning tools,
+      irrigation components, fertilizers, books, or sources for plants that
+      appear in the tour.
+    </p>
+
+    <p>
+      Future affiliate links should be added only when the product is relevant
+      to the tour or personally recommended by the grower.
+    </p>
+
+  </section>
+
+
+  <section class="tour-section">
+
+    <h2>Explore More Food Forest Tours</h2>
+
+    <p>
+      Continue exploring edible landscapes, tropical fruit collections, farms,
+      and community gardens from Florida and around the world.
+    </p>
+
+    <div class="tour-links">
+
+      <a class="tour-button" href="index.html">
+        Browse All Tours
+      </a>
+
+      <a
+        class="tour-button tour-button-secondary"
+        href="https://www.youtube.com/watch?v=1gj5_POLCNo"
+        target="_blank"
+        rel="noopener">
+        Watch on YouTube
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+```
