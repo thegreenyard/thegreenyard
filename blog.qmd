@@ -1,64 +1,19 @@
 ---
-layout: default
+title: "Journal"
+description: "Food forest tours, edible landscapes, tropical fruit, and growing stories from around the world."
+listing:
+  contents: _posts
+  sort: "date desc"
+  type: grid
+  fields:
+    - image
+    - title
+    - description
+    - date
+    - categories
+  categories: true
+  page-size: 12
+page-layout: full
 ---
 
-# Tropical Trees
-
-Welcome to our guide on plants that thrive in the Phoenix area! Here, you'll discover a variety of plants perfectly suited to the unique desert climate. Click on each image to explore more about how to grow, care for, and enjoy these resilient plants in your garden.
-
-| [![Mexican Papaya](images/Image.jpg)](https://thegreenyardaz.com/2024/09/24/mexican-papaya.html) | [![Fruit Punch Mango](images/Screen Shot 2024-08-09 at 10.10.37 AM.png)](https://yourblog.com/fruit-punch-mango) |
-|:--:|:--:|
-| **[Mexican Papaya](https://yourblog.com/mexican-papaya)** | **[Fruit Punch Mango](https://yourblog.com/fruit-punch-mango)** |
-
-
-<style>
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        justify-items: center;
-    }
-
-    .item {
-        border: 2px solid black; /* Black border around each square */
-        padding: 10px;
-        background-color: white;
-        transition: transform 0.2s;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center align items */
-        justify-content: flex-start; /* Align items at the top */
-    }
-
-    .item:hover {
-        transform: scale(1.05);
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-        max-width: 200px; /* Adjust this size as needed */
-        object-fit: cover;
-        border: 2px solid black; /* Thin black border around images */
-    }
-
-    h3 {
-        font-size: 18px;
-        color: #333;
-        margin-top: 10px; /* Add some space above the title */
-    }
-
-    /* Responsive layout for smaller screens */
-    @media (max-width: 768px) {
-        .grid-container {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-
-    @media (max-width: 480px) {
-        .grid-container {
-            grid-template-columns: 1fr;
-        }
-    }
-</style>
+Welcome to The Green Yard Journal—home to food forest tours, edible landscapes, growing lessons, species lists, and stories of abundance from around the world.
