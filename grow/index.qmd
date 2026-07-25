@@ -1,1 +1,21 @@
+---
+title: "Grow in Phoenix"
+description: "Follow The Green Yard food forest and learn how tropical fruit, edible landscapes, ponds, and irrigation systems perform in Phoenix."
+page-layout: full
+listing:
+  contents:
+    - "*.qmd"
+    - "!index.qmd"
+  sort: "date desc"
+  type: grid
+  fields:
+    - image
+    - title
+    - description
+    - date
+    - categories
+  categories: true
+  page-size: 12
+---
 
+Explore food forest updates, tropical fruit profiles, irrigation projects, ponds, seasonal lessons, and experiments from The Green Yard in Phoenix.
