@@ -694,21 +694,98 @@ page-layout: full
 <section id="gy-home-hero">
 
   <div class="gy-slideshow" aria-hidden="true">
- <img src="images/hero-12-mango-grower.jpg" class="gy-slide is-active" alt="" fetchpriority="high">
- <img src="images/hero-07-lima-community-garden.jpg" class="gy-slide" alt="">
-    <img src="images/hero-02-lima-urban-garden.jpg" class="gy-slide" alt="">
-<img src="images/hero-09-australia-garden-tour.jpg" class="gy-slide" alt="">
-    <img src="images/hero-10-peru-sand-dunes.jpg" class="gy-slide" alt="">
-    <img src="images/hero-05-california-orchard.jpg" class="gy-slide" alt="">
- <img src="images/hero-03-food-forest-tour.jpg" class="gy-slide" alt="">
-    <img src="images/hero-11-florida-orchard.jpg" class="gy-slide" alt="">
-    <img src="images/hero-04-florida-home-food-forest.jpg" class="gy-slide" alt="">
-    <img src="images/hero-08-backyard-food-forest.jpg" class="gy-slide" alt="">
-    <img src="images/hero-13-market-garden.jpg" class="gy-slide" alt="">
-    <img src="images/hero-16-garden-tour.jpg" class="gy-slide" alt="">
-    <img src="images/hero-17-home-garden-harvest.jpg" class="gy-slide" alt="">
-    <img src="images/hero-15-arizona-food-forest.jpg" class="gy-slide" alt="">
-    <img src="images/hero-14-phoenix-koi-pond.jpg" class="gy-slide" alt="">
+
+    <!-- CLOSE: person holding mangoes -->
+    <img
+      src="images/hero-12-mango-grower.jpg"
+      class="gy-slide is-active"
+      alt=""
+      fetchpriority="high">
+
+    <!-- WIDE: community garden -->
+    <img
+      src="images/hero-07-lima-community-garden.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- CLOSE: person with a garden harvest -->
+    <img
+      src="images/hero-17-home-garden-harvest.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- WIDE: Lima urban garden -->
+    <img
+      src="images/hero-02-lima-urban-garden.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- CLOSE: gardener or tour host -->
+    <img
+      src="images/hero-16-garden-tour.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- WIDE: Florida home food forest -->
+    <img
+      src="images/hero-04-florida-home-food-forest.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- CLOSE: market gardener -->
+    <img
+      src="images/hero-13-market-garden.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- WIDE: California orchard -->
+    <img
+      src="images/hero-05-california-orchard.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- CLOSE: food forest tour -->
+    <img
+      src="images/hero-03-food-forest-tour.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- WIDE: backyard food forest -->
+    <img
+      src="images/hero-08-backyard-food-forest.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- CLOSE: Australia garden tour -->
+    <img
+      src="images/hero-09-australia-garden-tour.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- WIDE: Florida orchard -->
+    <img
+      src="images/hero-11-florida-orchard.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- CLOSE: Arizona food forest -->
+    <img
+      src="images/hero-15-arizona-food-forest.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- WIDE: Phoenix koi pond -->
+    <img
+      src="images/hero-14-phoenix-koi-pond.jpg"
+      class="gy-slide"
+      alt="">
+
+    <!-- FINAL CINEMATIC LANDSCAPE -->
+    <img
+      src="images/hero-10-peru-sand-dunes.jpg"
+      class="gy-slide"
+      alt="">
+
   </div>
 
   <div class="gy-overlay"></div>
@@ -721,7 +798,10 @@ page-layout: full
     </p>
 
     <div class="gy-buttons">
-      <a class="gy-button gy-button-primary" href="videos.html">
+
+      <a
+        class="gy-button gy-button-primary"
+        href="tours/index.html">
         Explore the Tours
       </a>
 
@@ -732,6 +812,7 @@ page-layout: full
         rel="noopener">
         ▶ Watch on YouTube
       </a>
+
     </div>
 
   </div>
@@ -806,26 +887,22 @@ page-layout: full
 
           <p>
             Explore KC’s densely planted Florida food forest, where tropical
-            fruit trees, edible plants, and unusual species grow together on
-            just 0.17 acres.
+            fruit trees, edible plants, and unusual species grow together in
+            Tampa, Florida.
           </p>
 
           <a
             class="gy-watch-button"
-            href="https://www.youtube.com/watch?v=1gj5_POLCNo"
-            target="_blank"
-            rel="noopener">
-            ▶ Watch Now
+            href="tours/florida-food-forest-tropical-diversity.html">
+            Explore the Tour
           </a>
 
         </div>
 
         <a
           class="gy-tour-image"
-          href="https://www.youtube.com/watch?v=1gj5_POLCNo"
-          target="_blank"
-          rel="noopener"
-          aria-label="Watch the most recent Florida food forest tour">
+          href="tours/florida-food-forest-tropical-diversity.html"
+          aria-label="Explore the Florida food forest tour">
 
           <img
             src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
@@ -854,7 +931,7 @@ page-layout: full
 
       <div class="gy-location-grid">
 
-        <a class="gy-location-card" href="videos.html">
+        <a class="gy-location-card" href="tours/index.html">
           <img
             src="images/hero-01-san-diego-community-garden.jpg"
             alt="Phoenix, Arizona">
@@ -863,7 +940,7 @@ page-layout: full
           <span class="gy-location-link">Explore Tours →</span>
         </a>
 
-        <a class="gy-location-card" href="videos.html">
+        <a class="gy-location-card" href="tours/index.html">
           <img
             src="images/hero-08-backyard-food-forest.jpg"
             alt="Florida food forest and orchard">
@@ -872,7 +949,7 @@ page-layout: full
           <span class="gy-location-link">Explore Tours →</span>
         </a>
 
-        <a class="gy-location-card" href="videos.html">
+        <a class="gy-location-card" href="tours/index.html">
           <img
             src="images/hero-18-phoenix-skyline.jpg"
             alt="California community garden">
@@ -881,7 +958,7 @@ page-layout: full
           <span class="gy-location-link">Explore Tours →</span>
         </a>
 
-        <a class="gy-location-card" href="videos.html">
+        <a class="gy-location-card" href="tours/index.html">
           <img
             src="images/hero-09-australia-garden-tour.jpg"
             alt="Peru food-growing landscape">
@@ -890,7 +967,7 @@ page-layout: full
           <span class="gy-location-link">Explore Tours →</span>
         </a>
 
-        <a class="gy-location-card" href="videos.html">
+        <a class="gy-location-card" href="tours/index.html">
           <img
             src="images/hero-13-market-garden.jpg"
             alt="Gardener in South Korea">
