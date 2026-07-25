@@ -697,14 +697,14 @@ page-layout: full
 
     <!-- CLOSE: person holding mangoes -->
     <img
-      src="images/hero-12-mango-grower.jpg"
+      src="images/hero-07-lima-community-garden.jpg""images/hero-12-mango-grower.jpg"
       class="gy-slide is-active"
       alt=""
       fetchpriority="high">
 
     <!-- WIDE: community garden -->
     <img
-      src="images/hero-07-lima-community-garden.jpg"
+      src="images/hero-12-mango-grower.jpg"
       class="gy-slide"
       alt="">
 
