@@ -407,7 +407,96 @@ ul.task-list li input[type="checkbox"] {
   line-height: 1.55;
 }
 
+/* Plant collection preview */
+
+.species-overview {
+  margin: 25px 0 17px;
+  padding: 25px;
+  border-radius: 9px;
+  background: #f7f5ef;
+}
+
+.species-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.species-stat {
+  padding: 17px;
+  border: 1px solid rgba(7, 56, 44, 0.13);
+  border-radius: 7px;
+  background: #ffffff;
+}
+
+.species-stat-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #718a4a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+}
+
+.species-stat-value {
+  display: block;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.07rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.species-details {
+  margin-top: 15px;
+}
+
+.species-details summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 22px;
+  border-radius: 5px;
+  background: #174936;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+  list-style: none;
+  text-transform: uppercase;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.species-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.species-details summary:hover {
+  background: #286348;
+  transform: translateY(-2px);
+}
+
+.species-summary-open {
+  display: none;
+}
+
+.species-details[open] .species-summary-closed {
+  display: none;
+}
+
+.species-details[open] .species-summary-open {
+  display: inline;
+}
+
 .species-box {
+  margin-top: 22px;
   padding: 28px 30px;
   border-radius: 9px;
   background: #f7f5ef;
@@ -546,6 +635,10 @@ ul.task-list li input[type="checkbox"] {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .species-overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .species-list {
     columns: 2;
   }
@@ -568,12 +661,18 @@ ul.task-list li input[type="checkbox"] {
   .quick-facts,
   .learn-grid,
   .short-grid,
-  .link-grid {
+  .link-grid,
+  .species-overview-grid {
     grid-template-columns: 1fr;
   }
 
   .short-video {
     aspect-ratio: 9 / 14;
+  }
+
+  .species-details summary {
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .species-list {
@@ -837,140 +936,206 @@ Rather than seeing insects and wildlife as separate from the garden, Gonza Garde
 
 <section class="tour-section">
 
-<h2 class="anchored">Plants Seen During the Tour</h2>
+<h2 class="anchored">Plant Collection Featured in This Tour</h2>
 
 <p>
-The following plants and named varieties were mentioned during the backyard and side-yard tour.
+The backyard and side-yard tour includes dozens of tropical fruits, named cultivars, perennial vegetables, herbs, support plants, pollinator plants, and rare ornamentals.
 </p>
 
-<div class="species-box">
+<div class="species-overview">
 
-<h3 class="anchored">Mangoes</h3>
-<ul class="species-list">
-  <li>Fruit Punch mango</li>
-  <li>Coconut Cream mango</li>
-  <li>Pineapple Pleasure mango</li>
-  <li>Phoenix mango</li>
-  <li>Ice Cream mango</li>
-</ul>
+  <div class="species-overview-grid">
 
-<h3 class="anchored">Mulberries</h3>
-<ul class="species-list">
-  <li>Shangri-La mulberry</li>
-  <li>Chiang Mai 60 mulberry</li>
-  <li>Skinner mulberry</li>
-  <li>World’s Best mulberry</li>
-</ul>
+    <div class="species-stat">
+      <span class="species-stat-label">Mangoes</span>
+      <span class="species-stat-value">5 named varieties</span>
+    </div>
 
-<h3 class="anchored">Sapodillas</h3>
-<ul class="species-list">
-  <li>Silas Woods sapodilla</li>
-  <li>Mayok sapodilla</li>
-  <li>Morena sapodilla</li>
-  <li>Younghan’s sapodilla</li>
-  <li>Redlands sapodilla</li>
-  <li>Alano sapodilla</li>
-</ul>
+    <div class="species-stat">
+      <span class="species-stat-label">Sapodillas</span>
+      <span class="species-stat-value">6 named varieties</span>
+    </div>
 
-<h3 class="anchored">Avocados</h3>
-<ul class="species-list">
-  <li>Choquette avocado</li>
-  <li>Ronnie avocado</li>
-  <li>Simmonds avocado</li>
-  <li>Lula avocado</li>
-</ul>
+    <div class="species-stat">
+      <span class="species-stat-label">Mulberries</span>
+      <span class="species-stat-value">4 named varieties</span>
+    </div>
 
-<h3 class="anchored">White Sapotes and Related Fruit</h3>
-<ul class="species-list">
-  <li>Campbell white sapote</li>
-  <li>Zill’s World Gold white sapote</li>
-  <li>Whitman green sapote</li>
-  <li>Mamey sapote</li>
-</ul>
+    <div class="species-stat">
+      <span class="species-stat-label">Avocados</span>
+      <span class="species-stat-value">4 named varieties</span>
+    </div>
 
-<h3 class="anchored">Annonas</h3>
-<ul class="species-list">
-  <li>Custard apple</li>
-  <li>Sugar apple</li>
-  <li>Gefner atemoya</li>
-  <li>Canistel</li>
-  <li>Fitzpatrick canistel</li>
-</ul>
+    <div class="species-stat">
+      <span class="species-stat-label">Tropical Fruit</span>
+      <span class="species-stat-value">30+ plants and varieties</span>
+    </div>
 
-<h3 class="anchored">Additional Fruit Trees and Vines</h3>
-<ul class="species-list">
-  <li>Jaboticaba</li>
-  <li>Guava</li>
-  <li>China jackfruit</li>
-  <li>Golden Nugget jackfruit</li>
-  <li>Monkey jack</li>
-  <li>Cecropia, or gummy worm fruit</li>
-  <li>Lara purple star apple</li>
-  <li>Burgess star apple</li>
-  <li>Exposito star apple</li>
-  <li>Oliver loquat</li>
-  <li>Ice cream bean</li>
-  <li>Monstera deliciosa</li>
-  <li>Starfruit</li>
-  <li>Ackee</li>
-  <li>Cacao</li>
-  <li>Peanut butter fruit</li>
-  <li>Breadfruit</li>
-  <li>Sherbet berry, or falsa</li>
-  <li>Pitangatuba</li>
-  <li>Spanish lime, or mamoncillo</li>
-  <li>Barbados cherry</li>
-  <li>Triumph persimmon</li>
-  <li>Jujube</li>
-  <li>Dragon fruit</li>
-  <li>Haley’s Comet dragon fruit</li>
-  <li>Purple Haze dragon fruit</li>
-  <li>Passion fruit</li>
-  <li>Papaya</li>
-  <li>Pineapple</li>
-  <li>Sugarloaf pineapple</li>
-</ul>
+    <div class="species-stat">
+      <span class="species-stat-label">Edible Greens &amp; Herbs</span>
+      <span class="species-stat-value">16 plants</span>
+    </div>
 
-<h3 class="anchored">Edible Leaves, Herbs, and Support Plants</h3>
-<ul class="species-list">
-  <li>Moringa</li>
-  <li>Katuk</li>
-  <li>Longevity spinach</li>
-  <li>Okinawa spinach</li>
-  <li>Edible leaf hibiscus</li>
-  <li>South Sea salad tree</li>
-  <li>Lippia alba</li>
-  <li>False cardamom</li>
-  <li>Root beer plant</li>
-  <li>Shampoo ginger</li>
-  <li>Coffee</li>
-  <li>Thai pepper</li>
-  <li>Parsley</li>
-  <li>Dill</li>
-  <li>Tomato groundcover</li>
-  <li>Elderberry</li>
-</ul>
+    <div class="species-stat">
+      <span class="species-stat-label">Pollinator Plants</span>
+      <span class="species-stat-value">15 plants</span>
+    </div>
 
-<h3 class="anchored">Pollinator and Ornamental Plants</h3>
-<ul class="species-list">
-  <li>Firebush</li>
-  <li>Sapphire shower</li>
-  <li>Cestrum</li>
-  <li>Porterweed</li>
-  <li>Four o’clock</li>
-  <li>Powderpuff tree</li>
-  <li>Fireball mallow</li>
-  <li>Dutchman’s pipe</li>
-  <li>Chinese perfume plant</li>
-  <li>Queen’s wreath</li>
-  <li>Firespike</li>
-  <li>Starburst clerodendrum</li>
-  <li>Tahitian hat</li>
-  <li>Winter cassia</li>
-  <li>Bougainvillea</li>
-</ul>
+    <div class="species-stat">
+      <span class="species-stat-label">Growing Style</span>
+      <span class="species-stat-value">Dense, diverse and multilayered</span>
+    </div>
+
+  </div>
 
 </div>
+
+<details class="species-details">
+
+  <summary>
+    <span class="species-summary-closed">Show Complete Plant List</span>
+    <span class="species-summary-open">Hide Complete Plant List</span>
+  </summary>
+
+  <div class="species-box">
+
+    <h3 class="anchored">Mangoes</h3>
+
+    <ul class="species-list">
+      <li>Fruit Punch mango</li>
+      <li>Coconut Cream mango</li>
+      <li>Pineapple Pleasure mango</li>
+      <li>Phoenix mango</li>
+      <li>Ice Cream mango</li>
+    </ul>
+
+    <h3 class="anchored">Mulberries</h3>
+
+    <ul class="species-list">
+      <li>Shangri-La mulberry</li>
+      <li>Chiang Mai 60 mulberry</li>
+      <li>Skinner mulberry</li>
+      <li>World’s Best mulberry</li>
+    </ul>
+
+    <h3 class="anchored">Sapodillas</h3>
+
+    <ul class="species-list">
+      <li>Silas Woods sapodilla</li>
+      <li>Mayok sapodilla</li>
+      <li>Morena sapodilla</li>
+      <li>Younghan’s sapodilla</li>
+      <li>Redlands sapodilla</li>
+      <li>Alano sapodilla</li>
+    </ul>
+
+    <h3 class="anchored">Avocados</h3>
+
+    <ul class="species-list">
+      <li>Choquette avocado</li>
+      <li>Ronnie avocado</li>
+      <li>Simmonds avocado</li>
+      <li>Lula avocado</li>
+    </ul>
+
+    <h3 class="anchored">White Sapotes and Related Fruit</h3>
+
+    <ul class="species-list">
+      <li>Campbell white sapote</li>
+      <li>Zill’s World Gold white sapote</li>
+      <li>Whitman green sapote</li>
+      <li>Mamey sapote</li>
+    </ul>
+
+    <h3 class="anchored">Annonas</h3>
+
+    <ul class="species-list">
+      <li>Custard apple</li>
+      <li>Sugar apple</li>
+      <li>Gefner atemoya</li>
+      <li>Canistel</li>
+      <li>Fitzpatrick canistel</li>
+    </ul>
+
+    <h3 class="anchored">Additional Fruit Trees and Vines</h3>
+
+    <ul class="species-list">
+      <li>Jaboticaba</li>
+      <li>Guava</li>
+      <li>China jackfruit</li>
+      <li>Golden Nugget jackfruit</li>
+      <li>Monkey jack</li>
+      <li>Cecropia, or gummy worm fruit</li>
+      <li>Lara purple star apple</li>
+      <li>Burgess star apple</li>
+      <li>Exposito star apple</li>
+      <li>Oliver loquat</li>
+      <li>Ice cream bean</li>
+      <li>Monstera deliciosa</li>
+      <li>Starfruit</li>
+      <li>Ackee</li>
+      <li>Cacao</li>
+      <li>Peanut butter fruit</li>
+      <li>Breadfruit</li>
+      <li>Sherbet berry, or falsa</li>
+      <li>Pitangatuba</li>
+      <li>Spanish lime, or mamoncillo</li>
+      <li>Barbados cherry</li>
+      <li>Triumph persimmon</li>
+      <li>Jujube</li>
+      <li>Dragon fruit</li>
+      <li>Haley’s Comet dragon fruit</li>
+      <li>Purple Haze dragon fruit</li>
+      <li>Passion fruit</li>
+      <li>Papaya</li>
+      <li>Pineapple</li>
+      <li>Sugarloaf pineapple</li>
+    </ul>
+
+    <h3 class="anchored">Edible Leaves, Herbs, and Support Plants</h3>
+
+    <ul class="species-list">
+      <li>Moringa</li>
+      <li>Katuk</li>
+      <li>Longevity spinach</li>
+      <li>Okinawa spinach</li>
+      <li>Edible leaf hibiscus</li>
+      <li>South Sea salad tree</li>
+      <li>Lippia alba</li>
+      <li>False cardamom</li>
+      <li>Root beer plant</li>
+      <li>Shampoo ginger</li>
+      <li>Coffee</li>
+      <li>Thai pepper</li>
+      <li>Parsley</li>
+      <li>Dill</li>
+      <li>Tomato groundcover</li>
+      <li>Elderberry</li>
+    </ul>
+
+    <h3 class="anchored">Pollinator and Ornamental Plants</h3>
+
+    <ul class="species-list">
+      <li>Firebush</li>
+      <li>Sapphire shower</li>
+      <li>Cestrum</li>
+      <li>Porterweed</li>
+      <li>Four o’clock</li>
+      <li>Powderpuff tree</li>
+      <li>Fireball mallow</li>
+      <li>Dutchman’s pipe</li>
+      <li>Chinese perfume plant</li>
+      <li>Queen’s wreath</li>
+      <li>Firespike</li>
+      <li>Starburst clerodendrum</li>
+      <li>Tahitian hat</li>
+      <li>Winter cassia</li>
+      <li>Bougainvillea</li>
+    </ul>
+
+  </div>
+
+</details>
 
 </section>
 
