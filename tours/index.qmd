@@ -9,515 +9,867 @@ listing:
     - "!index.qmd"
   sort: "date desc"
   type: grid
+  grid-columns: 3
   fields:
     - image
     - title
     - description
     - date
-    - categories
-  categories: true
+  categories: false
+  filter-ui: false
+  sort-ui: false
   page-size: 12
 ---
 
 ```{=html}
 <style>
-.tours-landing {
-  max-width: 1220px;
-  margin: 0 auto;
-  padding: 0 24px 80px;
-}
+  /* =========================================================
+     TOURS LANDING PAGE — FULL-WIDTH LAYOUT
+     ========================================================= */
 
-.tours-hero {
-  position: relative;
-  overflow: hidden;
-  margin: 10px 0 64px;
-  padding: 72px 58px;
-  border-radius: 14px;
-  background:
-    linear-gradient(
-      90deg,
-      rgba(5, 45, 34, 0.96) 0%,
-      rgba(5, 45, 34, 0.88) 48%,
-      rgba(5, 45, 34, 0.44) 100%
-    ),
-    url("https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg")
-    center / cover no-repeat;
-  box-shadow: 0 18px 42px rgba(7, 56, 44, 0.18);
-}
-
-.tours-hero-content {
-  max-width: 700px;
-}
-
-.tours-kicker {
-  display: inline-block;
-  margin-bottom: 16px;
-  color: #d9e8a9;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
-}
-
-.tours-hero h2 {
-  margin: 0 0 20px;
-  color: #ffffff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.5rem, 5vw, 4.9rem);
-  font-weight: 600;
-  line-height: 1.04;
-}
-
-.tours-hero p {
-  max-width: 650px;
-  margin: 0 0 28px;
-  color: rgba(255, 255, 255, 0.91);
-  font-size: 1.15rem;
-  line-height: 1.7;
-}
-
-.tours-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 50px;
-  padding: 13px 23px;
-  border-radius: 5px;
-  background: #ffffff;
-  color: #123d2d !important;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-decoration: none !important;
-  text-transform: uppercase;
-}
-
-.landing-section {
-  margin: 68px 0;
-}
-
-.section-heading {
-  max-width: 780px;
-  margin-bottom: 30px;
-}
-
-.section-label {
-  display: block;
-  margin-bottom: 8px;
-  color: #718a4a;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.73rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.section-heading h2 {
-  margin: 0 0 13px;
-  color: #143d2f;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2rem, 4vw, 3.1rem);
-  line-height: 1.12;
-}
-
-.section-heading p {
-  margin: 0;
-  color: #53645d;
-  font-size: 1.06rem;
-  line-height: 1.7;
-}
-
-.featured-tour {
-  display: grid;
-  grid-template-columns: minmax(420px, 57%) 1fr;
-  overflow: hidden;
-  border: 1px solid rgba(7, 56, 44, 0.14);
-  border-radius: 13px;
-  background: #f7f5ef;
-  box-shadow: 0 12px 32px rgba(18, 47, 36, 0.09);
-}
-
-.featured-media {
-  position: relative;
-  min-height: 390px;
-  background: #082f25;
-}
-
-.featured-media img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.featured-copy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 42px;
-}
-
-.featured-copy .featured-label {
-  margin-bottom: 12px;
-  color: #718a4a;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
-}
-
-.featured-copy h3 {
-  margin: 0 0 17px;
-  color: #153e30;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.8rem, 3vw, 2.55rem);
-  line-height: 1.15;
-}
-
-.featured-copy p {
-  margin: 0 0 22px;
-  color: #4e6058;
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-.featured-details {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 9px;
-  margin-bottom: 22px;
-}
-
-.featured-detail {
-  padding: 7px 10px;
-  border: 1px solid rgba(7, 56, 44, 0.18);
-  border-radius: 999px;
-  color: #39574b;
-  background: rgba(255, 255, 255, 0.62);
-  font-size: 0.78rem;
-  font-weight: 700;
-}
-
-.featured-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-start;
-  min-height: 48px;
-  padding: 12px 21px;
-  border-radius: 5px;
-  background: #174936;
-  color: #ffffff !important;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  text-decoration: none !important;
-  text-transform: uppercase;
-}
-
-.location-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.location-card {
-  display: flex;
-  align-items: flex-end;
-  min-height: 190px;
-  padding: 22px;
-  overflow: hidden;
-  border-radius: 10px;
-  color: #ffffff !important;
-  text-decoration: none !important;
-  background:
-    linear-gradient(
-      180deg,
-      rgba(5, 45, 34, 0.04),
-      rgba(5, 45, 34, 0.9)
-    ),
-    var(--location-image) center / cover no-repeat;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.location-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 28px rgba(18, 47, 36, 0.16);
-}
-
-.location-card span {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-.location-florida {
-  --location-image:
-    url("https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg");
-}
-
-.location-arizona {
-  --location-image:
-    url("https://img.youtube.com/vi/x9dIR1FEESI/maxresdefault.jpg");
-}
-
-.location-california {
-  --location-image:
-    linear-gradient(135deg, #41694f, #173f30);
-}
-
-.location-peru {
-  --location-image:
-    linear-gradient(135deg, #8ca34c, #365a3f);
-}
-
-.location-korea {
-  --location-image:
-    linear-gradient(135deg, #657c69, #183d31);
-}
-
-.mission-box {
-  display: grid;
-  grid-template-columns: minmax(250px, 34%) 1fr;
-  gap: 42px;
-  align-items: center;
-  padding: 45px;
-  border-radius: 12px;
-  background: #123d2d;
-}
-
-.mission-box h2 {
-  margin: 0;
-  color: #ffffff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2rem, 4vw, 3.3rem);
-  line-height: 1.12;
-}
-
-.mission-box p {
-  margin: 0;
-  color: rgba(255, 255, 255, 0.88);
-  font-size: 1.08rem;
-  line-height: 1.8;
-}
-
-/* Quarto's automatic listing section */
-
-#listing-listing {
-  margin-top: 20px;
-}
-
-.quarto-listing {
-  margin-top: 25px;
-}
-
-.quarto-grid-item {
-  overflow: hidden;
-  border: 1px solid rgba(7, 56, 44, 0.13) !important;
-  border-radius: 10px !important;
-  background: #ffffff;
-  box-shadow: 0 8px 22px rgba(18, 47, 36, 0.07);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.quarto-grid-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 13px 28px rgba(18, 47, 36, 0.12);
-}
-
-.quarto-grid-item img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-
-.quarto-grid-item .card-title {
-  color: #153e30;
-  font-family: Georgia, "Times New Roman", serif;
-  line-height: 1.25;
-}
-
-.quarto-grid-item .card-text {
-  color: #53645d;
-  line-height: 1.6;
-}
-
-@media (max-width: 1000px) {
-  .featured-tour {
-    grid-template-columns: 1fr;
+  body:has(#gy-tours-hero) {
+    overflow-x: hidden !important;
   }
 
-  .featured-media {
-    min-height: auto;
+  body:has(#gy-tours-hero) #title-block-header,
+  body:has(#gy-tours-hero) .quarto-title-block {
+    display: none !important;
   }
 
-  .featured-media img {
-    height: auto;
+  body:has(#gy-tours-hero) #quarto-content,
+  body:has(#gy-tours-hero) main.content,
+  body:has(#gy-tours-hero) .page-columns,
+  body:has(#gy-tours-hero) .content,
+  body:has(#gy-tours-hero) .content-block {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
-  .location-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 700px) {
-  .tours-landing {
-    padding: 0 18px 60px;
+  body:has(#gy-tours-hero) main.content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
   }
 
-  .tours-hero {
-    padding: 48px 27px;
+
+  /* =========================================================
+     FULL-WIDTH ROTATING HERO
+     ========================================================= */
+
+  #gy-tours-hero {
+    position: relative;
+
+    width: 100vw !important;
+    max-width: none !important;
+
+    left: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: 0 !important;
+    margin-top: 10px;
+
+    min-height: 610px;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    isolation: isolate;
+
+    background: #082f24;
   }
 
-  .featured-copy {
-    padding: 28px 24px 32px;
+  #gy-tours-hero .gy-tours-slideshow {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
   }
 
-  .location-grid {
-    grid-template-columns: 1fr;
+  #gy-tours-hero .gy-tours-slide {
+    position: absolute;
+    inset: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    object-fit: cover;
+    object-position: center;
+
+    opacity: 0;
+    transform: scale(1.02);
+
+    transition: opacity 1.5s ease-in-out;
+    animation: gyToursHeroZoom 12s ease-out infinite alternate;
+
+    pointer-events: none;
   }
 
-  .location-card {
-    min-height: 170px;
+  #gy-tours-hero .gy-tours-slide.is-active {
+    opacity: 1;
   }
 
-  .mission-box {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 31px 25px;
+  @keyframes gyToursHeroZoom {
+    from {
+      transform: scale(1.02);
+    }
+
+    to {
+      transform: scale(1.08);
+    }
   }
-}
+
+  #gy-tours-hero .gy-tours-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+
+    background:
+      linear-gradient(
+        90deg,
+        rgba(3, 29, 22, 0.96) 0%,
+        rgba(3, 29, 22, 0.83) 38%,
+        rgba(3, 29, 22, 0.47) 67%,
+        rgba(3, 29, 22, 0.18) 100%
+      );
+
+    pointer-events: none;
+  }
+
+  #gy-tours-hero .gy-tours-content {
+    position: relative;
+    z-index: 2;
+
+    width: min(790px, 90%);
+    margin-left: max(5vw, 45px);
+    padding: 75px 0;
+
+    color: #ffffff;
+  }
+
+  .gy-tours-kicker {
+    display: block;
+    margin: 0 0 17px;
+
+    color: #d6ed91;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.36);
+  }
+
+  #gy-tours-hero h1 {
+    max-width: 790px;
+    margin: 0 0 24px !important;
+
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(43px, 4.6vw, 72px) !important;
+    font-weight: 600 !important;
+    line-height: 1.04 !important;
+    letter-spacing: -0.025em !important;
+    text-transform: none !important;
+
+    text-shadow: 0 3px 13px rgba(0, 0, 0, 0.46);
+  }
+
+  #gy-tours-hero p {
+    max-width: 690px;
+    margin: 0 0 32px;
+
+    color: rgba(255, 255, 255, 0.96);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 1.65;
+
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.38);
+  }
+
+  .gy-tours-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 54px;
+    padding: 14px 25px;
+
+    color: #ffffff !important;
+    background: #256844;
+    border: 1px solid #256844;
+    border-radius: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.045em;
+    text-decoration: none !important;
+    text-transform: uppercase;
+
+    transition:
+      transform 0.2s ease,
+      background-color 0.2s ease;
+  }
+
+  .gy-tours-button:hover {
+    color: #ffffff !important;
+    background: #317b53;
+    transform: translateY(-2px);
+  }
+
+
+  /* =========================================================
+     PAGE CONTENT
+     ========================================================= */
+
+  .gy-tours-main {
+    width: min(1500px, calc(100% - 56px));
+    margin: 0 auto;
+    padding: 76px 0 28px;
+  }
+
+  .gy-section-heading {
+    max-width: 850px;
+    margin: 0 0 33px;
+  }
+
+  .gy-section-label {
+    display: block;
+    margin: 0 0 10px;
+
+    color: #597548;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .gy-section-heading h2 {
+    margin: 0 0 15px !important;
+
+    color: #17382c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(34px, 3.5vw, 52px) !important;
+    font-weight: 600 !important;
+    line-height: 1.1 !important;
+    letter-spacing: -0.02em !important;
+    text-transform: none !important;
+  }
+
+  .gy-section-heading p {
+    max-width: 790px;
+    margin: 0;
+
+    color: #52615b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+
+  /* =========================================================
+     BROWSE BY LOCATION
+     ========================================================= */
+
+  .gy-location-section {
+    margin: 0 0 78px;
+  }
+
+  .gy-location-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 17px;
+  }
+
+  .gy-location-card {
+    position: relative;
+
+    display: block;
+    min-height: 260px;
+
+    overflow: hidden;
+    border-radius: 7px;
+
+    color: #ffffff !important;
+    background: #17382c;
+    text-decoration: none !important;
+
+    box-shadow: 0 9px 25px rgba(18, 47, 36, 0.13);
+
+    transition:
+      transform 0.22s ease,
+      box-shadow 0.22s ease;
+  }
+
+  .gy-location-card img {
+    position: absolute;
+    inset: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.55s ease;
+  }
+
+  .gy-location-card::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background:
+      linear-gradient(
+        to top,
+        rgba(3, 29, 22, 0.95) 0%,
+        rgba(3, 29, 22, 0.42) 55%,
+        rgba(3, 29, 22, 0.06) 100%
+      );
+  }
+
+  .gy-location-copy {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 19px;
+    z-index: 2;
+  }
+
+  .gy-location-name {
+    display: block;
+    margin-bottom: 7px;
+
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+
+  .gy-location-link {
+    display: block;
+
+    color: #d6ed91;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .gy-location-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 31px rgba(18, 47, 36, 0.18);
+  }
+
+  .gy-location-card:hover img {
+    transform: scale(1.07);
+  }
+
+
+  /* =========================================================
+     MISSION
+     ========================================================= */
+
+  .gy-tour-mission {
+    display: grid;
+    grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
+    gap: clamp(35px, 5vw, 78px);
+    align-items: center;
+
+    margin: 0 0 82px;
+    padding: clamp(37px, 5vw, 64px);
+
+    border-radius: 9px;
+    background: #123d2d;
+  }
+
+  .gy-tour-mission h2 {
+    margin: 0 !important;
+
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(34px, 3.6vw, 54px) !important;
+    font-weight: 600 !important;
+    line-height: 1.09 !important;
+    letter-spacing: -0.025em !important;
+    text-transform: none !important;
+  }
+
+  .gy-tour-mission p {
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+
+  /* =========================================================
+     AUTOMATIC QUARTO TOUR LISTING
+     ========================================================= */
+
+  .gy-library-intro {
+    width: min(1500px, calc(100% - 56px));
+    margin: 0 auto;
+    padding: 0 0 4px;
+  }
+
+  #listing-listing,
+  .quarto-listing-container-default {
+    width: min(1500px, calc(100% - 56px));
+    max-width: 1500px !important;
+    margin: 0 auto 90px !important;
+    padding: 0 !important;
+  }
+
+  .quarto-listing {
+    margin-top: 25px !important;
+  }
+
+  .quarto-listing .grid {
+    gap: 25px !important;
+  }
+
+  .quarto-grid-item {
+    overflow: hidden;
+
+    border: 1px solid rgba(7, 56, 44, 0.13) !important;
+    border-radius: 9px !important;
+
+    background: #ffffff !important;
+    box-shadow: 0 8px 24px rgba(18, 47, 36, 0.08);
+
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .quarto-grid-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 31px rgba(18, 47, 36, 0.14);
+  }
+
+  .quarto-grid-item .card-img-top,
+  .quarto-grid-item img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+  }
+
+  .quarto-grid-item .card-body {
+    padding: 22px !important;
+  }
+
+  .quarto-grid-item .card-title {
+    margin-bottom: 11px !important;
+
+    color: #153e30 !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 23px !important;
+    font-weight: 600 !important;
+    line-height: 1.22 !important;
+    text-transform: none !important;
+  }
+
+  .quarto-grid-item .card-text {
+    color: #53645d !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+  }
+
+  .quarto-grid-item .listing-date {
+    color: #718078 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+  }
+
+
+  /* =========================================================
+     TABLET
+     ========================================================= */
+
+  @media (max-width: 1050px) {
+    .gy-location-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .gy-tour-mission {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+
+
+  /* =========================================================
+     MOBILE
+     ========================================================= */
+
+  @media (max-width: 700px) {
+    #gy-tours-hero {
+      min-height: 610px;
+      align-items: flex-end;
+    }
+
+    #gy-tours-hero .gy-tours-slide {
+      animation: none;
+    }
+
+    #gy-tours-hero .gy-tours-overlay {
+      background: rgba(3, 29, 22, 0.7);
+    }
+
+    #gy-tours-hero .gy-tours-content {
+      width: 100%;
+      margin: 0;
+      padding: 50px 24px 45px;
+      box-sizing: border-box;
+    }
+
+    #gy-tours-hero h1 {
+      font-size: clamp(39px, 11vw, 52px) !important;
+      line-height: 1.04 !important;
+    }
+
+    #gy-tours-hero p {
+      max-width: 100%;
+      font-size: 16px;
+      line-height: 1.58;
+    }
+
+    .gy-tours-button {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .gy-tours-main,
+    .gy-library-intro,
+    #listing-listing,
+    .quarto-listing-container-default {
+      width: calc(100% - 40px);
+    }
+
+    .gy-tours-main {
+      padding-top: 58px;
+    }
+
+    .gy-location-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .gy-location-card {
+      min-height: 245px;
+    }
+
+    .gy-location-name {
+      font-size: 27px;
+    }
+
+    .gy-tour-mission {
+      margin-bottom: 64px;
+      padding: 33px 25px;
+    }
+  }
+
+
+  /* =========================================================
+     REDUCED MOTION
+     ========================================================= */
+
+  @media (prefers-reduced-motion: reduce) {
+    #gy-tours-hero .gy-tours-slide {
+      animation: none;
+      transition: opacity 0.4s ease;
+    }
+  }
 </style>
 
-<main class="tours-landing">
 
-<section class="tours-hero">
+<section id="gy-tours-hero">
 
-  <div class="tours-hero-content">
+  <div class="gy-tours-slideshow" aria-hidden="true">
 
-    <span class="tours-kicker">The Green Yard Tour Library</span>
+    <img
+      src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+      class="gy-tours-slide is-active"
+      alt=""
+      fetchpriority="high"
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/1gj5_POLCNo/hqdefault.jpg';">
 
-    <h2>Explore How People Grow Abundance</h2>
+    <img
+      src="https://img.youtube.com/vi/t-EeESLWNug/maxresdefault.jpg"
+      class="gy-tours-slide"
+      alt=""
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/t-EeESLWNug/hqdefault.jpg';">
+
+    <img
+      src="https://img.youtube.com/vi/n6hO-1f6b14/maxresdefault.jpg"
+      class="gy-tours-slide"
+      alt=""
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/n6hO-1f6b14/hqdefault.jpg';">
+
+    <img
+      src="https://img.youtube.com/vi/x9dIR1FEESI/maxresdefault.jpg"
+      class="gy-tours-slide"
+      alt=""
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/x9dIR1FEESI/hqdefault.jpg';">
+
+    <img
+      src="https://img.youtube.com/vi/4AXnFuf0Dcg/maxresdefault.jpg"
+      class="gy-tours-slide"
+      alt=""
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/4AXnFuf0Dcg/hqdefault.jpg';">
+
+    <img
+      src="https://img.youtube.com/vi/oGXmSJEknys/maxresdefault.jpg"
+      class="gy-tours-slide"
+      alt=""
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/oGXmSJEknys/hqdefault.jpg';">
+
+    <img
+      src="https://img.youtube.com/vi/86bjveaF95Y/maxresdefault.jpg"
+      class="gy-tours-slide"
+      alt=""
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/86bjveaF95Y/hqdefault.jpg';">
+
+    <img
+      src="https://img.youtube.com/vi/Ik65QaitMdU/maxresdefault.jpg"
+      class="gy-tours-slide"
+      alt=""
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/Ik65QaitMdU/hqdefault.jpg';">
+
+    <img
+      src="https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg"
+      class="gy-tours-slide"
+      alt=""
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/0uxQGmZKBeI/hqdefault.jpg';">
+
+    <img
+      src="https://img.youtube.com/vi/GQN0aOzeB80/maxresdefault.jpg"
+      class="gy-tours-slide"
+      alt=""
+      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/GQN0aOzeB80/hqdefault.jpg';">
+
+  </div>
+
+  <div class="gy-tours-overlay"></div>
+
+  <div class="gy-tours-content">
+
+    <span class="gy-tours-kicker">
+      The Green Yard Tour Library
+    </span>
+
+    <h1>
+      Explore Abundance Around the World
+    </h1>
 
     <p>
-      Step inside food forests, edible landscapes, farms, orchards, and community gardens from around the world. Meet the people who created them and discover the plants, techniques, and ideas that make each place unique.
+      Step inside food forests, edible landscapes, farms, orchards, and
+      community gardens—and meet the people creating abundance through
+      plants and food in different places.
     </p>
 
-    <a class="tours-button" href="#all-tours">
-      Explore the Tours
+    <a class="gy-tours-button" href="#all-tours">
+      Explore All Tours
     </a>
 
   </div>
 
 </section>
 
-<section class="landing-section">
 
-  <div class="section-heading">
-    <span class="section-label">Featured Tour</span>
-    <h2>Inside Gonza Gardens in Tampa</h2>
-    <p>
-      Begin with our newest complete tour page, featuring the backyard of a densely planted tropical food forest in USDA Zone 10A.
-    </p>
-  </div>
+<main class="gy-tours-main">
 
-  <article class="featured-tour">
+  <section class="gy-location-section">
 
-    <div class="featured-media">
-      <img
-        src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
-        alt="Gonza Gardens tropical food forest tour in Tampa, Florida">
-    </div>
+    <div class="gy-section-heading">
 
-    <div class="featured-copy">
+      <span class="gy-section-label">
+        Browse the World
+      </span>
 
-      <span class="featured-label">Gonza Gardens · Part 2</span>
-
-      <h3>This Florida Food Forest Is PACKED with Tropical Diversity!</h3>
+      <h2>
+        Explore by Location
+      </h2>
 
       <p>
-        Join KC in the backyard and side yard of Gonza Gardens, where mangoes, sapodillas, avocados, perennial vegetables, pollinator plants, and rare ornamentals fill nearly every available space.
+        Discover how climate, culture, people, and place shape edible
+        landscapes across the United States and around the world.
       </p>
 
-      <div class="featured-details">
-        <span class="featured-detail">Tampa, Florida</span>
-        <span class="featured-detail">Zone 10A</span>
-        <span class="featured-detail">Tropical fruit</span>
-        <span class="featured-detail">High-density planting</span>
-      </div>
+    </div>
 
-      <a
-        class="featured-link"
-        href="florida-food-forest-tropical-diversity.html">
-        Explore This Tour
+    <div class="gy-location-grid">
+
+      <a class="gy-location-card" href="#all-tours">
+
+        <img
+          src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+          alt="Food forest tour in Florida"
+          onerror="this.onerror=null;this.src='https://img.youtube.com/vi/1gj5_POLCNo/hqdefault.jpg';">
+
+        <span class="gy-location-copy">
+          <span class="gy-location-name">Florida</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </span>
+
+      </a>
+
+
+      <a class="gy-location-card" href="#all-tours">
+
+        <img
+          src="https://img.youtube.com/vi/n6hO-1f6b14/maxresdefault.jpg"
+          alt="Food forest tour in Arizona"
+          onerror="this.onerror=null;this.src='https://img.youtube.com/vi/n6hO-1f6b14/hqdefault.jpg';">
+
+        <span class="gy-location-copy">
+          <span class="gy-location-name">Arizona</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </span>
+
+      </a>
+
+
+      <a class="gy-location-card" href="#all-tours">
+
+        <img
+          src="https://img.youtube.com/vi/4AXnFuf0Dcg/maxresdefault.jpg"
+          alt="Edible landscape tour in California"
+          onerror="this.onerror=null;this.src='https://img.youtube.com/vi/4AXnFuf0Dcg/hqdefault.jpg';">
+
+        <span class="gy-location-copy">
+          <span class="gy-location-name">California</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </span>
+
+      </a>
+
+
+      <a class="gy-location-card" href="#all-tours">
+
+        <img
+          src="https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg"
+          alt="Food-growing landscape in Peru"
+          onerror="this.onerror=null;this.src='https://img.youtube.com/vi/0uxQGmZKBeI/hqdefault.jpg';">
+
+        <span class="gy-location-copy">
+          <span class="gy-location-name">Peru</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </span>
+
+      </a>
+
+
+      <a class="gy-location-card" href="#all-tours">
+
+        <img
+          src="https://img.youtube.com/vi/GQN0aOzeB80/maxresdefault.jpg"
+          alt="Community garden tour in South Korea"
+          onerror="this.onerror=null;this.src='https://img.youtube.com/vi/GQN0aOzeB80/hqdefault.jpg';">
+
+        <span class="gy-location-copy">
+          <span class="gy-location-name">South Korea</span>
+          <span class="gy-location-link">Explore Tours →</span>
+        </span>
+
       </a>
 
     </div>
 
-  </article>
+  </section>
 
-</section>
 
-<section class="landing-section">
+  <section class="gy-tour-mission">
 
-  <div class="section-heading">
-    <span class="section-label">Browse the World</span>
-    <h2>Explore by Location</h2>
+    <h2>
+      What Does Abundance Look Like Around the World?
+    </h2>
+
     <p>
-      The library will continue growing as The Green Yard documents edible landscapes across the United States and around the world.
+      There is no single way to create an abundant landscape. Some people
+      transform a small front yard, while others manage farms, orchards,
+      nurseries, community gardens, or tropical food forests. The Green Yard
+      documents those different approaches while keeping the people and their
+      stories at the center of every tour.
     </p>
-  </div>
 
-  <div class="location-grid">
-
-    <a class="location-card location-florida" href="#all-tours">
-      <span>Florida</span>
-    </a>
-
-    <a class="location-card location-arizona" href="#all-tours">
-      <span>Arizona</span>
-    </a>
-
-    <a class="location-card location-california" href="#all-tours">
-      <span>California</span>
-    </a>
-
-    <a class="location-card location-peru" href="#all-tours">
-      <span>Peru</span>
-    </a>
-
-    <a class="location-card location-korea" href="#all-tours">
-      <span>South Korea</span>
-    </a>
-
-  </div>
-
-</section>
-
-<section class="landing-section mission-box">
-
-  <h2>What Does Abundance Look Like Around the World?</h2>
-
-  <p>
-    There is no single way to create an abundant landscape. Some people transform a small front yard, while others manage farms, community gardens, orchards, or tropical food forests. The Green Yard documents those different approaches and shares the people and stories behind them.
-  </p>
-
-</section>
-
-<section id="all-tours" class="landing-section">
-
-  <div class="section-heading">
-    <span class="section-label">The Complete Library</span>
-    <h2>Explore All Tours</h2>
-    <p>
-      Browse every completed tour page. New destinations will automatically appear here as they are added.
-    </p>
-  </div>
-
-</section>
+  </section>
 
 </main>
+
+
+<section id="all-tours" class="gy-library-intro">
+
+  <div class="gy-section-heading">
+
+    <span class="gy-section-label">
+      The Complete Library
+    </span>
+
+    <h2>
+      Explore All Tours
+    </h2>
+
+    <p>
+      Browse every completed tour profile. New tours will automatically appear
+      here as the library grows.
+    </p>
+
+  </div>
+
+</section>
+
+
+<script>
+(function () {
+  function startToursSlideshow() {
+    const slides = document.querySelectorAll(
+      "#gy-tours-hero .gy-tours-slide"
+    );
+
+    if (slides.length < 2) {
+      return;
+    }
+
+    let current = 0;
+
+    window.setInterval(function () {
+      slides[current].classList.remove("is-active");
+      current = (current + 1) % slides.length;
+      slides[current].classList.add("is-active");
+    }, 6500);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      startToursSlideshow
+    );
+  } else {
+    startToursSlideshow();
+  }
+})();
+</script>
 ```
