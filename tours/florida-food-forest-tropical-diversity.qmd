@@ -18,18 +18,17 @@ toc-location: right
 
 ```{=html}
 <style>
+
+/* Hide Quarto's automatic title area so the video can appear first */
+.quarto-title-block,
+#title-block-header {
+  display: none !important;
+}
+
 .tour-page {
   max-width: 1180px;
   margin: 0 auto;
-  padding-bottom: 70px;
-}
-
-.tour-lead {
-  max-width: 900px;
-  margin: 0 0 40px;
-  color: #4b5e56;
-  font-size: 1.18rem;
-  line-height: 1.75;
+  padding: 26px 0 70px;
 }
 
 .video-wrap {
@@ -37,7 +36,7 @@ toc-location: right
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  margin: 0 0 34px;
+  margin: 0 0 42px;
   border-radius: 10px;
   background: #082f25;
   box-shadow: 0 14px 34px rgba(7, 56, 44, 0.16);
@@ -49,6 +48,79 @@ toc-location: right
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.tour-header {
+  max-width: 1050px;
+  margin: 0 0 42px;
+}
+
+.tour-header h1 {
+  margin: 0 0 20px;
+  color: #17221e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(2.25rem, 5vw, 4.25rem);
+  font-weight: 400;
+  letter-spacing: 0.035em;
+  line-height: 1.08;
+  text-transform: uppercase;
+}
+
+.tour-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 18px;
+}
+
+.tour-category {
+  display: inline-flex;
+  padding: 7px 12px;
+  border: 1px solid #aeb5b1;
+  border-radius: 5px;
+  color: #707873;
+  background: #ffffff;
+  font-size: 0.77rem;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.tour-description {
+  max-width: 1050px;
+  margin: 0 0 25px;
+  color: #59625f;
+  font-size: 1.13rem;
+  line-height: 1.65;
+}
+
+.tour-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  max-width: 720px;
+  gap: 26px;
+}
+
+.meta-label {
+  display: block;
+  margin-bottom: 4px;
+  color: #858c89;
+  font-size: 0.79rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.meta-value {
+  color: #59625f;
+  font-size: 1rem;
+}
+
+.tour-lead {
+  max-width: 900px;
+  margin: 0 0 40px;
+  color: #4b5e56;
+  font-size: 1.18rem;
+  line-height: 1.75;
 }
 
 .quick-facts {
@@ -128,7 +200,7 @@ toc-location: right
   overflow: hidden;
   border: 1px solid rgba(7, 56, 44, 0.14);
   border-radius: 9px;
-  background: white;
+  background: #ffffff;
   box-shadow: 0 8px 22px rgba(18, 47, 36, 0.08);
 }
 
@@ -212,7 +284,7 @@ toc-location: right
   padding: 21px;
   border: 1px solid rgba(7, 56, 44, 0.14);
   border-radius: 8px;
-  background: white;
+  background: #ffffff;
   color: #173f30 !important;
   text-decoration: none !important;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -250,8 +322,6 @@ toc-location: right
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 310px;
-  padding: 0;
   background: #082f25;
 }
 
@@ -259,7 +329,6 @@ toc-location: right
   display: block;
   width: 100%;
   height: auto;
-  max-height: 100%;
   object-fit: contain;
 }
 
@@ -292,7 +361,7 @@ toc-location: right
   padding: 12px 21px;
   border-radius: 5px;
   background: #174936;
-  color: white !important;
+  color: #ffffff !important;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.04em;
@@ -316,18 +385,18 @@ toc-location: right
   .part-one {
     grid-template-columns: 1fr;
   }
-
-  .part-one-image {
-    min-height: auto;
-  }
-
-  .part-one img {
-    width: 100%;
-    height: auto;
-  }
 }
 
 @media (max-width: 680px) {
+  .tour-page {
+    padding-top: 12px;
+  }
+
+  .tour-header h1 {
+    font-size: 2.1rem;
+  }
+
+  .tour-meta,
   .quick-facts,
   .learn-grid,
   .short-grid,
@@ -359,6 +428,39 @@ toc-location: right
     allowfullscreen>
   </iframe>
 </div>
+
+<header class="tour-header">
+
+  <h1>This Florida Food Forest Is PACKED with Tropical Diversity!</h1>
+
+  <div class="tour-categories">
+    <span class="tour-category">Florida</span>
+    <span class="tour-category">Tampa</span>
+    <span class="tour-category">Food Forest Tours</span>
+    <span class="tour-category">Tropical Fruit</span>
+    <span class="tour-category">Zone 10A</span>
+    <span class="tour-category">Gonza Gardens</span>
+  </div>
+
+  <p class="tour-description">
+    Tour the backyard of Gonza Gardens in Tampa, Florida, where KC grows an extraordinary collection of tropical fruit, perennial vegetables, pollinator plants, and rare ornamentals in USDA Zone 10A.
+  </p>
+
+  <div class="tour-meta">
+
+    <div>
+      <span class="meta-label">Host</span>
+      <span class="meta-value">KC at Gonza Gardens</span>
+    </div>
+
+    <div>
+      <span class="meta-label">Published</span>
+      <span class="meta-value">July 10, 2026</span>
+    </div>
+
+  </div>
+
+</header>
 
 <p class="tour-lead">
 In Part 2 of our visit to Gonza Gardens, KC takes us through the backyard, side yard, raised beds, nursery propagation area, and an astonishing collection of tropical and subtropical plants growing in Tampa, Florida. This is a densely planted home food forest where fruit trees, perennial vegetables, rare ornamentals, wildlife habitat, and plant propagation all share the same space.
@@ -467,9 +569,7 @@ Many of the trees are pruned to remain reachable, while grafting is used to grow
     </div>
     <div class="short-copy">
       <h3>This Tropical Fruit Replaces Apples in Tampa</h3>
-      <p>
-        KC explains why jujube is a productive tropical alternative to apples in a climate with very few chill hours.
-      </p>
+      <p>KC explains why jujube is a productive tropical alternative to apples in a climate with very few chill hours.</p>
     </div>
   </article>
 
@@ -484,9 +584,7 @@ Many of the trees are pruned to remain reachable, while grafting is used to grow
     </div>
     <div class="short-copy">
       <h3>Florida’s Most Underrated Fruit Tree?</h3>
-      <p>
-        White sapote is cold tolerant, productive outside the main summer fruit season, and still unfamiliar to many growers.
-      </p>
+      <p>White sapote is cold tolerant, productive outside the main summer fruit season, and still unfamiliar to many growers.</p>
     </div>
   </article>
 
@@ -501,9 +599,7 @@ Many of the trees are pruned to remain reachable, while grafting is used to grow
     </div>
     <div class="short-copy">
       <h3>One of the Coolest Flowers in a Food Forest</h3>
-      <p>
-        Dutchman’s pipe produces unusual flowers and serves as a host plant for the Polydamas swallowtail butterfly.
-      </p>
+      <p>Dutchman’s pipe produces unusual flowers and serves as a host plant for the Polydamas swallowtail butterfly.</p>
     </div>
   </article>
 
@@ -518,9 +614,7 @@ Many of the trees are pruned to remain reachable, while grafting is used to grow
     </div>
     <div class="short-copy">
       <h3>Grow a Pineapple Patch From Store-Bought Tops</h3>
-      <p>
-        Store-bought pineapple tops can be rooted and replanted, eventually becoming an expanding patch of homegrown pineapples.
-      </p>
+      <p>Store-bought pineapple tops can be rooted and replanted, eventually becoming an expanding patch of homegrown pineapples.</p>
     </div>
   </article>
 
@@ -535,9 +629,7 @@ Many of the trees are pruned to remain reachable, while grafting is used to grow
     </div>
     <div class="short-copy">
       <h3>This One Tree Grows Three Different Mulberries</h3>
-      <p>
-        KC shows how Shangri-La, Chiang Mai 60, and Skinner mulberries can all grow together on one grafted tree.
-      </p>
+      <p>KC shows how Shangri-La, Chiang Mai 60, and Skinner mulberries can all grow together on one grafted tree.</p>
     </div>
   </article>
 
@@ -610,7 +702,6 @@ The following plants and named varieties were mentioned during the backyard and 
 <div class="species-box">
 
 <h3>Mangoes</h3>
-
 <ul class="species-list">
   <li>Fruit Punch mango</li>
   <li>Coconut Cream mango</li>
@@ -620,7 +711,6 @@ The following plants and named varieties were mentioned during the backyard and 
 </ul>
 
 <h3>Mulberries</h3>
-
 <ul class="species-list">
   <li>Shangri-La mulberry</li>
   <li>Chiang Mai 60 mulberry</li>
@@ -629,7 +719,6 @@ The following plants and named varieties were mentioned during the backyard and 
 </ul>
 
 <h3>Sapodillas</h3>
-
 <ul class="species-list">
   <li>Silas Woods sapodilla</li>
   <li>Mayok sapodilla</li>
@@ -640,7 +729,6 @@ The following plants and named varieties were mentioned during the backyard and 
 </ul>
 
 <h3>Avocados</h3>
-
 <ul class="species-list">
   <li>Choquette avocado</li>
   <li>Ronnie avocado</li>
@@ -649,7 +737,6 @@ The following plants and named varieties were mentioned during the backyard and 
 </ul>
 
 <h3>White Sapotes and Related Fruit</h3>
-
 <ul class="species-list">
   <li>Campbell white sapote</li>
   <li>Zill’s World Gold white sapote</li>
@@ -658,7 +745,6 @@ The following plants and named varieties were mentioned during the backyard and 
 </ul>
 
 <h3>Annonas</h3>
-
 <ul class="species-list">
   <li>Custard apple</li>
   <li>Sugar apple</li>
@@ -668,7 +754,6 @@ The following plants and named varieties were mentioned during the backyard and 
 </ul>
 
 <h3>Additional Fruit Trees and Vines</h3>
-
 <ul class="species-list">
   <li>Jaboticaba</li>
   <li>Guava</li>
@@ -703,7 +788,6 @@ The following plants and named varieties were mentioned during the backyard and 
 </ul>
 
 <h3>Edible Leaves, Herbs, and Support Plants</h3>
-
 <ul class="species-list">
   <li>Moringa</li>
   <li>Katuk</li>
@@ -724,7 +808,6 @@ The following plants and named varieties were mentioned during the backyard and 
 </ul>
 
 <h3>Pollinator and Ornamental Plants</h3>
-
 <ul class="species-list">
   <li>Firebush</li>
   <li>Sapphire shower</li>
@@ -775,38 +858,34 @@ KC and her family also operate Food Forest Finds, an edible plant nursery specia
 
 <div class="link-grid">
 
-  <a
-    class="resource-card"
-    href="https://foodforestfinds.com/"
-    target="_blank"
-    rel="noopener">
+  <a class="resource-card"
+     href="https://foodforestfinds.com/"
+     target="_blank"
+     rel="noopener">
     <strong>Food Forest Finds</strong>
     <span>Explore the nursery, plant inventory, events, consultations, and online shop.</span>
   </a>
 
-  <a
-    class="resource-card"
-    href="https://www.facebook.com/GonzaGardens"
-    target="_blank"
-    rel="noopener">
+  <a class="resource-card"
+     href="https://www.facebook.com/GonzaGardens"
+     target="_blank"
+     rel="noopener">
     <strong>Gonza Gardens on Facebook</strong>
     <span>Follow updates from the garden, nursery, and current plant collection.</span>
   </a>
 
-  <a
-    class="resource-card"
-    href="https://www.instagram.com/Gonza_Gardens/"
-    target="_blank"
-    rel="noopener">
+  <a class="resource-card"
+     href="https://www.instagram.com/Gonza_Gardens/"
+     target="_blank"
+     rel="noopener">
     <strong>Gonza Gardens on Instagram</strong>
     <span>See more plants, fruit harvests, flowers, propagation, and garden updates.</span>
   </a>
 
-  <a
-    class="resource-card"
-    href="https://www.youtube.com/watch?v=1gj5_POLCNo"
-    target="_blank"
-    rel="noopener">
+  <a class="resource-card"
+     href="https://www.youtube.com/watch?v=1gj5_POLCNo"
+     target="_blank"
+     rel="noopener">
     <strong>Watch Part 2 on YouTube</strong>
     <span>Open the complete backyard tour directly on The Green Yard YouTube channel.</span>
   </a>
