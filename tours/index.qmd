@@ -1,1 +1,21 @@
+---
+title: "Food Forest Tours"
+description: "Explore food forests, edible landscapes, orchards, farms, and community gardens from around the world."
+page-layout: full
+listing:
+  contents:
+    - "*.qmd"
+    - "!index.qmd"
+  sort: "date desc"
+  type: grid
+  fields:
+    - image
+    - title
+    - description
+    - date
+    - categories
+  categories: true
+  page-size: 12
+---
 
+Discover the people, places, plants, and growing ideas behind food forests and edible landscapes around the world.
