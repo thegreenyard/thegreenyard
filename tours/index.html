@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Explore food forests, edible landscapes, orchards, farms, and community gardens from around the world.">
+<meta name="description" content="Explore food forests, edible landscapes, farms, orchards, and community gardens from around the world with The Green Yard.">
 
 <title>Food Forest Tours – The Green Yard</title>
 <style>
@@ -194,7 +194,6 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmxvcmlkYQ==">Florida <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rm9vZCUyMEZvcmVzdCUyMFRvdXJz">Food Forest Tours <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R29uemElMjBHYXJkZW5z">Gonza Gardens <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGFtcGE=">Tampa <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHJvcGljYWwlMjBGcnVpdA==">Tropical Fruit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Wm9uZSUyMDEwQQ==">Zone 10A <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
@@ -206,7 +205,7 @@ window.Quarto = {
 
 <div>
   <div class="description">
-    Explore food forests, edible landscapes, orchards, farms, and community gardens from around the world.
+    Explore food forests, edible landscapes, farms, orchards, and community gardens from around the world with The Green Yard.
   </div>
 </div>
 
@@ -223,14 +222,509 @@ window.Quarto = {
 </header>
 
 
-<p>Discover the people, places, plants, and growing ideas behind food forests and edible landscapes around the world.</p>
+<style>
+.tours-landing {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+.tours-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0 64px;
+  padding: 72px 58px;
+  border-radius: 14px;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(5, 45, 34, 0.96) 0%,
+      rgba(5, 45, 34, 0.88) 48%,
+      rgba(5, 45, 34, 0.44) 100%
+    ),
+    url("https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg")
+    center / cover no-repeat;
+  box-shadow: 0 18px 42px rgba(7, 56, 44, 0.18);
+}
+
+.tours-hero-content {
+  max-width: 700px;
+}
+
+.tours-kicker {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #d9e8a9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.tours-hero h2 {
+  margin: 0 0 20px;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.5rem, 5vw, 4.9rem);
+  font-weight: 600;
+  line-height: 1.04;
+}
+
+.tours-hero p {
+  max-width: 650px;
+  margin: 0 0 28px;
+  color: rgba(255, 255, 255, 0.91);
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.tours-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 13px 23px;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #123d2d !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.landing-section {
+  margin: 68px 0;
+}
+
+.section-heading {
+  max-width: 780px;
+  margin-bottom: 30px;
+}
+
+.section-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #718a4a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.73rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.section-heading h2 {
+  margin: 0 0 13px;
+  color: #143d2f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  line-height: 1.12;
+}
+
+.section-heading p {
+  margin: 0;
+  color: #53645d;
+  font-size: 1.06rem;
+  line-height: 1.7;
+}
+
+.featured-tour {
+  display: grid;
+  grid-template-columns: minmax(420px, 57%) 1fr;
+  overflow: hidden;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 13px;
+  background: #f7f5ef;
+  box-shadow: 0 12px 32px rgba(18, 47, 36, 0.09);
+}
+
+.featured-media {
+  position: relative;
+  min-height: 390px;
+  background: #082f25;
+}
+
+.featured-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 42px;
+}
+
+.featured-copy .featured-label {
+  margin-bottom: 12px;
+  color: #718a4a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.featured-copy h3 {
+  margin: 0 0 17px;
+  color: #153e30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.8rem, 3vw, 2.55rem);
+  line-height: 1.15;
+}
+
+.featured-copy p {
+  margin: 0 0 22px;
+  color: #4e6058;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.featured-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 22px;
+}
+
+.featured-detail {
+  padding: 7px 10px;
+  border: 1px solid rgba(7, 56, 44, 0.18);
+  border-radius: 999px;
+  color: #39574b;
+  background: rgba(255, 255, 255, 0.62);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.featured-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  min-height: 48px;
+  padding: 12px 21px;
+  border-radius: 5px;
+  background: #174936;
+  color: #ffffff !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.location-card {
+  display: flex;
+  align-items: flex-end;
+  min-height: 190px;
+  padding: 22px;
+  overflow: hidden;
+  border-radius: 10px;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(5, 45, 34, 0.04),
+      rgba(5, 45, 34, 0.9)
+    ),
+    var(--location-image) center / cover no-repeat;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.location-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(18, 47, 36, 0.16);
+}
+
+.location-card span {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.location-florida {
+  --location-image:
+    url("https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg");
+}
+
+.location-arizona {
+  --location-image:
+    url("https://img.youtube.com/vi/x9dIR1FEESI/maxresdefault.jpg");
+}
+
+.location-california {
+  --location-image:
+    linear-gradient(135deg, #41694f, #173f30);
+}
+
+.location-peru {
+  --location-image:
+    linear-gradient(135deg, #8ca34c, #365a3f);
+}
+
+.location-korea {
+  --location-image:
+    linear-gradient(135deg, #657c69, #183d31);
+}
+
+.mission-box {
+  display: grid;
+  grid-template-columns: minmax(250px, 34%) 1fr;
+  gap: 42px;
+  align-items: center;
+  padding: 45px;
+  border-radius: 12px;
+  background: #123d2d;
+}
+
+.mission-box h2 {
+  margin: 0;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  line-height: 1.12;
+}
+
+.mission-box p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+/* Quarto's automatic listing section */
+
+#listing-listing {
+  margin-top: 20px;
+}
+
+.quarto-listing {
+  margin-top: 25px;
+}
+
+.quarto-grid-item {
+  overflow: hidden;
+  border: 1px solid rgba(7, 56, 44, 0.13) !important;
+  border-radius: 10px !important;
+  background: #ffffff;
+  box-shadow: 0 8px 22px rgba(18, 47, 36, 0.07);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 13px 28px rgba(18, 47, 36, 0.12);
+}
+
+.quarto-grid-item img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.quarto-grid-item .card-title {
+  color: #153e30;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.25;
+}
+
+.quarto-grid-item .card-text {
+  color: #53645d;
+  line-height: 1.6;
+}
+
+@media (max-width: 1000px) {
+  .featured-tour {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-media {
+    min-height: auto;
+  }
+
+  .featured-media img {
+    height: auto;
+  }
+
+  .location-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .tours-landing {
+    padding: 0 18px 60px;
+  }
+
+  .tours-hero {
+    padding: 48px 27px;
+  }
+
+  .featured-copy {
+    padding: 28px 24px 32px;
+  }
+
+  .location-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .location-card {
+    min-height: 170px;
+  }
+
+  .mission-box {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 31px 25px;
+  }
+}
+</style>
+
+<main class="tours-landing">
+
+<section class="tours-hero">
+
+  <div class="tours-hero-content">
+
+    <span class="tours-kicker">The Green Yard Tour Library</span>
+
+    <h2 class="anchored">Explore How People Grow Abundance</h2>
+
+    <p>
+      Step inside food forests, edible landscapes, farms, orchards, and community gardens from around the world. Meet the people who created them and discover the plants, techniques, and ideas that make each place unique.
+    </p>
+
+    <a class="tours-button" href="#all-tours">
+      Explore the Tours
+    </a>
+
+  </div>
+
+</section>
+
+<section class="landing-section">
+
+  <div class="section-heading">
+    <span class="section-label">Featured Tour</span>
+    <h2 class="anchored">Inside Gonza Gardens in Tampa</h2>
+    <p>
+      Begin with our newest complete tour page, featuring the backyard of a densely planted tropical food forest in USDA Zone 10A.
+    </p>
+  </div>
+
+  <article class="featured-tour">
+
+    <div class="featured-media">
+      <img src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg" alt="Gonza Gardens tropical food forest tour in Tampa, Florida">
+    </div>
+
+    <div class="featured-copy">
+
+      <span class="featured-label">Gonza Gardens · Part 2</span>
+
+      <h3 class="anchored">This Florida Food Forest Is PACKED with Tropical Diversity!</h3>
+
+      <p>
+        Join KC in the backyard and side yard of Gonza Gardens, where mangoes, sapodillas, avocados, perennial vegetables, pollinator plants, and rare ornamentals fill nearly every available space.
+      </p>
+
+      <div class="featured-details">
+        <span class="featured-detail">Tampa, Florida</span>
+        <span class="featured-detail">Zone 10A</span>
+        <span class="featured-detail">Tropical fruit</span>
+        <span class="featured-detail">High-density planting</span>
+      </div>
+
+      <a class="featured-link" href="florida-food-forest-tropical-diversity.html">
+        Explore This Tour
+      </a>
+
+    </div>
+
+  </article>
+
+</section>
+
+<section class="landing-section">
+
+  <div class="section-heading">
+    <span class="section-label">Browse the World</span>
+    <h2 class="anchored">Explore by Location</h2>
+    <p>
+      The library will continue growing as The Green Yard documents edible landscapes across the United States and around the world.
+    </p>
+  </div>
+
+  <div class="location-grid">
+
+    <a class="location-card location-florida" href="#all-tours">
+      <span>Florida</span>
+    </a>
+
+    <a class="location-card location-arizona" href="#all-tours">
+      <span>Arizona</span>
+    </a>
+
+    <a class="location-card location-california" href="#all-tours">
+      <span>California</span>
+    </a>
+
+    <a class="location-card location-peru" href="#all-tours">
+      <span>Peru</span>
+    </a>
+
+    <a class="location-card location-korea" href="#all-tours">
+      <span>South Korea</span>
+    </a>
+
+  </div>
+
+</section>
+
+<section class="landing-section mission-box">
+
+  <h2 class="anchored">What Does Abundance Look Like Around the World?</h2>
+
+  <p>
+    There is no single way to create an abundant landscape. Some people transform a small front yard, while others manage farms, community gardens, orchards, or tropical food forests. The Green Yard documents those different approaches and shares the people and stories behind them.
+  </p>
+
+</section>
+
+<section id="all-tours" class="landing-section">
+
+  <div class="section-heading">
+    <span class="section-label">The Complete Library</span>
+    <h2 class="anchored">Explore All Tours</h2>
+    <p>
+      Browse every completed tour page. New destinations will automatically appear here as they are added.
+    </p>
+  </div>
+
+</section>
+
+</main>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RmxvcmlkYSUyQ1RhbXBhJTJDRm9vZCUyMEZvcmVzdCUyMFRvdXJzJTJDVHJvcGljYWwlMjBGcnVpdCUyQ1pvbmUlMjAxMEElMkNHb256YSUyMEdhcmRlbnM=" data-listing-date-sort="1783641600000" data-listing-file-modified-sort="1784955813613" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3001">
+<div class="g-col-1" data-index="0" data-categories="RmxvcmlkYSUyQ1RhbXBhJTJDRm9vZCUyMEZvcmVzdCUyMFRvdXJzJTJDVHJvcGljYWwlMjBGcnVpdCUyQ1pvbmUlMjAxMEElMkNHb256YSUyMEdhcmRlbnM=" data-listing-date-sort="1783641600000" data-listing-file-modified-sort="1784956236583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3001">
 <a href="../tours/florida-food-forest-tropical-diversity.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
