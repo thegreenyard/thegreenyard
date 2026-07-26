@@ -1,0 +1,803 @@
+---
+title: "Tampa Food Forest Tour: Gonza Gardens Tropical Backyard"
+description: "Explore Gonza Gardens, a high-density Tampa food forest filled with tropical fruit trees, perennial vegetables, pollinator plants, and rare ornamentals in USDA Zone 10A."
+author: "The Green Yard"
+date: 2026-07-10
+date-modified: 2026-07-25
+lang: en
+
+canonical-url: "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html"
+
+image: "https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+image-alt: "KC touring the tropical backyard food forest at Gonza Gardens in Tampa, Florida"
+
+keywords:
+  - Tampa food forest
+  - Gonza Gardens
+  - Florida food forest
+  - Tampa tropical fruit garden
+  - tropical fruit trees
+  - backyard food forest
+  - edible landscaping
+  - tropical gardening
+  - USDA Zone 10A
+  - Florida tropical fruit
+
+categories:
+  - Florida
+  - Tampa
+  - Food Forest Tours
+  - Tropical Fruit
+  - Zone 10A
+  - Gonza Gardens
+
+page-layout: full
+toc: true
+toc-location: right
+open-graph: true
+twitter-card: true
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "VideoObject",
+                "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html#video",
+                "name": "This Florida Food Forest Is PACKED with Tropical Diversity!",
+                "description": "Tour the backyard of Gonza Gardens in Tampa, Florida, where KC grows tropical fruit trees, perennial vegetables, pollinator plants, and rare ornamentals in USDA Zone 10A.",
+                "thumbnailUrl": [
+                  "https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+                ],
+                "uploadDate": "2026-07-10",
+                "embedUrl": "https://www.youtube.com/embed/1gj5_POLCNo",
+                "contentUrl": "https://www.youtube.com/watch?v=1gj5_POLCNo",
+                "url": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html",
+                "mainEntityOfPage": {
+                  "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                }
+              },
+              {
+                "@type": "Article",
+                "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html#article",
+                "headline": "Tampa Food Forest Tour: Gonza Gardens Tropical Backyard",
+                "alternativeHeadline": "This Florida Food Forest Is PACKED with Tropical Diversity!",
+                "description": "Explore Gonza Gardens, a high-density Tampa food forest filled with tropical fruit trees, perennial vegetables, pollinator plants, and rare ornamentals in USDA Zone 10A.",
+                "datePublished": "2026-07-10",
+                "dateModified": "2026-07-25",
+                "inLanguage": "en-US",
+                "image": [
+                  "https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+                ],
+                "author": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                },
+                "mainEntity": {
+                  "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html#video"
+                },
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html#breadcrumbs",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://thegreenyardaz.com/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Food Forest Tours",
+                    "item": "https://thegreenyardaz.com/tours/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Florida Food Forest Tours",
+                    "item": "https://thegreenyardaz.com/tours/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Gonza Gardens Tampa Food Forest",
+                    "item": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html"
+                  }
+                ]
+              }
+            ]
+          }
+          </script>
+---
+
+```{=html}
+<style>
+
+/* =========================================================
+   QUARTO PAGE OVERRIDES
+   ========================================================= */
+
+.quarto-title-block,
+#title-block-header {
+  display: none !important;
+}
+
+.tour-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 26px 0 70px;
+}
+
+
+/* =========================================================
+   MAIN VIDEO
+   ========================================================= */
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin: 0 0 24px;
+  border-radius: 10px;
+  background: #082f25;
+  box-shadow: 0 14px 34px rgba(7, 56, 44, 0.16);
+}
+
+.video-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+/* =========================================================
+   BREADCRUMBS
+   ========================================================= */
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 26px;
+  color: #6b7771;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.breadcrumbs a {
+  color: #315f49 !important;
+  text-decoration: none !important;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline !important;
+}
+
+.breadcrumb-separator {
+  color: #a1aaa6;
+}
+
+
+/* =========================================================
+   TOUR HEADER
+   ========================================================= */
+
+.tour-header {
+  max-width: 1050px;
+  margin: 0 0 42px;
+}
+
+.tour-header h1 {
+  margin: 0 0 20px;
+  color: #17221e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(2.25rem, 5vw, 4.25rem);
+  font-weight: 400;
+  letter-spacing: 0.035em;
+  line-height: 1.08;
+  text-transform: uppercase;
+}
+
+.tour-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 18px;
+}
+
+.tour-category {
+  display: inline-flex;
+  padding: 7px 12px;
+  border: 1px solid #aeb5b1;
+  border-radius: 5px;
+  color: #707873;
+  background: #ffffff;
+  font-size: 0.77rem;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.tour-description {
+  max-width: 1050px;
+  margin: 0 0 25px;
+  color: #59625f;
+  font-size: 1.13rem;
+  line-height: 1.65;
+}
+
+.tour-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  max-width: 720px;
+  gap: 26px;
+}
+
+.meta-label {
+  display: block;
+  margin-bottom: 4px;
+  color: #858c89;
+  font-size: 0.79rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.meta-value {
+  color: #59625f;
+  font-size: 1rem;
+}
+
+.tour-lead {
+  max-width: 930px;
+  margin: 0 0 40px;
+  color: #4b5e56;
+  font-size: 1.18rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   TOUR SNAPSHOT
+   ========================================================= */
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+  margin: 0 0 54px;
+}
+
+.fact-card {
+  padding: 19px;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 8px;
+  background: #f7f5ef;
+}
+
+.fact-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #658042;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.fact-value {
+  color: #153e30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+/* =========================================================
+   GENERAL SECTIONS
+   ========================================================= */
+
+.tour-section {
+  margin: 58px 0;
+}
+
+.tour-section h2 {
+  margin-bottom: 20px;
+  color: #143d2f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  line-height: 1.15;
+}
+
+.tour-section p,
+.tour-section li {
+  color: #44554e;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   LEARNING GRID
+   ========================================================= */
+
+.learn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.learn-item {
+  padding: 17px 19px;
+  border-left: 4px solid #86a842;
+  background: #f7f5ef;
+  color: #28473b;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   SHORTS
+   ========================================================= */
+
+.short-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.short-card {
+  overflow: hidden;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 9px;
+  background: #ffffff;
+  box-shadow: 0 8px 22px rgba(18, 47, 36, 0.08);
+}
+
+.short-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  background: #082f25;
+}
+
+.short-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.short-copy {
+  padding: 15px;
+}
+
+.short-copy h3 {
+  margin: 0 0 8px;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.short-copy p {
+  margin: 0;
+  color: #53645d;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+
+/* =========================================================
+   PLANT COLLECTION SUMMARY
+   ========================================================= */
+
+.species-overview {
+  margin: 25px 0 17px;
+  padding: 25px;
+  border-radius: 9px;
+  background: #f7f5ef;
+}
+
+.species-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.species-stat {
+  padding: 17px;
+  border: 1px solid rgba(7, 56, 44, 0.13);
+  border-radius: 7px;
+  background: #ffffff;
+}
+
+.species-stat-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #718a4a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+}
+
+.species-stat-value {
+  display: block;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.07rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+/* =========================================================
+   FEATURED PLANTS
+   ========================================================= */
+
+.featured-plants {
+  margin: 18px 0 20px;
+}
+
+.featured-plants-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #597548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.featured-plant-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.featured-plant {
+  display: inline-flex;
+  padding: 8px 12px;
+  border: 1px solid rgba(7, 56, 44, 0.17);
+  border-radius: 999px;
+  color: #315747;
+  background: #ffffff;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+
+/* =========================================================
+   EXPANDABLE PLANT LIST
+   ========================================================= */
+
+.species-details {
+  margin-top: 15px;
+}
+
+.species-details summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 22px;
+  border-radius: 5px;
+  background: #174936;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+  list-style: none;
+  text-transform: uppercase;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.species-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.species-details summary:hover {
+  background: #286348;
+  transform: translateY(-2px);
+}
+
+.species-summary-open {
+  display: none;
+}
+
+.species-details[open] .species-summary-closed {
+  display: none;
+}
+
+.species-details[open] .species-summary-open {
+  display: inline;
+}
+
+.species-box {
+  margin-top: 22px;
+  padding: 28px 30px;
+  border-radius: 9px;
+  background: #f7f5ef;
+}
+
+.species-box h3 {
+  margin-top: 25px;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.species-box h3:first-child {
+  margin-top: 0;
+}
+
+.species-list {
+  columns: 3;
+  column-gap: 35px;
+}
+
+.species-list li {
+  break-inside: avoid;
+  margin-bottom: 7px;
+}
+
+
+/* =========================================================
+   TAKEAWAY
+   ========================================================= */
+
+.takeaway {
+  padding: 25px 28px;
+  border-left: 5px solid #86a842;
+  border-radius: 0 8px 8px 0;
+  background: #f7f5ef;
+}
+
+
+/* =========================================================
+   RESOURCE LINKS
+   ========================================================= */
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+  margin-top: 24px;
+}
+
+.resource-card {
+  display: block;
+  padding: 21px;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 8px;
+  background: #ffffff;
+  color: #173f30 !important;
+  text-decoration: none !important;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(18, 47, 36, 0.1);
+}
+
+.resource-card strong {
+  display: block;
+  margin-bottom: 5px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+}
+
+.resource-card span {
+  color: #53645d;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   RELATED TOURS
+   ========================================================= */
+
+.related-tour {
+  display: grid;
+  grid-template-columns: minmax(360px, 48%) 1fr;
+  align-items: stretch;
+  overflow: hidden;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 10px;
+  background: #f7f5ef;
+}
+
+.related-tour-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #082f25;
+}
+
+.related-tour img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.related-tour-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+}
+
+.related-tour-copy h3 {
+  margin: 0 0 12px;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.related-tour-copy p {
+  margin-top: 0;
+}
+
+.related-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  margin-top: 12px;
+}
+
+.tour-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  min-height: 47px;
+  padding: 12px 21px;
+  border-radius: 5px;
+  background: #174936;
+  color: #ffffff !important;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.tour-button-secondary {
+  color: #174936 !important;
+  background: transparent;
+  border: 1px solid #174936;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 950px) {
+
+  .quick-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .short-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .species-overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .species-list {
+    columns: 2;
+  }
+
+  .related-tour {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 680px) {
+
+  .tour-page {
+    padding-top: 12px;
+  }
+
+  .tour-header h1 {
+    font-size: 2.1rem;
+  }
+
+  .tour-meta,
+  .quick-facts,
+  .learn-grid,
+  .short-grid,
+  .link-grid,
+  .species-overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .short-video {
+    aspect-ratio: 9 / 14;
+  }
+
+  .species-details summary {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .species-list {
+    columns: 1;
+  }
+
+  .related-tour-copy {
+    padding: 24px 22px 28px;
+  }
+
+  .related-actions {
+    flex-direction: column;
+  }
+
+  .tour-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+}
+</style>
