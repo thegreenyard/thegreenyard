@@ -1,33 +1,34 @@
 ---
-title: "Tampa Food Forest Tour: Gonza Gardens Tropical Backyard"
-description: "Explore Gonza Gardens, a high-density Tampa food forest filled with tropical fruit trees, perennial vegetables, pollinator plants, and rare ornamentals in USDA Zone 10A."
+title: "Tampa Food Forest Tour: Gonza Gardens Front Yard"
+description: "Explore the front yard at Gonza Gardens, a high-density Tampa food forest with more than 100 fruit trees growing on 0.17 acre in USDA Zone 10A."
 author: "The Green Yard"
-date: 2026-07-10
+date: 2026-05-01
 date-modified: 2026-07-25
 lang: en
 
-canonical-url: "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html"
+canonical-url: "https://thegreenyardaz.com/tours/tampa-front-yard-food-forest-gonza-gardens.html"
 
-image: "https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
-image-alt: "KC touring the tropical backyard food forest at Gonza Gardens in Tampa, Florida"
+image: "https://img.youtube.com/vi/x9dIR1FEESI/maxresdefault.jpg"
+image-alt: "KC standing in the high-density front-yard food forest at Gonza Gardens in Tampa, Florida"
 
 keywords:
   - Tampa food forest
   - Gonza Gardens
   - Florida food forest
+  - high-density food forest
+  - front yard food forest
   - Tampa tropical fruit garden
   - tropical fruit trees
-  - backyard food forest
   - edible landscaping
-  - tropical gardening
   - USDA Zone 10A
-  - Florida tropical fruit
+  - Florida tropical gardening
 
 categories:
   - Florida
   - Tampa
   - Food Forest Tours
   - Tropical Fruit
+  - High-Density Planting
   - Zone 10A
   - Gonza Gardens
 
@@ -49,18 +50,19 @@ format:
             "@graph": [
               {
                 "@type": "VideoObject",
-                "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html#video",
-                "name": "This Florida Food Forest Is PACKED with Tropical Diversity!",
-                "description": "Tour the backyard of Gonza Gardens in Tampa, Florida, where KC grows tropical fruit trees, perennial vegetables, pollinator plants, and rare ornamentals in USDA Zone 10A.",
+                "@id": "https://thegreenyardaz.com/tours/tampa-front-yard-food-forest-gonza-gardens.html#video",
+                "name": "A Front Yard TROPICAL Food Forest in Tampa!",
+                "description": "Tour the front yard of Gonza Gardens, a high-density tropical food forest in Tampa, Florida, with more than 100 fruit trees growing on 0.17 acre in USDA Zone 10A.",
                 "thumbnailUrl": [
-                  "https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+                  "https://img.youtube.com/vi/x9dIR1FEESI/maxresdefault.jpg"
                 ],
-                "uploadDate": "2026-07-10",
-                "embedUrl": "https://www.youtube.com/embed/1gj5_POLCNo",
-                "contentUrl": "https://www.youtube.com/watch?v=1gj5_POLCNo",
-                "url": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html",
+                "uploadDate": "2026-05-01",
+                "duration": "PT26M12S",
+                "embedUrl": "https://www.youtube.com/embed/x9dIR1FEESI",
+                "contentUrl": "https://www.youtube.com/watch?v=x9dIR1FEESI",
+                "url": "https://thegreenyardaz.com/tours/tampa-front-yard-food-forest-gonza-gardens.html",
                 "mainEntityOfPage": {
-                  "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html"
+                  "@id": "https://thegreenyardaz.com/tours/tampa-front-yard-food-forest-gonza-gardens.html"
                 },
                 "publisher": {
                   "@type": "Organization",
@@ -74,15 +76,15 @@ format:
               },
               {
                 "@type": "Article",
-                "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html#article",
-                "headline": "Tampa Food Forest Tour: Gonza Gardens Tropical Backyard",
-                "alternativeHeadline": "This Florida Food Forest Is PACKED with Tropical Diversity!",
-                "description": "Explore Gonza Gardens, a high-density Tampa food forest filled with tropical fruit trees, perennial vegetables, pollinator plants, and rare ornamentals in USDA Zone 10A.",
-                "datePublished": "2026-07-10",
+                "@id": "https://thegreenyardaz.com/tours/tampa-front-yard-food-forest-gonza-gardens.html#article",
+                "headline": "Tampa Food Forest Tour: Gonza Gardens Front Yard",
+                "alternativeHeadline": "A Front Yard TROPICAL Food Forest in Tampa!",
+                "description": "Explore the front yard at Gonza Gardens, a high-density Tampa food forest with more than 100 fruit trees growing on 0.17 acre in USDA Zone 10A.",
+                "datePublished": "2026-05-01",
                 "dateModified": "2026-07-25",
                 "inLanguage": "en-US",
                 "image": [
-                  "https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+                  "https://img.youtube.com/vi/x9dIR1FEESI/maxresdefault.jpg"
                 ],
                 "author": {
                   "@type": "Organization",
@@ -99,16 +101,16 @@ format:
                   }
                 },
                 "mainEntity": {
-                  "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html#video"
+                  "@id": "https://thegreenyardaz.com/tours/tampa-front-yard-food-forest-gonza-gardens.html#video"
                 },
                 "mainEntityOfPage": {
                   "@type": "WebPage",
-                  "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html"
+                  "@id": "https://thegreenyardaz.com/tours/tampa-front-yard-food-forest-gonza-gardens.html"
                 }
               },
               {
                 "@type": "BreadcrumbList",
-                "@id": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html#breadcrumbs",
+                "@id": "https://thegreenyardaz.com/tours/tampa-front-yard-food-forest-gonza-gardens.html#breadcrumbs",
                 "itemListElement": [
                   {
                     "@type": "ListItem",
@@ -131,8 +133,8 @@ format:
                   {
                     "@type": "ListItem",
                     "position": 4,
-                    "name": "Gonza Gardens Tampa Food Forest",
-                    "item": "https://thegreenyardaz.com/tours/florida-food-forest-tropical-diversity.html"
+                    "name": "Gonza Gardens Front Yard",
+                    "item": "https://thegreenyardaz.com/tours/tampa-front-yard-food-forest-gonza-gardens.html"
                   }
                 ]
               }
@@ -644,7 +646,7 @@ format:
 
 
 /* =========================================================
-   RELATED TOURS
+   RELATED TOUR
    ========================================================= */
 
 .related-tour {
@@ -801,13 +803,14 @@ format:
 
 }
 </style>
+
 <main class="tour-page">
 
 <div class="video-wrap">
 
   <iframe
-    src="https://www.youtube.com/embed/1gj5_POLCNo?rel=0"
-    title="This Florida Food Forest Is PACKED with Tropical Diversity!"
+    src="https://www.youtube.com/embed/x9dIR1FEESI?rel=0"
+    title="A Front Yard TROPICAL Food Forest in Tampa!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen>
@@ -826,14 +829,14 @@ format:
 
   <span class="breadcrumb-separator" aria-hidden="true">/</span>
 
-  <span aria-current="page">Gonza Gardens</span>
+  <span aria-current="page">Gonza Gardens Part 1</span>
 
 </nav>
 
 
 <header class="tour-header">
 
-  <h1>This Florida Food Forest Is PACKED with Tropical Diversity!</h1>
+  <h1>A Front Yard TROPICAL Food Forest in Tampa!</h1>
 
   <div class="tour-categories">
 
@@ -845,6 +848,8 @@ format:
 
     <span class="tour-category">Tropical Fruit</span>
 
+    <span class="tour-category">High-Density Planting</span>
+
     <span class="tour-category">Zone 10A</span>
 
     <span class="tour-category">Gonza Gardens</span>
@@ -852,9 +857,9 @@ format:
   </div>
 
   <p class="tour-description">
-    Tour Gonza Gardens, a high-density Tampa food forest where KC grows
-    tropical fruit trees, perennial vegetables, pollinator plants, and rare
-    ornamentals in USDA Zone 10A.
+    Tour the front yard of Gonza Gardens, a high-density Tampa food
+    forest where KC and her husband grow more than 100 fruit trees on
+    only 0.17 acre in USDA Zone 10A.
   </p>
 
   <div class="tour-meta">
@@ -866,7 +871,7 @@ format:
 
     <div>
       <span class="meta-label">Published</span>
-      <span class="meta-value">July 10, 2026</span>
+      <span class="meta-value">May 1, 2026</span>
     </div>
 
   </div>
@@ -875,12 +880,11 @@ format:
 
 
 <p class="tour-lead">
-In Part 2 of our visit to Gonza Gardens, KC takes us through the
-backyard, side yard, raised beds, nursery propagation area, and an
-astonishing collection of tropical and subtropical plants growing in
-Tampa, Florida. This densely planted residential food forest combines
-fruit production, perennial vegetables, rare ornamentals, wildlife
-habitat, and plant propagation within the same landscape.
+In Part 1 of our visit to Gonza Gardens, KC guides us through a
+front-yard tropical food forest in Tampa, Florida. The property
+combines more than 100 fruit trees, perennial vegetables, fragrant
+ornamentals, native host plants, pollinator habitat, and medicinal
+plants within just 0.17 acre.
 </p>
 
 
@@ -907,23 +911,23 @@ habitat, and plant propagation within the same landscape.
   </div>
 
   <div class="fact-card">
-    <span class="fact-label">Garden Age</span>
+    <span class="fact-label">Property Size</span>
+    <span class="fact-value">Approximately 0.17 Acre</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Food Forest Age</span>
     <span class="fact-value">Approximately 4 Years</span>
   </div>
 
   <div class="fact-card">
-    <span class="fact-label">Property Type</span>
-    <span class="fact-value">Residential Food Forest</span>
-  </div>
-
-  <div class="fact-card">
-    <span class="fact-label">Plant Collection</span>
-    <span class="fact-value">70+ Plants and Varieties</span>
+    <span class="fact-label">Fruit Trees</span>
+    <span class="fact-value">More Than 100</span>
   </div>
 
   <div class="fact-card">
     <span class="fact-label">Primary Focus</span>
-    <span class="fact-value">Tropical Fruit Diversity</span>
+    <span class="fact-value">High-Density Tropical Growing</span>
   </div>
 
 </section>
@@ -931,30 +935,30 @@ habitat, and plant propagation within the same landscape.
 
 <section class="tour-section">
 
-<h2>Inside a High-Density Tampa Food Forest</h2>
+<h2>Inside a High-Density Front-Yard Food Forest</h2>
 
 <p>
-KC and her family originally began developing the backyard as a garden
-filled with rare ornamentals collected from around Florida. As their
-interest in food forestry grew, edible plants were layered into the
-existing landscape, creating a garden where beauty, food production,
-and wildlife habitat all overlap.
+Gonza Gardens demonstrates how a relatively small residential
+property can support an extraordinary amount of edible diversity. KC
+and her husband grow more than 100 fruit trees on approximately 0.17
+acre while still incorporating pathways, ornamental plants, wildlife
+habitat, propagation areas, and places for the family to use the yard.
 </p>
 
 <p>
-The result is not a conventional orchard with widely spaced trees.
-Mangoes, sapodillas, mulberries, avocados, white sapotes, jackfruit
-relatives, perennial vegetables, flowering plants, vines, ponds, and
-nursery stock are fitted into nearly every available part of the
-property.
+The front yard is not arranged like a conventional orchard. Trees are
+selected and positioned according to their mature size, vigor, growth
+habit, cold tolerance, water requirements, and role within the canopy.
+Some plants are trained upward, others are kept columnar, and vines are
+espaliered along fences to use vertical space.
 </p>
 
 <p>
-Many trees are pruned to remain reachable, while grafting allows
-several proven varieties to grow on a single tree. Upper-canopy plants
-also provide shade and protection for sensitive tropical species,
-helping KC grow plants that might otherwise struggle during Tampa’s
-occasional cold weather.
+The garden originally began as an ornamental landscape before much of
+it was converted into a food forest. That history remains visible in
+the fragrant flowers and colorful foliage growing among mangoes,
+avocados, mulberries, sapodillas, perennial vegetables, herbs, and
+native butterfly host plants.
 </p>
 
 </section>
@@ -967,33 +971,33 @@ occasional cold weather.
 <div class="learn-grid">
 
   <div class="learn-item">
-    How KC layers fruit trees, shrubs, vines, ornamentals, and
-    perennial vegetables into a residential property
+    How more than 100 fruit trees can be fitted into approximately
+    0.17 acre through careful plant selection and pruning
   </div>
 
   <div class="learn-item">
-    Why grafted trees can provide more predictable fruit than
-    unknown seedlings
+    How KC protects sensitive tropical trees from cold by using the
+    house, canopy layers, greenhouse covers, and planting orientation
   </div>
 
   <div class="learn-item">
-    How pruning keeps mulberries and avocados productive and
-    easier to harvest
+    Why tropical alternatives such as Barbados cherry, jujube, and
+    Vietnamese pomegranate can replace temperate fruits in Tampa
   </div>
 
   <div class="learn-item">
-    How ponds and fountains support birds, frogs, lizards,
-    pollinators, and other wildlife
+    How columnar pruning, espalier, grafting, and layered canopies
+    increase diversity without requiring more land
   </div>
 
   <div class="learn-item">
-    Why Florida gardeners often need tropical alternatives to
-    lettuce, apples, peaches, pears, and other temperate crops
+    How roof runoff, French drains, mulch, and plant placement help
+    support water-loving crops in Florida’s sandy soil
   </div>
 
   <div class="learn-item">
-    How canopy cover and warmth from the house help protect
-    sensitive plants such as coffee and cacao
+    How native vines, flowering ornamentals, and host plants support
+    butterflies, hummingbirds, bees, and other wildlife
   </div>
 
 </div>
@@ -1012,8 +1016,8 @@ occasional cold weather.
     <div class="short-video">
 
       <iframe
-        src="https://www.youtube.com/embed/FsIXyOAkJyo?rel=0"
-        title="This Tropical Fruit Replaces Apples in Tampa"
+        src="https://www.youtube.com/embed/Cc6sH9_hmdg?rel=0"
+        title="The Only Pomegranate That Grows in Tampa"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
@@ -1024,11 +1028,11 @@ occasional cold weather.
 
     <div class="short-copy">
 
-      <h3>This Tropical Fruit Replaces Apples in Tampa</h3>
+      <h3>The Only Pomegranate That Grows in Tampa</h3>
 
       <p>
-        KC explains why jujube can be a productive alternative to
-        apples in a climate with very few winter chill hours.
+        KC explains why Vietnamese Red pomegranate succeeds where
+        traditional varieties struggle with Tampa’s limited chill hours.
       </p>
 
     </div>
@@ -1041,8 +1045,8 @@ occasional cold weather.
     <div class="short-video">
 
       <iframe
-        src="https://www.youtube.com/embed/x1gnjMe_Tuo?rel=0"
-        title="Florida's Most Underrated Fruit Tree?"
+        src="https://www.youtube.com/embed/j4cqS7HQA-0?rel=0"
+        title="The Secret to Protecting a Tropical Food Forest? Design!"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
@@ -1053,11 +1057,11 @@ occasional cold weather.
 
     <div class="short-copy">
 
-      <h3>Florida’s Most Underrated Fruit Tree?</h3>
+      <h3>The Secret to Protecting a Tropical Food Forest? Design!</h3>
 
       <p>
-        White sapote is cold tolerant, productive outside the main
-        summer fruit season, and still unfamiliar to many growers.
+        Thoughtful placement, canopy protection, and the warmth of the
+        house help sensitive tropical plants survive damaging cold.
       </p>
 
     </div>
@@ -1070,8 +1074,8 @@ occasional cold weather.
     <div class="short-video">
 
       <iframe
-        src="https://www.youtube.com/embed/DXmE3tSjoGk?rel=0"
-        title="One of the Coolest Flowers in a Food Forest"
+        src="https://www.youtube.com/embed/lNr16WJ9PEo?rel=0"
+        title="This Mango Tree Held Fruit After a Historic Freeze?"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
@@ -1082,11 +1086,11 @@ occasional cold weather.
 
     <div class="short-copy">
 
-      <h3>One of the Coolest Flowers in a Food Forest</h3>
+      <h3>This Mango Tree Held Fruit After a Historic Freeze?</h3>
 
       <p>
-        Dutchman’s pipe produces unusual flowers and serves as a host
-        plant for the Polydamas swallowtail butterfly.
+        Orange Sherbet mango stood out after a historic freeze damaged
+        many of the other mango trees growing throughout the property.
       </p>
 
     </div>
@@ -1099,8 +1103,8 @@ occasional cold weather.
     <div class="short-video">
 
       <iframe
-        src="https://www.youtube.com/embed/864KCED0M6c?rel=0"
-        title="Grow a Pineapple Patch From Store-Bought Tops"
+        src="https://www.youtube.com/embed/UWGM01lbSiM?rel=0"
+        title="You Can Grow PB and J in a Food Forest?"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
@@ -1111,11 +1115,11 @@ occasional cold weather.
 
     <div class="short-copy">
 
-      <h3>Grow a Pineapple Patch From Store-Bought Tops</h3>
+      <h3>You Can Grow PB&amp;J in a Food Forest?</h3>
 
       <p>
-        Store-bought pineapple tops can be rooted and replanted,
-        eventually becoming an expanding patch of homegrown pineapples.
+        Peanut butter fruit and blackberry jam fruit grow on opposite
+        sides of the garden, creating a playful homegrown combination.
       </p>
 
     </div>
@@ -1128,8 +1132,8 @@ occasional cold weather.
     <div class="short-video">
 
       <iframe
-        src="https://www.youtube.com/embed/WJ5ixTN7GyY?rel=0"
-        title="This One Tree Grows Three Different Mulberries"
+        src="https://www.youtube.com/embed/NK1hrAR9rYA?rel=0"
+        title="100 Plus Fruit Trees in a High-Density Food Forest?"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
@@ -1140,11 +1144,11 @@ occasional cold weather.
 
     <div class="short-copy">
 
-      <h3>This One Tree Grows Three Different Mulberries</h3>
+      <h3>100+ Fruit Trees in a High-Density Food Forest?</h3>
 
       <p>
-        KC shows how Shangri-La, Chiang Mai 60, and Skinner mulberries
-        can grow together on a single grafted tree.
+        KC and her husband use pruning, layering, and careful spacing
+        to grow more than 100 fruit trees on only 0.17 acre.
       </p>
 
     </div>
@@ -1154,31 +1158,33 @@ occasional cold weather.
 </div>
 
 </section>
+
+
 <section class="tour-section">
 
-<h2>Growing Tropical Fruit in Tampa, Florida</h2>
+<h2>Protecting Tropical Fruit From Cold in Tampa</h2>
 
 <p>
-One of the strongest lessons from Gonza Gardens is the importance of
-choosing plants that want to grow in the local climate. KC explains
-that many of the apples, peaches, plums, pears, lettuces, peppers, and
-large tomatoes they initially tried were poorly suited to Tampa’s heat
-and limited winter chill.
+The tour took place after a damaging winter freeze affected many of
+the tropical trees. Mangoes and jackfruit showed substantial damage,
+while the Orange Sherbet mango remained especially resilient. More
+sensitive plants, including soursop, received temporary greenhouse
+covers and thermostatically controlled heat.
 </p>
 
 <p>
-Instead of repeatedly struggling with those crops, the garden now
-relies more heavily on subtropical and tropical alternatives. Jujube
-fills a role similar to a small apple, while moringa, katuk, longevity
-spinach, Okinawa spinach, and edible hibiscus provide perennial leafy
-greens better adapted to Florida’s heat.
+Protection begins with the original food forest design. Sensitive
+trees are placed on the south side of the house and maintained near
+the height of the building, allowing cold north winds to travel over
+them. Larger plants and upper-canopy trees also help shelter cacao,
+coffee, breadfruit, Cecropia, and other tropical species growing below.
 </p>
 
 <p>
-White sapote is especially useful because it tolerates cooler weather
-and may provide fruit outside the main mango-heavy summer season. This
-helps spread harvests across more of the year rather than having every
-major fruit crop ripen during the same few months.
+Not every tree can be enclosed or heated in a densely planted garden.
+The larger strategy is therefore to combine thoughtful placement,
+canopy layers, pruning, and selective protection so the landscape
+works as a connected system.
 </p>
 
 </section>
@@ -1186,55 +1192,28 @@ major fruit crop ripen during the same few months.
 
 <section class="tour-section">
 
-<h2>Food Forest Design: Pruning, Grafting, and Dense Planting</h2>
+<h2>Growing Tropical Alternatives in Florida</h2>
 
 <p>
-KC keeps several trees intentionally small. Mulberries are repeatedly
-pruned because fruit growing beyond reach often becomes bird food,
-while everbearing varieties such as Chiang Mai 60 can flower and
-produce again following pruning.
+Many familiar temperate fruits and vegetables are difficult to grow
+consistently in Tampa. Traditional cherries, apricots, apples,
+pomegranates, lettuce, tomatoes, and cucumbers may struggle with heat,
+humidity, disease, pests, or insufficient winter chill.
 </p>
 
 <p>
-Grafting allows the garden to hold more varieties without requiring a
-separate mature tree for every cultivar. One mulberry carries three
-varieties, while sugar apple, white sapote, and other trees are being
-top-worked or grafted to improve fruit quality, pollination, and
-overall reliability.
+Gonza Gardens instead includes tropical and subtropical plants that
+fill similar roles. Barbados cherry provides a cherry-like fruit rich
+in vitamin C. Jujube can serve as an apple alternative. Vietnamese Red
+pomegranate fruits despite limited chill, while tindora produces small
+cucumber-like fruit and edible leaves through much of the year.
 </p>
 
 <p>
-Because the property is densely planted, KC considers the future growth
-habit and vigor of each tree. Slow-growing star apples can be planted
-relatively close and trained in opposite directions, while faster
-canopy trees such as ice cream bean and Cecropia occupy the upper layer.
-</p>
-
-</section>
-
-
-<section class="tour-section">
-
-<h2>Creating Wildlife Habitat in a Food Forest</h2>
-
-<p>
-The garden is designed to feed more than people. Firebush, porterweed,
-firespike, powderpuff, cassia, Dutchman’s pipe, dill, citrus, and other
-plants attract or support hummingbirds, butterflies, caterpillars, and
-pollinating insects.
-</p>
-
-<p>
-KC also intentionally provides water through ponds and fountains. She
-has observed that birds may damage less fruit when clean drinking water
-is readily available. The same water features support frogs, lizards,
-neighborhood cats, and the larger backyard ecosystem.
-</p>
-
-<p>
-Rather than treating insects and wildlife as separate from the garden,
-Gonza Gardens includes their interactions as part of a functioning
-food forest.
+Perennial greens such as katuk, longevity spinach, and Okinawa spinach
+also reduce the need to repeatedly grow heat-sensitive lettuce. The
+garden’s productivity comes partly from choosing crops adapted to the
+climate rather than continually forcing unsuitable plants to survive.
 </p>
 
 </section>
@@ -1242,13 +1221,71 @@ food forest.
 
 <section class="tour-section">
 
-<h2>Plants Growing at Gonza Gardens</h2>
+<h2>Food Forest Design for a Small Residential Property</h2>
 
 <p>
-The Gonza Gardens backyard and side-yard tour includes dozens of
-tropical fruits, named cultivars, perennial vegetables, herbs, support
-plants, pollinator plants, and rare ornamentals growing in Tampa’s
-USDA Zone 10A climate.
+High-density growing requires more than planting trees close together.
+KC considers the vigor and mature growth habit of each cultivar before
+choosing its position. Florigon mango is allowed to occupy more of the
+upper canopy, while compact cultivars such as Honey Kiss remain smaller
+and easier to prune.
+</p>
+
+<p>
+Avocados are maintained in a narrow, columnar shape at approximately
+ten feet tall. Blackberries are trained horizontally along the fence,
+while sugarcane forms a productive living screen. Mulberries are
+pruned frequently, which can stimulate repeated flowering on
+everbearing varieties and keep fruit within reach.
+</p>
+
+<p>
+Water requirements also influence placement. Bananas failed in a dry
+front-yard location despite thick mulch, but Namwa banana became
+productive when planted where roof runoff travels through a French
+drain. That single plant can receive supplemental water from the
+existing landscape instead of depending entirely on irrigation.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Creating Pollinator and Wildlife Habitat</h2>
+
+<p>
+Edible plants share the garden with native host plants, fragrant
+flowers, and ornamentals selected for wildlife. Corky-stem passion
+vine supports Gulf fritillary and zebra longwing butterflies, while
+Dutchman’s pipe supports Polydamas and pipevine swallowtails.
+</p>
+
+<p>
+Amistad salvia, native red salvia, porterweed, blue sky vine,
+bougainvillea, Senna alata, sweet almond, and other flowering plants
+provide nectar, fragrance, color, and extended bloom periods. Coontie
+also serves as a host plant for the atala butterfly.
+</p>
+
+<p>
+The result is a food forest that produces for people while also
+providing habitat for butterflies, caterpillars, hummingbirds, bees,
+and other wildlife throughout the property.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Plants Growing in the Gonza Gardens Front Yard</h2>
+
+<p>
+This portion of Gonza Gardens includes tropical fruit trees, named
+cultivars, perennial vegetables, medicinal plants, spices, native
+species, butterfly host plants, flowering ornamentals, and support
+plants adapted to Tampa’s USDA Zone 10A climate.
 </p>
 
 
@@ -1257,13 +1294,13 @@ USDA Zone 10A climate.
   <div class="species-overview-grid">
 
     <div class="species-stat">
-      <span class="species-stat-label">Mangoes</span>
-      <span class="species-stat-value">5 named varieties</span>
+      <span class="species-stat-label">Fruit Trees</span>
+      <span class="species-stat-value">100+ across the property</span>
     </div>
 
     <div class="species-stat">
-      <span class="species-stat-label">Sapodillas</span>
-      <span class="species-stat-value">6 named varieties</span>
+      <span class="species-stat-label">Mangoes Discussed</span>
+      <span class="species-stat-value">6 cultivars</span>
     </div>
 
     <div class="species-stat">
@@ -1272,28 +1309,28 @@ USDA Zone 10A climate.
     </div>
 
     <div class="species-stat">
-      <span class="species-stat-label">Avocados</span>
-      <span class="species-stat-value">4 named varieties</span>
+      <span class="species-stat-label">Blueberries</span>
+      <span class="species-stat-value">3 varieties</span>
     </div>
 
     <div class="species-stat">
-      <span class="species-stat-label">Tropical Fruit</span>
-      <span class="species-stat-value">30+ plants and varieties</span>
+      <span class="species-stat-label">Sugarcane</span>
+      <span class="species-stat-value">3 varieties</span>
     </div>
 
     <div class="species-stat">
-      <span class="species-stat-label">Edible Greens & Herbs</span>
-      <span class="species-stat-value">16 plants</span>
+      <span class="species-stat-label">Edible Greens</span>
+      <span class="species-stat-value">Multiple perennial species</span>
     </div>
 
     <div class="species-stat">
-      <span class="species-stat-label">Pollinator Plants</span>
-      <span class="species-stat-value">15 plants</span>
+      <span class="species-stat-label">Wildlife Plants</span>
+      <span class="species-stat-value">Native and ornamental hosts</span>
     </div>
 
     <div class="species-stat">
       <span class="species-stat-label">Growing Style</span>
-      <span class="species-stat-value">Dense, diverse and multilayered</span>
+      <span class="species-stat-value">High-density and multilayered</span>
     </div>
 
   </div>
@@ -1309,21 +1346,21 @@ USDA Zone 10A climate.
 
   <div class="featured-plant-tags">
 
-    <span class="featured-plant">Fruit Punch mango</span>
+    <span class="featured-plant">Orange Sherbet mango</span>
 
-    <span class="featured-plant">Coconut Cream mango</span>
+    <span class="featured-plant">Vietnamese Red pomegranate</span>
 
-    <span class="featured-plant">Pineapple Pleasure mango</span>
+    <span class="featured-plant">Peanut butter fruit</span>
 
-    <span class="featured-plant">Silas Woods sapodilla</span>
+    <span class="featured-plant">Blackberry jam fruit</span>
 
-    <span class="featured-plant">Choquette avocado</span>
+    <span class="featured-plant">Barbados cherry</span>
 
-    <span class="featured-plant">Chiang Mai 60 mulberry</span>
+    <span class="featured-plant">Jaboticaba</span>
 
-    <span class="featured-plant">Campbell white sapote</span>
+    <span class="featured-plant">Miracle fruit</span>
 
-    <span class="featured-plant">Dragon fruit</span>
+    <span class="featured-plant">Tindora</span>
 
   </div>
 
@@ -1350,143 +1387,115 @@ USDA Zone 10A climate.
     <h3>Mangoes</h3>
 
     <ul class="species-list">
-      <li>Fruit Punch mango</li>
-      <li>Coconut Cream mango</li>
-      <li>Pineapple Pleasure mango</li>
-      <li>Phoenix mango</li>
-      <li>Ice Cream mango</li>
+      <li>Orange Sherbet mango</li>
+      <li>Pickering mango</li>
+      <li>Ceci Love mango</li>
+      <li>Venus mango</li>
+      <li>Florigon mango</li>
+      <li>Honey Kiss mango</li>
     </ul>
 
 
-    <h3>Mulberries</h3>
+    <h3>Mulberries, Blackberries, and Blueberries</h3>
 
     <ul class="species-list">
-      <li>Shangri-La mulberry</li>
-      <li>Chiang Mai 60 mulberry</li>
-      <li>Skinner mulberry</li>
-      <li>World’s Best mulberry</li>
+      <li>Thai mulberry</li>
+      <li>Australian Turkish mulberry</li>
+      <li>Hawkins White mulberry</li>
+      <li>Rosie’s Giant mulberry</li>
+      <li>Blackberry</li>
+      <li>Pink Lemonade blueberry</li>
+      <li>Sunshine blueberry</li>
+      <li>Emerald blueberry</li>
     </ul>
 
 
-    <h3>Sapodillas</h3>
+    <h3>Additional Fruit Trees</h3>
 
     <ul class="species-list">
-      <li>Silas Woods sapodilla</li>
-      <li>Mayok sapodilla</li>
-      <li>Morena sapodilla</li>
-      <li>Younghan’s sapodilla</li>
-      <li>Redlands sapodilla</li>
-      <li>Alano sapodilla</li>
-    </ul>
-
-
-    <h3>Avocados</h3>
-
-    <ul class="species-list">
-      <li>Choquette avocado</li>
-      <li>Ronnie avocado</li>
-      <li>Simmonds avocado</li>
-      <li>Lula avocado</li>
-    </ul>
-
-
-    <h3>White Sapotes and Related Fruit</h3>
-
-    <ul class="species-list">
-      <li>Campbell white sapote</li>
-      <li>Zill’s World Gold white sapote</li>
-      <li>Whitman green sapote</li>
-      <li>Mamey sapote</li>
-    </ul>
-
-
-    <h3>Annonas</h3>
-
-    <ul class="species-list">
-      <li>Custard apple</li>
-      <li>Sugar apple</li>
-      <li>Gefner atemoya</li>
-      <li>Canistel</li>
-      <li>Fitzpatrick canistel</li>
-    </ul>
-
-
-    <h3>Additional Fruit Trees and Vines</h3>
-
-    <ul class="species-list">
-      <li>Jaboticaba</li>
-      <li>Guava</li>
-      <li>China jackfruit</li>
-      <li>Golden Nugget jackfruit</li>
-      <li>Monkey jack</li>
-      <li>Cecropia, or gummy worm fruit</li>
-      <li>Lara purple star apple</li>
-      <li>Burgess star apple</li>
-      <li>Exposito star apple</li>
-      <li>Oliver loquat</li>
-      <li>Ice cream bean</li>
-      <li>Monstera deliciosa</li>
-      <li>Starfruit</li>
-      <li>Ackee</li>
-      <li>Cacao</li>
+      <li>Tropical apricot</li>
+      <li>Christmas loquat</li>
+      <li>Soursop, or guanabana</li>
+      <li>Mountain soursop</li>
       <li>Peanut butter fruit</li>
-      <li>Breadfruit</li>
-      <li>Sherbet berry, or falsa</li>
-      <li>Pitangatuba</li>
-      <li>Spanish lime, or mamoncillo</li>
-      <li>Barbados cherry</li>
-      <li>Triumph persimmon</li>
+      <li>Blackberry jam fruit</li>
+      <li>Jaboticaba, or Brazilian grape tree</li>
+      <li>Jackfruit</li>
+      <li>Sapodilla, or brown sugar fruit</li>
+      <li>Barbados cherry, or acerola</li>
+      <li>Black sapote</li>
+      <li>Miracle fruit</li>
+      <li>Vietnamese Red pomegranate</li>
+      <li>Black Surinam cherry</li>
+      <li>Painter’s cherilata</li>
+      <li>Grumichama</li>
+      <li>Golden Thai papaya</li>
+      <li>LSU Purple fig</li>
+      <li>Acai palm</li>
       <li>Jujube</li>
-      <li>Dragon fruit</li>
-      <li>Haley’s Comet dragon fruit</li>
-      <li>Purple Haze dragon fruit</li>
-      <li>Passion fruit</li>
-      <li>Papaya</li>
-      <li>Pineapple</li>
-      <li>Sugarloaf pineapple</li>
+      <li>Sugar apple</li>
+      <li>Yellow Jamaican cherry</li>
+      <li>Wampi</li>
+      <li>Wax jambu</li>
+      <li>Japanese raisin tree</li>
     </ul>
 
 
-    <h3>Edible Leaves, Herbs, and Support Plants</h3>
+    <h3>Avocados, Bananas, and Sugarcane</h3>
+
+    <ul class="species-list">
+      <li>Ooh La La, or Super Hass, avocado</li>
+      <li>Namwa banana</li>
+      <li>Red sugarcane</li>
+      <li>Black sugarcane</li>
+      <li>Green sugarcane</li>
+    </ul>
+
+
+    <h3>Perennial Vegetables, Herbs, and Spices</h3>
 
     <ul class="species-list">
       <li>Moringa</li>
-      <li>Katuk</li>
+      <li>Katuk, or sweet leaf</li>
+      <li>Cassava, or yuca</li>
+      <li>Tindora, or perennial cucumber</li>
+      <li>Florida cranberry, or roselle</li>
+      <li>Columnar basil</li>
+      <li>Allspice</li>
+      <li>Bay leaf</li>
+      <li>Cinnamon</li>
       <li>Longevity spinach</li>
       <li>Okinawa spinach</li>
-      <li>Edible leaf hibiscus</li>
-      <li>South Sea salad tree</li>
-      <li>Lippia alba</li>
-      <li>False cardamom</li>
-      <li>Root beer plant</li>
-      <li>Shampoo ginger</li>
+      <li>Neem</li>
+      <li>Cassabanana, or fragrant melon</li>
+      <li>Yerba mate</li>
+      <li>Guarana</li>
       <li>Coffee</li>
-      <li>Thai pepper</li>
-      <li>Parsley</li>
-      <li>Dill</li>
-      <li>Tomato groundcover</li>
-      <li>Elderberry</li>
     </ul>
 
 
-    <h3>Pollinator and Ornamental Plants</h3>
+    <h3>Vines and Climbing Plants</h3>
 
     <ul class="species-list">
-      <li>Firebush</li>
-      <li>Sapphire shower</li>
-      <li>Cestrum</li>
-      <li>Porterweed</li>
-      <li>Four o’clock</li>
-      <li>Powderpuff tree</li>
-      <li>Fireball mallow</li>
-      <li>Dutchman’s pipe</li>
-      <li>Chinese perfume plant</li>
-      <li>Queen’s wreath</li>
-      <li>Firespike</li>
-      <li>Starburst clerodendrum</li>
-      <li>Tahitian hat</li>
-      <li>Winter cassia</li>
+      <li>Corky-stem passion vine</li>
+      <li>Dutchman’s pipe vine</li>
+      <li>Fragrant hybrid passion vine</li>
+      <li>Blue sky vine</li>
       <li>Bougainvillea</li>
+    </ul>
+
+
+    <h3>Pollinator, Native, Medicinal, and Ornamental Plants</h3>
+
+    <ul class="species-list">
+      <li>Chinese perfume plant</li>
+      <li>Amistad salvia</li>
+      <li>Florida native red salvia</li>
+      <li>Senna alata, or ringworm bush</li>
+      <li>Sweet almond</li>
+      <li>Florida native beautyberry</li>
+      <li>Coontie</li>
+      <li>Porterweed</li>
     </ul>
 
   </div>
@@ -1494,3 +1503,163 @@ USDA Zone 10A climate.
 </details>
 
 </section>
+
+
+<section class="tour-section">
+
+<h2>The Green Yard Takeaway</h2>
+
+<div class="takeaway">
+
+<p>
+Gonza Gardens shows that the number of acres available matters less
+than how thoughtfully the space is designed. More than 100 fruit trees
+can grow on 0.17 acre because plants are selected for their size,
+trained to use vertical space, pruned to remain manageable, and
+positioned according to their individual needs.
+</p>
+
+<p>
+The front yard also demonstrates the value of adapting to the local
+climate. Tropical substitutes replace temperate crops that struggle in
+Tampa, while roof runoff, canopy protection, native host plants, and
+perennial vegetables allow the landscape to become more productive and
+resilient over time.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Visit Gonza Gardens and Food Forest Finds</h2>
+
+<p>
+KC and her family also operate Food Forest Finds, an edible plant
+nursery specializing in plants that have performed well in their own
+Tampa food forest. Many plants are propagated directly from material
+growing on the property.
+</p>
+
+<div class="link-grid">
+
+  <a
+    class="resource-card"
+    href="https://foodforestfinds.com/"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    <strong>Food Forest Finds</strong>
+
+    <span>
+      Explore the nursery, plant inventory, events, consultations,
+      and online shop.
+    </span>
+
+  </a>
+
+
+  <a
+    class="resource-card"
+    href="https://www.facebook.com/GonzaGardens"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    <strong>Gonza Gardens on Facebook</strong>
+
+    <span>
+      Follow updates from the garden, nursery, and current plant
+      collection.
+    </span>
+
+  </a>
+
+
+  <a
+    class="resource-card"
+    href="https://www.instagram.com/Gonza_Gardens/"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    <strong>Gonza Gardens on Instagram</strong>
+
+    <span>
+      See more plants, fruit harvests, flowers, propagation, and
+      garden updates.
+    </span>
+
+  </a>
+
+
+  <a
+    class="resource-card"
+    href="https://www.youtube.com/watch?v=x9dIR1FEESI"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    <strong>Watch Part 1 on YouTube</strong>
+
+    <span>
+      Open the complete front-yard Tampa food forest tour directly on
+      The Green Yard YouTube channel.
+    </span>
+
+  </a>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Continue to Gonza Gardens Part 2</h2>
+
+<div class="related-tour">
+
+  <div class="related-tour-image">
+
+    <img
+      src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+      alt="Backyard tropical food forest tour at Gonza Gardens in Tampa, Florida"
+      loading="lazy">
+
+  </div>
+
+
+  <div class="related-tour-copy">
+
+    <h3>This Florida Food Forest Is PACKED with Tropical Diversity!</h3>
+
+    <p>
+      Continue into the backyard and side yard, where KC shares more
+      tropical fruit varieties, perennial vegetables, grafted trees,
+      wildlife habitat, nursery plants, and high-density design ideas.
+    </p>
+
+    <div class="related-actions">
+
+      <a
+        class="tour-button"
+        href="florida-food-forest-tropical-diversity.html">
+        Explore Part 2
+      </a>
+
+      <a
+        class="tour-button tour-button-secondary"
+        href="../index.html">
+        Explore All Tours
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+</main>
+```
