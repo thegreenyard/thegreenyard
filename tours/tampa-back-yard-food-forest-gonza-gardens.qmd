@@ -801,3 +801,356 @@ format:
 
 }
 </style>
+<main class="tour-page">
+
+<div class="video-wrap">
+
+  <iframe
+    src="https://www.youtube.com/embed/1gj5_POLCNo?rel=0"
+    title="This Florida Food Forest Is PACKED with Tropical Diversity!"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+
+</div>
+
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+
+  <a href="../index.html">Food Forest Tours</a>
+
+  <span class="breadcrumb-separator" aria-hidden="true">/</span>
+
+  <span>Florida</span>
+
+  <span class="breadcrumb-separator" aria-hidden="true">/</span>
+
+  <span aria-current="page">Gonza Gardens</span>
+
+</nav>
+
+
+<header class="tour-header">
+
+  <h1>This Florida Food Forest Is PACKED with Tropical Diversity!</h1>
+
+  <div class="tour-categories">
+
+    <span class="tour-category">Florida</span>
+
+    <span class="tour-category">Tampa</span>
+
+    <span class="tour-category">Food Forest Tours</span>
+
+    <span class="tour-category">Tropical Fruit</span>
+
+    <span class="tour-category">Zone 10A</span>
+
+    <span class="tour-category">Gonza Gardens</span>
+
+  </div>
+
+  <p class="tour-description">
+    Tour Gonza Gardens, a high-density Tampa food forest where KC grows
+    tropical fruit trees, perennial vegetables, pollinator plants, and rare
+    ornamentals in USDA Zone 10A.
+  </p>
+
+  <div class="tour-meta">
+
+    <div>
+      <span class="meta-label">Host</span>
+      <span class="meta-value">KC at Gonza Gardens</span>
+    </div>
+
+    <div>
+      <span class="meta-label">Published</span>
+      <span class="meta-value">July 10, 2026</span>
+    </div>
+
+  </div>
+
+</header>
+
+
+<p class="tour-lead">
+In Part 2 of our visit to Gonza Gardens, KC takes us through the
+backyard, side yard, raised beds, nursery propagation area, and an
+astonishing collection of tropical and subtropical plants growing in
+Tampa, Florida. This densely planted residential food forest combines
+fruit production, perennial vegetables, rare ornamentals, wildlife
+habitat, and plant propagation within the same landscape.
+</p>
+
+
+<section class="quick-facts" aria-label="Tour snapshot">
+
+  <div class="fact-card">
+    <span class="fact-label">Garden</span>
+    <span class="fact-value">Gonza Gardens</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Host</span>
+    <span class="fact-value">KC</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Location</span>
+    <span class="fact-value">Tampa, Florida</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Climate</span>
+    <span class="fact-value">USDA Zone 10A</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Garden Age</span>
+    <span class="fact-value">Approximately 4 Years</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Property Type</span>
+    <span class="fact-value">Residential Food Forest</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Plant Collection</span>
+    <span class="fact-value">70+ Plants and Varieties</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Primary Focus</span>
+    <span class="fact-value">Tropical Fruit Diversity</span>
+  </div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Inside a High-Density Tampa Food Forest</h2>
+
+<p>
+KC and her family originally began developing the backyard as a garden
+filled with rare ornamentals collected from around Florida. As their
+interest in food forestry grew, edible plants were layered into the
+existing landscape, creating a garden where beauty, food production,
+and wildlife habitat all overlap.
+</p>
+
+<p>
+The result is not a conventional orchard with widely spaced trees.
+Mangoes, sapodillas, mulberries, avocados, white sapotes, jackfruit
+relatives, perennial vegetables, flowering plants, vines, ponds, and
+nursery stock are fitted into nearly every available part of the
+property.
+</p>
+
+<p>
+Many trees are pruned to remain reachable, while grafting allows
+several proven varieties to grow on a single tree. Upper-canopy plants
+also provide shade and protection for sensitive tropical species,
+helping KC grow plants that might otherwise struggle during Tampa’s
+occasional cold weather.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>What You’ll Learn From This Tampa Food Forest</h2>
+
+<div class="learn-grid">
+
+  <div class="learn-item">
+    How KC layers fruit trees, shrubs, vines, ornamentals, and
+    perennial vegetables into a residential property
+  </div>
+
+  <div class="learn-item">
+    Why grafted trees can provide more predictable fruit than
+    unknown seedlings
+  </div>
+
+  <div class="learn-item">
+    How pruning keeps mulberries and avocados productive and
+    easier to harvest
+  </div>
+
+  <div class="learn-item">
+    How ponds and fountains support birds, frogs, lizards,
+    pollinators, and other wildlife
+  </div>
+
+  <div class="learn-item">
+    Why Florida gardeners often need tropical alternatives to
+    lettuce, apples, peaches, pears, and other temperate crops
+  </div>
+
+  <div class="learn-item">
+    How canopy cover and warmth from the house help protect
+    sensitive plants such as coffee and cacao
+  </div>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Five Highlights From the Gonza Gardens Tour</h2>
+
+<div class="short-grid">
+
+  <article class="short-card">
+
+    <div class="short-video">
+
+      <iframe
+        src="https://www.youtube.com/embed/FsIXyOAkJyo?rel=0"
+        title="This Tropical Fruit Replaces Apples in Tampa"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+
+    <div class="short-copy">
+
+      <h3>This Tropical Fruit Replaces Apples in Tampa</h3>
+
+      <p>
+        KC explains why jujube can be a productive alternative to
+        apples in a climate with very few winter chill hours.
+      </p>
+
+    </div>
+
+  </article>
+
+
+  <article class="short-card">
+
+    <div class="short-video">
+
+      <iframe
+        src="https://www.youtube.com/embed/x1gnjMe_Tuo?rel=0"
+        title="Florida's Most Underrated Fruit Tree?"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+
+    <div class="short-copy">
+
+      <h3>Florida’s Most Underrated Fruit Tree?</h3>
+
+      <p>
+        White sapote is cold tolerant, productive outside the main
+        summer fruit season, and still unfamiliar to many growers.
+      </p>
+
+    </div>
+
+  </article>
+
+
+  <article class="short-card">
+
+    <div class="short-video">
+
+      <iframe
+        src="https://www.youtube.com/embed/DXmE3tSjoGk?rel=0"
+        title="One of the Coolest Flowers in a Food Forest"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+
+    <div class="short-copy">
+
+      <h3>One of the Coolest Flowers in a Food Forest</h3>
+
+      <p>
+        Dutchman’s pipe produces unusual flowers and serves as a host
+        plant for the Polydamas swallowtail butterfly.
+      </p>
+
+    </div>
+
+  </article>
+
+
+  <article class="short-card">
+
+    <div class="short-video">
+
+      <iframe
+        src="https://www.youtube.com/embed/864KCED0M6c?rel=0"
+        title="Grow a Pineapple Patch From Store-Bought Tops"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+
+    <div class="short-copy">
+
+      <h3>Grow a Pineapple Patch From Store-Bought Tops</h3>
+
+      <p>
+        Store-bought pineapple tops can be rooted and replanted,
+        eventually becoming an expanding patch of homegrown pineapples.
+      </p>
+
+    </div>
+
+  </article>
+
+
+  <article class="short-card">
+
+    <div class="short-video">
+
+      <iframe
+        src="https://www.youtube.com/embed/WJ5ixTN7GyY?rel=0"
+        title="This One Tree Grows Three Different Mulberries"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+
+    </div>
+
+    <div class="short-copy">
+
+      <h3>This One Tree Grows Three Different Mulberries</h3>
+
+      <p>
+        KC shows how Shangri-La, Chiang Mai 60, and Skinner mulberries
+        can grow together on a single grafted tree.
+      </p>
+
+    </div>
+
+  </article>
+
+</div>
+
+</section>
