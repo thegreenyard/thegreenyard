@@ -624,3 +624,61 @@ body:has(#gy-home-hero) #quarto-header {
   }
 }
 }
+/* =========================================================
+   MOBILE NAVBAR LOGO FIX
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+  .navbar {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  .navbar-container {
+    display: grid !important;
+    grid-template-columns: 54px minmax(0, 1fr) 54px !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 8px !important;
+  }
+
+  .navbar-toggler {
+    grid-column: 1 !important;
+    margin: 0 !important;
+  }
+
+  .navbar-brand-container {
+    grid-column: 2 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    overflow: visible !important;
+  }
+
+  .navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+  }
+
+  .navbar-brand-logo,
+  .navbar-brand img {
+    display: block !important;
+    width: auto !important;
+    max-width: 225px !important;
+    height: auto !important;
+    max-height: 78px !important;
+    object-fit: contain !important;
+  }
+
+  .navbar-search {
+    grid-column: 3 !important;
+    justify-self: end !important;
+    margin: 0 !important;
+  }
+}
