@@ -24,9 +24,6 @@ website:
       - href: grow/index.qmd
         text: Grow in Phoenix
 
-      - href: journal.qmd
-        text: Journal
-
       - href: about.qmd
         text: About
 
