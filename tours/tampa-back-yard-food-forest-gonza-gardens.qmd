@@ -1154,3 +1154,343 @@ occasional cold weather.
 </div>
 
 </section>
+<section class="tour-section">
+
+<h2>Growing Tropical Fruit in Tampa, Florida</h2>
+
+<p>
+One of the strongest lessons from Gonza Gardens is the importance of
+choosing plants that want to grow in the local climate. KC explains
+that many of the apples, peaches, plums, pears, lettuces, peppers, and
+large tomatoes they initially tried were poorly suited to Tampa’s heat
+and limited winter chill.
+</p>
+
+<p>
+Instead of repeatedly struggling with those crops, the garden now
+relies more heavily on subtropical and tropical alternatives. Jujube
+fills a role similar to a small apple, while moringa, katuk, longevity
+spinach, Okinawa spinach, and edible hibiscus provide perennial leafy
+greens better adapted to Florida’s heat.
+</p>
+
+<p>
+White sapote is especially useful because it tolerates cooler weather
+and may provide fruit outside the main mango-heavy summer season. This
+helps spread harvests across more of the year rather than having every
+major fruit crop ripen during the same few months.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Food Forest Design: Pruning, Grafting, and Dense Planting</h2>
+
+<p>
+KC keeps several trees intentionally small. Mulberries are repeatedly
+pruned because fruit growing beyond reach often becomes bird food,
+while everbearing varieties such as Chiang Mai 60 can flower and
+produce again following pruning.
+</p>
+
+<p>
+Grafting allows the garden to hold more varieties without requiring a
+separate mature tree for every cultivar. One mulberry carries three
+varieties, while sugar apple, white sapote, and other trees are being
+top-worked or grafted to improve fruit quality, pollination, and
+overall reliability.
+</p>
+
+<p>
+Because the property is densely planted, KC considers the future growth
+habit and vigor of each tree. Slow-growing star apples can be planted
+relatively close and trained in opposite directions, while faster
+canopy trees such as ice cream bean and Cecropia occupy the upper layer.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Creating Wildlife Habitat in a Food Forest</h2>
+
+<p>
+The garden is designed to feed more than people. Firebush, porterweed,
+firespike, powderpuff, cassia, Dutchman’s pipe, dill, citrus, and other
+plants attract or support hummingbirds, butterflies, caterpillars, and
+pollinating insects.
+</p>
+
+<p>
+KC also intentionally provides water through ponds and fountains. She
+has observed that birds may damage less fruit when clean drinking water
+is readily available. The same water features support frogs, lizards,
+neighborhood cats, and the larger backyard ecosystem.
+</p>
+
+<p>
+Rather than treating insects and wildlife as separate from the garden,
+Gonza Gardens includes their interactions as part of a functioning
+food forest.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Plants Growing at Gonza Gardens</h2>
+
+<p>
+The Gonza Gardens backyard and side-yard tour includes dozens of
+tropical fruits, named cultivars, perennial vegetables, herbs, support
+plants, pollinator plants, and rare ornamentals growing in Tampa’s
+USDA Zone 10A climate.
+</p>
+
+
+<div class="species-overview">
+
+  <div class="species-overview-grid">
+
+    <div class="species-stat">
+      <span class="species-stat-label">Mangoes</span>
+      <span class="species-stat-value">5 named varieties</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Sapodillas</span>
+      <span class="species-stat-value">6 named varieties</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Mulberries</span>
+      <span class="species-stat-value">4 named varieties</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Avocados</span>
+      <span class="species-stat-value">4 named varieties</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Tropical Fruit</span>
+      <span class="species-stat-value">30+ plants and varieties</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Edible Greens & Herbs</span>
+      <span class="species-stat-value">16 plants</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Pollinator Plants</span>
+      <span class="species-stat-value">15 plants</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Growing Style</span>
+      <span class="species-stat-value">Dense, diverse and multilayered</span>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="featured-plants">
+
+  <span class="featured-plants-label">
+    Featured Plants
+  </span>
+
+  <div class="featured-plant-tags">
+
+    <span class="featured-plant">Fruit Punch mango</span>
+
+    <span class="featured-plant">Coconut Cream mango</span>
+
+    <span class="featured-plant">Pineapple Pleasure mango</span>
+
+    <span class="featured-plant">Silas Woods sapodilla</span>
+
+    <span class="featured-plant">Choquette avocado</span>
+
+    <span class="featured-plant">Chiang Mai 60 mulberry</span>
+
+    <span class="featured-plant">Campbell white sapote</span>
+
+    <span class="featured-plant">Dragon fruit</span>
+
+  </div>
+
+</div>
+
+
+<details class="species-details">
+
+  <summary aria-label="Show or hide the complete plant list">
+
+    <span class="species-summary-closed">
+      Show Complete Plant List
+    </span>
+
+    <span class="species-summary-open">
+      Hide Complete Plant List
+    </span>
+
+  </summary>
+
+
+  <div class="species-box">
+
+    <h3>Mangoes</h3>
+
+    <ul class="species-list">
+      <li>Fruit Punch mango</li>
+      <li>Coconut Cream mango</li>
+      <li>Pineapple Pleasure mango</li>
+      <li>Phoenix mango</li>
+      <li>Ice Cream mango</li>
+    </ul>
+
+
+    <h3>Mulberries</h3>
+
+    <ul class="species-list">
+      <li>Shangri-La mulberry</li>
+      <li>Chiang Mai 60 mulberry</li>
+      <li>Skinner mulberry</li>
+      <li>World’s Best mulberry</li>
+    </ul>
+
+
+    <h3>Sapodillas</h3>
+
+    <ul class="species-list">
+      <li>Silas Woods sapodilla</li>
+      <li>Mayok sapodilla</li>
+      <li>Morena sapodilla</li>
+      <li>Younghan’s sapodilla</li>
+      <li>Redlands sapodilla</li>
+      <li>Alano sapodilla</li>
+    </ul>
+
+
+    <h3>Avocados</h3>
+
+    <ul class="species-list">
+      <li>Choquette avocado</li>
+      <li>Ronnie avocado</li>
+      <li>Simmonds avocado</li>
+      <li>Lula avocado</li>
+    </ul>
+
+
+    <h3>White Sapotes and Related Fruit</h3>
+
+    <ul class="species-list">
+      <li>Campbell white sapote</li>
+      <li>Zill’s World Gold white sapote</li>
+      <li>Whitman green sapote</li>
+      <li>Mamey sapote</li>
+    </ul>
+
+
+    <h3>Annonas</h3>
+
+    <ul class="species-list">
+      <li>Custard apple</li>
+      <li>Sugar apple</li>
+      <li>Gefner atemoya</li>
+      <li>Canistel</li>
+      <li>Fitzpatrick canistel</li>
+    </ul>
+
+
+    <h3>Additional Fruit Trees and Vines</h3>
+
+    <ul class="species-list">
+      <li>Jaboticaba</li>
+      <li>Guava</li>
+      <li>China jackfruit</li>
+      <li>Golden Nugget jackfruit</li>
+      <li>Monkey jack</li>
+      <li>Cecropia, or gummy worm fruit</li>
+      <li>Lara purple star apple</li>
+      <li>Burgess star apple</li>
+      <li>Exposito star apple</li>
+      <li>Oliver loquat</li>
+      <li>Ice cream bean</li>
+      <li>Monstera deliciosa</li>
+      <li>Starfruit</li>
+      <li>Ackee</li>
+      <li>Cacao</li>
+      <li>Peanut butter fruit</li>
+      <li>Breadfruit</li>
+      <li>Sherbet berry, or falsa</li>
+      <li>Pitangatuba</li>
+      <li>Spanish lime, or mamoncillo</li>
+      <li>Barbados cherry</li>
+      <li>Triumph persimmon</li>
+      <li>Jujube</li>
+      <li>Dragon fruit</li>
+      <li>Haley’s Comet dragon fruit</li>
+      <li>Purple Haze dragon fruit</li>
+      <li>Passion fruit</li>
+      <li>Papaya</li>
+      <li>Pineapple</li>
+      <li>Sugarloaf pineapple</li>
+    </ul>
+
+
+    <h3>Edible Leaves, Herbs, and Support Plants</h3>
+
+    <ul class="species-list">
+      <li>Moringa</li>
+      <li>Katuk</li>
+      <li>Longevity spinach</li>
+      <li>Okinawa spinach</li>
+      <li>Edible leaf hibiscus</li>
+      <li>South Sea salad tree</li>
+      <li>Lippia alba</li>
+      <li>False cardamom</li>
+      <li>Root beer plant</li>
+      <li>Shampoo ginger</li>
+      <li>Coffee</li>
+      <li>Thai pepper</li>
+      <li>Parsley</li>
+      <li>Dill</li>
+      <li>Tomato groundcover</li>
+      <li>Elderberry</li>
+    </ul>
+
+
+    <h3>Pollinator and Ornamental Plants</h3>
+
+    <ul class="species-list">
+      <li>Firebush</li>
+      <li>Sapphire shower</li>
+      <li>Cestrum</li>
+      <li>Porterweed</li>
+      <li>Four o’clock</li>
+      <li>Powderpuff tree</li>
+      <li>Fireball mallow</li>
+      <li>Dutchman’s pipe</li>
+      <li>Chinese perfume plant</li>
+      <li>Queen’s wreath</li>
+      <li>Firespike</li>
+      <li>Starburst clerodendrum</li>
+      <li>Tahitian hat</li>
+      <li>Winter cassia</li>
+      <li>Bougainvillea</li>
+    </ul>
+
+  </div>
+
+</details>
+
+</section>
