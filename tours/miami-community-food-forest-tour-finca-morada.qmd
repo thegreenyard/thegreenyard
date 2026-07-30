@@ -1582,8 +1582,8 @@ trees and edible perennials.
 <div class="related-tour-image">
 
 <img
-src="../images/miami-backyard-food-forest-finca-morada.jpg"
-alt="Finca Morada food forest tour in Miami, Florida">
+  src="../images/miami-front-yard-food-forest-finca-morada.jpg"
+  alt="Finca Morada front yard food forest in Miami, Florida">
 
 </div>
 
