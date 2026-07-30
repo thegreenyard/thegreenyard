@@ -591,11 +591,11 @@ object-position: center;
 
 <div class="gy-tours-slideshow" aria-hidden="true">
 
-<img
-  src="../images/hero-03-aerial-food-forest.png"
-  class="gy-tours-slide is-active"
-  alt=""
-  fetchpriority="high">
+  <img
+    src="../images/hero-03-aerial-food-forest.png"
+    class="gy-tours-slide is-active"
+    alt=""
+    fetchpriority="high">
 
   <img
     src="../images/hero-04-bananas.png"
