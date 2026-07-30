@@ -587,11 +587,6 @@ object-position: center;
 
 <div class="gy-tours-slideshow" aria-hidden="true">
 
-  <img
-    src="../images/hero-01-grapes-trellis.png"
-    class="gy-tours-slide is-active"
-    alt=""
-    fetchpriority="high">
 
   <img
     src="../images/hero-02-mature-canopy.png"
