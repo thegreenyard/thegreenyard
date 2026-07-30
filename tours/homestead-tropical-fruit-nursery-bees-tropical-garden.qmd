@@ -1218,9 +1218,6 @@ provide much of the lesson.
 <section class="tour-section">
 
 <h2>More Than a Nursery: A Living Tropical Collection</h2>
-<section class="tour-section">
-
-<h2>More Than a Nursery: A Living Tropical Collection</h2>
 
 <p>
 Beez Tropical Garden is much more than a place to purchase tropical
