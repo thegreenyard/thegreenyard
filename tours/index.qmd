@@ -624,22 +624,12 @@ object-position: center;
     alt="">
 
   <img
-    src="../images/hero-08-young-food-forest-tour.png"
-    class="gy-tours-slide"
-    alt="">
-
-  <img
-    src="../images/hero-09-loquat-tree.png"
+    src="../images/hero-11-starfruit-tree.png"
     class="gy-tours-slide"
     alt="">
 
   <img
     src="../images/hero-10-pineapple.png"
-    class="gy-tours-slide"
-    alt="">
-
-  <img
-    src="../images/hero-11-starfruit-tree.png"
     class="gy-tours-slide"
     alt="">
 
