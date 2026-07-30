@@ -223,12 +223,13 @@ object-position: center;
      MAIN PAGE CONTENT
      ========================================================= */
 
-  .gy-tours-main {
-    width: min(1500px, calc(100% - 56px));
-    margin: 0 auto;
-    padding: 76px 0 28px;
-  }
-
+ .gy-tours-main {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 76px 5vw 28px;
+  box-sizing: border-box;
+}
   .gy-section-heading {
     max-width: 850px;
     margin: 0 0 33px;
