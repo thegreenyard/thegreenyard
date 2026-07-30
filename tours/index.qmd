@@ -589,11 +589,6 @@ object-position: center;
 
 
   <img
-    src="../images/hero-02-mature-canopy.png"
-    class="gy-tours-slide"
-    alt="">
-
-  <img
     src="../images/hero-03-aerial-food-forest.png"
     class="gy-tours-slide"
     alt="">
