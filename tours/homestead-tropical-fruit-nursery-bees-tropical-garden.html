@@ -544,9 +544,10 @@ ul.task-list li input[type="checkbox"] {
 
 .short-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-  max-width: 960px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 420px));
+  justify-content: center;
+  gap: 28px;
+  max-width: 1100px;
   margin: 28px auto 0;
 }
 
