@@ -586,70 +586,87 @@ listing:
 
 <section id="gy-tours-hero">
 
-  <div class="gy-tours-slideshow" aria-hidden="true">
+ <div class="gy-tours-slideshow" aria-hidden="true">
 
-    <img
-      src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
-      class="gy-tours-slide is-active"
-      alt=""
-      fetchpriority="high"
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/1gj5_POLCNo/hqdefault.jpg';">
+  <img
+    src="../images/hero-01-grapes-trellis.jpg"
+    class="gy-tours-slide is-active"
+    alt=""
+    fetchpriority="high">
 
-    <img
-      src="https://img.youtube.com/vi/t-EeESLWNug/maxresdefault.jpg"
-      class="gy-tours-slide"
-      alt=""
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/t-EeESLWNug/hqdefault.jpg';">
+  <img
+    src="../images/hero-02-mature-canopy.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="eager">
 
-    <img
-      src="https://img.youtube.com/vi/n6hO-1f6b14/maxresdefault.jpg"
-      class="gy-tours-slide"
-      alt=""
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/n6hO-1f6b14/hqdefault.jpg';">
+  <img
+    src="../images/hero-03-aerial-food-forest.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
 
-    <img
-      src="https://img.youtube.com/vi/x9dIR1FEESI/maxresdefault.jpg"
-      class="gy-tours-slide"
-      alt=""
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/x9dIR1FEESI/hqdefault.jpg';">
+  <img
+    src="../images/hero-04-bananas.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
 
-    <img
-      src="https://img.youtube.com/vi/4AXnFuf0Dcg/maxresdefault.jpg"
-      class="gy-tours-slide"
-      alt=""
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/4AXnFuf0Dcg/hqdefault.jpg';">
+  <img
+    src="../images/hero-05-food-forest-understory.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
 
-    <img
-      src="https://img.youtube.com/vi/oGXmSJEknys/maxresdefault.jpg"
-      class="gy-tours-slide"
-      alt=""
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/oGXmSJEknys/hqdefault.jpg';">
+  <img
+    src="../images/hero-06-young-food-forest.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
 
-    <img
-      src="https://img.youtube.com/vi/86bjveaF95Y/maxresdefault.jpg"
-      class="gy-tours-slide"
-      alt=""
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/86bjveaF95Y/hqdefault.jpg';">
+  <img
+    src="../images/hero-07-young-food-forest-aerial.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
 
-    <img
-      src="https://img.youtube.com/vi/Ik65QaitMdU/maxresdefault.jpg"
-      class="gy-tours-slide"
-      alt=""
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/Ik65QaitMdU/hqdefault.jpg';">
+  <img
+    src="../images/hero-08-young-food-forest-tour.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
 
-    <img
-      src="https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg"
-      class="gy-tours-slide"
-      alt=""
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/0uxQGmZKBeI/hqdefault.jpg';">
+  <img
+    src="../images/hero-09-loquat-tree.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
 
-    <img
-      src="https://img.youtube.com/vi/GQN0aOzeB80/maxresdefault.jpg"
-      class="gy-tours-slide"
-      alt=""
-      onerror="this.onerror=null;this.src='https://img.youtube.com/vi/GQN0aOzeB80/hqdefault.jpg';">
+  <img
+    src="../images/hero-10-pineapple.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
 
-  </div>
+  <img
+    src="../images/hero-11-starfruit-tree.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
+
+  <img
+    src="../images/hero-12-nursery-overview.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
+
+  <img
+    src="../images/hero-13-nursery-tour.jpg"
+    class="gy-tours-slide"
+    alt=""
+    loading="lazy">
+
+</div>
 
   <div class="gy-tours-overlay"></div>
 
