@@ -416,19 +416,22 @@ object-position: center;
      AUTOMATIC TOUR LISTING
      ========================================================= */
 
-  .gy-library-intro {
-    width: min(1500px, calc(100% - 56px));
-    margin: 0 auto;
-    padding: 0 0 4px;
-  }
+.gy-library-intro {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0 5vw 4px;
+  box-sizing: border-box;
+}
 
-  #listing-listing,
-  .quarto-listing-container-default {
-    width: min(1500px, calc(100% - 56px));
-    max-width: 1500px !important;
-    margin: 0 auto 90px !important;
-    padding: 0 !important;
-  }
+#listing-listing,
+.quarto-listing-container-default {
+  width: 100%;
+  max-width: none !important;
+  margin: 0 0 90px !important;
+  padding: 0 5vw !important;
+  box-sizing: border-box;
+}
 
   .quarto-listing {
     margin-top: 25px !important;
