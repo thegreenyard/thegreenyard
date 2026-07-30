@@ -2,7 +2,7 @@
 title: "Miami Backyard Food Forest Tour: Finca Morada’s Edible and Native Landscape"
 description: "Tour Finca Morada’s Miami backyard food forest and explore tropical fruit trees, medicinal plants, perennial vegetables, native wildlife habitat, chop-and-drop fertility, graywater, propagation, and community plant sharing."
 author: "The Green Yard"
-date: 2026-07-30
+date: 2026-04-04
 date-modified: 2026-07-30
 lang: en
 
