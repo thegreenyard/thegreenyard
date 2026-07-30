@@ -456,14 +456,14 @@ listing:
     box-shadow: 0 14px 31px rgba(18, 47, 36, 0.14);
   }
 
-  .quarto-grid-item .card-img-top,
-  .quarto-grid-item img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: contain;
-    background: #082f24;
-  }
+ .quarto-grid-item .card-img-top,
+.quarto-grid-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
 
   .quarto-grid-item .card-body {
     padding: 22px !important;
