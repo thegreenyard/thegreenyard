@@ -584,90 +584,75 @@ object-position: center;
 </style>
 
 
-<section id="gy-tours-hero">
-
- <div class="gy-tours-slideshow" aria-hidden="true">
+<div class="gy-tours-slideshow" aria-hidden="true">
 
   <img
-    src="../images/hero-01-grapes-trellis.jpg"
+    src="../images/hero-01-grapes-trellis.png"
     class="gy-tours-slide is-active"
     alt=""
     fetchpriority="high">
 
   <img
-    src="../images/hero-02-mature-canopy.jpg"
+    src="../images/hero-02-mature-canopy.png"
     class="gy-tours-slide"
-    alt=""
-    loading="eager">
+    alt="">
 
   <img
-    src="../images/hero-03-aerial-food-forest.jpg"
+    src="../images/hero-03-aerial-food-forest.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-04-bananas.jpg"
+    src="../images/hero-04-bananas.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-05-food-forest-understory.jpg"
+    src="../images/hero-05-food-forest-understory.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-06-young-food-forest.jpg"
+    src="../images/hero-06-young-food-forest.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-07-young-food-forest-aerial.jpg"
+    src="../images/hero-07-young-food-forest-aerial.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-08-young-food-forest-tour.jpg"
+    src="../images/hero-08-young-food-forest-tour.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-09-loquat-tree.jpg"
+    src="../images/hero-09-loquat-tree.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-10-pineapple.jpg"
+    src="../images/hero-10-pineapple.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-11-starfruit-tree.jpg"
+    src="../images/hero-11-starfruit-tree.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-12-nursery-overview.jpg"
+    src="../images/hero-12-nursery-overview.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
   <img
-    src="../images/hero-13-nursery-tour.jpg"
+    src="../images/hero-13-nursery-tour.png"
     class="gy-tours-slide"
-    alt=""
-    loading="lazy">
+    alt="">
 
 </div>
-
   <div class="gy-tours-overlay"></div>
 
   <div class="gy-tours-content">
