@@ -1364,7 +1364,7 @@ of South Florida's most diverse edible landscapes.
 
 <a
 class="tour-button"
-href="miami-backyard-food-forest-finca-morada.html">
+href="miami-community-food-forest-tour-finca-morada.html">
 
 Explore Part 2
 
