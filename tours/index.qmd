@@ -102,8 +102,8 @@ listing:
     padding: 0;
     border: 0;
 
-    object-fit: contain;
-    object-position: center;
+  object-fit: cover;
+object-position: center;
 
     opacity: 0;
 
