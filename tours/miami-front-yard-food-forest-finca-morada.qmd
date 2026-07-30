@@ -867,3 +867,133 @@ same system.
   </div>
 
 </section>
+<section class="tour-section">
+
+<h2>Inside Finca Morada's Front Yard Food Forest</h2>
+
+<p>
+Most front yards are designed around turf grass and ornamental shrubs.
+Finca Morada takes a very different approach. Instead of separating
+native landscaping from edible gardening, this North Miami property
+blends regional native plants, tropical fruit trees, medicinal species,
+pollinator habitat, and edible groundcovers into one interconnected
+ecosystem.
+</p>
+
+<p>
+The front yard serves as an invitation to imagine what residential
+landscapes could become. Rather than hiding food production behind the
+house, the edible landscape becomes the first thing visitors and
+neighbors experience. Every season offers a different combination of
+flowers, fruit, wildlife, and changing plant communities that continue
+to mature together.
+</p>
+
+<p>
+This approach also challenges the idea that gardeners must choose
+between growing native plants or edible plants. At Finca Morada, both
+can coexist. Native trees and shrubs create habitat for birds and
+pollinators while tropical fruit trees, medicinal herbs, and perennial
+vegetables provide food and medicine for people. The result is a front
+yard that functions as a productive ecosystem instead of a decorative
+lawn. :contentReference[oaicite:0]{index=0}
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>What You'll Learn From This Tour</h2>
+
+<div class="learn-grid">
+
+<div class="learn-item">
+How a front yard can become an edible landscape without sacrificing
+beauty or biodiversity.
+</div>
+
+<div class="learn-item">
+Why regional native plants provide essential habitat for birds,
+pollinators, and beneficial insects while growing alongside food crops.
+</div>
+
+<div class="learn-item">
+How a living fence creates privacy, wildlife habitat, and year-round
+ecological value instead of relying on conventional hedges.
+</div>
+
+<div class="learn-item">
+Why shade-tolerant native shrubs become increasingly valuable as a food
+forest canopy matures.
+</div>
+
+<div class="learn-item">
+How rainwater harvesting can support productive gardens while reducing
+dependence on municipal water supplies.
+</div>
+
+<div class="learn-item">
+Why community workshops and shared learning are central to Finca
+Morada's mission of increasing resilience through gardening.
+</div>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>The Story Behind Finca Morada</h2>
+
+<p>
+Every garden has a history, and Finca Morada begins with honoring the
+people and place that came before. Cris explains that the property was
+already known throughout the neighborhood as the "purple house"
+because the previous owner loved the color purple. Rather than erase
+that history, the name <em>Finca Morada</em>—Spanish for "Purple
+Farm"—preserves that connection while giving the property a new
+purpose rooted in food, ecology, and community.
+</p>
+
+<p>
+The half-acre property has evolved since 2019 into an educational urban
+food forest containing more than 200 species of edible, medicinal,
+native, and support plants. Instead of viewing the garden simply as a
+collection of plants, the team describes it as a practice of
+reconnecting with the land and rediscovering land-based ways of living,
+even within a dense urban neighborhood. :contentReference[oaicite:1]{index=1}
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>A Living Fence Instead of a Conventional Hedge</h2>
+
+<p>
+One of the first things visitors notice is that the property doesn't
+hide behind a row of identical shrubs. Instead, the front boundary is a
+living fence composed of roughly thirty regional native species from
+South Florida and the wider Caribbean. These plants demonstrate that a
+privacy screen can also become wildlife habitat, educational space, and
+an expression of local ecology.
+</p>
+
+<p>
+Regional native plants from areas such as the Bahamas, Cuba, and the
+Yucatán Peninsula are well adapted to South Florida's climate and help
+support birds, butterflies, and pollinating insects. By combining
+multiple native species rather than planting a single hedge, the garden
+creates year-round diversity in structure, flowers, fruit, and habitat.
+</p>
+
+<p>
+For neighbors walking past the property, the living fence quietly
+demonstrates another possibility for urban landscapes—one that values
+ecological diversity instead of uniformity.
+</p>
+
+</section>
