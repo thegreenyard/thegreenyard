@@ -2,7 +2,7 @@
 title: "Tampa Food Forest Tour: Gonza Gardens Tropical Backyard"
 description: "Explore Gonza Gardens, a high-density Tampa food forest filled with tropical fruit trees, perennial vegetables, pollinator plants, and rare ornamentals in USDA Zone 10A."
 author: "The Green Yard"
-date: 2026-07-10
+date: 2026-07-03
 date-modified: 2026-07-25
 lang: en
 
