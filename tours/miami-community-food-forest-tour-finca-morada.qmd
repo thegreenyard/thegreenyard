@@ -839,29 +839,18 @@ format:
 
 </nav>
 
-
 <header class="tour-header">
-
   <h1>Inside a Florida Backyard Food Forest! (Native &amp; Edible Plants)</h1>
 
   <div class="tour-categories">
-
-    <span class="tour-category">Florida</span>
-
-    <span class="tour-category">Miami</span>
-
-    <span class="tour-category">Food Forest Tours</span>
-
-    <span class="tour-category">Backyard Food Forest</span>
-
-    <span class="tour-category">Tropical Fruit</span>
-
-    <span class="tour-category">Medicinal Plants</span>
-
-    <span class="tour-category">Native Plants</span>
-
-    <span class="tour-category">Finca Morada</span>
-
+<span class="tour-category">Florida</span>
+<span class="tour-category">Miami</span>
+<span class="tour-category">Food Forest Tours</span>
+<span class="tour-category">Backyard Food Forest</span>
+<span class="tour-category">Tropical Fruit</span>
+<span class="tour-category">Medicinal Plants</span>
+<span class="tour-category">Native Plants</span>
+<span class="tour-category">Finca Morada</span>
   </div>
 
   <p class="tour-description">
@@ -872,21 +861,16 @@ format:
   </p>
 
   <div class="tour-meta">
-
     <div>
       <span class="meta-label">Host</span>
       <span class="meta-value">Cris at Finca Morada</span>
     </div>
-
     <div>
       <span class="meta-label">Published</span>
       <span class="meta-value">July 30, 2026</span>
     </div>
-
   </div>
-
 </header>
-
 
 <p class="tour-lead">
 In the backyard portion of our visit to Finca Morada, Cris guides us
@@ -898,9 +882,7 @@ creating a food forest that supports people, wildlife, and the wider
 community.
 </p>
 
-
 <section class="quick-facts" aria-label="Tour snapshot">
-
   <div class="fact-card">
     <span class="fact-label">Garden</span>
     <span class="fact-value">Finca Morada</span>
