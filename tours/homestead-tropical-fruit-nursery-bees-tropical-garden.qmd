@@ -1,1 +1,770 @@
+---
+title: "Homestead Tropical Fruit Nursery Tour: Beez Tropical Garden"
+description: "Tour Beez Tropical Garden in Homestead, Florida, and explore a tropical nursery and fruit farm filled with rare fruit trees, medicinal plants, mature orchards, and edible landscaping inspiration."
+author: "The Green Yard"
+date: 2026-01-26
+date-modified: 2026-07-30
+lang: en
 
+canonical-url: "https://thegreenyardaz.com/tours/homestead-tropical-fruit-nursery-beez-tropical-garden.html"
+
+image: "https://img.youtube.com/vi/86bjveaF95Y/maxresdefault.jpg"
+image-alt: "Bee leading a tour through Beez Tropical Garden in Homestead, Florida"
+
+keywords:
+  - Homestead tropical fruit nursery
+  - Beez Tropical Garden
+  - Florida tropical fruit nursery
+  - Homestead fruit farm
+  - tropical fruit trees Florida
+  - rare fruit nursery
+  - medicinal plants
+  - tropical fruit tour
+  - Homestead Florida
+  - South Florida gardening
+  - tropical fruit farm
+  - edible landscaping
+  - rare fruit trees
+
+categories:
+  - Florida
+  - Homestead
+  - Food Forest Tours
+  - Tropical Fruit
+  - Nursery Tour
+  - Fruit Farm
+  - Rare Fruit
+  - Medicinal Plants
+
+page-layout: full
+toc: true
+toc-location: right
+open-graph: true
+twitter-card: true
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+
+          <script type="application/ld+json">
+          {
+            "@context":"https://schema.org",
+            "@graph":[
+              {
+                "@type":"VideoObject",
+                "@id":"https://thegreenyardaz.com/tours/homestead-tropical-fruit-nursery-beez-tropical-garden.html#video",
+                "name":"Homestead Tropical Fruit Nursery Tour | Beez Tropical Garden",
+                "description":"Tour Beez Tropical Garden in Homestead, Florida, and discover rare tropical fruit trees, medicinal plants, mature orchards, and one of South Florida's unique tropical nurseries.",
+                "thumbnailUrl":[
+                  "https://img.youtube.com/vi/86bjveaF95Y/maxresdefault.jpg"
+                ],
+                "uploadDate":"2026-01-26",
+                "embedUrl":"https://www.youtube.com/embed/86bjveaF95Y",
+                "contentUrl":"https://www.youtube.com/watch?v=86bjveaF95Y",
+                "url":"https://thegreenyardaz.com/tours/homestead-tropical-fruit-nursery-beez-tropical-garden.html",
+                "publisher":{
+                  "@type":"Organization",
+                  "name":"The Green Yard",
+                  "url":"https://thegreenyardaz.com/",
+                  "logo":{
+                    "@type":"ImageObject",
+                    "url":"https://thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                }
+              },
+              {
+                "@type":"Article",
+                "@id":"https://thegreenyardaz.com/tours/homestead-tropical-fruit-nursery-beez-tropical-garden.html#article",
+                "headline":"Homestead Tropical Fruit Nursery Tour: Beez Tropical Garden",
+                "alternativeHeadline":"Homestead Tropical Fruit Nursery Tour",
+                "description":"Tour Beez Tropical Garden in Homestead, Florida, and explore a tropical nursery and fruit farm filled with rare fruit trees, medicinal plants, mature orchards, and edible landscaping inspiration.",
+                "datePublished":"2026-01-26",
+                "dateModified":"2026-07-30",
+                "inLanguage":"en-US",
+                "image":[
+                  "https://img.youtube.com/vi/86bjveaF95Y/maxresdefault.jpg"
+                ],
+                "author":{
+                  "@type":"Organization",
+                  "name":"The Green Yard",
+                  "url":"https://thegreenyardaz.com/"
+                },
+                "publisher":{
+                  "@type":"Organization",
+                  "name":"The Green Yard",
+                  "url":"https://thegreenyardaz.com/",
+                  "logo":{
+                    "@type":"ImageObject",
+                    "url":"https://thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                }
+              }
+            ]
+          }
+          </script>
+---
+
+```{=html}
+<main class="tour-page">
+
+<div class="video-wrap">
+
+<iframe
+src="https://www.youtube.com/embed/86bjveaF95Y?rel=0"
+title="Homestead Tropical Fruit Nursery Tour | Beez Tropical Garden"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen>
+
+</iframe>
+
+</div>
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+
+<a href="../index.html">Food Forest Tours</a>
+
+<span class="breadcrumb-separator" aria-hidden="true">/</span>
+
+<span>Florida</span>
+
+<span class="breadcrumb-separator" aria-hidden="true">/</span>
+
+<span aria-current="page">Beez Tropical Garden</span>
+
+</nav>
+
+<header class="tour-header">
+
+<h1>Homestead Tropical Fruit Nursery Tour: Beez Tropical Garden</h1>
+
+<div class="tour-categories">
+
+<span class="tour-category">Florida</span>
+
+<span class="tour-category">Homestead</span>
+
+<span class="tour-category">Food Forest Tours</span>
+
+<span class="tour-category">Nursery Tour</span>
+
+<span class="tour-category">Fruit Farm</span>
+
+<span class="tour-category">Rare Fruit</span>
+
+<span class="tour-category">Medicinal Plants</span>
+
+</div>
+
+<p class="tour-description">
+
+Explore Beez Tropical Garden in Homestead, Florida, where a tropical plant nursery and mature fruit farm come together to showcase rare fruit trees, medicinal plants, edible ornamentals, and one of South Florida's most diverse collections of tropical species.
+
+</p>
+
+<div class="tour-meta">
+
+<div>
+
+<span class="meta-label">Host</span>
+
+<span class="meta-value">Bee</span>
+
+</div>
+
+<div>
+
+<span class="meta-label">Published</span>
+
+<span class="meta-value">January 26, 2026</span>
+
+</div>
+
+</div>
+
+</header>
+
+<p class="tour-lead">
+
+Located in Homestead, Florida, Beez Tropical Garden combines a tropical plant nursery with a productive fruit farm where visitors can explore mature orchards, discover uncommon edible plants, and learn directly from Bee's years of experience growing tropical species. Throughout the tour, rare fruit trees, medicinal plants, perennial vegetables, and ornamental edibles demonstrate just how diverse a tropical landscape can become in South Florida's warm climate. :contentReference[oaicite:0]{index=0}
+
+</p>
+
+<section class="quick-facts" aria-label="Tour snapshot">
+
+<div class="fact-card">
+
+<span class="fact-label">Property</span>
+
+<span class="fact-value">Beez Tropical Garden</span>
+
+</div>
+
+<div class="fact-card">
+
+<span class="fact-label">Host</span>
+
+<span class="fact-value">Bee</span>
+
+</div>
+
+<div class="fact-card">
+
+<span class="fact-label">Location</span>
+
+<span class="fact-value">Homestead, Florida</span>
+
+</div>
+
+<div class="fact-card">
+
+<span class="fact-label">Climate</span>
+
+<span class="fact-value">Tropical South Florida</span>
+
+</div>
+
+<div class="fact-card">
+
+<span class="fact-label">Property Type</span>
+
+<span class="fact-value">Nursery & Fruit Farm</span>
+
+</div>
+
+<div class="fact-card">
+
+<span class="fact-label">Featured Trees</span>
+
+<span class="fact-value">20+ Year Old Longans & Sapodillas</span>
+
+</div>
+
+<div class="fact-card">
+
+<span class="fact-label">Primary Focus</span>
+
+<span class="fact-value">Rare Tropical Fruit</span>
+
+</div>
+
+<div class="fact-card">
+
+<span class="fact-label">Growing Style</span>
+
+<span class="fact-value">Tropical Orchard & Nursery</span>
+
+</div>
+
+</section>
+
+<section class="tour-section">
+
+<h2>Inside Beez Tropical Garden</h2>
+
+<p>
+
+Beez Tropical Garden is more than a tropical plant nursery. The property combines plant production with mature orchards, allowing visitors to see many of the same species growing as established fruiting trees before purchasing them for their own gardens. Throughout the tour, Bee shares practical growing advice while introducing dozens of edible and ornamental tropical plants collected from around the world. :contentReference[oaicite:1]{index=1}
+
+</p>
+
+<p>
+
+Walking through the property reveals mature longans, sapodillas, mangoes, starfruit, avocados, miracle fruit, tropical herbs, medicinal plants, perennial vegetables, and countless rare species that thrive in South Florida's subtropical climate. The nursery demonstrates not only what can be grown in Homestead, but also how plant diversity creates resilient and productive edible landscapes. :contentReference[oaicite:2]{index=2}
+
+</p>
+
+</section>
+
+<section class="tour-section">
+
+<h2>What You'll Learn From This Tropical Nursery Tour</h2>
+
+<div class="learn-grid">
+
+<div class="learn-item">
+
+How a tropical nursery and mature fruit farm work together to educate growers.
+
+</div>
+
+<div class="learn-item">
+
+Rare tropical fruit trees that thrive in Homestead's warm climate.
+
+</div>
+
+<div class="learn-item">
+
+Medicinal and culinary plants from around the world.
+
+</div>
+
+<div class="learn-item">
+
+Differences between nursery production and mature orchard management.
+
+</div>
+
+<div class="learn-item">
+
+Fruit varieties that perform especially well in South Florida.
+
+</div>
+
+<div class="learn-item">
+
+Ideas for increasing biodiversity in tropical edible landscapes.
+
+</div>
+
+</div>
+
+</section>
+<section class="tour-section">
+
+<h2>Highlights From Beez Tropical Garden</h2>
+
+<div class="short-grid">
+
+<article class="short-card">
+
+<div class="short-video">
+
+<iframe
+src="https://www.youtube.com/embed/BW8HMflWiZc?rel=0"
+title="The Root Beer Plant at Beez Tropical Garden"
+loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen>
+
+</iframe>
+
+</div>
+
+<div class="short-copy">
+
+<h3>The Plant That Smells Like Root Beer</h3>
+
+<p>
+
+One of the nursery's most memorable plants is the Root Beer Plant, an edible tropical herb whose leaves release a surprisingly authentic root beer aroma. Bee explains how the leaves can be used in cooking and demonstrates why unusual culinary plants like this have become favorites among tropical plant collectors. :contentReference[oaicite:0]{index=0}
+
+</p>
+
+</div>
+
+</article>
+
+<article class="short-card">
+
+<div class="short-video">
+
+<iframe
+src="https://www.youtube.com/embed/wiY3YbswidA?rel=0"
+title="Cuban Oregano at Beez Tropical Garden"
+loading="lazy"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen>
+
+</iframe>
+
+</div>
+
+<div class="short-copy">
+
+<h3>Cuban Oregano: Food and Traditional Medicine</h3>
+
+<p>
+
+Bee introduces Cuban oregano, a fragrant tropical herb valued both as a culinary ingredient and for its long history in traditional home remedies. Plants like this demonstrate how edible landscapes often combine food production with generations of practical plant knowledge. :contentReference[oaicite:1]{index=1}
+
+</p>
+
+</div>
+
+</article>
+
+</div>
+
+</section>
+
+<section class="tour-section">
+
+<h2>A Tropical Nursery Built Around Mature Fruit Trees</h2>
+
+<p>
+
+Many tropical nurseries display young plants growing in containers, requiring visitors to imagine what those species might look like years later. Beez Tropical Garden offers something different. Throughout the property, mature fruit trees stand alongside nursery stock, allowing visitors to see the full size, growth habit, and fruit production of many species before deciding what to plant at home. :contentReference[oaicite:2]{index=2}
+
+</p>
+
+<p>
+
+This combination of nursery and established orchard creates a valuable learning experience. Rather than relying solely on labels or photographs, visitors can compare juvenile plants with mature specimens while hearing firsthand how different species perform in South Florida's climate. For gardeners planning their own edible landscapes, that perspective can make selecting the right tree much easier. :contentReference[oaicite:3]{index=3}
+
+</p>
+
+<p>
+
+As Bee guides the tour, each section of the property introduces another collection of tropical fruit trees, medicinal herbs, perennial vegetables, and ornamental edible plants. The result is less like walking through a retail nursery and more like exploring a living botanical collection where nearly every plant tells a story about food, culture, or tropical horticulture. :contentReference[oaicite:4]{index=4}
+
+</p>
+
+</section>
+
+<section class="tour-section">
+
+<h2>Rare Tropical Fruits From Around the World</h2>
+
+<p>
+
+One of the defining features of Beez Tropical Garden is the diversity of tropical fruit species growing throughout the property. Mature longans, sapodillas, miracle fruit, mangoes, avocados, starfruit, and numerous lesser-known fruits illustrate the incredible range of edible plants that thrive in South Florida's frost-free climate. Some trees have been growing for more than twenty years, offering visitors an opportunity to observe how these species develop over time. :contentReference[oaicite:5]{index=5}
+
+</p>
+
+<p>
+
+Rather than focusing on only a handful of commercial fruits, Bee emphasizes diversity. Every visit introduces plants that many gardeners have never encountered before, making the nursery an excellent destination for collectors interested in expanding both their knowledge and their home orchards. This commitment to plant diversity has helped establish Beez Tropical Garden as a destination for tropical fruit enthusiasts visiting Homestead. :contentReference[oaicite:6]{index=6}
+
+</p>
+
+</section>
+<section class="tour-section">
+
+<h2>Medicinal Plants and Everyday Edibles</h2>
+
+<p>
+
+Although tropical fruit trees are the main attraction, Beez Tropical Garden also showcases a wide variety of medicinal herbs, culinary plants, and perennial vegetables that have been grown and used throughout tropical regions for generations. These plants demonstrate that an edible landscape can provide far more than fruit alone, supplying herbs, seasonings, teas, and traditional remedies alongside the orchard. :contentReference[oaicite:0]{index=0}
+
+</p>
+
+<p>
+
+Throughout the tour, Bee introduces plants such as Cuban oregano, the Root Beer Plant, pandan, and numerous other useful species that many visitors have never encountered before. Some are valued for their distinctive flavors, while others have long histories in traditional medicine or everyday cooking. Together, they highlight the remarkable diversity that can be incorporated into a tropical garden. :contentReference[oaicite:1]{index=1}
+
+</p>
+
+<p>
+
+For gardeners interested in creating more resilient edible landscapes, these smaller plants are often just as valuable as the fruit trees themselves. Many tolerate partial shade, produce year-round harvests, and fit easily into spaces beneath larger trees, allowing every layer of the landscape to become productive. :contentReference[oaicite:2]{index=2}
+
+</p>
+
+</section>
+
+<section class="tour-section">
+
+<h2>Learning Through Experience</h2>
+
+<p>
+
+One of the greatest advantages of visiting Beez Tropical Garden is the opportunity to learn directly from someone who has spent decades growing tropical fruit in South Florida. Rather than simply displaying plants for sale, Bee explains how different species grow, what conditions they prefer, and how they fit into a productive tropical landscape. These firsthand observations provide practical knowledge that can't always be found in books or online guides. :contentReference[oaicite:3]{index=3}
+
+</p>
+
+<p>
+
+Seeing mature specimens alongside nursery plants also helps visitors make more informed decisions. It's one thing to purchase a small tree in a container, but it's another to stand beneath a fully mature longan or sapodilla and understand the space, care, and harvest potential that tree represents. That perspective is one of the qualities that makes Beez Tropical Garden a valuable destination for both beginning gardeners and experienced tropical fruit collectors. :contentReference[oaicite:4]{index=4}
+
+</p>
+
+</section>
+
+<section class="tour-section">
+
+<h2>Plant Collection Summary</h2>
+
+<p>
+
+Beez Tropical Garden features an exceptional collection of tropical fruit trees, medicinal plants, perennial herbs, and edible ornamentals from around the world. During this tour, visitors encounter dozens of species growing both as nursery stock and as mature orchard trees, providing a unique opportunity to compare young plants with established specimens while learning about their cultivation and uses. :contentReference[oaicite:5]{index=5}
+
+</p>
+
+<div class="species-overview">
+
+<div class="species-overview-grid">
+
+<div class="species-stat">
+
+<span class="species-stat-label">Fruit Trees</span>
+
+<span class="species-stat-value">30+ Species</span>
+
+</div>
+
+<div class="species-stat">
+
+<span class="species-stat-label">Medicinal Plants</span>
+
+<span class="species-stat-value">10+ Species</span>
+
+</div>
+
+<div class="species-stat">
+
+<span class="species-stat-label">Edible Herbs</span>
+
+<span class="species-stat-value">Numerous Species</span>
+
+</div>
+
+<div class="species-stat">
+
+<span class="species-stat-label">Property Type</span>
+
+<span class="species-stat-value">Nursery & Mature Orchard</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="featured-plants">
+
+<span class="featured-plants-label">
+
+Featured Plants From This Tour
+
+</span>
+
+<div class="featured-plant-tags">
+
+<span class="featured-plant">Longan</span>
+
+<span class="featured-plant">Sapodilla</span>
+
+<span class="featured-plant">Miracle Fruit</span>
+
+<span class="featured-plant">Mango</span>
+
+<span class="featured-plant">Starfruit</span>
+
+<span class="featured-plant">Avocado</span>
+
+<span class="featured-plant">Pandan</span>
+
+<span class="featured-plant">Root Beer Plant</span>
+
+<span class="featured-plant">Cuban Oregano</span>
+
+<span class="featured-plant">Banana</span>
+
+<span class="featured-plant">Dragon Fruit</span>
+
+<span class="featured-plant">Taro</span>
+
+</div>
+
+</div>
+<details class="species-details">
+
+<summary>
+
+<span class="species-summary-closed">
+View Complete Plant List
+</span>
+
+<span class="species-summary-open">
+Hide Plant List
+</span>
+
+</summary>
+
+<div class="species-box">
+
+<h3>Featured Tropical Fruit Trees</h3>
+
+<ul class="species-list">
+
+<li>Longan</li>
+<li>Sapodilla</li>
+<li>Mango</li>
+<li>Starfruit</li>
+<li>Avocado</li>
+<li>Miracle Fruit</li>
+<li>Banana</li>
+<li>Dragon Fruit</li>
+
+</ul>
+
+<h3>Medicinal & Culinary Plants</h3>
+
+<ul class="species-list">
+
+<li>Cuban Oregano</li>
+<li>Root Beer Plant</li>
+<li>Pandan</li>
+<li>Taro</li>
+
+</ul>
+
+<h3>Additional Tropical Species</h3>
+
+<ul class="species-list">
+
+<li>Numerous rare tropical fruit trees</li>
+<li>Medicinal herbs</li>
+<li>Edible ornamentals</li>
+<li>Perennial vegetables</li>
+
+</ul>
+
+</div>
+
+</details>
+
+</section>
+
+<section class="tour-section">
+
+<h2>The Green Yard Takeaway</h2>
+
+<div class="takeaway">
+
+<p>
+
+Beez Tropical Garden demonstrates that one of the best ways to learn tropical fruit growing is by seeing mature trees in person. While books and videos provide valuable information, walking beneath a productive longan, tasting fruit directly from the tree, and hearing decades of growing experience from someone who cultivates these plants every day offers a completely different perspective.
+
+</p>
+
+<p>
+
+Another lesson from this tour is the importance of diversity. Fruit trees, medicinal plants, culinary herbs, perennial vegetables, and ornamental edibles all contribute something unique to the landscape. Together they create a garden that is not only productive, but also educational, resilient, and endlessly interesting to explore.
+
+</p>
+
+<p>
+
+Whether you're planning a backyard orchard in South Florida or simply looking for inspiration, Beez Tropical Garden shows how curiosity, experimentation, and a passion for plants can grow into an extraordinary collection that continues teaching others year after year.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="tour-section">
+
+<h2>Continue Learning</h2>
+
+<div class="link-grid">
+
+<a class="resource-card"
+href="../guides/tropical-fruit-trees.html">
+
+<strong>Tropical Fruit Trees Guide</strong>
+
+<span>
+
+Learn about some of the most rewarding tropical fruit trees for warm climates and edible landscapes.
+
+</span>
+
+</a>
+
+<a class="resource-card"
+href="../guides/medicinal-plants.html">
+
+<strong>Medicinal Plants Guide</strong>
+
+<span>
+
+Explore edible herbs and traditional medicinal plants commonly grown in tropical gardens.
+
+</span>
+
+</a>
+
+<a class="resource-card"
+href="../guides/food-forest-layers.html">
+
+<strong>Food Forest Layers</strong>
+
+<span>
+
+Discover how fruit trees, shrubs, herbs, vines, and groundcovers work together in productive edible ecosystems.
+
+</span>
+
+</a>
+
+<a class="resource-card"
+href="../guides/tropical-gardening.html">
+
+<strong>Tropical Gardening Basics</strong>
+
+<span>
+
+Learn the fundamentals of growing tropical fruit successfully in frost-free climates.
+
+</span>
+
+</a>
+
+</div>
+
+</section>
+
+<section class="tour-section">
+
+<h2>Explore Another Florida Tour</h2>
+
+<div class="related-tour">
+
+<div class="related-tour-image">
+
+<img
+src="../images/food-forest-florida-tour.jpg"
+alt="Food Forest Florida tropical food forest tour">
+
+</div>
+
+<div class="related-tour-copy">
+
+<h3>
+
+Food Forest Florida:
+A Mature Tropical Food Forest
+
+</h3>
+
+<p>
+
+Continue exploring South Florida by visiting Food Forest Florida, where mature tropical fruit trees, layered food forest design, and decades of practical growing experience showcase another inspiring example of abundance through plants.
+
+</p>
+
+<div class="related-actions">
+
+<a
+class="tour-button"
+href="food-forest-florida-tour.html">
+
+Explore This Tour
+
+</a>
+
+<a
+class="tour-button tour-button-secondary"
+href="../tours/">
+
+Browse All Tours
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
