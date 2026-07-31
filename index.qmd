@@ -146,6 +146,7 @@ page-layout: full
     font-weight: 600;
     line-height: 1.08;
     letter-spacing: -0.02em;
+text-transform: uppercase;
 
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.42);
   }
