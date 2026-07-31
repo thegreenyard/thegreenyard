@@ -2,7 +2,7 @@
 title: "Glendale Backyard Food Forest Tour: Cedar’s Thriving Food Paradise"
 description: "Tour Cedar’s thriving backyard food forest in Glendale, Arizona, and explore tropical fruit trees, desert microclimates, grafting experiments, shade strategies, grapes, figs, pomegranates, bananas, avocados, and other unusual edible plants."
 author: "The Green Yard"
-date: 2026-07-30
+date: 2025-12-12
 date-modified: 2026-07-30
 lang: en
 
