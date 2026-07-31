@@ -134,7 +134,7 @@ page-layout: full
   }
 
   #gy-home-hero .gy-content::before {
-    content: "What does abundance look like around the world?";
+    content: "<h1>Growing Food. Sharing Stories. Inspiring Abundance.</h1>";
 
     display: block;
     max-width: 760px;
