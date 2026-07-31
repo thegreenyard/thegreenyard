@@ -1203,32 +1203,6 @@ responds to its environment.
 </div>
 
 </section>
-<section class="tour-section">
-
-<h2>Plants Featured During the Tour</h2>
-
-<p>
-
-One of the most impressive aspects of Cedar's backyard food forest is
-its incredible plant diversity. Mature fruit trees grow alongside
-experimental seedlings, grafted cultivars, perennial vegetables,
-groundcovers, vines, and ornamental support species. Some plants are
-long-established producers, while others are being evaluated simply to
-see how well they perform in Arizona's challenging climate.
-
-</p>
-
-<p>
-
-Rather than focusing on only one type of fruit, the garden combines
-temperate, subtropical, and tropical species into a layered ecosystem.
-Many plants serve multiple purposes by producing food while also
-creating shade, protecting young trees, improving soil, supporting
-pollinators, or providing future grafting material.
-
-</p>
-
-</section>
 
 
 <section class="tour-section">
@@ -1455,49 +1429,6 @@ A productive food forest isn't created overnight. It grows one
 experiment at a time. Cedar's backyard shows that curiosity,
 observation, and patience are often just as important as choosing the
 right fruit tree.
-
-</div>
-
-</section>
-
-
-<section class="tour-section">
-
-<h2>Explore More Arizona Food Forest Tours</h2>
-
-<p>
-
-If you enjoyed Cedar's Glendale backyard, you'll probably enjoy seeing
-how other Arizona gardeners are creating abundance in completely
-different ways. Each landscape highlights unique design strategies,
-fruit selections, and approaches for growing food in the desert.
-
-</p>
-
-<div class="link-grid">
-
-<a class="resource-card" href="../tours/index.html">
-
-<strong>Food Forest Tour Library</strong>
-
-<span>
-Browse every garden featured on The Green Yard, organized by location,
-climate, and growing style.
-</span>
-
-</a>
-
-
-<a class="resource-card" href="../my-food-forest/index.html">
-
-<strong>My Phoenix Food Forest</strong>
-
-<span>
-Follow the development of my own Arizona food forest and see what I'm
-learning while growing tropical fruit in the desert.
-</span>
-
-</a>
 
 </div>
 
