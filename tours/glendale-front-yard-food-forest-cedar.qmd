@@ -1,0 +1,1355 @@
+---
+title: "Glendale Front Yard Food Forest Tour: Cedar’s Arizona Fruit Orchard"
+description: "Tour Cedar’s front yard food forest in Glendale, Arizona, where low-chill peaches, apricots, figs, mulberries, blackberries, persimmons, and experimental tropical fruit grow through careful pruning and desert microclimates."
+author: "The Green Yard"
+date: 2025-06-14
+date-modified: 2026-08-05
+lang: en
+
+canonical-url: "https://thegreenyardaz.com/tours/glendale-front-yard-food-forest-cedar.html"
+
+image: "https://img.youtube.com/vi/IAM6sAb9PEQ/maxresdefault.jpg"
+image-alt: "Cedar touring the productive front yard food forest at his Glendale, Arizona home"
+
+keywords:
+  - Glendale food forest
+  - Arizona front yard orchard
+  - Cedar food forest
+  - Glendale Arizona garden
+  - low chill peaches Arizona
+  - growing peaches in Phoenix
+  - Arizona apricot tree
+  - desert fruit trees
+  - Phoenix edible landscaping
+  - Arizona food forest
+  - front yard food forest
+  - growing figs in Arizona
+  - growing blackberries in Phoenix
+  - desert microclimates
+  - Sonoran Desert gardening
+
+categories:
+  - Arizona
+  - Glendale
+  - Food Forest Tours
+  - Front Yard Food Forest
+  - Stone Fruit
+  - Desert Gardening
+  - Edible Landscaping
+  - Cedar
+
+page-layout: full
+toc: true
+toc-location: right
+open-graph: true
+twitter-card: true
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "VideoObject",
+                "@id": "https://thegreenyardaz.com/tours/glendale-front-yard-food-forest-cedar.html#video",
+                "name": "Cedar’s Front Yard Food Forest Tour in Glendale, Arizona",
+                "description": "Tour Cedar’s productive front yard food forest in Glendale, Arizona, where low-chill peaches, apricots, figs, mulberries, blackberries, persimmons, and experimental subtropical fruit grow together.",
+                "thumbnailUrl": [
+                  "https://img.youtube.com/vi/IAM6sAb9PEQ/maxresdefault.jpg"
+                ],
+                "uploadDate": "2025-06-14",
+                "embedUrl": "https://www.youtube.com/embed/IAM6sAb9PEQ",
+                "contentUrl": "https://www.youtube.com/watch?v=IAM6sAb9PEQ",
+                "url": "https://thegreenyardaz.com/tours/glendale-front-yard-food-forest-cedar.html",
+                "mainEntityOfPage": {
+                  "@id": "https://thegreenyardaz.com/tours/glendale-front-yard-food-forest-cedar.html"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                }
+              },
+              {
+                "@type": "Article",
+                "@id": "https://thegreenyardaz.com/tours/glendale-front-yard-food-forest-cedar.html#article",
+                "headline": "Glendale Front Yard Food Forest Tour: Cedar’s Arizona Fruit Orchard",
+                "alternativeHeadline": "Cedar’s Front Yard Food Forest Tour in Glendale, Arizona",
+                "description": "Tour Cedar’s front yard food forest in Glendale, Arizona, where low-chill peaches, apricots, figs, mulberries, blackberries, persimmons, and experimental tropical fruit grow through careful pruning and desert microclimates.",
+                "datePublished": "2025-06-14",
+                "dateModified": "2026-08-05",
+                "inLanguage": "en-US",
+                "image": [
+                  "https://img.youtube.com/vi/IAM6sAb9PEQ/maxresdefault.jpg"
+                ],
+                "author": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                },
+                "mainEntity": {
+                  "@id": "https://thegreenyardaz.com/tours/glendale-front-yard-food-forest-cedar.html#video"
+                },
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://thegreenyardaz.com/tours/glendale-front-yard-food-forest-cedar.html"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id": "https://thegreenyardaz.com/tours/glendale-front-yard-food-forest-cedar.html#breadcrumbs",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://thegreenyardaz.com/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Food Forest Tours",
+                    "item": "https://thegreenyardaz.com/tours/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Arizona Food Forest Tours",
+                    "item": "https://thegreenyardaz.com/tours/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Cedar’s Glendale Front Yard Food Forest",
+                    "item": "https://thegreenyardaz.com/tours/glendale-front-yard-food-forest-cedar.html"
+                  }
+                ]
+              }
+            ]
+          }
+          </script>
+---
+
+```{=html}
+<style>
+
+/* =========================================================
+   QUARTO PAGE OVERRIDES
+   ========================================================= */
+
+.quarto-title-block,
+#title-block-header {
+  display: none !important;
+}
+
+.tour-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 26px 0 70px;
+}
+
+
+/* =========================================================
+   MAIN VIDEO
+   ========================================================= */
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin: 0 0 24px;
+  border-radius: 10px;
+  background: #082f25;
+  box-shadow: 0 14px 34px rgba(7, 56, 44, 0.16);
+}
+
+.video-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+/* =========================================================
+   BREADCRUMBS
+   ========================================================= */
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 26px;
+  color: #6b7771;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.breadcrumbs a {
+  color: #315f49 !important;
+  text-decoration: none !important;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline !important;
+}
+
+.breadcrumb-separator {
+  color: #a1aaa6;
+}
+
+
+/* =========================================================
+   TOUR HEADER
+   ========================================================= */
+
+.tour-header {
+  max-width: 1050px;
+  margin: 0 0 42px;
+}
+
+.tour-header h1 {
+  margin: 0 0 20px;
+  color: #17221e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(2.25rem, 5vw, 4.25rem);
+  font-weight: 400;
+  letter-spacing: 0.035em;
+  line-height: 1.08;
+  text-transform: uppercase;
+}
+
+.tour-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 18px;
+}
+
+.tour-category {
+  display: inline-flex;
+  padding: 7px 12px;
+  border: 1px solid #aeb5b1;
+  border-radius: 5px;
+  color: #707873;
+  background: #ffffff;
+  font-size: 0.77rem;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.tour-description {
+  max-width: 1050px;
+  margin: 0 0 25px;
+  color: #59625f;
+  font-size: 1.13rem;
+  line-height: 1.65;
+}
+
+.tour-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  max-width: 720px;
+  gap: 26px;
+}
+
+.meta-label {
+  display: block;
+  margin-bottom: 4px;
+  color: #858c89;
+  font-size: 0.79rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.meta-value {
+  color: #59625f;
+  font-size: 1rem;
+}
+
+.tour-lead {
+  max-width: 930px;
+  margin: 0 0 40px;
+  color: #4b5e56;
+  font-size: 1.18rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   TOUR SNAPSHOT
+   ========================================================= */
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+  margin: 0 0 54px;
+}
+
+.fact-card {
+  padding: 19px;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 8px;
+  background: #f7f5ef;
+}
+
+.fact-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #658042;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.fact-value {
+  color: #153e30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+/* =========================================================
+   GENERAL SECTIONS
+   ========================================================= */
+
+.tour-section {
+  margin: 58px 0;
+}
+
+.tour-section h2 {
+  margin-bottom: 20px;
+  color: #143d2f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  line-height: 1.15;
+}
+
+.tour-section p,
+.tour-section li {
+  color: #44554e;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   LEARNING GRID
+   ========================================================= */
+
+.learn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.learn-item {
+  padding: 17px 19px;
+  border-left: 4px solid #86a842;
+  background: #f7f5ef;
+  color: #28473b;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   PLANT COLLECTION SUMMARY
+   ========================================================= */
+
+.species-overview {
+  margin: 25px 0 17px;
+  padding: 25px;
+  border-radius: 9px;
+  background: #f7f5ef;
+}
+
+.species-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.species-stat {
+  padding: 17px;
+  border: 1px solid rgba(7, 56, 44, 0.13);
+  border-radius: 7px;
+  background: #ffffff;
+}
+
+.species-stat-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #718a4a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+}
+
+.species-stat-value {
+  display: block;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.07rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+/* =========================================================
+   FEATURED PLANTS
+   ========================================================= */
+
+.featured-plants {
+  margin: 18px 0 20px;
+}
+
+.featured-plants-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #597548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.featured-plant-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.featured-plant {
+  display: inline-flex;
+  padding: 8px 12px;
+  border: 1px solid rgba(7, 56, 44, 0.17);
+  border-radius: 999px;
+  color: #315747;
+  background: #ffffff;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+
+/* =========================================================
+   EXPANDABLE PLANT LIST
+   ========================================================= */
+
+.species-details {
+  margin-top: 15px;
+}
+
+.species-details summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 22px;
+  border-radius: 5px;
+  background: #174936;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+  list-style: none;
+  text-transform: uppercase;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.species-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.species-details summary:hover {
+  background: #286348;
+  transform: translateY(-2px);
+}
+
+.species-summary-open {
+  display: none;
+}
+
+.species-details[open] .species-summary-closed {
+  display: none;
+}
+
+.species-details[open] .species-summary-open {
+  display: inline;
+}
+
+.species-box {
+  margin-top: 22px;
+  padding: 28px 30px;
+  border-radius: 9px;
+  background: #f7f5ef;
+}
+
+.species-box h3 {
+  margin-top: 25px;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.species-box h3:first-child {
+  margin-top: 0;
+}
+
+.species-list {
+  columns: 3;
+  column-gap: 35px;
+}
+
+.species-list li {
+  break-inside: avoid;
+  margin-bottom: 7px;
+}
+
+
+/* =========================================================
+   TAKEAWAY
+   ========================================================= */
+
+.takeaway {
+  padding: 25px 28px;
+  border-left: 5px solid #86a842;
+  border-radius: 0 8px 8px 0;
+  background: #f7f5ef;
+}
+
+
+/* =========================================================
+   RESOURCE LINKS
+   ========================================================= */
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+  margin-top: 24px;
+}
+
+.resource-card {
+  display: block;
+  padding: 21px;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 8px;
+  background: #ffffff;
+  color: #173f30 !important;
+  text-decoration: none !important;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(18, 47, 36, 0.1);
+}
+
+.resource-card strong {
+  display: block;
+  margin-bottom: 5px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+}
+
+.resource-card span {
+  color: #53645d;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   RELATED TOUR
+   ========================================================= */
+
+.related-tour {
+  display: grid;
+  grid-template-columns: minmax(360px, 48%) 1fr;
+  align-items: stretch;
+  overflow: hidden;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 10px;
+  background: #f7f5ef;
+}
+
+.related-tour-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #082f25;
+}
+
+.related-tour img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.related-tour-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+}
+
+.related-tour-copy h3 {
+  margin: 0 0 12px;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.related-tour-copy p {
+  margin-top: 0;
+}
+
+.related-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  margin-top: 12px;
+}
+
+.tour-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  min-height: 47px;
+  padding: 12px 21px;
+  border-radius: 5px;
+  background: #174936;
+  color: #ffffff !important;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.tour-button-secondary {
+  color: #174936 !important;
+  background: transparent;
+  border: 1px solid #174936;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 950px) {
+
+  .quick-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .species-overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .species-list {
+    columns: 2;
+  }
+
+  .related-tour {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 680px) {
+
+  .tour-page {
+    padding-top: 12px;
+  }
+
+  .tour-header h1 {
+    font-size: 2.1rem;
+  }
+
+  .tour-meta,
+  .quick-facts,
+  .learn-grid,
+  .link-grid,
+  .species-overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .species-details summary {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .species-list {
+    columns: 1;
+  }
+
+  .related-tour-copy {
+    padding: 24px 22px 28px;
+  }
+
+  .related-actions {
+    flex-direction: column;
+  }
+
+  .tour-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+}
+</style>
+
+
+<main class="tour-page">
+
+<div class="video-wrap">
+
+  <iframe
+    src="https://www.youtube.com/embed/IAM6sAb9PEQ?rel=0"
+    title="Cedar’s Front Yard Food Forest Tour in Glendale, Arizona"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+
+</div>
+
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+
+  <a href="index.html">Food Forest Tours</a>
+
+  <span class="breadcrumb-separator" aria-hidden="true">/</span>
+
+  <span>Arizona</span>
+
+  <span class="breadcrumb-separator" aria-hidden="true">/</span>
+
+  <span aria-current="page">Cedar’s Front Yard Food Forest</span>
+
+</nav>
+
+
+<header class="tour-header">
+
+  <h1>Cedar’s Productive Front Yard Food Forest in Glendale, Arizona</h1>
+
+  <div class="tour-categories">
+
+    <span class="tour-category">Arizona</span>
+
+    <span class="tour-category">Glendale</span>
+
+    <span class="tour-category">Food Forest Tours</span>
+
+    <span class="tour-category">Front Yard Food Forest</span>
+
+    <span class="tour-category">Stone Fruit</span>
+
+    <span class="tour-category">Desert Gardening</span>
+
+    <span class="tour-category">Edible Landscaping</span>
+
+    <span class="tour-category">Cedar</span>
+
+  </div>
+
+  <p class="tour-description">
+    Tour Cedar’s productive Glendale front yard, where low-chill peaches,
+    apricots, figs, mulberries, blackberries, persimmons, and experimental
+    tropical fruit grow together through careful pruning and desert
+    microclimates.
+  </p>
+
+  <div class="tour-meta">
+
+    <div>
+      <span class="meta-label">Host</span>
+      <span class="meta-value">Cedar</span>
+    </div>
+
+    <div>
+      <span class="meta-label">Published</span>
+      <span class="meta-value">June 14, 2025</span>
+    </div>
+
+  </div>
+
+</header>
+
+
+<p class="tour-lead">
+Cedar’s Glendale property begins with a highly productive front yard
+orchard built around peaches, apricots, figs, berries, and a growing
+collection of experimental subtropical plants. Throughout the tour, he
+shares which varieties have produced reliably, where pruning decisions
+created problems, and how shade from vigorous trees helps less
+heat-tolerant plants survive the Sonoran Desert.
+</p>
+
+
+<section class="quick-facts" aria-label="Tour snapshot">
+
+  <div class="fact-card">
+    <span class="fact-label">Garden</span>
+    <span class="fact-value">Cedar’s Front Yard</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Host</span>
+    <span class="fact-value">Cedar</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Location</span>
+    <span class="fact-value">Glendale, Arizona</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Climate</span>
+    <span class="fact-value">Sonoran Desert</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Primary Crop</span>
+    <span class="fact-value">Low-Chill Stone Fruit</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Growing Style</span>
+    <span class="fact-value">Front Yard Orchard</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Key Strategy</span>
+    <span class="fact-value">Pruning & Microclimates</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Tour Length</span>
+    <span class="fact-value">Approximately 13 Minutes</span>
+  </div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Inside Cedar’s Glendale Front Yard Orchard</h2>
+
+<p>
+The front yard is centered around several low-chill peach varieties
+selected for the Phoenix area. Tropic Snow, Florida Prince, and Desert
+Gold each provide a different harvest window, flavor, and growth habit,
+allowing Cedar’s family to pick peaches across more of the warm season.
+</p>
+
+<p>
+The trees are highly productive, but that abundance creates its own
+challenges. Heavy crops can pull branches downward or break limbs,
+especially when trees are trained too wide. Cedar has begun moving away
+from an extremely open goblet shape and is training new growth slightly
+more upright to maintain stronger structure.
+</p>
+
+<p>
+Apricots, mulberries, figs, blackberries, persimmons, and experimental
+seedlings fill the spaces around the peaches. Together they create a
+front yard that is both a working orchard and an ongoing test of which
+fruit crops can perform reliably in Glendale’s heat.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>What You’ll Learn From This Arizona Food Forest</h2>
+
+<div class="learn-grid">
+
+  <div class="learn-item">
+    How Tropic Snow, Florida Prince, and Desert Gold peaches differ in
+    flavor, vigor, harvest timing, and productivity
+  </div>
+
+  <div class="learn-item">
+    Why heavily loaded peach trees need aggressive thinning and strong
+    branch structure
+  </div>
+
+  <div class="learn-item">
+    How vigorous mulberries can provide fruit and valuable afternoon
+    shade for less heat-tolerant plants
+  </div>
+
+  <div class="learn-item">
+    Why hot walls and reflected heat can create dangerous microclimates
+    even when a planting area appears protected
+  </div>
+
+  <div class="learn-item">
+    How cuttings and seedlings allow gardeners to test figs, white
+    sapotes, peaches, cherimoyas, and other fruit at low cost
+  </div>
+
+  <div class="learn-item">
+    Why Cedar evaluates each plant by productivity, fruit quality,
+    climate tolerance, and the role it serves in the larger landscape
+  </div>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Growing Low-Chill Peaches in Glendale</h2>
+
+<p>
+Tropic Snow is a white-fleshed freestone peach that flowers early but
+ripens later than Cedar’s other peach trees. The fruit is sweet with
+relatively little tartness, and the tree can continue producing into
+mid-July. Its broad growth habit has also shown Cedar why peach trees
+need to be trained with future crop weight in mind.
+</p>
+
+<p>
+Florida Prince is the family favorite for flavor, combining sweetness
+with noticeable tartness. A warm winter caused the tree to flower and
+ripen earlier than usual, and extensive winter pruning reduced the crop
+but helped Cedar begin correcting a structure that had become too wide.
+</p>
+
+<p>
+Desert Gold is the most vigorous and productive peach in the front yard.
+Even after Cedar removed hundreds of young peaches, the remaining crop
+still weighed branches downward. The tree handles summer heat well, but
+its heavy production requires thinning, netting, and repeated pruning
+to prevent broken limbs and keep fruit within reach.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Apricots, Mulberries, and a Developing Desert Canopy</h2>
+
+<p>
+Cedar’s Katy apricot has become more productive as it matures. The fruit
+is mostly sweet and relatively small, but the tree now provides daily
+harvests during its season. Cedar hopes to use some of the crop for jam,
+where the mild fruit can gain additional flavor and usefulness.
+</p>
+
+<p>
+Nearby, a Pakistan mulberry functions as both a fruit tree and a major
+shade tree. Cedar cuts it back to roughly seven feet during winter, yet
+it can add around fifteen feet of growth during the warm season. The
+large canopy protects nearby plants from harsh western and northern
+exposure while still producing fruit enjoyed by the family.
+</p>
+
+<p>
+This relationship shows how a desert food forest can become easier to
+grow as it matures. A vigorous support tree may eventually create the
+cooler root zones and filtered afternoon light needed by persimmons,
+mango seedlings, berries, and other sensitive plants.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Figs, Berries, and Experimental Fruit Trees</h2>
+
+<p>
+Several of the most promising plants began as small cuttings or
+seedlings. A Peter’s Honey fig and Tiger Panache fig both started as
+tiny cuttings shared by another grower. After only a few seasons, they
+are carrying substantial crops, demonstrating how quickly figs can
+become productive in Arizona when given a suitable location.
+</p>
+
+<p>
+A Prim-Ark Freedom blackberry produces unusually large fruit but shows
+clear stress from afternoon sun. Cedar is allowing a nearby Hong Kong
+orchid tree to develop into a shade canopy that may eventually improve
+the berry’s microclimate. The same section previously lost plants
+because surrounding walls trapped heat and functioned like an oven.
+</p>
+
+<p>
+White sapote, peach, starfruit, cherimoya, mango, and other seedlings
+remain experiments. Some may eventually produce worthwhile fruit, while
+others can become rootstock for proven varieties. Cedar’s approach
+allows the garden to keep evolving without requiring every young plant
+to have a guaranteed outcome.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Plants Growing in Cedar’s Front Yard</h2>
+
+<p>
+Cedar’s front yard combines proven low-chill stone fruit with berries,
+figs, subtropical trees, seedlings, shade trees, and ornamentals. The
+collection is smaller than the backyard food forest, but each plant is
+carefully evaluated for productivity, fruit quality, heat tolerance,
+and its ability to improve the surrounding microclimate.
+</p>
+
+
+<div class="species-overview">
+
+  <div class="species-overview-grid">
+
+    <div class="species-stat">
+      <span class="species-stat-label">Peach Varieties</span>
+      <span class="species-stat-value">3 named cultivars</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Fig Varieties</span>
+      <span class="species-stat-value">2 named cultivars</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Main Harvest</span>
+      <span class="species-stat-value">Peaches & Apricots</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Support Strategy</span>
+      <span class="species-stat-value">Living Shade Canopy</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Berry Crop</span>
+      <span class="species-stat-value">Prim-Ark Freedom</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Tropical Experiments</span>
+      <span class="species-stat-value">Mango, Starfruit & Cherimoya</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Propagation</span>
+      <span class="species-stat-value">Cuttings & Seedlings</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Growing Style</span>
+      <span class="species-stat-value">Productive and Experimental</span>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="featured-plants">
+
+  <span class="featured-plants-label">
+    Featured Plants
+  </span>
+
+  <div class="featured-plant-tags">
+
+    <span class="featured-plant">Tropic Snow peach</span>
+
+    <span class="featured-plant">Florida Prince peach</span>
+
+    <span class="featured-plant">Desert Gold peach</span>
+
+    <span class="featured-plant">Katy apricot</span>
+
+    <span class="featured-plant">Pakistan mulberry</span>
+
+    <span class="featured-plant">Peter’s Honey fig</span>
+
+    <span class="featured-plant">Tiger Panache fig</span>
+
+    <span class="featured-plant">Prim-Ark Freedom blackberry</span>
+
+  </div>
+
+</div>
+
+
+<details class="species-details">
+
+  <summary aria-label="Show or hide the complete plant list">
+
+    <span class="species-summary-closed">
+      Show Complete Plant List
+    </span>
+
+    <span class="species-summary-open">
+      Hide Complete Plant List
+    </span>
+
+  </summary>
+
+
+  <div class="species-box">
+
+    <h3>Peaches and Apricots</h3>
+
+    <ul class="species-list">
+      <li>Tropic Snow peach</li>
+      <li>Florida Prince peach</li>
+      <li>Desert Gold peach</li>
+      <li>Peach seedling</li>
+      <li>Katy apricot</li>
+      <li>Gold Kist apricot, formerly grown</li>
+    </ul>
+
+
+    <h3>Figs, Berries, and Mulberries</h3>
+
+    <ul class="species-list">
+      <li>Peter’s Honey fig</li>
+      <li>Tiger Panache fig</li>
+      <li>Prim-Ark Freedom blackberry</li>
+      <li>Pakistan mulberry</li>
+    </ul>
+
+
+    <h3>Subtropical and Experimental Fruit</h3>
+
+    <ul class="species-list">
+      <li>Jiro persimmon</li>
+      <li>Keitt mango seedling</li>
+      <li>White sapote seedling</li>
+      <li>Starfruit rootstock seedling</li>
+      <li>Cherimoya seedling</li>
+      <li>Red grapefruit</li>
+      <li>Natal plum</li>
+    </ul>
+
+
+    <h3>Support and Ornamental Plants</h3>
+
+    <ul class="species-list">
+      <li>Royal poinciana</li>
+      <li>Hong Kong orchid tree</li>
+      <li>Confederate rose</li>
+      <li>Artichoke</li>
+    </ul>
+
+  </div>
+
+</details>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>The Green Yard Takeaway</h2>
+
+<div class="takeaway">
+
+<p>
+Cedar’s front yard shows that productive desert orchards require more
+than choosing low-chill varieties. Heavy crops must be thinned, branches
+need to be trained for strength, and the heat reflected from walls can
+be just as important as the amount of direct sunlight a plant receives.
+</p>
+
+<p>
+The garden also demonstrates the long-term value of building living
+shade. Vigorous trees such as mulberries can provide fruit while
+creating the protected conditions needed by berries, persimmons,
+seedlings, and subtropical experiments. Over time, the front yard
+becomes more than an orchard—it becomes a network of increasingly
+useful microclimates.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Continue Learning With The Green Yard</h2>
+
+<p>
+Cedar’s front yard is only the beginning of this Glendale property. His
+backyard contains an even larger collection of tropical fruit, grafting
+experiments, grapes, figs, pomegranates, bananas, avocados, and other
+plants being tested in the Sonoran Desert.
+</p>
+
+<div class="link-grid">
+
+  <a
+    class="resource-card"
+    href="https://www.youtube.com/watch?v=IAM6sAb9PEQ"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    <strong>Watch the Front Yard Tour on YouTube</strong>
+
+    <span>
+      Open the complete Glendale front yard food forest tour directly
+      on The Green Yard YouTube channel.
+    </span>
+
+  </a>
+
+
+  <a
+    class="resource-card"
+    href="index.html">
+
+    <strong>Explore All Food Forest Tours</strong>
+
+    <span>
+      Browse every food forest, edible landscape, orchard, farm, and
+      community garden featured by The Green Yard.
+    </span>
+
+  </a>
+
+
+  <a
+    class="resource-card"
+    href="../my-food-forest/index.html">
+
+    <strong>Follow the Phoenix Food Forest</strong>
+
+    <span>
+      Explore The Green Yard’s own Arizona plant collection and follow
+      individual plants from planting through growth, flowering, and
+      fruiting.
+    </span>
+
+  </a>
+
+
+  <a
+    class="resource-card"
+    href="glendale-backyard-food-forest-cedar.html">
+
+    <strong>Explore Cedar’s Backyard Food Forest</strong>
+
+    <span>
+      Continue into the backyard to see tropical fruit, grafting,
+      microclimates, grapes, figs, and dozens of desert-growing
+      experiments.
+    </span>
+
+  </a>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Continue Exploring Cedar’s Food Forest</h2>
+
+<div class="related-tour">
+
+  <div class="related-tour-image">
+
+    <img
+      src="https://img.youtube.com/vi/Ik65QaitMdU/maxresdefault.jpg"
+      alt="Cedar touring the tropical backyard food forest at his Glendale, Arizona home"
+      loading="lazy">
+
+  </div>
+
+
+  <div class="related-tour-copy">
+
+    <h3>Cedar’s Thriving Backyard Food Forest in Glendale</h3>
+
+    <p>
+      Continue into Cedar’s backyard, where years of experimentation
+      have created a diverse food forest filled with mangoes, avocados,
+      bananas, papayas, grapes, figs, pomegranates, and carefully
+      developed desert microclimates.
+    </p>
+
+    <div class="related-actions">
+
+      <a
+        class="tour-button"
+        href="glendale-backyard-food-forest-cedar.html">
+        Explore the Backyard Tour
+      </a>
+
+      <a
+        class="tour-button tour-button-secondary"
+        href="index.html">
+        Explore All Tours
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+</main>
+```
