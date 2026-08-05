@@ -822,7 +822,7 @@ page-layout: full
       <a
         class="gy-button gy-button-journeys"
         href="https://www.thegreenyardaz.com/grow/">
-        Follow the Plant Journeys
+        Follow Our Plant Journeys
       </a>
 
     </div>
