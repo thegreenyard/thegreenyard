@@ -52,6 +52,17 @@ listing:
     margin-top: 0 !important;
   }
 
+  body:has(#gy-tours-hero) #quarto-content.page-columns,
+  body:has(#gy-tours-hero) main.content.page-columns {
+    display: block !important;
+    grid-template-columns: none !important;
+  }
+
+  body:has(#gy-tours-hero) #quarto-content > *,
+  body:has(#gy-tours-hero) main.content > * {
+    grid-column: auto !important;
+  }
+
 
   /* =========================================================
      FULL-WIDTH ROTATING HERO
@@ -224,10 +235,16 @@ object-position: center;
      ========================================================= */
 
  .gy-tours-main {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  padding: 76px 5vw 28px;
+  position: relative;
+
+  width: 100vw !important;
+  max-width: none !important;
+
+  left: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: 0 !important;
+
+  padding: 76px clamp(28px, 5vw, 90px) 28px;
   box-sizing: border-box;
 }
   .gy-section-heading {
@@ -417,19 +434,32 @@ object-position: center;
      ========================================================= */
 
 .gy-library-intro {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  padding: 0 5vw 4px;
+  position: relative;
+
+  width: 100vw !important;
+  max-width: none !important;
+
+  left: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: 0 !important;
+
+  padding: 0 clamp(28px, 5vw, 90px) 4px;
   box-sizing: border-box;
 }
 
 #listing-listing,
 .quarto-listing-container-default {
-  width: 100%;
+  position: relative;
+
+  width: 100vw !important;
   max-width: none !important;
-  margin: 0 0 90px !important;
-  padding: 0 5vw !important;
+
+  left: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: 0 !important;
+  margin-bottom: 90px !important;
+
+  padding: 0 clamp(28px, 5vw, 90px) !important;
   box-sizing: border-box;
 }
 
@@ -555,11 +585,25 @@ object-position: center;
     .gy-library-intro,
     #listing-listing,
     .quarto-listing-container-default {
-      width: calc(100% - 40px);
+      width: 100vw !important;
+      max-width: none !important;
+      left: 50% !important;
+      margin-left: -50vw !important;
+      margin-right: 0 !important;
+      box-sizing: border-box;
     }
 
     .gy-tours-main {
-      padding-top: 58px;
+      padding: 58px 20px 28px;
+    }
+
+    .gy-library-intro {
+      padding: 0 20px 4px;
+    }
+
+    #listing-listing,
+    .quarto-listing-container-default {
+      padding: 0 20px !important;
     }
 
     .gy-location-grid {
