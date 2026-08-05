@@ -229,7 +229,7 @@ page-layout: full
 
 
   /* =========================================================
-     FULL-WIDTH TOURS + LOCATIONS SECTION
+     FULL-WIDTH TOURS + PLANT JOURNEYS + LOCATIONS
      ========================================================= */
 
   .gy-discover-section {
@@ -248,15 +248,28 @@ page-layout: full
     background: #f7f5ef;
   }
 
-  .gy-discover-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
-    gap: clamp(42px, 5vw, 76px);
-    align-items: start;
-
+  .gy-discover-inner {
     width: 100%;
     max-width: 1640px;
     margin: 0 auto;
+  }
+
+  .gy-content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(42px, 5vw, 76px);
+    align-items: start;
+  }
+
+  .gy-content-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .gy-content-column + .gy-content-column {
+    padding-left: clamp(34px, 4vw, 64px);
+    border-left: 1px solid rgba(23, 56, 44, 0.16);
   }
 
   .gy-section-label {
@@ -273,13 +286,8 @@ page-layout: full
 
 
   /* =========================================================
-     LEFT COLUMN — COMPACT TOUR ROWS
+     MATCHED TOUR + PLANT ROWS
      ========================================================= */
-
-  .gy-tour-column {
-    display: flex;
-    flex-direction: column;
-  }
 
   .gy-tour-card {
     display: grid;
@@ -440,34 +448,39 @@ page-layout: full
 
 
   /* =========================================================
-     RIGHT COLUMN — LOCATIONS
+     FULL-WIDTH LOCATION BANNER
      ========================================================= */
 
   .gy-location-panel {
-    padding-left: clamp(34px, 4vw, 64px);
-    border-left: 1px solid rgba(23, 56, 44, 0.16);
+    margin-top: 76px;
+    padding-top: 58px;
+    border-top: 1px solid rgba(23, 56, 44, 0.16);
+  }
+
+  .gy-location-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 46px;
+    align-items: end;
+    margin-bottom: 30px;
   }
 
   .gy-location-panel h2 {
-    max-width: 640px;
-    margin: 0 0 18px !important;
+    max-width: 680px;
+    margin: 0 !important;
 
     color: #17382c;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(29px, 2vw, 38px) !important;
+    font-size: clamp(32px, 2.4vw, 44px) !important;
     font-weight: 600 !important;
-    line-height: 1.14 !important;
+    line-height: 1.12 !important;
     letter-spacing: -0.015em !important;
     text-transform: none !important;
-
-    word-break: normal !important;
-    overflow-wrap: normal !important;
-    hyphens: none !important;
   }
 
   .gy-location-intro {
-    max-width: 650px;
-    margin: 0 0 28px;
+    max-width: 730px;
+    margin: 0;
 
     color: #52615b;
     font-family: Arial, Helvetica, sans-serif;
@@ -477,15 +490,15 @@ page-layout: full
 
   .gy-location-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 17px;
   }
 
   .gy-location-card {
     position: relative;
 
     display: block;
-    min-height: 210px;
+    min-height: 230px;
 
     overflow: hidden;
     border-radius: 6px;
@@ -523,27 +536,24 @@ page-layout: full
 
   .gy-location-name {
     position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 42px;
+    left: 17px;
+    right: 17px;
+    bottom: 45px;
     z-index: 2;
 
     color: #ffffff;
 
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 19px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 1.08;
-
-    word-break: normal;
-    overflow-wrap: normal;
   }
 
   .gy-location-link {
     position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
+    left: 17px;
+    right: 17px;
+    bottom: 17px;
     z-index: 2;
 
     color: #d6ed91;
@@ -576,24 +586,24 @@ page-layout: full
      ========================================================= */
 
   @media (max-width: 1120px) {
-    .gy-discover-grid {
+    .gy-content-grid {
       grid-template-columns: 1fr;
       gap: 62px;
     }
 
-    .gy-location-panel {
+    .gy-content-column + .gy-content-column {
       padding-left: 0;
       padding-top: 54px;
       border-left: 0;
       border-top: 1px solid rgba(23, 56, 44, 0.16);
     }
 
-    .gy-location-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
     .gy-tour-card {
       grid-template-columns: minmax(0, 1fr) minmax(280px, 40%);
+    }
+
+    .gy-location-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
@@ -656,7 +666,7 @@ page-layout: full
       padding: 56px 22px 68px;
     }
 
-    .gy-discover-grid {
+    .gy-content-grid {
       gap: 54px;
     }
 
@@ -672,6 +682,12 @@ page-layout: full
     .gy-location-panel h2 {
       font-size: 30px !important;
       line-height: 1.13 !important;
+    }
+
+    .gy-location-heading {
+      grid-template-columns: 1fr;
+      gap: 16px;
+      align-items: start;
     }
 
     .gy-tour-image {
@@ -822,7 +838,7 @@ page-layout: full
       <a
         class="gy-button gy-button-journeys"
         href="https://www.thegreenyardaz.com/grow/">
-        Follow Our Plant Journeys
+        Follow the Plant Journeys
       </a>
 
     </div>
@@ -834,112 +850,221 @@ page-layout: full
 
 <section class="gy-discover-section">
 
-  <div class="gy-discover-grid">
+  <div class="gy-discover-inner">
 
 
-    <!-- LEFT COLUMN: TWO COMPACT TOUR ROWS -->
-    <div class="gy-tour-column">
+    <div class="gy-content-grid">
 
 
-      <!-- FEATURED TOUR -->
-      <article class="gy-tour-card">
+      <!-- LEFT COLUMN: TOURS -->
+      <div class="gy-content-column">
 
-        <div class="gy-tour-copy">
 
-          <div class="gy-section-label">Featured Tour</div>
+        <!-- FEATURED TOUR -->
+        <article class="gy-tour-card">
 
-          <h2>
-            Touring a Four-Year-Old Tropical Food Forest in Phoenix
-          </h2>
+          <div class="gy-tour-copy">
 
-          <p>
-            Step inside a four-year-old Phoenix food forest and discover how
-            tropical fruit trees, thoughtful design, and dense planting create
-            abundance in the desert.
-          </p>
+            <div class="gy-section-label">Featured Tour</div>
+
+            <h2>
+              Touring a Four-Year-Old Tropical Food Forest in Phoenix
+            </h2>
+
+            <p>
+              Step inside a four-year-old Phoenix food forest and discover how
+              tropical fruit trees, thoughtful design, and dense planting
+              create abundance in the desert.
+            </p>
+
+            <a
+              class="gy-watch-button"
+              href="https://www.youtube.com/watch?v=chvUg6YmvGQ"
+              target="_blank"
+              rel="noopener">
+              ▶ Watch Now
+            </a>
+
+          </div>
 
           <a
-            class="gy-watch-button"
+            class="gy-tour-image"
             href="https://www.youtube.com/watch?v=chvUg6YmvGQ"
             target="_blank"
-            rel="noopener">
-            ▶ Watch Now
+            rel="noopener"
+            aria-label="Watch the featured Phoenix tropical food forest tour">
+
+            <img
+              src="https://img.youtube.com/vi/chvUg6YmvGQ/maxresdefault.jpg"
+              alt="Four-year-old tropical food forest tour in Phoenix">
+
+            <span class="gy-tour-play">▶</span>
+
           </a>
 
-        </div>
-
-        <a
-          class="gy-tour-image"
-          href="https://www.youtube.com/watch?v=chvUg6YmvGQ"
-          target="_blank"
-          rel="noopener"
-          aria-label="Watch the featured Phoenix tropical food forest tour">
-
-          <img
-            src="https://img.youtube.com/vi/chvUg6YmvGQ/maxresdefault.jpg"
-            alt="Four-year-old tropical food forest tour in Phoenix">
-
-          <span class="gy-tour-play">▶</span>
-
-        </a>
-
-      </article>
+        </article>
 
 
-      <!-- MOST RECENT TOUR -->
-      <article class="gy-tour-card">
+        <!-- MOST RECENT TOUR -->
+        <article class="gy-tour-card">
 
-        <div class="gy-tour-copy">
+          <div class="gy-tour-copy">
 
-          <div class="gy-section-label">Most Recent Tour</div>
+            <div class="gy-section-label">Most Recent Tour</div>
 
-          <h2>
-            A Florida Food Forest Packed with Tropical Diversity
-          </h2>
+            <h2>
+              A Florida Food Forest Packed with Tropical Diversity
+            </h2>
 
-          <p>
-            Explore KC’s densely planted Florida food forest, where tropical
-            fruit trees, edible plants, and unusual species grow together in
-            Tampa, Florida.
-          </p>
+            <p>
+              Explore KC’s densely planted Florida food forest, where tropical
+              fruit trees, edible plants, and unusual species grow together in
+              Tampa, Florida.
+            </p>
+
+            <a
+              class="gy-watch-button"
+              href="tours/florida-food-forest-tropical-diversity.html">
+              Explore the Tour
+            </a>
+
+          </div>
 
           <a
-            class="gy-watch-button"
-            href="tours/florida-food-forest-tropical-diversity.html">
-            Explore the Tour
+            class="gy-tour-image"
+            href="tours/florida-food-forest-tropical-diversity.html"
+            aria-label="Explore the Florida food forest tour">
+
+            <img
+              src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
+              alt="Florida food forest packed with tropical diversity">
+
+            <span class="gy-tour-play">▶</span>
+
           </a>
 
-        </div>
+        </article>
 
-        <a
-          class="gy-tour-image"
-          href="tours/florida-food-forest-tropical-diversity.html"
-          aria-label="Explore the Florida food forest tour">
+      </div>
 
-          <img
-            src="https://img.youtube.com/vi/1gj5_POLCNo/maxresdefault.jpg"
-            alt="Florida food forest packed with tropical diversity">
 
-          <span class="gy-tour-play">▶</span>
+      <!-- RIGHT COLUMN: PLANT JOURNEYS -->
+      <div class="gy-content-column">
 
-        </a>
 
-      </article>
+        <!-- FEATURED PLANT -->
+        <article class="gy-tour-card">
+
+          <div class="gy-tour-copy">
+
+            <div class="gy-section-label">Featured Plant</div>
+
+            <h2>
+              Starting a Longan Tree in My Food Forest
+            </h2>
+
+            <p>
+              Follow the beginning of a longan tree’s journey in my Phoenix
+              food forest, including planting, placement, early growth, and
+              whether it can survive the desert climate.
+            </p>
+
+            <a
+              class="gy-watch-button"
+              href="https://www.youtube.com/watch?v=Ps6LUqh3a08"
+              target="_blank"
+              rel="noopener">
+              ▶ Follow the Journey
+            </a>
+
+          </div>
+
+          <a
+            class="gy-tour-image"
+            href="https://www.youtube.com/watch?v=Ps6LUqh3a08"
+            target="_blank"
+            rel="noopener"
+            aria-label="Watch the featured longan plant journey">
+
+            <img
+              src="https://img.youtube.com/vi/Ps6LUqh3a08/maxresdefault.jpg"
+              alt="Starting a longan tree in a Phoenix food forest">
+
+            <span class="gy-tour-play">▶</span>
+
+          </a>
+
+        </article>
+
+
+        <!-- MOST RECENT PLANT UPDATE -->
+        <article class="gy-tour-card">
+
+          <div class="gy-tour-copy">
+
+            <div class="gy-section-label">Most Recent Plant Update</div>
+
+            <h2>
+              Planting a Rare Sweet Granadilla Passion Fruit Vine
+            </h2>
+
+            <p>
+              Follow the newest addition to the Phoenix food forest as a rare
+              sweet granadilla vine is planted and begins its long-term journey
+              through heat, growth, flowering, and future fruit production.
+            </p>
+
+            <a
+              class="gy-watch-button"
+              href="https://www.youtube.com/watch?v=c5Cj8KCYH8w"
+              target="_blank"
+              rel="noopener">
+              ▶ Watch the Update
+            </a>
+
+          </div>
+
+          <a
+            class="gy-tour-image"
+            href="https://www.youtube.com/watch?v=c5Cj8KCYH8w"
+            target="_blank"
+            rel="noopener"
+            aria-label="Watch the latest sweet granadilla plant update">
+
+            <img
+              src="https://img.youtube.com/vi/c5Cj8KCYH8w/maxresdefault.jpg"
+              alt="Planting a rare sweet granadilla passion fruit vine">
+
+            <span class="gy-tour-play">▶</span>
+
+          </a>
+
+        </article>
+
+      </div>
 
     </div>
 
 
-    <!-- RIGHT COLUMN: LOCATIONS -->
+    <!-- FULL-WIDTH LOCATIONS -->
     <section class="gy-location-panel">
 
-      <div class="gy-section-label">Explore by Location</div>
+      <div class="gy-location-heading">
 
-      <h2>Discover Abundance Around the World</h2>
+        <div>
 
-      <p class="gy-location-intro">
-        Explore food forests, edible landscapes, farms, and community gardens
-        through the people and places that make each location unique.
-      </p>
+          <div class="gy-section-label">Explore by Location</div>
+
+          <h2>Discover Abundance Around the World</h2>
+
+        </div>
+
+        <p class="gy-location-intro">
+          Explore food forests, edible landscapes, farms, and community
+          gardens through the people and places that make each location unique.
+        </p>
+
+      </div>
 
       <div class="gy-location-grid">
 
@@ -999,7 +1124,6 @@ page-layout: full
   </div>
 
 </section>
-
 
 <script>
 (function () {
