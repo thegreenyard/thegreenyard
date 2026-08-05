@@ -5,6 +5,7 @@ project:
 
 website:
   title: "The Green Yard"
+  favicon: images/green-yard-logo.jpg
 
   navbar:
     logo: "images/green-yard-logo.jpg"
