@@ -5,6 +5,7 @@ project:
 
 website:
   title: "The Green Yard"
+  favicon: "images/green-yard-logo.jpg"
 
   navbar:
     logo: "images/green-yard-logo.jpg"
@@ -30,7 +31,7 @@ website:
       - href: contact.qmd
         text: Contact
 
-  favicon: "images/green-yard-logo.jpg"
+  
 
   page-footer:
     right: "Visit [The Green Yard on YouTube](https://www.youtube.com/@thegreenyardaz)"
