@@ -203,6 +203,18 @@ page-layout: full
     transform: translateY(-2px);
   }
 
+  #gy-home-hero .gy-button-journeys {
+    color: #173f30;
+    background: #d6ed91;
+    border: 1px solid #d6ed91;
+  }
+
+  #gy-home-hero .gy-button-journeys:hover {
+    color: #173f30;
+    background: #e5f7ab;
+    transform: translateY(-2px);
+  }
+
   #gy-home-hero .gy-button-secondary {
     color: #ffffff;
     background: rgba(4, 28, 21, 0.30);
@@ -698,7 +710,7 @@ page-layout: full
 
     <!-- CLOSE: person holding mangoes -->
     <img
-      src="images/hero-07-lima-community-garden.jpg""images/hero-12-mango-grower.jpg"
+      src="images/hero-07-lima-community-garden.jpg"
       class="gy-slide is-active"
       alt=""
       fetchpriority="high">
@@ -794,8 +806,9 @@ page-layout: full
   <div class="gy-content">
 
     <p class="gy-description">
-      Explore edible spaces around the world while following my journey creating abundance in my Phoenix food forest.
-
+      Explore incredible edible spaces around the world, then follow
+      individual trees through years of growth, flowering, harvests,
+      successes, and setbacks inside my Phoenix food forest.
     </p>
 
     <div class="gy-buttons">
@@ -804,6 +817,12 @@ page-layout: full
         class="gy-button gy-button-primary"
         href="tours/index.html">
         Explore the Tours
+      </a>
+
+      <a
+        class="gy-button gy-button-journeys"
+        href="my-food-forest/index.html">
+        🌱 Follow the Plant Journeys
       </a>
 
       <a
