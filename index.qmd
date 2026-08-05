@@ -825,14 +825,6 @@ page-layout: full
         Follow the Plant Journeys
       </a>
 
-      <a
-        class="gy-button gy-button-secondary"
-        href="https://www.youtube.com/@thegreenyardaz"
-        target="_blank"
-        rel="noopener">
-        ▶ Watch on YouTube
-      </a>
-
     </div>
 
   </div>
