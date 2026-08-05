@@ -674,11 +674,6 @@ object-position: center;
     alt="">
 
   <img
-    src="../images/hero-06-young-food-forest.png"
-    class="gy-tours-slide"
-    alt="">
-
-  <img
     src="../images/hero-07-young-food-forest-aerial.png"
     class="gy-tours-slide"
     alt="">
