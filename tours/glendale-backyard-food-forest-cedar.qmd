@@ -65,7 +65,7 @@ format:
                 "thumbnailUrl": [
                   "https://img.youtube.com/vi/Ik65QaitMdU/maxresdefault.jpg"
                 ],
-                "uploadDate": "2026-07-30",
+                "uploadDate": "2025-12-12",
                 "embedUrl": "https://www.youtube.com/embed/Ik65QaitMdU",
                 "contentUrl": "https://www.youtube.com/watch?v=Ik65QaitMdU",
                 "url": "https://thegreenyardaz.com/tours/glendale-backyard-food-forest-cedar.html",
@@ -87,7 +87,7 @@ format:
                 "@id": "https://thegreenyardaz.com/tours/glendale-backyard-food-forest-cedar.html#article",
                 "headline": "Glendale Backyard Food Forest Tour: Cedar’s Thriving Food Paradise",
                 "description": "Tour Cedar’s thriving backyard food forest in Glendale, Arizona, and explore tropical fruit trees, desert microclimates, grafting experiments, shade strategies, grapes, figs, pomegranates, bananas, avocados, and other unusual edible plants.",
-                "datePublished": "2026-07-30",
+                "datePublished": "2025-12-12",
                 "dateModified": "2026-07-30",
                 "inLanguage": "en-US",
                 "image": [
@@ -150,6 +150,7 @@ format:
           </script>
 ---
 
+```{=html}
 <style>
 
 /* =========================================================
@@ -762,7 +763,7 @@ format:
 
 <nav class="breadcrumbs" aria-label="Breadcrumb">
 
-  <a href="../index.html">Food Forest Tours</a>
+  <a href="index.html">Food Forest Tours</a>
 
   <span class="breadcrumb-separator" aria-hidden="true">/</span>
 
@@ -814,7 +815,7 @@ designed microclimates that make it all possible.
 
     <div>
       <span class="meta-label">Published</span>
-      <span class="meta-value">2026</span>
+      <span class="meta-value">December 12, 2025</span>
     </div>
 
   </div>
@@ -1478,8 +1479,9 @@ Read the Tour
 
 <a
 class="tour-button tour-button-secondary"
-href="https://www.youtube.com/watch?v=YOUR_FRONT_YARD_VIDEO_ID"
-target="_blank">
+href="https://www.youtube.com/watch?v=IAM6sAb9PEQ&t=274s"
+target="_blank"
+rel="noopener">
 
 Watch on YouTube
 
