@@ -1,0 +1,1536 @@
+---
+title: "Inside One of America’s Most Diverse Community Gardens"
+description: "Explore New Roots Community Farm in San Diego, where 74 farmers from around the world grow culturally important crops, share farming traditions, sell fresh produce, and build community through food."
+author: "The Green Yard"
+date: 2026-08-06
+date-modified: 2026-08-06
+lang: en
+
+canonical-url: "https://thegreenyardaz.com/tours/new-roots-community-farm-san-diego.html"
+
+image: "https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg"
+image-alt: "Touring New Roots Community Farm in the City Heights neighborhood of San Diego, California"
+
+keywords:
+  - New Roots Community Farm
+  - New Roots Community Garden
+  - San Diego community garden
+  - City Heights community garden
+  - San Diego urban farm
+  - refugee community garden
+  - immigrant farmers San Diego
+  - multicultural community garden
+  - community agriculture
+  - urban farming San Diego
+  - culturally important crops
+  - City Heights Farmers Market
+  - community composting
+  - food access San Diego
+  - International Rescue Committee garden
+
+categories:
+  - California
+  - San Diego
+  - City Heights
+  - Food Forest Tours
+  - Community Gardens
+  - Urban Farming
+  - Cultural Gardening
+  - Food Access
+  - New Roots Community Farm
+
+page-layout: full
+toc: true
+toc-location: right
+open-graph: true
+twitter-card: true
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "VideoObject",
+                "@id": "https://thegreenyardaz.com/tours/new-roots-community-farm-san-diego.html#video",
+                "name": "Touring an Edible Paradise in City Heights, California",
+                "description": "Tour New Roots Community Farm in San Diego, where 74 farmers from East Africa, Southeast Asia, Latin America, and other regions grow culturally important food and share agricultural traditions.",
+                "thumbnailUrl": [
+                  "https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg"
+                ],
+                "embedUrl": "https://www.youtube.com/embed/0uxQGmZKBeI",
+                "contentUrl": "https://www.youtube.com/watch?v=0uxQGmZKBeI",
+                "url": "https://thegreenyardaz.com/tours/new-roots-community-farm-san-diego.html",
+                "mainEntityOfPage": {
+                  "@id": "https://thegreenyardaz.com/tours/new-roots-community-farm-san-diego.html"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                }
+              },
+              {
+                "@type": "Article",
+                "@id": "https://thegreenyardaz.com/tours/new-roots-community-farm-san-diego.html#article",
+                "headline": "Inside One of America’s Most Diverse Community Gardens",
+                "alternativeHeadline": "New Roots Community Farm Tour in San Diego",
+                "description": "Explore New Roots Community Farm in San Diego, where 74 farmers from around the world grow culturally important crops, share farming traditions, sell fresh produce, and build community through food.",
+                "datePublished": "2026-08-06",
+                "dateModified": "2026-08-06",
+                "inLanguage": "en-US",
+                "image": [
+                  "https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg"
+                ],
+                "author": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                },
+                "mainEntity": {
+                  "@id": "https://thegreenyardaz.com/tours/new-roots-community-farm-san-diego.html#video"
+                },
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://thegreenyardaz.com/tours/new-roots-community-farm-san-diego.html"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id": "https://thegreenyardaz.com/tours/new-roots-community-farm-san-diego.html#breadcrumbs",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://thegreenyardaz.com/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Food Forest Tours",
+                    "item": "https://thegreenyardaz.com/tours/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "California Tours",
+                    "item": "https://thegreenyardaz.com/tours/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "New Roots Community Farm",
+                    "item": "https://thegreenyardaz.com/tours/new-roots-community-farm-san-diego.html"
+                  }
+                ]
+              }
+            ]
+          }
+          </script>
+---
+
+```{=html}
+<style>
+
+/* =========================================================
+   QUARTO PAGE OVERRIDES
+   ========================================================= */
+
+.quarto-title-block,
+#title-block-header {
+  display: none !important;
+}
+
+.tour-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 26px 0 70px;
+}
+
+
+/* =========================================================
+   MAIN VIDEO
+   ========================================================= */
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin: 0 0 24px;
+  border-radius: 10px;
+  background: #082f25;
+  box-shadow: 0 14px 34px rgba(7, 56, 44, 0.16);
+}
+
+.video-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+/* =========================================================
+   BREADCRUMBS
+   ========================================================= */
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 26px;
+  color: #6b7771;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.breadcrumbs a {
+  color: #315f49 !important;
+  text-decoration: none !important;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline !important;
+}
+
+.breadcrumb-separator {
+  color: #a1aaa6;
+}
+
+
+/* =========================================================
+   TOUR HEADER
+   ========================================================= */
+
+.tour-header {
+  max-width: 1050px;
+  margin: 0 0 42px;
+}
+
+.tour-header h1 {
+  margin: 0 0 20px;
+  color: #17221e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(2.25rem, 5vw, 4.25rem);
+  font-weight: 400;
+  letter-spacing: 0.035em;
+  line-height: 1.08;
+  text-transform: uppercase;
+}
+
+.tour-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 18px;
+}
+
+.tour-category {
+  display: inline-flex;
+  padding: 7px 12px;
+  border: 1px solid #aeb5b1;
+  border-radius: 5px;
+  color: #707873;
+  background: #ffffff;
+  font-size: 0.77rem;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.tour-description {
+  max-width: 1050px;
+  margin: 0 0 25px;
+  color: #59625f;
+  font-size: 1.13rem;
+  line-height: 1.65;
+}
+
+.tour-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  max-width: 720px;
+  gap: 26px;
+}
+
+.meta-label {
+  display: block;
+  margin-bottom: 4px;
+  color: #858c89;
+  font-size: 0.79rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.meta-value {
+  color: #59625f;
+  font-size: 1rem;
+}
+
+.tour-lead {
+  max-width: 930px;
+  margin: 0 0 40px;
+  color: #4b5e56;
+  font-size: 1.18rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   TOUR SNAPSHOT
+   ========================================================= */
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+  margin: 0 0 54px;
+}
+
+.fact-card {
+  padding: 19px;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 8px;
+  background: #f7f5ef;
+}
+
+.fact-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #658042;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.fact-value {
+  color: #153e30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+/* =========================================================
+   GENERAL SECTIONS
+   ========================================================= */
+
+.tour-section {
+  margin: 58px 0;
+}
+
+.tour-section h2 {
+  margin-bottom: 20px;
+  color: #143d2f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  line-height: 1.15;
+}
+
+.tour-section p,
+.tour-section li {
+  color: #44554e;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   LEARNING GRID
+   ========================================================= */
+
+.learn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.learn-item {
+  padding: 17px 19px;
+  border-left: 4px solid #86a842;
+  background: #f7f5ef;
+  color: #28473b;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   SHORTS
+   ========================================================= */
+
+.short-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.short-card {
+  overflow: hidden;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 9px;
+  background: #ffffff;
+  box-shadow: 0 8px 22px rgba(18, 47, 36, 0.08);
+}
+
+.short-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  background: #082f25;
+}
+
+.short-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.short-copy {
+  padding: 15px;
+}
+
+.short-copy h3 {
+  margin: 0 0 8px;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.short-copy p {
+  margin: 0;
+  color: #53645d;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+
+/* =========================================================
+   PLANT COLLECTION SUMMARY
+   ========================================================= */
+
+.species-overview {
+  margin: 25px 0 17px;
+  padding: 25px;
+  border-radius: 9px;
+  background: #f7f5ef;
+}
+
+.species-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.species-stat {
+  padding: 17px;
+  border: 1px solid rgba(7, 56, 44, 0.13);
+  border-radius: 7px;
+  background: #ffffff;
+}
+
+.species-stat-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #718a4a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+}
+
+.species-stat-value {
+  display: block;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.07rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+/* =========================================================
+   FEATURED PLANTS
+   ========================================================= */
+
+.featured-plants {
+  margin: 18px 0 20px;
+}
+
+.featured-plants-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #597548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.featured-plant-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.featured-plant {
+  display: inline-flex;
+  padding: 8px 12px;
+  border: 1px solid rgba(7, 56, 44, 0.17);
+  border-radius: 999px;
+  color: #315747;
+  background: #ffffff;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+
+/* =========================================================
+   EXPANDABLE PLANT LIST
+   ========================================================= */
+
+.species-details {
+  margin-top: 15px;
+}
+
+.species-details summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 22px;
+  border-radius: 5px;
+  background: #174936;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+  list-style: none;
+  text-transform: uppercase;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.species-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.species-details summary:hover {
+  background: #286348;
+  transform: translateY(-2px);
+}
+
+.species-summary-open {
+  display: none;
+}
+
+.species-details[open] .species-summary-closed {
+  display: none;
+}
+
+.species-details[open] .species-summary-open {
+  display: inline;
+}
+
+.species-box {
+  margin-top: 22px;
+  padding: 28px 30px;
+  border-radius: 9px;
+  background: #f7f5ef;
+}
+
+.species-box h3 {
+  margin-top: 25px;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.species-box h3:first-child {
+  margin-top: 0;
+}
+
+.species-list {
+  columns: 3;
+  column-gap: 35px;
+}
+
+.species-list li {
+  break-inside: avoid;
+  margin-bottom: 7px;
+}
+
+
+/* =========================================================
+   TAKEAWAY
+   ========================================================= */
+
+.takeaway {
+  padding: 25px 28px;
+  border-left: 5px solid #86a842;
+  border-radius: 0 8px 8px 0;
+  background: #f7f5ef;
+}
+
+
+/* =========================================================
+   RESOURCE LINKS
+   ========================================================= */
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+  margin-top: 24px;
+}
+
+.resource-card {
+  display: block;
+  padding: 21px;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 8px;
+  background: #ffffff;
+  color: #173f30 !important;
+  text-decoration: none !important;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(18, 47, 36, 0.1);
+}
+
+.resource-card strong {
+  display: block;
+  margin-bottom: 5px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+}
+
+.resource-card span {
+  color: #53645d;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   RELATED TOURS
+   ========================================================= */
+
+.related-tour {
+  display: grid;
+  grid-template-columns: minmax(360px, 48%) 1fr;
+  align-items: stretch;
+  overflow: hidden;
+  border: 1px solid rgba(7, 56, 44, 0.14);
+  border-radius: 10px;
+  background: #f7f5ef;
+}
+
+.related-tour-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #082f25;
+}
+
+.related-tour img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.related-tour-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+}
+
+.related-tour-copy h3 {
+  margin: 0 0 12px;
+  color: #173f30;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.related-tour-copy p {
+  margin-top: 0;
+}
+
+.related-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  margin-top: 12px;
+}
+
+.tour-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  min-height: 47px;
+  padding: 12px 21px;
+  border-radius: 5px;
+  background: #174936;
+  color: #ffffff !important;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.tour-button-secondary {
+  color: #174936 !important;
+  background: transparent;
+  border: 1px solid #174936;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 950px) {
+
+  .quick-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .short-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .species-overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .species-list {
+    columns: 2;
+  }
+
+  .related-tour {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 680px) {
+
+  .tour-page {
+    padding-top: 12px;
+  }
+
+  .tour-header h1 {
+    font-size: 2.1rem;
+  }
+
+  .tour-meta,
+  .quick-facts,
+  .learn-grid,
+  .short-grid,
+  .link-grid,
+  .species-overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .short-video {
+    aspect-ratio: 9 / 14;
+  }
+
+  .species-details summary {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .species-list {
+    columns: 1;
+  }
+
+  .related-tour-copy {
+    padding: 24px 22px 28px;
+  }
+
+  .related-actions {
+    flex-direction: column;
+  }
+
+  .tour-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+}
+</style>
+
+
+<main class="tour-page">
+
+<div class="video-wrap">
+
+  <iframe
+    src="https://www.youtube.com/embed/0uxQGmZKBeI?rel=0"
+    title="Touring New Roots Community Farm in San Diego"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+
+</div>
+
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+
+  <a href="index.html">Food Forest Tours</a>
+
+  <span class="breadcrumb-separator" aria-hidden="true">/</span>
+
+  <span>California</span>
+
+  <span class="breadcrumb-separator" aria-hidden="true">/</span>
+
+  <span aria-current="page">New Roots Community Farm</span>
+
+</nav>
+
+
+<header class="tour-header">
+
+  <h1>Inside One of America’s Most Diverse Community Gardens</h1>
+
+  <div class="tour-categories">
+
+    <span class="tour-category">California</span>
+
+    <span class="tour-category">San Diego</span>
+
+    <span class="tour-category">City Heights</span>
+
+    <span class="tour-category">Community Gardens</span>
+
+    <span class="tour-category">Urban Farming</span>
+
+    <span class="tour-category">Cultural Gardening</span>
+
+    <span class="tour-category">Food Access</span>
+
+    <span class="tour-category">New Roots</span>
+
+  </div>
+
+  <p class="tour-description">
+    Tour New Roots Community Farm in San Diego, where 74 farmers from
+    East Africa, Southeast Asia, Latin America, and other regions grow
+    culturally important crops, share farming traditions, sell fresh
+    produce, and build community through food.
+  </p>
+
+  <div class="tour-meta">
+
+    <div>
+      <span class="meta-label">Guide</span>
+      <span class="meta-value">Desiree at New Roots Community Farm</span>
+    </div>
+
+    <div>
+      <span class="meta-label">Article Published</span>
+      <span class="meta-value">August 6, 2026</span>
+    </div>
+
+  </div>
+
+</header>
+
+
+<p class="tour-lead">
+New Roots Community Farm is more than a collection of garden plots. In
+the middle of San Diego’s City Heights neighborhood, 74 farmers from
+different parts of the world use the same land to grow food connected
+to their families, cultures, health, and livelihoods. Walking through
+the farm can feel like moving between countries as growing styles,
+crops, recipes, and agricultural traditions change from one plot to the
+next.
+</p>
+
+
+<section class="quick-facts" aria-label="Tour snapshot">
+
+  <div class="fact-card">
+    <span class="fact-label">Garden</span>
+    <span class="fact-value">New Roots Community Farm</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Guide</span>
+    <span class="fact-value">Desiree</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Location</span>
+    <span class="fact-value">City Heights, San Diego</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Established</span>
+    <span class="fact-value">2007</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Farmers</span>
+    <span class="fact-value">74 Community Growers</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Growing Style</span>
+    <span class="fact-value">Individual Community Plots</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Primary Focus</span>
+    <span class="fact-value">Food, Culture & Community</span>
+  </div>
+
+  <div class="fact-card">
+    <span class="fact-label">Tour Length</span>
+    <span class="fact-value">Approximately 21 Minutes</span>
+  </div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Inside New Roots Community Farm</h2>
+
+<p>
+New Roots Community Farm was established in 2007 when a group of local
+residents came together to create a place where people could grow their
+own food. Some of the original farmers were still cultivating plots at
+the time of the tour, giving the farm a sense of continuity that spans
+many growing seasons.
+</p>
+
+<p>
+The farm includes 74 growers from a wide range of backgrounds. Desiree
+describes East African, South American, Central American, Cambodian,
+Burmese, and other Asian farmers working throughout the property. Each
+plot reflects the preferences, techniques, and foods important to the
+people caring for it.
+</p>
+
+<p>
+That diversity is visible in both the crops and the way they are grown.
+Some farmers cultivate large stands of kale and collards, while others
+harvest vegetables at a younger stage for microfarming. Some plots are
+built around perennial crops, fruit trees, sugar cane, and bananas,
+while others focus on herbs, greens, eggplants, beets, radishes, and
+produce sold directly to local communities.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>What You’ll Learn From This San Diego Community Garden</h2>
+
+<div class="learn-grid">
+
+  <div class="learn-item">
+    How 74 farmers from different cultural backgrounds share one urban
+    growing space in City Heights
+  </div>
+
+  <div class="learn-item">
+    Why culturally familiar crops can support nutrition, identity, and
+    a stronger connection to home
+  </div>
+
+  <div class="learn-item">
+    How Cambodian, East African, Burmese, and Latino growers use
+    different harvesting and planting methods
+  </div>
+
+  <div class="learn-item">
+    How the community greenhouse supports seedlings, farmer education,
+    and donation-based plant sales
+  </div>
+
+  <div class="learn-item">
+    How hot composting and in-ground worm systems can process food waste
+    for a working community farm
+  </div>
+
+  <div class="learn-item">
+    How farmers sell produce through markets, restaurants, temples, and
+    direct community relationships
+  </div>
+
+  <div class="learn-item">
+    Why community gardens can improve food access while preserving
+    agricultural knowledge across generations
+  </div>
+
+  <div class="learn-item">
+    How shared land can create cooperation when individual farmers face
+    theft, crop loss, or other setbacks
+  </div>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>A Greenhouse Built by the Community</h2>
+
+<p>
+One of the first stops is the farm’s greenhouse, which farmers spent
+more than 200 hours building. The structure gives growers a protected
+place to start seedlings, propagate herbs, and prepare plants for the
+coming season.
+</p>
+
+<p>
+At the time of the visit, the greenhouse contained young plants being
+prepared for spring. Some would eventually move into farmers’ plots,
+while others were intended for a donation-based plant sale that could
+help raise money for the farm.
+</p>
+
+<p>
+The greenhouse also reflects an effort to make shared infrastructure
+useful to more growers. Farmers start peppers, basil, mint, and seeds
+connected to their own food traditions. Desiree hopes increased
+participation will allow the space to become a stronger educational and
+productive resource for the entire farm.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Chickens, Eggs, and Shared Farm Space</h2>
+
+<p>
+The farm also includes chickens managed by two community farmers.
+Separate coops hold hens and roosters, producing eggs while adding
+another layer of food production to the property.
+</p>
+
+<p>
+The birds are regularly allowed to roam and exercise before being
+guided back into their secure enclosures. Their presence demonstrates
+how a community farm can include more than vegetable plots, even within
+a dense urban neighborhood.
+</p>
+
+<p>
+At the time of the tour, the farm was planning to move the coops toward
+the back of the property. That change would open more of the front area
+for events and other shared uses, showing how the physical layout
+continues adapting to the community’s needs.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Growing Food Across Cultures</h2>
+
+<p>
+The strongest story at New Roots is the exchange of crops and knowledge
+between farmers. East African growers cultivate large amounts of kale
+and collards, harvesting individual leaves so each plant continues
+producing rather than removing the entire crop at once.
+</p>
+
+<p>
+Lemongrass illustrates how ideas move through the garden. Cambodian
+farmers introduced the plant to East African growers, who came to value
+its culinary and traditional uses. The exchange is a small example of
+how people from different backgrounds influence one another simply by
+growing beside each other.
+</p>
+
+<p>
+Cambodian farmers often harvest mustard greens, amaranth, and other
+vegetables at a smaller stage. Some sell produce at their temple on
+weekends. Chayote vines are grown not only for the fruit but also for
+the tender growing tips, which can be sautéed and eaten like a cross
+between broccoli and spinach.
+</p>
+
+<p>
+Burmese and Kenyan growers cultivate mint, amaranth, specialty
+eggplants, Swiss chard, cilantro, and other foods familiar to their
+families. The bitter flavor of certain small eggplants may be unusual
+to some visitors, but it is exactly the quality those farmers want.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Composting Food Waste for the Farm</h2>
+
+<p>
+New Roots was rebuilding its composting area during the tour. The
+system included three in-ground vermicomposting units along with three
+above-ground hot composting systems.
+</p>
+
+<p>
+The in-ground composters are designed to be relatively low maintenance:
+food waste is added and worms carry out much of the decomposition.
+Farmers maintain the hot composting systems more actively as part of
+the shared work required to keep the farm productive.
+</p>
+
+<p>
+The long-term goal was to process approximately 1,600 gallons of food
+waste. The farm was also discussing a partnership with another San
+Diego organization that produces organic waste through youth camps.
+Redirecting that material to the farm could reduce disposal while
+building soil for community growers.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Food for Families, Markets, Temples, and Restaurants</h2>
+
+<p>
+The produce grown at New Roots moves through several local food
+networks. Some farmers grow mainly for their households, while others
+sell at the City Heights Farmers Market, the Linda Vista market, local
+temples, neighborhood restaurants, or directly to community members.
+</p>
+
+<p>
+Kale and collards are especially important crops. Farmers supply fresh,
+chemical-free greens to residents who recognize both the growers and
+the cultural value of the food. Produce that does not sell at one
+market may be purchased back or donated to a local foodshed rather than
+being wasted.
+</p>
+
+<p>
+Other growers sell specifically to East African restaurants in and near
+City Heights. These relationships help restaurants obtain familiar,
+locally grown ingredients while creating income opportunities for the
+farmers producing them.
+</p>
+
+<p>
+The farm is also known for sugar cane. In one story, a customer drove
+from San Francisco to obtain cane for a wedding, only to learn that the
+original crop had been stolen. Other East African farmers combined
+their own harvests so he could return home with more than enough. That
+moment captures the cooperative spirit behind the garden.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Building a Productive Plot From the Ground Up</h2>
+
+<p>
+Every plot at New Roots develops differently. One Latino farmer had
+moved into her space only months before the tour and transformed a
+nearly empty area by installing raised beds, bringing in organic soil,
+and incorporating compost supplied through the farm.
+</p>
+
+<p>
+Her motivation was closely connected to her children’s health. She
+believed that growing food organically helped reduce problems her son
+experienced with some store-bought produce. Whether a farmer is
+motivated by health, culture, income, or access to familiar food, each
+plot becomes a personal response to a real family need.
+</p>
+
+<p>
+That individuality is one reason community gardens matter. The land is
+shared, but every grower can shape a plot around the crops, methods, and
+goals that are most useful to them.
+</p>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Crops Growing at New Roots Community Farm</h2>
+
+<p>
+The farm contains a mix of annual vegetables, perennial food crops,
+fruit trees, herbs, culturally important plants, and crops grown for
+local markets. Because each plot is managed independently, the
+collection changes with the season and with the farmers currently using
+the land.
+</p>
+
+
+<div class="species-overview">
+
+  <div class="species-overview-grid">
+
+    <div class="species-stat">
+      <span class="species-stat-label">Community Growers</span>
+      <span class="species-stat-value">74 Farmers</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Primary Greens</span>
+      <span class="species-stat-value">Kale, Collards & Mustard</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Major Perennials</span>
+      <span class="species-stat-value">Banana, Sugar Cane & Avocado</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Market Crops</span>
+      <span class="species-stat-value">Greens, Herbs & Vegetables</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Composting</span>
+      <span class="species-stat-value">Hot & Vermicomposting</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Farm Animals</span>
+      <span class="species-stat-value">Chickens and Eggs</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Growing Model</span>
+      <span class="species-stat-value">Independent Community Plots</span>
+    </div>
+
+    <div class="species-stat">
+      <span class="species-stat-label">Food Distribution</span>
+      <span class="species-stat-value">Home, Markets & Restaurants</span>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="featured-plants">
+
+  <span class="featured-plants-label">
+    Featured Crops
+  </span>
+
+  <div class="featured-plant-tags">
+
+    <span class="featured-plant">Collard greens</span>
+
+    <span class="featured-plant">Kale</span>
+
+    <span class="featured-plant">Sugar cane</span>
+
+    <span class="featured-plant">Chayote</span>
+
+    <span class="featured-plant">Amaranth</span>
+
+    <span class="featured-plant">Mustard greens</span>
+
+    <span class="featured-plant">Bananas</span>
+
+    <span class="featured-plant">Cilantro</span>
+
+  </div>
+
+</div>
+
+
+<details class="species-details">
+
+  <summary aria-label="Show or hide the complete crop list">
+
+    <span class="species-summary-closed">
+      Show Complete Crop List
+    </span>
+
+    <span class="species-summary-open">
+      Hide Complete Crop List
+    </span>
+
+  </summary>
+
+
+  <div class="species-box">
+
+    <h3>Leafy Greens and Herbs</h3>
+
+    <ul class="species-list">
+      <li>Kale</li>
+      <li>Collard greens</li>
+      <li>Mustard greens</li>
+      <li>Swiss chard</li>
+      <li>Amaranth</li>
+      <li>Cilantro</li>
+      <li>Mint</li>
+      <li>Basil</li>
+      <li>Lemongrass</li>
+    </ul>
+
+
+    <h3>Vegetables and Specialty Crops</h3>
+
+    <ul class="species-list">
+      <li>Beets</li>
+      <li>Radishes</li>
+      <li>Specialty eggplants</li>
+      <li>Chayote</li>
+      <li>Chayote growing tips</li>
+      <li>Nopales</li>
+      <li>Prickly pear</li>
+    </ul>
+
+
+    <h3>Fruit Trees and Perennial Crops</h3>
+
+    <ul class="species-list">
+      <li>Avocado</li>
+      <li>Banana</li>
+      <li>Apple</li>
+      <li>Dragon fruit</li>
+      <li>Sugar cane</li>
+    </ul>
+
+
+    <h3>Greenhouse and Seasonal Starts</h3>
+
+    <ul class="species-list">
+      <li>Peppers</li>
+      <li>Basil varieties</li>
+      <li>Mint varieties</li>
+      <li>Farmer-saved seedlings</li>
+      <li>Donation-sale plants</li>
+    </ul>
+
+  </div>
+
+</details>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>The Green Yard Takeaway</h2>
+
+<div class="takeaway">
+
+<p>
+New Roots Community Farm demonstrates that abundance is not measured
+only by the amount of food produced on one piece of land. Here,
+abundance is also found in the people: 74 growers sharing seeds,
+farming methods, recipes, labor, and crops connected to different parts
+of the world.
+</p>
+
+<p>
+The garden shows how edible landscapes can preserve culture while
+creating new relationships. Cambodian growers introduce lemongrass to
+East African neighbors. Farmers combine sugar cane when someone loses a
+crop. Fresh greens move from individual plots to families, markets,
+restaurants, temples, and local food programs.
+</p>
+
+<p>
+New Roots is a reminder that gardens do more than feed people. They
+create places where knowledge can travel, newcomers can rebuild a sense
+of home, and neighbors can discover abundance together.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Continue Learning With The Green Yard</h2>
+
+<p>
+Explore more community gardens, food forests, edible landscapes, and
+plant journeys through The Green Yard.
+</p>
+
+<div class="link-grid">
+
+  <a
+    class="resource-card"
+    href="https://www.youtube.com/watch?v=0uxQGmZKBeI"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    <strong>Watch the New Roots Tour on YouTube</strong>
+
+    <span>
+      Open the complete San Diego community garden tour directly on The
+      Green Yard YouTube channel.
+    </span>
+
+  </a>
+
+
+  <a
+    class="resource-card"
+    href="index.html">
+
+    <strong>Explore All Food Forest Tours</strong>
+
+    <span>
+      Browse every food forest, edible landscape, farm, orchard, and
+      community garden featured by The Green Yard.
+    </span>
+
+  </a>
+
+
+  <a
+    class="resource-card"
+    href="../grow/index.html">
+
+    <strong>Follow the Plant Journeys</strong>
+
+    <span>
+      Track individual plants through years of growth, flowering,
+      setbacks, harvests, and adaptation in Phoenix.
+    </span>
+
+  </a>
+
+
+  <a
+    class="resource-card"
+    href="../about.qmd">
+
+    <strong>About The Green Yard</strong>
+
+    <span>
+      Learn why The Green Yard documents different ways people create
+      abundance through plants, food, and edible landscapes.
+    </span>
+
+  </a>
+
+</div>
+
+</section>
+
+
+<section class="tour-section">
+
+<h2>Continue Exploring Community Gardens</h2>
+
+<div class="related-tour">
+
+  <div class="related-tour-image">
+
+    <img
+      src="https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg"
+      alt="Community farmers growing culturally important food at New Roots Community Farm in San Diego"
+      loading="lazy">
+
+  </div>
+
+
+  <div class="related-tour-copy">
+
+    <h3>Explore More Tours From The Green Yard</h3>
+
+    <p>
+      Continue through the complete tour library to discover food
+      forests, farms, orchards, nurseries, and community gardens shaped
+      by different people, climates, and cultures.
+    </p>
+
+    <div class="related-actions">
+
+      <a
+        class="tour-button"
+        href="index.html">
+        Explore All Tours
+      </a>
+
+      <a
+        class="tour-button tour-button-secondary"
+        href="../grow/index.html">
+        Follow Plant Journeys
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+</main>
+
+```
