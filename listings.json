@@ -6,7 +6,6 @@
   {
     "listing": "/tours/index.html",
     "items": [
-      "/tours/new-roots-community-farm-san-diego.html",
       "/tours/tampa-back-yard-food-forest-gonza-gardens.html",
       "/tours/central-florida-agroforestry-systems.html",
       "/tours/central-florida-secret-food-forest.html",
@@ -15,7 +14,8 @@
       "/tours/miami-front-yard-food-forest-finca-morada.html",
       "/tours/homestead-tropical-fruit-nursery-bees-tropical-garden.html",
       "/tours/glendale-backyard-food-forest-cedar.html",
-      "/tours/glendale-front-yard-food-forest-cedar.html"
+      "/tours/glendale-front-yard-food-forest-cedar.html",
+      "/tours/new-roots-community-farm-san-diego.html"
     ]
   }
 ]
