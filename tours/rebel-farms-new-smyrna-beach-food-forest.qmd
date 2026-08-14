@@ -1,0 +1,180 @@
+---
+title: "New Smyrna Beach Food Forest Tour: Rebel Farms"
+description: "Tour Rebel Farms in New Smyrna Beach, Florida, where Tyson and Maggie are testing food forest systems, tropical fruit varieties, freeze tolerance, flood resilience, and community-scale food production."
+author: "The Green Yard"
+date: 2026-08-14
+date-modified: 2026-08-14
+lang: en
+canonical-url: "https://thegreenyardaz.com/tours/rebel-farms-new-smyrna-beach-food-forest.html"
+image: "https://img.youtube.com/vi/VAqc2OZHZpI/maxresdefault.jpg"
+image-alt: "Rebel Farms food forest in New Smyrna Beach, Florida"
+
+keywords:
+  - Rebel Farms
+  - New Smyrna Beach food forest
+  - Florida food forest
+  - Florida agroforestry
+  - tropical fruit Florida
+  - cold hardy avocado Florida
+  - food forest freeze damage
+  - community food forest
+  - suburban food forest
+  - edible landscaping Florida
+
+categories:
+  - Florida
+  - New Smyrna Beach
+  - Food Forest Tours
+  - Agroforestry
+  - Tropical Fruit
+  - Rebel Farms
+
+page-layout: full
+toc: true
+toc-location: right
+open-graph: true
+twitter-card: true
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+---
+
+```{=html}
+<style>
+.quarto-title-block,#title-block-header{display:none!important}
+.tour-page{max-width:1180px;margin:0 auto;padding:26px 0 70px}
+.video-wrap{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;margin:0 0 24px;border-radius:10px;background:#082f25;box-shadow:0 14px 34px rgba(7,56,44,.16)}
+.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.breadcrumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 26px;color:#6b7771;font-family:Arial,Helvetica,sans-serif;font-size:.82rem;line-height:1.4}
+.breadcrumbs a{color:#315f49!important;text-decoration:none!important}.breadcrumb-separator{color:#a1aaa6}
+.tour-header{max-width:1050px;margin:0 0 42px}
+.tour-header h1{margin:0 0 20px;color:#17221e;font-family:Arial,Helvetica,sans-serif;font-size:clamp(2.25rem,5vw,4.25rem);font-weight:400;letter-spacing:.035em;line-height:1.08;text-transform:uppercase}
+.tour-categories{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:18px}
+.tour-category{display:inline-flex;padding:7px 12px;border:1px solid #aeb5b1;border-radius:5px;color:#707873;background:#fff;font-size:.77rem;letter-spacing:.07em;line-height:1;text-transform:uppercase}
+.tour-description{max-width:1050px;margin:0 0 25px;color:#59625f;font-size:1.13rem;line-height:1.65}
+.tour-meta{display:grid;grid-template-columns:repeat(2,minmax(200px,1fr));max-width:720px;gap:26px}
+.meta-label{display:block;margin-bottom:4px;color:#858c89;font-size:.79rem;letter-spacing:.07em;text-transform:uppercase}.meta-value{color:#59625f;font-size:1rem}
+.tour-lead{max-width:930px;margin:0 0 40px;color:#4b5e56;font-size:1.18rem;line-height:1.75}
+.quick-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin:0 0 54px}
+.fact-card{padding:19px;border:1px solid rgba(7,56,44,.14);border-radius:8px;background:#f7f5ef}
+.fact-label{display:block;margin-bottom:6px;color:#658042;font-size:.72rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+.fact-value{color:#153e30;font-family:Georgia,"Times New Roman",serif;font-size:1.15rem;font-weight:600;line-height:1.3}
+.tour-section{margin:58px 0}.tour-section h2{margin-bottom:20px;color:#143d2f;font-family:Georgia,"Times New Roman",serif;font-size:clamp(2rem,3vw,2.7rem);line-height:1.15}
+.tour-section p,.tour-section li{color:#44554e;font-size:1.05rem;line-height:1.75}
+.learn-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}
+.learn-item{padding:17px 19px;border-left:4px solid #86a842;background:#f7f5ef;color:#28473b;line-height:1.5}
+.short-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:28px;max-width:520px}
+.short-card{overflow:hidden;border:1px solid rgba(7,56,44,.14);border-radius:9px;background:#fff;box-shadow:0 8px 22px rgba(18,47,36,.08)}
+.short-video{position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;background:#082f25}.short-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.short-copy{padding:15px}.short-copy h3{margin:0 0 8px;color:#173f30;font-family:Georgia,"Times New Roman",serif;font-size:1rem;line-height:1.3}.short-copy p{margin:0;color:#53645d;font-size:.88rem;line-height:1.55}
+.takeaway{padding:25px 28px;border-left:5px solid #86a842;border-radius:0 8px 8px 0;background:#f7f5ef}
+.link-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:24px}
+.resource-card{display:block;padding:21px;border:1px solid rgba(7,56,44,.14);border-radius:8px;background:#fff;color:#173f30!important;text-decoration:none!important}
+.resource-card strong{display:block;margin-bottom:5px;font-family:Georgia,"Times New Roman",serif;font-size:1.15rem}.resource-card span{color:#53645d;font-size:.92rem;line-height:1.5}
+@media(max-width:950px){.quick-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.tour-page{padding-top:12px}.tour-header h1{font-size:2.1rem}.tour-meta,.quick-facts,.learn-grid,.short-grid,.link-grid{grid-template-columns:1fr}.short-grid{max-width:300px}.short-video{aspect-ratio:9/14}}
+</style>
+
+<main class="tour-page">
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/VAqc2OZHZpI?rel=0" title="Rebel Farms Food Forest Tour" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+<a href="../index.html">Food Forest Tours</a><span class="breadcrumb-separator">/</span><span>Florida</span><span class="breadcrumb-separator">/</span><span aria-current="page">Rebel Farms</span>
+</nav>
+
+<header class="tour-header">
+<h1>Inside Rebel Farms: Growing Food Through Trial and Error</h1>
+<div class="tour-categories">
+<span class="tour-category">Florida</span><span class="tour-category">New Smyrna Beach</span><span class="tour-category">Food Forest Tours</span><span class="tour-category">Agroforestry</span><span class="tour-category">Tropical Fruit</span><span class="tour-category">Rebel Farms</span>
+</div>
+<p class="tour-description">Tour Rebel Farms, an experimental food forest and growing community in New Smyrna Beach where real-world successes and failures are helping determine what can reliably thrive and produce in this part of Florida.</p>
+<div class="tour-meta"><div><span class="meta-label">Hosts</span><span class="meta-value">Tyson &amp; Maggie at Rebel Farms</span></div><div><span class="meta-label">Published</span><span class="meta-value">August 14, 2026</span></div></div>
+</header>
+
+<p class="tour-lead">Rebel Farms is more than a collection of fruit trees. Tyson and Maggie are building an experiment in agriculture and community across a suburban neighborhood in New Smyrna Beach, Florida. Five neighboring families grow food together while testing which plants, cultivars, and growing systems can handle the area's heat, floods, freezes, and other challenges.</p>
+
+<section class="quick-facts" aria-label="Tour snapshot">
+<div class="fact-card"><span class="fact-label">Farm</span><span class="fact-value">Rebel Farms</span></div>
+<div class="fact-card"><span class="fact-label">Hosts</span><span class="fact-value">Tyson &amp; Maggie</span></div>
+<div class="fact-card"><span class="fact-label">Location</span><span class="fact-value">New Smyrna Beach, Florida</span></div>
+<div class="fact-card"><span class="fact-label">Climate</span><span class="fact-value">USDA Zones 9B / 10A Border</span></div>
+<div class="fact-card"><span class="fact-label">Community</span><span class="fact-value">5 Neighboring Families</span></div>
+<div class="fact-card"><span class="fact-label">Growing Style</span><span class="fact-value">Experimental Agroforestry</span></div>
+<div class="fact-card"><span class="fact-label">Challenges</span><span class="fact-value">Freeze &amp; Flooding</span></div>
+<div class="fact-card"><span class="fact-label">Goal</span><span class="fact-value">Reliable Food Production at Scale</span></div>
+</section>
+
+<section class="tour-section">
+<h2>An Experimental Food Forest Built Around Community</h2>
+<p>Tyson describes Rebel Farms as an experiment in both agriculture and community. Five houses and five families live as neighbors, maintain their own kitchen gardens, trade what they grow, and work together on larger food production systems throughout the neighborhood.</p>
+<p>The landscape is intentionally used as a testing ground. Citrus, bananas, avocados, figs, mangoes, starfruit, sapodillas, gingers, passion fruit, and other crops are planted in different conditions to see what actually works. The goal is not simply to grow an impressive collection of plants. Rebel Farms wants to identify crops that can produce reliably enough to eventually plant them on a much larger scale.</p>
+</section>
+
+<section class="tour-section">
+<h2>What You’ll Learn From Rebel Farms</h2>
+<div class="learn-grid">
+<div class="learn-item">How Rebel Farms uses different parts of the neighborhood to test growing systems and plant varieties</div>
+<div class="learn-item">What survived temperatures around 23–25°F and what was lost during a major Florida freeze</div>
+<div class="learn-item">Why Tyson now favors Fantastic avocado after comparing its freeze performance with other varieties</div>
+<div class="learn-item">How native oak and palm canopy provides summer shade and protection for an understory food forest</div>
+<div class="learn-item">How chop-and-drop, homemade mulch, and compost recycle organic material back into the growing system</div>
+<div class="learn-item">Why small-scale failures provide valuable information before crops are planted across larger areas</div>
+</div>
+</section>
+
+<section class="tour-section">
+<h2>Learning From a Major Florida Freeze</h2>
+<p>One of the most valuable parts of this tour is seeing the food forest after a severe freeze rather than only seeing it at its best. Tyson explains that temperatures fell into roughly the 23–25°F range for several days. Bananas died back, mangoes were devastated, and several tropical crops were lost.</p>
+<p>Instead of treating the losses only as a setback, Rebel Farms uses them as data. Avocados provide a great example. Lula had previously been a favorite, but Fantastic avocado trees came through the freeze far better and were already flowering and setting fruit afterward. That performance changed what Rebel Farms plans to plant as it expands.</p>
+</section>
+
+<section class="tour-section">
+<h2>Designing for Floods, Shade, and Florida Conditions</h2>
+<p>Cold is only one challenge here. Parts of Rebel Farms can receive several feet of floodwater, so the food forest also has to function under extremely wet conditions. Native oaks and palms remain overhead in parts of the property, where they act as windbreaks and reduce summer sun and water demand.</p>
+<p>Below that canopy, the farm experiments with avocados, bananas, starfruit, Monstera, passion fruit, gingers, turmeric, citrus, and other edible plants. Paths help move water toward lower areas, while material cut from the food forest is returned to the soil through chop-and-drop.</p>
+</section>
+
+<section class="tour-section">
+<h2>Two Highlights From the Rebel Farms Tour</h2>
+<div class="short-grid">
+<article class="short-card"><div class="short-video"><iframe src="https://www.youtube.com/embed/Pc-N_MVE3pY?rel=0" title="Rebel Farms Tour Highlight" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="short-copy"><h3>Rebel Farms Tour Highlight</h3><p>A closer look at one of the lessons and growing experiments featured during our visit to Rebel Farms.</p></div></article>
+<article class="short-card"><div class="short-video"><iframe src="https://www.youtube.com/embed/LkbPBkKK_2I?rel=0" title="Rebel Farms Tour Highlight" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="short-copy"><h3>Rebel Farms Tour Highlight</h3><p>See another moment from the tour exploring how Rebel Farms approaches food production through experimentation.</p></div></article>
+</div>
+</section>
+
+<section class="tour-section">
+<h2>From Chickens to Compost</h2>
+<p>Rebel Farms also tries to keep nutrients moving within the community. Families bring food scraps and organic material to the chickens, which help break it down and mix it with manure. That material is then moved into compost bins, finished, and eventually returned to whichever garden or growing area needs it.</p>
+<p>Combined with chop-and-drop from the food forest itself, the system turns waste from the neighborhood into fertility for future food production.</p>
+</section>
+
+<section class="tour-section">
+<h2>The Green Yard Takeaway</h2>
+<div class="takeaway">
+<p>What makes Rebel Farms especially interesting is the willingness to get things wrong. A freeze can wipe out years of tropical growth. A supposedly cold-hardy cultivar may fail. A different variety planted nearby may survive and immediately change the plan for the future.</p>
+<p>That trial and error is the point. Rebel Farms is collecting real-world experience so future plantings can be based on what actually survives and produces in this climate. The ultimate goal is greater abundance—not just a food forest that looks productive, but growing systems capable of producing meaningful amounts of food for families and communities.</p>
+</div>
+</section>
+
+<section class="tour-section">
+<h2>Learn More About Rebel Farms</h2>
+<p>Rebel Farms offers tours and welcomes questions about growing food and food forests. You can learn more about Tyson, Maggie, their growing projects, and ways to visit through Rebel Farms directly.</p>
+<div class="link-grid">
+<a class="resource-card" href="https://rebelfarms.org/" target="_blank" rel="noopener noreferrer"><strong>Rebel Farms</strong><span>Visit the Rebel Farms website to learn more, schedule a tour, or get in touch.</span></a>
+<a class="resource-card" href="https://www.youtube.com/watch?v=VAqc2OZHZpI" target="_blank" rel="noopener noreferrer"><strong>Watch Part 1 on YouTube</strong><span>Watch the complete first part of our Rebel Farms food forest tour on The Green Yard YouTube channel.</span></a>
+</div>
+</section>
+
+<section class="tour-section">
+<h2>Rebel Farms Part 2</h2>
+<p>Our visit continues in Part 2 as Maggie takes us deeper into Rebel Farms and the community they are building in New Smyrna Beach. Once Part 2 is released, this page can be updated with the next video and additional highlights from the tour.</p>
+</section>
+
+</main>
+```
