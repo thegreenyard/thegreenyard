@@ -1,1 +1,1129 @@
+---
+title: "Growing Food in California"
+description: "Explore California community gardens, food forests, farms, and edible landscapes while learning how coastal influence, Mediterranean climates, heat, drought, and regional microclimates shape what can grow."
+page-layout: full
+toc: false
+---
 
+```{=html}
+<style>
+  /* =========================================================
+     CALIFORNIA LOCATION PAGE — MASTER LOCATION TEMPLATE
+     ========================================================= */
+
+  body:has(#gy-location-hero) {
+    overflow-x: hidden !important;
+  }
+
+  body:has(#gy-location-hero) #title-block-header,
+  body:has(#gy-location-hero) .quarto-title-block {
+    display: none !important;
+  }
+
+  body:has(#gy-location-hero) #quarto-content,
+  body:has(#gy-location-hero) main.content,
+  body:has(#gy-location-hero) .page-columns,
+  body:has(#gy-location-hero) .content,
+  body:has(#gy-location-hero) .content-block {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body:has(#gy-location-hero) #quarto-content,
+  body:has(#gy-location-hero) main.content,
+  body:has(#gy-location-hero) #quarto-content.page-columns,
+  body:has(#gy-location-hero) main.content.page-columns {
+    display: block !important;
+    grid-template-columns: none !important;
+  }
+
+  body:has(#gy-location-hero) main.content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  body:has(#gy-location-hero) #quarto-content > *,
+  body:has(#gy-location-hero) main.content > * {
+    width: 100% !important;
+    max-width: none !important;
+    grid-column: 1 / -1 !important;
+  }
+
+
+  /* =========================================================
+     LOCATION HERO
+     ========================================================= */
+
+  #gy-location-hero {
+    position: relative;
+    width: 100vw !important;
+    max-width: none !important;
+    left: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: 0 !important;
+
+    min-height: 430px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+
+    background:
+      linear-gradient(
+        120deg,
+        rgba(3, 29, 22, 0.98) 0%,
+        rgba(8, 55, 41, 0.96) 52%,
+        rgba(42, 86, 59, 0.92) 100%
+      );
+  }
+
+  /*
+  LATER, WHEN YOU HAVE A CALIFORNIA HERO IMAGE:
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(3, 29, 22, 0.95) 0%,
+      rgba(3, 29, 22, 0.80) 48%,
+      rgba(3, 29, 22, 0.35) 100%
+    ),
+    url("../../images/california-location-hero.jpg") center / cover no-repeat;
+  */
+
+  .gy-location-hero-content {
+    position: relative;
+    z-index: 2;
+
+    width: min(1500px, calc(100% - 56px));
+    margin: 0 auto;
+    padding: 72px 0;
+    box-sizing: border-box;
+
+    color: #ffffff;
+  }
+
+  .gy-location-kicker {
+    display: block;
+    max-width: 850px;
+    margin: 0 0 16px;
+
+    color: #d6ed91;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  #gy-location-hero h1 {
+    max-width: 820px;
+    margin: 0 0 22px !important;
+
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(43px, 4.6vw, 68px) !important;
+    font-weight: 600 !important;
+    line-height: 1.04 !important;
+    letter-spacing: -0.025em !important;
+    text-transform: none !important;
+  }
+
+  #gy-location-hero p {
+    max-width: 760px;
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.95);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 1.65;
+  }
+
+
+  /* =========================================================
+     CONTENT SHELL
+     ========================================================= */
+
+  .gy-location-main {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    background: #ffffff;
+  }
+
+  .gy-location-inner {
+    width: min(1500px, calc(100% - 56px));
+    margin: 0 auto;
+    padding: 76px 0 90px;
+    box-sizing: border-box;
+  }
+
+  .gy-section {
+    width: 100%;
+    margin: 0 0 78px;
+  }
+
+  .gy-section-heading {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 0 34px;
+  }
+
+  .gy-section-label {
+    display: block;
+    margin: 0 0 10px;
+
+    color: #597548;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .gy-section-heading h2 {
+    margin: 0 0 15px !important;
+
+    color: #17382c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(34px, 3.5vw, 52px) !important;
+    font-weight: 600 !important;
+    line-height: 1.1 !important;
+    letter-spacing: -0.02em !important;
+    text-transform: none !important;
+  }
+
+  .gy-section-heading p {
+    max-width: 840px;
+    margin: 0;
+
+    color: #52615b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+
+  /* =========================================================
+     GROWING INTRO
+     ========================================================= */
+
+  .gy-growing-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.65fr);
+    gap: clamp(36px, 4vw, 70px);
+    align-items: start;
+  }
+
+  .gy-growing-copy {
+    min-width: 0;
+  }
+
+  .gy-growing-copy p {
+    max-width: 900px;
+    margin: 0 0 18px;
+
+    color: #4e5e57;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .gy-growing-note {
+    min-width: 0;
+    padding: 28px;
+
+    border-radius: 9px;
+    background: #f7f5ef;
+    border: 1px solid rgba(7, 56, 44, 0.10);
+  }
+
+  .gy-growing-note strong {
+    display: block;
+    margin-bottom: 10px;
+
+    color: #17382c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    line-height: 1.25;
+  }
+
+  .gy-growing-note p {
+    margin: 0;
+
+    color: #5d6a64;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+
+  /* =========================================================
+     CLIMATE SNAPSHOT
+     ========================================================= */
+
+  .gy-climate-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .gy-climate-card {
+    min-height: 150px;
+    padding: 24px;
+    box-sizing: border-box;
+
+    border: 1px solid rgba(7, 56, 44, 0.12);
+    border-radius: 8px;
+    background: #f7f5ef;
+  }
+
+  .gy-climate-card span {
+    display: block;
+    margin-bottom: 9px;
+
+    color: #668047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .gy-climate-card strong {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #17382c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    line-height: 1.15;
+  }
+
+  .gy-climate-card p {
+    margin: 0;
+
+    color: #5c6963;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+
+  /* =========================================================
+     OPPORTUNITIES + CHALLENGES
+     ========================================================= */
+
+  .gy-opportunity-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+  }
+
+  .gy-opportunity-card {
+    padding: 34px;
+    box-sizing: border-box;
+    border-radius: 9px;
+  }
+
+  .gy-opportunity-card.positive {
+    background: #173f30;
+  }
+
+  .gy-opportunity-card.challenge {
+    background: #f0eee8;
+    border: 1px solid rgba(7, 56, 44, 0.10);
+  }
+
+  .gy-opportunity-card h3 {
+    margin: 0 0 16px !important;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 29px !important;
+    font-weight: 600 !important;
+    line-height: 1.15 !important;
+    text-transform: none !important;
+  }
+
+  .gy-opportunity-card.positive h3 {
+    color: #ffffff;
+  }
+
+  .gy-opportunity-card.challenge h3 {
+    color: #17382c;
+  }
+
+  .gy-opportunity-card ul {
+    margin: 0;
+    padding-left: 21px;
+  }
+
+  .gy-opportunity-card li {
+    margin-bottom: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .gy-opportunity-card.positive li {
+    color: rgba(255, 255, 255, 0.90);
+  }
+
+  .gy-opportunity-card.challenge li {
+    color: #52615b;
+  }
+
+
+  /* =========================================================
+     WHAT GROWS HERE
+     ========================================================= */
+
+  .gy-plant-groups {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .gy-plant-group {
+    padding: 27px;
+    box-sizing: border-box;
+
+    border-radius: 8px;
+    border: 1px solid rgba(7, 56, 44, 0.12);
+
+    background: #ffffff;
+    box-shadow: 0 8px 22px rgba(18, 47, 36, 0.06);
+  }
+
+  .gy-plant-group h3 {
+    margin: 0 0 15px !important;
+
+    color: #17382c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    text-transform: none !important;
+  }
+
+  .gy-plant-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .gy-plant-tag {
+    display: inline-flex;
+    padding: 7px 10px;
+
+    border-radius: 999px;
+    background: #eef3df;
+
+    color: #456335;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+
+  /* =========================================================
+     CALIFORNIA TOUR CARDS
+     ========================================================= */
+
+  .gy-tour-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+  }
+
+  .gy-tour-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+
+    border: 1px solid rgba(7, 56, 44, 0.13);
+    border-radius: 9px;
+
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(18, 47, 36, 0.08);
+
+    color: inherit !important;
+    text-decoration: none !important;
+
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .gy-tour-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 31px rgba(18, 47, 36, 0.14);
+  }
+
+  .gy-tour-card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .gy-tour-card-copy {
+    padding: 22px;
+  }
+
+  .gy-tour-card-copy span {
+    display: block;
+    margin-bottom: 9px;
+
+    color: #668047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+  }
+
+  .gy-tour-card-copy h3 {
+    margin: 0 0 11px !important;
+
+    color: #153e30;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 23px !important;
+    font-weight: 600 !important;
+    line-height: 1.22 !important;
+    text-transform: none !important;
+  }
+
+  .gy-tour-card-copy p {
+    margin: 0;
+
+    color: #53645d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .gy-coming-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    padding: 34px;
+    box-sizing: border-box;
+
+    border: 1px dashed rgba(7, 56, 44, 0.22);
+    border-radius: 9px;
+    background: #f7f5ef;
+  }
+
+  .gy-coming-card span {
+    display: block;
+    margin-bottom: 10px;
+
+    color: #668047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+  }
+
+  .gy-coming-card h3 {
+    margin: 0 0 12px !important;
+
+    color: #153e30;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    text-transform: none !important;
+  }
+
+  .gy-coming-card p {
+    margin: 0;
+
+    color: #53645d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+
+  /* =========================================================
+     OTHER LOCATIONS
+     ========================================================= */
+
+  .gy-other-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+  }
+
+  .gy-other-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-height: 92px;
+    padding: 20px 22px;
+    box-sizing: border-box;
+
+    border-radius: 7px;
+    background: #173f30;
+
+    color: #ffffff !important;
+    text-decoration: none !important;
+
+    transition:
+      transform 0.2s ease,
+      background-color 0.2s ease;
+  }
+
+  .gy-other-card:hover {
+    transform: translateY(-3px);
+    background: #286348;
+  }
+
+  .gy-other-card strong {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+  }
+
+  .gy-other-card span {
+    color: #d6ed91;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+  }
+
+
+  /* =========================================================
+     TABLET
+     ========================================================= */
+
+  @media (max-width: 1050px) {
+    .gy-growing-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .gy-climate-grid,
+    .gy-plant-groups,
+    .gy-tour-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .gy-other-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+
+  /* =========================================================
+     MOBILE
+     ========================================================= */
+
+  @media (max-width: 700px) {
+    #gy-location-hero {
+      min-height: 440px;
+      align-items: flex-end;
+    }
+
+    .gy-location-hero-content {
+      width: calc(100% - 40px);
+      padding: 52px 0 46px;
+    }
+
+    #gy-location-hero h1 {
+      font-size: clamp(39px, 11vw, 52px) !important;
+    }
+
+    #gy-location-hero p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .gy-location-inner {
+      width: calc(100% - 40px);
+      padding: 58px 0 70px;
+    }
+
+    .gy-climate-grid,
+    .gy-opportunity-grid,
+    .gy-plant-groups,
+    .gy-tour-grid,
+    .gy-other-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .gy-section {
+      margin-bottom: 64px;
+    }
+  }
+</style>
+
+
+<section id="gy-location-hero">
+
+  <div class="gy-location-hero-content">
+
+    <span class="gy-location-kicker">
+      California Food Forests &amp; Edible Landscapes
+    </span>
+
+    <h1>
+      Growing Food in California
+    </h1>
+
+    <p>
+      Explore community gardens, food forests, farms, and edible landscapes
+      across California while discovering how coastal influence, dry summers,
+      winter rainfall, heat, and local microclimates shape what people grow.
+    </p>
+
+  </div>
+
+</section>
+
+
+<div class="gy-location-main">
+
+  <div class="gy-location-inner">
+
+
+    <!-- GROWING IN CALIFORNIA -->
+    <section class="gy-section">
+
+      <div class="gy-growing-layout">
+
+        <div class="gy-growing-copy">
+
+          <div class="gy-section-heading">
+
+            <span class="gy-section-label">
+              Growing in California
+            </span>
+
+            <h2>
+              A State Defined by Climate Diversity
+            </h2>
+
+          </div>
+
+          <p>
+            California contains an enormous range of growing environments.
+            Coastal communities can have mild temperatures and strong marine
+            influence, inland valleys experience much greater summer heat,
+            mountain regions have true winter cold, and Southern California
+            includes climates capable of supporting an unusually broad mix of
+            temperate, subtropical, and Mediterranean crops.
+          </p>
+
+          <p>
+            Much of the state is characterized by dry summers and wetter
+            winters, making water management a defining part of edible
+            landscape design. In many areas, irrigation is essential through
+            the warm season even when temperatures are moderated by the coast.
+          </p>
+
+          <p>
+            California’s diversity also creates exceptional opportunities.
+            Citrus, avocado, stone fruit, figs, grapes, pomegranates, loquats,
+            mulberries, persimmons, and many other crops can thrive in the
+            right region, while warmer parts of Southern California allow
+            growers to experiment with mango, banana, guava, cherimoya,
+            passion fruit, and other subtropical species.
+          </p>
+
+        </div>
+
+
+        <aside class="gy-growing-note">
+
+          <strong>
+            About These California Tours
+          </strong>
+
+          <p>
+            The Green Yard currently has one California tour, featuring New
+            Roots Community Farm in San Diego. Expanding the California tour
+            library is a priority, so this page is designed to grow as more
+            community gardens, food forests, farms, and edible landscapes are
+            filmed across the state.
+          </p>
+
+        </aside>
+
+      </div>
+
+    </section>
+
+
+    <!-- CLIMATE SNAPSHOT -->
+    <section class="gy-section">
+
+      <div class="gy-section-heading">
+
+        <span class="gy-section-label">
+          Climate Snapshot
+        </span>
+
+        <h2>
+          California Growing Conditions
+        </h2>
+
+        <p>
+          California is too diverse for one climate label. These cards
+          summarize broad patterns while recognizing that conditions can
+          change dramatically between the coast, inland valleys, mountains,
+          deserts, and different parts of the state.
+        </p>
+
+      </div>
+
+
+      <div class="gy-climate-grid">
+
+        <div class="gy-climate-card">
+          <span>Climate</span>
+          <strong>Highly Variable</strong>
+          <p>
+            Mediterranean, coastal, desert, mountain, and inland climates all
+            occur within the state.
+          </p>
+        </div>
+
+        <div class="gy-climate-card">
+          <span>Growing Season</span>
+          <strong>Long in Many Regions</strong>
+          <p>
+            Coastal and Southern California locations can support food
+            production through much of the year.
+          </p>
+        </div>
+
+        <div class="gy-climate-card">
+          <span>Summer</span>
+          <strong>Dry &amp; Regionally Hot</strong>
+          <p>
+            Coastal areas may stay mild while inland locations can experience
+            intense heat and high irrigation demand.
+          </p>
+        </div>
+
+        <div class="gy-climate-card">
+          <span>Winter</span>
+          <strong>Mild to Cold</strong>
+          <p>
+            Southern coastal areas are often mild, while inland and
+            high-elevation regions can experience significant frost or snow.
+          </p>
+        </div>
+
+        <div class="gy-climate-card">
+          <span>Water</span>
+          <strong>Seasonal &amp; Valuable</strong>
+          <p>
+            Dry summers make irrigation, soil moisture conservation, and
+            drought-aware design important in many regions.
+          </p>
+        </div>
+
+        <div class="gy-climate-card">
+          <span>Major Advantage</span>
+          <strong>Crop Diversity</strong>
+          <p>
+            The state supports everything from cool-climate fruit to
+            subtropical crops depending on location and microclimate.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- OPPORTUNITIES + CHALLENGES -->
+    <section class="gy-section">
+
+      <div class="gy-section-heading">
+
+        <span class="gy-section-label">
+          The Growing Reality
+        </span>
+
+        <h2>
+          Why Grow Food in California?
+        </h2>
+
+      </div>
+
+
+      <div class="gy-opportunity-grid">
+
+        <div class="gy-opportunity-card positive">
+
+          <h3>
+            Growing Opportunities
+          </h3>
+
+          <ul>
+            <li>Exceptional range of climates and edible crop possibilities</li>
+            <li>Long growing seasons in many coastal and southern regions</li>
+            <li>Strong potential for citrus, avocado, grapes, figs, and stone fruit</li>
+            <li>Warm Southern California microclimates support subtropical fruit</li>
+            <li>Large gardening and farming communities create opportunities for shared knowledge</li>
+          </ul>
+
+        </div>
+
+
+        <div class="gy-opportunity-card challenge">
+
+          <h3>
+            Growing Challenges
+          </h3>
+
+          <ul>
+            <li>Water availability and irrigation needs during dry summers</li>
+            <li>Extreme heat in inland valleys and desert regions</li>
+            <li>Wildfire, smoke, wind, and changing weather patterns in some areas</li>
+            <li>Cool coastal conditions can limit heat-loving crops</li>
+            <li>Conditions vary so widely that plant advice must be location-specific</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- WHAT GROWS HERE -->
+    <section class="gy-section">
+
+      <div class="gy-section-heading">
+
+        <span class="gy-section-label">
+          What Grows Here
+        </span>
+
+        <h2>
+          Edible Plants Across California
+        </h2>
+
+        <p>
+          California’s plant palette changes dramatically by region. These are
+          broad examples of crops grown successfully somewhere in the state,
+          not a guarantee that every plant will perform in every California
+          climate.
+        </p>
+
+      </div>
+
+
+      <div class="gy-plant-groups">
+
+        <div class="gy-plant-group">
+
+          <h3>
+            Mediterranean &amp; Temperate Crops
+          </h3>
+
+          <div class="gy-plant-tags">
+            <span class="gy-plant-tag">Grapes</span>
+            <span class="gy-plant-tag">Fig</span>
+            <span class="gy-plant-tag">Pomegranate</span>
+            <span class="gy-plant-tag">Peach</span>
+            <span class="gy-plant-tag">Apricot</span>
+            <span class="gy-plant-tag">Persimmon</span>
+          </div>
+
+        </div>
+
+
+        <div class="gy-plant-group">
+
+          <h3>
+            Subtropical Favorites
+          </h3>
+
+          <div class="gy-plant-tags">
+            <span class="gy-plant-tag">Avocado</span>
+            <span class="gy-plant-tag">Citrus</span>
+            <span class="gy-plant-tag">Loquat</span>
+            <span class="gy-plant-tag">Guava</span>
+            <span class="gy-plant-tag">Cherimoya</span>
+            <span class="gy-plant-tag">Passion Fruit</span>
+          </div>
+
+        </div>
+
+
+        <div class="gy-plant-group">
+
+          <h3>
+            Warm-Climate Experiments
+          </h3>
+
+          <div class="gy-plant-tags">
+            <span class="gy-plant-tag">Mango</span>
+            <span class="gy-plant-tag">Banana</span>
+            <span class="gy-plant-tag">White Sapote</span>
+            <span class="gy-plant-tag">Dragon Fruit</span>
+            <span class="gy-plant-tag">Sapote</span>
+            <span class="gy-plant-tag">Tropical Guavas</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CALIFORNIA TOURS -->
+    <section class="gy-section">
+
+      <div class="gy-section-heading">
+
+        <span class="gy-section-label">
+          Explore California
+        </span>
+
+        <h2>
+          California Food Forests &amp; Edible Spaces
+        </h2>
+
+        <p>
+          The California library is just beginning. Start with our San Diego
+          community garden tour, with more California locations planned for
+          future filming.
+        </p>
+
+      </div>
+
+
+      <div class="gy-tour-grid">
+
+        <a
+          class="gy-tour-card"
+          href="../new-roots-community-farm-san-diego.html">
+
+          <img
+            src="https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg"
+            alt="New Roots Community Farm in San Diego, California">
+
+          <div class="gy-tour-card-copy">
+
+            <span>San Diego, California</span>
+
+            <h3>
+              New Roots Community Farm
+            </h3>
+
+            <p>
+              Visit a diverse City Heights community farm where growers from
+              around the world cultivate culturally important foods, share
+              agricultural traditions, and build community through food.
+            </p>
+
+          </div>
+
+        </a>
+
+
+        <div class="gy-coming-card">
+
+          <span>
+            More California Tours
+          </span>
+
+          <h3>
+            The California Library Is Growing
+          </h3>
+
+          <p>
+            California has enormous potential for future Green Yard tours.
+            Additional food forests, farms, community gardens, orchards, and
+            edible landscapes will be added here as they are filmed.
+          </p>
+
+        </div>
+
+
+        <div class="gy-coming-card">
+
+          <span>
+            Future Coverage
+          </span>
+
+          <h3>
+            More Regions Coming
+          </h3>
+
+          <p>
+            Future California tours can expand beyond San Diego into different
+            coastal, inland, northern, and southern growing climates to show
+            just how varied food production can be across the state.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- OTHER LOCATIONS -->
+    <section class="gy-section">
+
+      <div class="gy-section-heading">
+
+        <span class="gy-section-label">
+          Keep Exploring
+        </span>
+
+        <h2>
+          Explore Another Growing Region
+        </h2>
+
+      </div>
+
+
+      <div class="gy-other-grid">
+
+        <a class="gy-other-card" href="../arizona/index.html">
+          <strong>Arizona</strong>
+          <span>→</span>
+        </a>
+
+        <a class="gy-other-card" href="../florida/index.html">
+          <strong>Florida</strong>
+          <span>→</span>
+        </a>
+
+        <a class="gy-other-card" href="../peru/index.html">
+          <strong>Peru</strong>
+          <span>→</span>
+        </a>
+
+        <a class="gy-other-card" href="../south-korea/index.html">
+          <strong>South Korea</strong>
+          <span>→</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </div>
+
+</div>
+```
