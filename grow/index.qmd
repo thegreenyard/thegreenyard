@@ -767,10 +767,6 @@ toc: false
       alt=""
       fetchpriority="high">
 
-    <img
-      src="../images/phoenix-food-forest-pond.jpg"
-      class="gy-grow-slide"
-      alt="">
 
     <img
       src="../images/mango-flowering-phoenix.jpg"
@@ -787,10 +783,6 @@ toc: false
       class="gy-grow-slide"
       alt="">
 
-    <img
-      src="../images/phoenix-mango-fruit-hero.jpg"
-      class="gy-grow-slide"
-      alt="">
 
     <img
       src="../images/schuyler-food-forest.jpg"
@@ -798,7 +790,17 @@ toc: false
       alt="">
 
     <img
+      src="../images/phoenix-mango-fruit-hero.jpg"
+      class="gy-grow-slide"
+      alt="">
+
+    <img
       src="../images/planting-food-forest-phoenix.jpg"
+      class="gy-grow-slide"
+      alt="">
+
+    <img
+      src="../images/phoenix-food-forest-pond.jpg"
       class="gy-grow-slide"
       alt="">
 
