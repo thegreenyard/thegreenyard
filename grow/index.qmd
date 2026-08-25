@@ -64,7 +64,8 @@ toc: false
     margin-right: 0 !important;
     margin-top: 10px;
 
-    min-height: 620px;
+    height: 610px;
+    min-height: 610px;
 
     overflow: hidden;
     display: flex;
@@ -136,7 +137,7 @@ toc: false
 
     width: min(790px, 90%);
     margin-left: max(5vw, 45px);
-    padding: 75px 0;
+    padding: 72px 0;
 
     color: #ffffff;
   }
@@ -162,7 +163,7 @@ toc: false
 
     color: #ffffff;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(43px, 4.6vw, 72px) !important;
+    font-size: clamp(40px, 3.8vw, 58px) !important;
     font-weight: 600 !important;
     line-height: 1.04 !important;
     letter-spacing: -0.025em !important;
@@ -767,6 +768,10 @@ toc: false
       alt=""
       fetchpriority="high">
 
+    <img
+      src="../images/phoenix-food-forest-pond.jpg"
+      class="gy-grow-slide"
+      alt="">
 
     <img
       src="../images/mango-flowering-phoenix.jpg"
@@ -783,6 +788,10 @@ toc: false
       class="gy-grow-slide"
       alt="">
 
+    <img
+      src="../images/phoenix-mango-fruit-hero.jpg"
+      class="gy-grow-slide"
+      alt="">
 
     <img
       src="../images/schuyler-food-forest.jpg"
@@ -790,17 +799,7 @@ toc: false
       alt="">
 
     <img
-      src="../images/phoenix-mango-fruit-hero.jpg"
-      class="gy-grow-slide"
-      alt="">
-
-    <img
       src="../images/planting-food-forest-phoenix.jpg"
-      class="gy-grow-slide"
-      alt="">
-
-    <img
-      src="../images/phoenix-food-forest-pond.jpg"
       class="gy-grow-slide"
       alt="">
 
