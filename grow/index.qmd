@@ -1,6 +1,6 @@
 ---
-title: "Growing Mango Trees in Phoenix"
-description: "Follow The Green Yard's mango journey in Phoenix through years of growth, extreme heat, winter cold, flowering, fruiting, setbacks, recovery, and harvests."
+title: "Growing in Phoenix"
+description: "Follow real plant journeys from The Green Yard in Phoenix and explore years of growing tropical, subtropical, and traditional fruit trees in the desert."
 page-layout: full
 toc: false
 ---
@@ -8,53 +8,52 @@ toc: false
 ```{=html}
 <style>
   /* =========================================================
-     PLANT JOURNEY — MANGO
-     MASTER TEMPLATE FOR FUTURE PLANT PAGES
+     GROW IN PHOENIX LANDING PAGE
      ========================================================= */
 
-  body:has(#gy-plant-hero) {
+  body:has(#gy-grow-hero) {
     overflow-x: hidden !important;
     background: #f8f6f0;
   }
 
-  body:has(#gy-plant-hero) #title-block-header,
-  body:has(#gy-plant-hero) .quarto-title-block {
+  body:has(#gy-grow-hero) #title-block-header,
+  body:has(#gy-grow-hero) .quarto-title-block {
     display: none !important;
   }
 
-  body:has(#gy-plant-hero) #quarto-content,
-  body:has(#gy-plant-hero) main.content,
-  body:has(#gy-plant-hero) .page-columns,
-  body:has(#gy-plant-hero) .content,
-  body:has(#gy-plant-hero) .content-block {
+  body:has(#gy-grow-hero) #quarto-content,
+  body:has(#gy-grow-hero) main.content,
+  body:has(#gy-grow-hero) .page-columns,
+  body:has(#gy-grow-hero) .content,
+  body:has(#gy-grow-hero) .content-block {
     width: 100% !important;
     max-width: none !important;
     margin: 0 !important;
     padding: 0 !important;
   }
 
-  body:has(#gy-plant-hero) #quarto-content.page-columns,
-  body:has(#gy-plant-hero) main.content.page-columns {
+  body:has(#gy-grow-hero) main.content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  body:has(#gy-grow-hero) #quarto-content.page-columns,
+  body:has(#gy-grow-hero) main.content.page-columns {
     display: block !important;
     grid-template-columns: none !important;
   }
 
-  body:has(#gy-plant-hero) main.content {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-  }
-
-  body:has(#gy-plant-hero) #quarto-content > *,
-  body:has(#gy-plant-hero) main.content > * {
+  body:has(#gy-grow-hero) #quarto-content > *,
+  body:has(#gy-grow-hero) main.content > * {
     grid-column: auto !important;
   }
 
 
   /* =========================================================
-     PLANT HERO
+     FULL-WIDTH ROTATING HERO
      ========================================================= */
 
-  #gy-plant-hero {
+  #gy-grow-hero {
     position: relative;
 
     width: 100vw !important;
@@ -65,33 +64,56 @@ toc: false
     margin-right: 0 !important;
     margin-top: 10px;
 
-    min-height: 570px;
-
-    display: flex;
-    align-items: center;
+    min-height: 620px;
 
     overflow: hidden;
+    display: flex;
+    align-items: center;
     isolation: isolate;
 
-    background: #092f25;
+    background: #082f24;
   }
 
-  #gy-plant-hero .gy-plant-hero-image {
+  #gy-grow-hero .gy-grow-slideshow {
     position: absolute;
     inset: 0;
     z-index: 0;
 
     width: 100%;
     height: 100%;
+    overflow: hidden;
+
+    background: #082f24;
+  }
+
+  #gy-grow-hero .gy-grow-slide {
+    position: absolute;
+    inset: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
 
     object-fit: cover;
     object-position: center;
 
-    margin: 0;
-    padding: 0;
+    opacity: 0;
+
+    transition: opacity 1.5s ease-in-out;
+
+    pointer-events: none;
   }
 
-  #gy-plant-hero .gy-plant-overlay {
+  #gy-grow-hero .gy-grow-slide.is-active {
+    opacity: 1;
+  }
+
+  #gy-grow-hero .gy-grow-overlay {
     position: absolute;
     inset: 0;
     z-index: 1;
@@ -100,71 +122,80 @@ toc: false
       linear-gradient(
         90deg,
         rgba(3, 29, 22, 0.97) 0%,
-        rgba(3, 29, 22, 0.88) 37%,
-        rgba(3, 29, 22, 0.58) 63%,
-        rgba(3, 29, 22, 0.25) 100%
+        rgba(3, 29, 22, 0.88) 34%,
+        rgba(3, 29, 22, 0.55) 62%,
+        rgba(3, 29, 22, 0.24) 100%
       );
+
+    pointer-events: none;
   }
 
-  .gy-plant-hero-content {
+  #gy-grow-hero .gy-grow-content {
     position: relative;
     z-index: 2;
 
-    width: min(800px, 90%);
+    width: min(790px, 90%);
     margin-left: max(5vw, 45px);
-    padding: 76px 0;
+    padding: 75px 0;
 
     color: #ffffff;
   }
 
-  .gy-plant-kicker {
+  .gy-grow-kicker {
     display: block;
-    margin: 0 0 16px;
+    margin: 0 0 17px;
 
     color: #d6ed91;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 800;
+    line-height: 1.2;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.34);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.36);
   }
 
-  #gy-plant-hero h1 {
-    max-width: 780px;
-    margin: 0 0 21px !important;
+  #gy-grow-hero h1 {
+    max-width: 790px;
+    margin: 0 0 24px !important;
 
     color: #ffffff;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(44px, 4.9vw, 72px) !important;
+    font-size: clamp(43px, 4.6vw, 72px) !important;
     font-weight: 600 !important;
-    line-height: 1.03 !important;
-    letter-spacing: -0.03em !important;
+    line-height: 1.04 !important;
+    letter-spacing: -0.025em !important;
     text-transform: none !important;
 
-    text-shadow: 0 3px 13px rgba(0, 0, 0, 0.44);
+    text-shadow: 0 3px 13px rgba(0, 0, 0, 0.46);
   }
 
-  #gy-plant-hero p {
-    max-width: 700px;
-    margin: 0 0 28px;
+  #gy-grow-hero p {
+    max-width: 690px;
+    margin: 0 0 32px;
 
     color: rgba(255, 255, 255, 0.96);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 1.68;
+    font-size: 19px;
+    line-height: 1.65;
 
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.34);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.38);
   }
 
-  .gy-plant-button {
+  .gy-grow-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .gy-grow-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    min-height: 52px;
-    padding: 14px 23px;
+    min-height: 54px;
+    padding: 14px 25px;
 
     color: #ffffff !important;
     background: #256844;
@@ -174,6 +205,7 @@ toc: false
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: 800;
+    line-height: 1;
     letter-spacing: 0.045em;
     text-decoration: none !important;
     text-transform: uppercase;
@@ -183,18 +215,27 @@ toc: false
       background-color 0.2s ease;
   }
 
-  .gy-plant-button:hover {
+  .gy-grow-button:hover {
     color: #ffffff !important;
     background: #317b53;
     transform: translateY(-2px);
   }
 
+  .gy-grow-button.secondary {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.88);
+  }
+
+  .gy-grow-button.secondary:hover {
+    background: rgba(255, 255, 255, 0.10);
+  }
+
 
   /* =========================================================
-     PAGE SHELL
+     MAIN PAGE CONTENT
      ========================================================= */
 
-  .gy-plant-section {
+  .gy-grow-main {
     position: relative;
 
     width: 100vw !important;
@@ -204,32 +245,21 @@ toc: false
     margin-left: -50vw !important;
     margin-right: 0 !important;
 
-    padding: 82px clamp(28px, 5vw, 90px);
-
+    padding: 76px clamp(28px, 5vw, 90px) 28px;
     box-sizing: border-box;
-  }
 
-  .gy-plant-section.light {
     background: #f8f6f0;
   }
 
-  .gy-plant-section.white {
-    background: #ffffff;
-  }
-
-  .gy-plant-section.dark {
-    background: #123d2d;
-  }
-
-  .gy-plant-inner {
+  .gy-grow-inner {
     width: 100%;
     max-width: 1640px;
     margin: 0 auto;
   }
 
   .gy-section-heading {
-    max-width: 900px;
-    margin: 0 0 34px;
+    max-width: 850px;
+    margin: 0 0 33px;
   }
 
   .gy-section-label {
@@ -240,6 +270,7 @@ toc: false
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 800;
+    line-height: 1.2;
     letter-spacing: 0.14em;
     text-transform: uppercase;
   }
@@ -249,536 +280,345 @@ toc: false
 
     color: #17382c;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(34px, 3.6vw, 54px) !important;
+    font-size: clamp(34px, 3.5vw, 52px) !important;
     font-weight: 600 !important;
-    line-height: 1.08 !important;
+    line-height: 1.1 !important;
     letter-spacing: -0.02em !important;
     text-transform: none !important;
   }
 
   .gy-section-heading p {
-    max-width: 830px;
+    max-width: 790px;
     margin: 0;
 
     color: #52615b;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    line-height: 1.75;
-  }
-
-
-  /* =========================================================
-     QUICK JOURNEY SUMMARY
-     ========================================================= */
-
-  .gy-summary-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 16px;
-  }
-
-  .gy-summary-card {
-    min-height: 140px;
-    padding: 24px;
-
-    border: 1px solid rgba(7, 56, 44, 0.12);
-    border-radius: 8px;
-
-    background: #ffffff;
-
-    box-shadow: 0 7px 20px rgba(18, 47, 36, 0.05);
-  }
-
-  .gy-summary-card span {
-    display: block;
-    margin-bottom: 8px;
-
-    color: #678149;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-  }
-
-  .gy-summary-card strong {
-    display: block;
-    margin-bottom: 8px;
-
-    color: #17382c;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 23px;
-    line-height: 1.2;
-  }
-
-  .gy-summary-card p {
-    margin: 0;
-
-    color: #5b6962;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 1.6;
-  }
-
-
-  /* =========================================================
-     JOURNEY INTRO / POSITIONING
-     ========================================================= */
-
-  .gy-intro-grid {
-    display: block;
-    width: 100%;
-    max-width: 1080px;
-  }
-
-  .gy-intro-copy p {
-    margin: 0 0 18px;
-
-    color: #52615b;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    line-height: 1.82;
-  }
-
-  .gy-intro-note {
-    margin-top: 28px;
-    padding: 26px 28px;
-
-    border-radius: 9px;
-    border: 1px solid rgba(7, 56, 44, 0.11);
-
-    background: #f1efe7;
-  }
-
-  .gy-intro-note strong {
-    display: block;
-    margin-bottom: 10px;
-
-    color: #17382c;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 24px;
-    line-height: 1.18;
-  }
-
-  .gy-intro-note p {
-    margin: 0;
-
-    color: #5b6862;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
     line-height: 1.7;
   }
 
 
   /* =========================================================
-     JOURNEY TIMELINE + EMBEDDED VIDEOS
+     PLANT JOURNEYS
      ========================================================= */
 
-  .gy-timeline {
+  .gy-journey-section {
+    margin: 0 0 82px;
+  }
+
+  .gy-journey-grid {
     display: grid;
-    gap: 34px;
-    width: 100%;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
   }
 
-  .gy-timeline-row {
-    display: grid;
-    grid-template-columns: minmax(0, 0.86fr) minmax(440px, 1.14fr);
-    gap: clamp(34px, 4.5vw, 70px);
-    align-items: center;
-
-    padding: 30px 0;
-
-    border-bottom: 1px solid rgba(7, 56, 44, 0.11);
-  }
-
-  .gy-timeline-row:last-child {
-    border-bottom: 0;
-  }
-
-  .gy-timeline-copy {
+  .gy-journey-card {
     position: relative;
+    min-height: 245px;
 
-    padding: 26px 28px 26px 42px;
+    padding: 28px;
 
-    border: 1px solid rgba(7, 56, 44, 0.11);
+    border: 1px solid rgba(7, 56, 44, 0.13);
     border-radius: 9px;
 
     background: #ffffff;
-
-    box-shadow: 0 7px 20px rgba(18, 47, 36, 0.05);
-  }
-
-  .gy-timeline-copy::before {
-    content: "";
-
-    position: absolute;
-    left: 18px;
-    top: 31px;
-
-    width: 10px;
-    height: 10px;
-
-    border-radius: 50%;
-
-    background: #397651;
-
-    box-shadow:
-      0 0 0 4px #f8f6f0,
-      0 0 0 5px rgba(7, 56, 44, 0.14);
-  }
-
-  .gy-timeline-copy span {
-    display: block;
-    margin-bottom: 7px;
-
-    color: #69814d;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  .gy-timeline-copy h3 {
-    margin: 0 0 10px !important;
-
-    color: #17382c;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(25px, 2.3vw, 34px) !important;
-    font-weight: 600 !important;
-    line-height: 1.13 !important;
-    text-transform: none !important;
-  }
-
-  .gy-timeline-copy p {
-    margin: 0;
-
-    color: #596861;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 1.72;
-  }
-
-  .gy-timeline-video {
-    overflow: hidden;
-
-    border-radius: 9px;
-
-    background: #0d2f25;
-
-    box-shadow: 0 12px 30px rgba(18, 47, 36, 0.13);
-  }
-
-  .gy-timeline-video iframe {
-    display: block;
-
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    height: auto;
-
-    border: 0;
-  }
-
-  .gy-video-caption {
-    display: block;
-    padding: 12px 15px;
-
-    color: #52615b;
-    background: #ffffff;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    line-height: 1.5;
-  }
-
-
-
-  /* =========================================================
-     QUICK MANGO HIGHLIGHTS / SHORTS
-     ========================================================= */
-
-  .gy-shorts-wrap {
-    overflow-x: auto;
-    padding-bottom: 8px;
-
-    scrollbar-width: thin;
-    scrollbar-color: rgba(23, 56, 44, 0.28) transparent;
-  }
-
-  .gy-shorts-grid {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(205px, 1fr));
-    gap: 18px;
-
-    min-width: 1080px;
-  }
-
-  .gy-short-card {
-    display: flex;
-    flex-direction: column;
+    box-shadow: 0 8px 24px rgba(18, 47, 36, 0.08);
 
     overflow: hidden;
-
-    border: 1px solid rgba(7, 56, 44, 0.12);
-    border-radius: 8px;
-
-    background: #ffffff;
-    color: inherit !important;
-    text-decoration: none !important;
-
-    box-shadow: 0 8px 22px rgba(18, 47, 36, 0.08);
 
     transition:
       transform 0.2s ease,
       box-shadow 0.2s ease;
   }
 
-  .gy-short-card:hover {
+  .gy-journey-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 14px 30px rgba(18, 47, 36, 0.14);
+    box-shadow: 0 14px 31px rgba(18, 47, 36, 0.14);
   }
 
-  .gy-short-thumb {
-    position: relative;
+  .gy-journey-tag {
+    display: inline-block;
+    margin: 0 0 15px;
+    padding: 7px 10px;
 
-    overflow: hidden;
+    border-radius: 999px;
 
-    aspect-ratio: 9 / 16;
+    background: #edf3dc;
+    color: #52733e;
 
-    background: #143c2f;
-  }
-
-  .gy-short-thumb img {
-    display: block;
-
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-
-    transition: transform 0.35s ease;
-  }
-
-  .gy-short-card:hover .gy-short-thumb img {
-    transform: scale(1.035);
-  }
-
-  .gy-short-badge {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-
-    transform: translate(-50%, -50%);
-
-    width: 58px;
-    height: 58px;
-
-    display: grid;
-    place-items: center;
-
-    border-radius: 16px;
-
-    background: #ff0033;
-    color: #ffffff;
-
-    font-size: 23px;
-    line-height: 1;
-
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.24);
-  }
-
-  .gy-short-copy {
-    padding: 18px 16px 20px;
-  }
-
-  .gy-short-label {
-    display: block;
-    margin-bottom: 7px;
-
-    color: #66804b;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 800;
-    letter-spacing: 0.09em;
+    line-height: 1;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
   }
 
-  .gy-short-copy h3 {
-    margin: 0 0 9px !important;
+  .gy-journey-card h3 {
+    margin: 0 0 12px !important;
 
     color: #17382c;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 18px !important;
+    font-size: 27px !important;
     font-weight: 600 !important;
-    line-height: 1.2 !important;
+    line-height: 1.13 !important;
     text-transform: none !important;
   }
 
-  .gy-short-copy p {
-    margin: 0;
+  .gy-journey-card p {
+    margin: 0 0 19px;
 
-    color: #5c6963;
+    color: #56675f;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.7;
   }
 
-  @media (max-width: 700px) {
-    .gy-shorts-grid {
-      grid-template-columns: repeat(11, minmax(190px, 1fr));
-      min-width: 2250px;
-    }
+  .gy-journey-link {
+    display: inline-block;
+
+    color: #0d4b38;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
   }
 
 
   /* =========================================================
-     OBSERVATIONS
+     UNDERSTANDING PHOENIX
      ========================================================= */
 
-  .gy-observation-grid {
+  .gy-learn-wrap {
+    position: relative;
+
+    width: 100vw !important;
+    max-width: none !important;
+
+    left: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: 0 !important;
+
+    padding: 82px clamp(28px, 5vw, 90px);
+    box-sizing: border-box;
+
+    background: #ffffff;
+  }
+
+  .gy-learn-inner {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+  }
+
+  .gy-learn-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 18px;
   }
 
-  .gy-observation-card {
-    min-height: 195px;
-    padding: 27px;
+  .gy-learn-card {
+    min-height: 205px;
+    padding: 28px;
 
+    border: 1px solid rgba(7, 56, 44, 0.11);
     border-radius: 9px;
 
-    background: #f2efe7;
-    border: 1px solid rgba(7, 56, 44, 0.10);
+    background: #f4f1e9;
+
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
   }
 
-  .gy-observation-card h3 {
-    margin: 0 0 11px !important;
+  .gy-learn-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 11px 28px rgba(18, 47, 36, 0.08);
+  }
+
+  .gy-learn-card h3 {
+    margin: 0 0 12px !important;
 
     color: #17382c;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 24px !important;
+    font-size: 25px !important;
     font-weight: 600 !important;
-    line-height: 1.16 !important;
+    line-height: 1.15 !important;
     text-transform: none !important;
   }
 
-  .gy-observation-card p {
-    margin: 0;
+  .gy-learn-card p {
+    margin: 0 0 18px;
 
     color: #596861;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    line-height: 1.67;
+    line-height: 1.65;
+  }
+
+  .gy-learn-link {
+    color: #0d4b38;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
   }
 
 
   /* =========================================================
-     LATEST UPDATE
+     STORY / PROOF OF WORK
      ========================================================= */
 
-  .gy-latest {
+  .gy-story-wrap {
+    position: relative;
+
+    width: 100vw !important;
+    max-width: none !important;
+
+    left: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: 0 !important;
+
+    padding: 88px clamp(28px, 5vw, 90px);
+    box-sizing: border-box;
+
+    background: #f8f6f0;
+  }
+
+  .gy-story {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+
     display: grid;
-    grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
-    gap: clamp(38px, 5vw, 74px);
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    gap: clamp(38px, 5vw, 76px);
     align-items: center;
   }
 
-  .gy-latest-copy h2 {
-    margin: 0 0 16px !important;
+  .gy-story-image {
+    overflow: hidden;
+    border-radius: 9px;
+
+    box-shadow: 0 12px 32px rgba(18, 47, 36, 0.12);
+  }
+
+  .gy-story-image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+  }
+
+  .gy-story-copy .gy-section-label {
+    margin-bottom: 11px;
+  }
+
+  .gy-story-copy h2 {
+    margin: 0 0 19px !important;
 
     color: #17382c;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(34px, 3.6vw, 52px) !important;
+    font-size: clamp(35px, 3.7vw, 54px) !important;
     font-weight: 600 !important;
     line-height: 1.08 !important;
+    letter-spacing: -0.025em !important;
     text-transform: none !important;
   }
 
-  .gy-latest-copy p {
-    margin: 0 0 24px;
+  .gy-story-copy p {
+    max-width: 760px;
+    margin: 0 0 16px;
 
     color: #52615b;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.75;
-  }
-
-  .gy-latest-image {
-    position: relative;
-
-    display: block;
-
-    overflow: hidden;
-    border-radius: 9px;
-
-    box-shadow: 0 12px 30px rgba(18, 47, 36, 0.12);
-  }
-
-  .gy-latest-image img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
+    line-height: 1.78;
   }
 
 
   /* =========================================================
-     PAID LEARNING CTA
+     CLASSES / FUTURE PAID LEARNING
      ========================================================= */
 
-  .gy-class-grid {
+  .gy-classes-wrap {
+    position: relative;
+
+    width: 100vw !important;
+    max-width: none !important;
+
+    left: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: 0 !important;
+
+    padding: 84px clamp(28px, 5vw, 90px);
+    box-sizing: border-box;
+
+    background: #123d2d;
+  }
+
+  .gy-classes-inner {
+    width: 100%;
+    max-width: 1640px;
+    margin: 0 auto;
+
     display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+    grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
     gap: clamp(40px, 5vw, 78px);
     align-items: center;
   }
 
-  .gy-class-copy .gy-section-label {
+  .gy-classes-copy .gy-section-label {
     color: #d6ed91;
   }
 
-  .gy-class-copy h2 {
+  .gy-classes-copy h2 {
     margin: 0 0 18px !important;
 
     color: #ffffff;
     font-family: Georgia, "Times New Roman", serif;
     font-size: clamp(36px, 3.8vw, 56px) !important;
     font-weight: 600 !important;
-    line-height: 1.07 !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.025em !important;
     text-transform: none !important;
   }
 
-  .gy-class-copy p {
+  .gy-classes-copy p {
+    max-width: 780px;
     margin: 0;
-
-    max-width: 760px;
 
     color: rgba(255, 255, 255, 0.9);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    line-height: 1.78;
+    line-height: 1.8;
   }
 
-  .gy-class-card {
+  .gy-classes-card {
     padding: 30px;
 
-    border: 1px solid rgba(255, 255, 255, 0.17);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 9px;
 
     background: rgba(255, 255, 255, 0.07);
   }
 
-  .gy-class-card strong {
-    display: block;
-    margin-bottom: 10px;
+  .gy-classes-card h3 {
+    margin: 0 0 11px !important;
 
     color: #ffffff;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 25px;
+    font-size: 27px !important;
+    font-weight: 600 !important;
+    line-height: 1.15 !important;
+    text-transform: none !important;
   }
 
-  .gy-class-card p {
-    margin: 0 0 18px;
+  .gy-classes-card p {
+    margin: 0 0 21px;
 
     color: rgba(255, 255, 255, 0.82);
     font-family: Arial, Helvetica, sans-serif;
@@ -786,19 +626,20 @@ toc: false
     line-height: 1.7;
   }
 
-  .gy-coming {
+  .gy-coming-soon {
     display: inline-block;
 
     padding: 10px 13px;
 
     border-radius: 999px;
 
-    background: #d6ed91;
     color: #17382c;
+    background: #d6ed91;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     font-weight: 800;
+    line-height: 1;
     letter-spacing: 0.075em;
     text-transform: uppercase;
   }
@@ -809,14 +650,15 @@ toc: false
      ========================================================= */
 
   @media (max-width: 1050px) {
-    .gy-summary-grid,
-    .gy-observation-grid {
+    .gy-journey-grid,
+    .gy-learn-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .gy-timeline-row,
-    .gy-class-grid {
+    .gy-story,
+    .gy-classes-inner {
       grid-template-columns: 1fr;
+      gap: 30px;
     }
   }
 
@@ -826,52 +668,72 @@ toc: false
      ========================================================= */
 
   @media (max-width: 700px) {
-    #gy-plant-hero {
-      min-height: 600px;
+    #gy-grow-hero {
+      min-height: 610px;
       align-items: flex-end;
     }
 
-    #gy-plant-hero .gy-plant-overlay {
-      background: rgba(3, 29, 22, 0.74);
+    #gy-grow-hero .gy-grow-overlay {
+      background: rgba(3, 29, 22, 0.72);
     }
 
-    .gy-plant-hero-content {
+    #gy-grow-hero .gy-grow-content {
       width: 100%;
       margin: 0;
       padding: 50px 24px 45px;
       box-sizing: border-box;
     }
 
-    #gy-plant-hero h1 {
+    #gy-grow-hero h1 {
       font-size: clamp(39px, 11vw, 52px) !important;
+      line-height: 1.04 !important;
     }
 
-    #gy-plant-hero p {
+    #gy-grow-hero p {
+      max-width: 100%;
       font-size: 16px;
       line-height: 1.58;
     }
 
-    .gy-plant-button {
+    .gy-grow-actions {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .gy-grow-button {
       width: 100%;
       box-sizing: border-box;
     }
 
-    .gy-plant-section {
+    .gy-grow-main,
+    .gy-learn-wrap,
+    .gy-story-wrap,
+    .gy-classes-wrap {
+      width: 100vw !important;
+      max-width: none !important;
+      left: 50% !important;
+      margin-left: -50vw !important;
+      margin-right: 0 !important;
+      box-sizing: border-box;
+    }
+
+    .gy-grow-main {
+      padding: 58px 20px 28px;
+    }
+
+    .gy-learn-wrap,
+    .gy-story-wrap,
+    .gy-classes-wrap {
       padding: 62px 20px;
     }
 
-    .gy-summary-grid,
-    .gy-observation-grid {
+    .gy-journey-grid,
+    .gy-learn-grid {
       grid-template-columns: 1fr;
     }
 
-    .gy-timeline-row {
-      grid-template-columns: 1fr;
-      gap: 20px;
-      padding: 22px 0;
-    }
-
-    .gy-summary-card {
+    .gy-journey-card,
+    .gy-learn-card {
       min-height: 0;
     }
   }
@@ -882,78 +744,101 @@ toc: false
      ========================================================= */
 
   @media (prefers-reduced-motion: reduce) {
-    .gy-video-card,
-    .gy-video-thumb img,
-    .gy-plant-button {
+    #gy-grow-hero .gy-grow-slide {
+      transition: opacity 0.4s ease;
+    }
+
+    .gy-journey-card,
+    .gy-learn-card,
+    .gy-grow-button {
       transition: none;
     }
   }
 </style>
 
 
-<section id="gy-plant-hero">
+<section id="gy-grow-hero">
 
-  <img
-    class="gy-plant-hero-image"
-    src="../../images/phoenix-mango-fruit-hero.jpg"
-    alt="Mango growing in The Green Yard in Phoenix, Arizona">
+  <div class="gy-grow-slideshow" aria-hidden="true">
 
-  <div class="gy-plant-overlay"></div>
+    <img
+      src="../images/phoenix-grown-peaches.jpg"
+      class="gy-grow-slide is-active"
+      alt=""
+      fetchpriority="high">
 
-  <div class="gy-plant-hero-content">
+    <img
+      src="../images/phoenix-food-forest-pond.jpg"
+      class="gy-grow-slide"
+      alt="">
 
-    <span class="gy-plant-kicker">
-      Plant Journey · Phoenix, Arizona
+    <img
+      src="../images/mango-flowering-phoenix.jpg"
+      class="gy-grow-slide"
+      alt="">
+
+    <img
+      src="../images/phoenix-food-forest-overhead.jpg"
+      class="gy-grow-slide"
+      alt="">
+
+    <img
+      src="../images/tropical-fruit-phoenix.jpg"
+      class="gy-grow-slide"
+      alt="">
+
+    <img
+      src="../images/phoenix-mango-fruit-hero.jpg"
+      class="gy-grow-slide"
+      alt="">
+
+    <img
+      src="../images/schuyler-food-forest.jpg"
+      class="gy-grow-slide"
+      alt="">
+
+    <img
+      src="../images/planting-food-forest-phoenix.jpg"
+      class="gy-grow-slide"
+      alt="">
+
+    <img
+      src="../images/young-fruit-tree-phoenix.jpg"
+      class="gy-grow-slide"
+      alt="">
+
+  </div>
+
+
+  <div class="gy-grow-overlay"></div>
+
+
+  <div class="gy-grow-content">
+
+    <span class="gy-grow-kicker">
+      Grow in Phoenix
     </span>
 
     <h1>
-      Growing Mango Trees in Phoenix
+      What Happens When You Grow the Unexpected in the Desert?
     </h1>
 
     <p>
-      Follow my mango trees through years of Phoenix heat, winter cold,
-      flowering, fruiting, setbacks, recovery, and the long process of
-      learning what happens when mangoes are grown in the desert.
+      Follow years of growing tropical, subtropical, and traditional fruit
+      trees in my Phoenix food forest—from planting and extreme summers to
+      winter cold, flowering, harvests, setbacks, and everything learned
+      along the way.
     </p>
 
-    <a class="gy-plant-button" href="#journey-videos">
-      Follow the Journey
-    </a>
+    <div class="gy-grow-actions">
 
-  </div>
+      <a class="gy-grow-button" href="#plant-journeys">
+        Follow the Plant Journeys
+      </a>
 
-</section>
-
-
-<section class="gy-plant-section light">
-
-  <div class="gy-plant-inner">
-
-    <div class="gy-summary-grid">
-
-      <div class="gy-summary-card">
-        <span>Location</span>
-        <strong>Phoenix, Arizona</strong>
-        <p>The Green Yard food forest in the Sonoran Desert.</p>
-      </div>
-
-      <div class="gy-summary-card">
-        <span>Status</span>
-        <strong>Ongoing Journey</strong>
-        <p>This page will continue to grow as the trees change.</p>
-      </div>
-
-      <div class="gy-summary-card">
-        <span>Documented</span>
-        <strong>Across Multiple Years</strong>
-        <p>Videos capture different seasons, stages, and milestones.</p>
-      </div>
-
-      <div class="gy-summary-card">
-        <span>Focus</span>
-        <strong>Real-World Experience</strong>
-        <p>What actually happened to these trees in this landscape.</p>
-      </div>
+      <a class="gy-grow-button secondary" href="#understanding-phoenix">
+        Explore Growing in Phoenix
+      </a>
 
     </div>
 
@@ -962,772 +847,432 @@ toc: false
 </section>
 
 
-<section class="gy-plant-section white">
+<main class="gy-grow-main">
 
-  <div class="gy-plant-inner">
+  <div class="gy-grow-inner">
 
-    <div class="gy-intro-grid">
+    <section id="plant-journeys" class="gy-journey-section">
 
-      <div class="gy-intro-copy">
-
-        <div class="gy-section-heading">
-
-          <span class="gy-section-label">
-            My Mango Journey
-          </span>
-
-          <h2>
-            One Tree Never Tells the Whole Story
-          </h2>
-
-        </div>
-
-        <p>
-          Mango has become one of the plants I have documented repeatedly in
-          The Green Yard. Different trees, seasons, heat events, winter
-          conditions, flowering cycles, and fruiting attempts have all added
-          another piece to the story.
-        </p>
-
-        <p>
-          This page is designed to bring those moments together so the mango
-          journey can be followed over time instead of being scattered across
-          years of individual videos.
-        </p>
-
-      </div>
-
-
-      <aside class="gy-intro-note">
-
-        <strong>
-          This Is a Plant Journey
-        </strong>
-
-        <p>
-          This page documents what has happened in my Phoenix food forest. It
-          is not meant to be a complete step-by-step mango growing manual.
-          The videos, milestones, and observations below show the real story
-          as it continues to unfold.
-        </p>
-
-      </aside>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<section class="gy-plant-section light">
-
-  <div class="gy-plant-inner">
-
-    <div class="gy-section-heading">
-
-      <span class="gy-section-label">
-        The Journey So Far
-      </span>
-
-      <h2>
-        A Story Built Across Seasons
-      </h2>
-
-      <p>
-        Each chapter pairs a major stage of the mango journey with a video
-        documenting what was happening at that point in the story.
-      </p>
-
-    </div>
-
-
-    <div class="gy-timeline">
-
-      <div class="gy-timeline-row">
-
-        <div class="gy-timeline-copy">
-          <span>Early Journey</span>
-          <h3>Planting &amp; Establishment</h3>
-          <p>
-            The beginning of the documented mango journey and the early years
-            of becoming established in the food forest.
-          </p>
-        </div>
-
-        <div class="gy-timeline-video">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/fWInJ0BgSrc"
-            title="Mango planting and establishment video"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-          </iframe>
-          <span class="gy-video-caption">
-            Planting &amp; establishment — corresponding mango journey video.
-          </span>
-        </div>
-
-      </div>
-
-
-      <div class="gy-timeline-row">
-
-        <div class="gy-timeline-copy">
-          <span>Summer</span>
-          <h3>Growing Through Phoenix Heat</h3>
-          <p>
-            Multiple summers add new observations about how individual mango
-            trees respond as they become larger and more established.
-          </p>
-        </div>
-
-        <div class="gy-timeline-video">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/1g6e9jNbSFU"
-            title="Mango growing through Phoenix heat video"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-          </iframe>
-          <span class="gy-video-caption">
-            Phoenix summer heat — corresponding mango journey video.
-          </span>
-        </div>
-
-      </div>
-
-
-      <div class="gy-timeline-row">
-
-        <div class="gy-timeline-copy">
-          <span>Winter</span>
-          <h3>Cold, Damage &amp; Recovery</h3>
-          <p>
-            Winter conditions become another chapter in the journey, including
-            how trees respond afterward and what growth returns.
-          </p>
-        </div>
-
-        <div class="gy-timeline-video">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/vIFplp4Gr4A"
-            title="Mango cold damage and recovery video"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-          </iframe>
-          <span class="gy-video-caption">
-            Winter cold, damage &amp; recovery — corresponding mango journey video.
-          </span>
-        </div>
-
-      </div>
-
-
-      <div class="gy-timeline-row">
-
-        <div class="gy-timeline-copy">
-          <span>Milestone</span>
-          <h3>Flowering &amp; Fruit</h3>
-          <p>
-            Flowering and fruiting provide another way to follow the maturity
-            and changing performance of mango trees over time.
-          </p>
-        </div>
-
-        <div class="gy-timeline-video">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/XRxiuP-KnTI"
-            title="Mango flowering and fruit video"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-          </iframe>
-          <span class="gy-video-caption">
-            Flowering &amp; fruit — corresponding mango journey video.
-          </span>
-        </div>
-
-      </div>
-
-
-      <div class="gy-timeline-row">
-
-        <div class="gy-timeline-copy">
-          <span>Today</span>
-          <h3>The Journey Continues</h3>
-          <p>
-            New updates will be added as the trees grow, fruit, struggle,
-            recover, and change in future seasons.
-          </p>
-        </div>
-
-        <div class="gy-timeline-video">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/crtFOrofTEw"
-            title="Current mango journey update video"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-          </iframe>
-          <span class="gy-video-caption">
-            The journey continues — current chapter of the mango story.
-          </span>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-
-
-
-<section class="gy-plant-section white">
-
-  <div class="gy-plant-inner">
-
-    <div class="gy-section-heading">
-
-      <span class="gy-section-label">
-        Quick Mango Highlights
-      </span>
-
-      <h2>
-        Short Updates From the Journey
-      </h2>
-
-      <p>
-        Not every chapter needs a full-length update. These short videos capture
-        quick observations, fruit, flowering, seasonal changes, and other
-        moments from the mango journey through the years.
-      </p>
-
-    </div>
-
-
-    <div class="gy-shorts-wrap">
-
-      <div class="gy-shorts-grid">
-
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/AWLLKQFSG28"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/AWLLKQFSG28/maxresdefault.jpg"
-              alt="Mango short highlight 1">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 1
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/54M0KVPLuC4"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/54M0KVPLuC4/maxresdefault.jpg"
-              alt="Mango short highlight 2">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 2
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/omNPMxeyGRg"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/omNPMxeyGRg/maxresdefault.jpg"
-              alt="Mango short highlight 3">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 3
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/7OCNacIXNxs"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/7OCNacIXNxs/maxresdefault.jpg"
-              alt="Mango short highlight 4">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 4
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/vLTvHxZEEPQ"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/vLTvHxZEEPQ/maxresdefault.jpg"
-              alt="Mango short highlight 5">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 5
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/WuJObvWbNpw"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/WuJObvWbNpw/maxresdefault.jpg"
-              alt="Mango short highlight 6">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 6
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/yLQ4DdmHOwc"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/yLQ4DdmHOwc/maxresdefault.jpg"
-              alt="Mango short highlight 7">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 7
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/8dK96llbEu4"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/8dK96llbEu4/maxresdefault.jpg"
-              alt="Mango short highlight 8">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 8
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/R9LTwt8dD6g"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/R9LTwt8dD6g/maxresdefault.jpg"
-              alt="Mango short highlight 9">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 9
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/6iP8uzYcPSs"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/6iP8uzYcPSs/maxresdefault.jpg"
-              alt="Mango short highlight 10">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 10
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-        <a
-          class="gy-short-card"
-          href="https://www.youtube.com/shorts/J1nM-wqyIK8"
-          target="_blank"
-          rel="noopener">
-
-          <div class="gy-short-thumb">
-
-            <img
-              src="https://img.youtube.com/vi/J1nM-wqyIK8/maxresdefault.jpg"
-              alt="Mango short highlight 11">
-
-            <span class="gy-short-badge">
-              ▶
-            </span>
-
-          </div>
-
-          <div class="gy-short-copy">
-
-            <span class="gy-short-label">
-              Quick Mango Highlight
-            </span>
-
-            <h3>
-              Mango Short 11
-            </h3>
-
-            <p>
-              A quick moment from the mango journey in Phoenix.
-            </p>
-
-          </div>
-
-        </a>
-
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<section class="gy-plant-section light">
-
-  <div class="gy-plant-inner">
-
-    <div class="gy-section-heading">
-
-      <span class="gy-section-label">
-        What I’ve Observed
-      </span>
-
-      <h2>
-        Lessons That Keep Showing Up
-      </h2>
-
-      <p>
-        These should stay high-level and observational. The goal is to share
-        what the journey has revealed without turning the page into the full
-        growing system that could eventually become part of paid education.
-      </p>
-
-    </div>
-
-
-    <div class="gy-observation-grid">
-
-      <article class="gy-observation-card">
-        <h3>Tree Age Matters</h3>
-        <p>
-          Young mango trees and more established trees can respond very
-          differently to the same Phoenix conditions.
-        </p>
-      </article>
-
-      <article class="gy-observation-card">
-        <h3>Every Season Adds Context</h3>
-        <p>
-          One hot summer or one cold winter is only one chapter. The longer
-          these trees are documented, the more useful the story becomes.
-        </p>
-      </article>
-
-      <article class="gy-observation-card">
-        <h3>Location Changes the Experience</h3>
-        <p>
-          Trees growing only a short distance apart can experience noticeably
-          different conditions within the same food forest.
-        </p>
-      </article>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-
-
-<section class="gy-plant-section dark">
-
-  <div class="gy-plant-inner">
-
-    <div class="gy-class-grid">
-
-      <div class="gy-class-copy">
+      <div class="gy-section-heading">
 
         <span class="gy-section-label">
-          Learn With The Green Yard
+          Follow the Plant Journeys
         </span>
 
         <h2>
-          Want to Learn How I Approach Growing in Phoenix?
+          See What Happens Over Time
         </h2>
 
         <p>
-          I’m developing classes built around years of growing tropical,
-          subtropical, and traditional fruit trees in the Phoenix desert.
-          The Plant Journeys show what happened. The future classes will go
-          deeper into how I approach the process.
+          These pages bring years of plant updates together in one place.
+          Follow individual trees through planting, extreme heat, winter cold,
+          flowering, fruiting, setbacks, recovery, and harvests as their
+          stories continue to unfold in the Phoenix desert.
         </p>
 
       </div>
 
 
-      <div class="gy-class-card">
+      <div class="gy-journey-grid">
 
-        <strong>
-          Phoenix Growing Classes
-        </strong>
+        <article class="gy-journey-card">
+
+          <span class="gy-journey-tag">
+            Plant Journey
+          </span>
+
+          <h3>
+            Mango
+          </h3>
+
+          <p>
+            Follow mango trees through years of growth, seasonal change,
+            flowering, fruit production, and the realities of growing them
+            in Phoenix.
+          </p>
+
+          <span class="gy-journey-link">
+            Journey page coming soon →
+          </span>
+
+        </article>
+
+
+        <article class="gy-journey-card">
+
+          <span class="gy-journey-tag">
+            Plant Journey
+          </span>
+
+          <h3>
+            Jackfruit
+          </h3>
+
+          <p>
+            One of the food forest’s boldest experiments, documented through
+            planting, growth, summer heat, winter conditions, setbacks, and
+            recovery.
+          </p>
+
+          <span class="gy-journey-link">
+            Journey page coming soon →
+          </span>
+
+        </article>
+
+
+        <article class="gy-journey-card">
+
+          <span class="gy-journey-tag">
+            Plant Journey
+          </span>
+
+          <h3>
+            Longan
+          </h3>
+
+          <p>
+            Follow a young subtropical tree as it becomes part of the food
+            forest and faces the unusual conditions of the Phoenix desert.
+          </p>
+
+          <span class="gy-journey-link">
+            Journey page coming soon →
+          </span>
+
+        </article>
+
+
+        <article class="gy-journey-card">
+
+          <span class="gy-journey-tag">
+            Plant Journey
+          </span>
+
+          <h3>
+            Lychee
+          </h3>
+
+          <p>
+            Track how lychee responds to Phoenix seasons, establishment,
+            growth, and the changing microclimates around the food forest.
+          </p>
+
+          <span class="gy-journey-link">
+            Journey page coming soon →
+          </span>
+
+        </article>
+
+
+        <article class="gy-journey-card">
+
+          <span class="gy-journey-tag">
+            Plant Journey
+          </span>
+
+          <h3>
+            Grumichama
+          </h3>
+
+          <p>
+            Years of patient growth leading toward flowering, fruiting,
+            and the possibility of a first Brazilian cherry harvest.
+          </p>
+
+          <span class="gy-journey-link">
+            Journey page coming soon →
+          </span>
+
+        </article>
+
+
+        <article class="gy-journey-card">
+
+          <span class="gy-journey-tag">
+            Plant Journey
+          </span>
+
+          <h3>
+            Black Sapote
+          </h3>
+
+          <p>
+            Follow repeated flowering seasons, Phoenix winter conditions,
+            tree development, and the ongoing wait for fruit.
+          </p>
+
+          <span class="gy-journey-link">
+            Journey page coming soon →
+          </span>
+
+        </article>
+
+      </div>
+
+    </section>
+
+  </div>
+
+</main>
+
+
+<section id="understanding-phoenix" class="gy-learn-wrap">
+
+  <div class="gy-learn-inner">
+
+    <div class="gy-section-heading">
+
+      <span class="gy-section-label">
+        Understanding the Desert
+      </span>
+
+      <h2>
+        Growing Food in Phoenix Is Different
+      </h2>
+
+      <p>
+        Phoenix creates a growing environment unlike most traditional fruit
+        growing regions. These pages explore the conditions shaping the
+        plants in The Green Yard and the patterns that continue to appear
+        across years of growing here.
+      </p>
+
+    </div>
+
+
+    <div class="gy-learn-grid">
+
+      <article class="gy-learn-card">
+
+        <h3>
+          Phoenix Climate
+        </h3>
 
         <p>
-          In-person and video-based learning options are being developed.
-          More information will be added as those programs take shape.
+          Explore the seasonal conditions that shape food growing in the
+          low desert.
         </p>
 
-        <span class="gy-coming">
-          Classes Coming Soon
+        <span class="gy-learn-link">
+          Coming soon →
         </span>
 
-      </div>
+      </article>
+
+
+      <article class="gy-learn-card">
+
+        <h3>
+          Summer Heat
+        </h3>
+
+        <p>
+          See how extreme summer conditions show up across years of growing
+          fruit trees in Phoenix.
+        </p>
+
+        <span class="gy-learn-link">
+          Coming soon →
+        </span>
+
+      </article>
+
+
+      <article class="gy-learn-card">
+
+        <h3>
+          Winter Cold
+        </h3>
+
+        <p>
+          Phoenix winters are mild, but cold nights still shape what
+          succeeds, what struggles, and how plants recover.
+        </p>
+
+        <span class="gy-learn-link">
+          Coming soon →
+        </span>
+
+      </article>
+
+
+      <article class="gy-learn-card">
+
+        <h3>
+          Water
+        </h3>
+
+        <p>
+          Explore how desert conditions and water availability influence
+          an edible landscape over time.
+        </p>
+
+        <span class="gy-learn-link">
+          Coming soon →
+        </span>
+
+      </article>
+
+
+      <article class="gy-learn-card">
+
+        <h3>
+          Microclimates
+        </h3>
+
+        <p>
+          See how different parts of the same property can create noticeably
+          different conditions for plants.
+        </p>
+
+        <span class="gy-learn-link">
+          Coming soon →
+        </span>
+
+      </article>
+
+
+      <article class="gy-learn-card">
+
+        <h3>
+          Building a Food Forest
+        </h3>
+
+        <p>
+          Follow the evolution of The Green Yard as a desert landscape becomes
+          denser, more established, and more productive.
+        </p>
+
+        <span class="gy-learn-link">
+          Coming soon →
+        </span>
+
+      </article>
 
     </div>
 
   </div>
 
 </section>
+
+
+<section class="gy-story-wrap">
+
+  <div class="gy-story">
+
+    <div class="gy-story-image">
+
+      <img
+        src="../images/schuyler-food-forest.jpg"
+        alt="Schuyler in The Green Yard Phoenix food forest">
+
+    </div>
+
+
+    <div class="gy-story-copy">
+
+      <span class="gy-section-label">
+        The Green Yard
+      </span>
+
+      <h2>
+        Years of Experiments, Documented in One Place
+      </h2>
+
+      <p>
+        The Green Yard did not appear overnight. It has been built plant by
+        plant and season by season, with successes, mistakes, surprises,
+        losses, and changes along the way.
+      </p>
+
+      <p>
+        This section brings that history together so individual plants can
+        be followed across years instead of being reduced to one planting
+        video or a single seasonal update.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="gy-classes-wrap">
+
+  <div class="gy-classes-inner">
+
+    <div class="gy-classes-copy">
+
+      <span class="gy-section-label">
+        Learn With The Green Yard
+      </span>
+
+      <h2>
+        Want to Go Deeper?
+      </h2>
+
+      <p>
+        I’m developing classes built around years of growing tropical,
+        subtropical, and traditional fruit trees in the Phoenix desert.
+        These classes will go beyond individual updates and bring those
+        lessons together into a more complete learning experience.
+      </p>
+
+    </div>
+
+
+    <div class="gy-classes-card">
+
+      <h3>
+        Phoenix Growing Classes
+      </h3>
+
+      <p>
+        In-person and video-based learning options are being developed.
+        More information will be added here as those programs take shape.
+      </p>
+
+      <span class="gy-coming-soon">
+        Classes Coming Soon
+      </span>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<script>
+(function () {
+  function startGrowSlideshow() {
+    const slides = document.querySelectorAll(
+      "#gy-grow-hero .gy-grow-slide"
+    );
+
+    if (slides.length < 2) {
+      return;
+    }
+
+    let current = 0;
+
+    window.setInterval(function () {
+      slides[current].classList.remove("is-active");
+      current = (current + 1) % slides.length;
+      slides[current].classList.add("is-active");
+    }, 6500);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      startGrowSlideshow
+    );
+  } else {
+    startGrowSlideshow();
+  }
+})();
+</script>
 ```
