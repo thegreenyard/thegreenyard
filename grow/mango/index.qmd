@@ -326,10 +326,9 @@ toc: false
      ========================================================= */
 
   .gy-intro-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
-    gap: clamp(40px, 5vw, 78px);
-    align-items: start;
+    display: block;
+    width: 100%;
+    max-width: 1080px;
   }
 
   .gy-intro-copy p {
@@ -342,7 +341,8 @@ toc: false
   }
 
   .gy-intro-note {
-    padding: 28px;
+    margin-top: 28px;
+    padding: 26px 28px;
 
     border-radius: 9px;
     border: 1px solid rgba(7, 56, 44, 0.11);
@@ -371,65 +371,65 @@ toc: false
 
 
   /* =========================================================
-     JOURNEY TIMELINE
+     JOURNEY TIMELINE + EMBEDDED VIDEOS
      ========================================================= */
 
   .gy-timeline {
-    position: relative;
-
     display: grid;
-    gap: 18px;
-
-    max-width: 1080px;
+    gap: 34px;
+    width: 100%;
   }
 
-  .gy-timeline::before {
+  .gy-timeline-row {
+    display: grid;
+    grid-template-columns: minmax(0, 0.86fr) minmax(440px, 1.14fr);
+    gap: clamp(34px, 4.5vw, 70px);
+    align-items: center;
+
+    padding: 30px 0;
+
+    border-bottom: 1px solid rgba(7, 56, 44, 0.11);
+  }
+
+  .gy-timeline-row:last-child {
+    border-bottom: 0;
+  }
+
+  .gy-timeline-copy {
+    position: relative;
+
+    padding: 26px 28px 26px 42px;
+
+    border: 1px solid rgba(7, 56, 44, 0.11);
+    border-radius: 9px;
+
+    background: #ffffff;
+
+    box-shadow: 0 7px 20px rgba(18, 47, 36, 0.05);
+  }
+
+  .gy-timeline-copy::before {
     content: "";
 
     position: absolute;
     left: 18px;
-    top: 12px;
-    bottom: 12px;
+    top: 31px;
 
-    width: 2px;
+    width: 10px;
+    height: 10px;
 
-    background: #dfe5d6;
-  }
-
-  .gy-timeline-item {
-    position: relative;
-
-    padding: 0 0 0 56px;
-  }
-
-  .gy-timeline-dot {
-    position: absolute;
-    left: 10px;
-    top: 8px;
-
-    width: 18px;
-    height: 18px;
-
-    border: 4px solid #f8f6f0;
     border-radius: 50%;
 
     background: #397651;
 
-    box-shadow: 0 0 0 1px rgba(7, 56, 44, 0.13);
+    box-shadow:
+      0 0 0 4px #f8f6f0,
+      0 0 0 5px rgba(7, 56, 44, 0.14);
   }
 
-  .gy-timeline-card {
-    padding: 23px 25px;
-
-    border: 1px solid rgba(7, 56, 44, 0.11);
-    border-radius: 8px;
-
-    background: #ffffff;
-  }
-
-  .gy-timeline-card span {
+  .gy-timeline-copy span {
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 7px;
 
     color: #69814d;
     font-family: Arial, Helvetica, sans-serif;
@@ -439,158 +439,56 @@ toc: false
     text-transform: uppercase;
   }
 
-  .gy-timeline-card h3 {
-    margin: 0 0 9px !important;
+  .gy-timeline-copy h3 {
+    margin: 0 0 10px !important;
 
     color: #17382c;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 25px !important;
+    font-size: clamp(25px, 2.3vw, 34px) !important;
     font-weight: 600 !important;
-    line-height: 1.17 !important;
+    line-height: 1.13 !important;
     text-transform: none !important;
   }
 
-  .gy-timeline-card p {
+  .gy-timeline-copy p {
     margin: 0;
 
     color: #596861;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    line-height: 1.67;
+    line-height: 1.72;
   }
 
-
-  /* =========================================================
-     VIDEO JOURNEY LIBRARY
-     ========================================================= */
-
-  .gy-video-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 24px;
-  }
-
-  .gy-video-card {
-    display: flex;
-    flex-direction: column;
-
+  .gy-timeline-video {
     overflow: hidden;
 
-    border: 1px solid rgba(7, 56, 44, 0.13);
     border-radius: 9px;
 
-    background: #ffffff;
-    color: inherit !important;
-    text-decoration: none !important;
+    background: #0d2f25;
 
-    box-shadow: 0 8px 24px rgba(18, 47, 36, 0.08);
-
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease;
+    box-shadow: 0 12px 30px rgba(18, 47, 36, 0.13);
   }
 
-  .gy-video-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 14px 31px rgba(18, 47, 36, 0.14);
-  }
-
-  .gy-video-thumb {
-    position: relative;
-
-    overflow: hidden;
-
-    background: #17382c;
-  }
-
-  .gy-video-thumb img {
+  .gy-timeline-video iframe {
     display: block;
 
     width: 100%;
     aspect-ratio: 16 / 9;
+    height: auto;
 
-    object-fit: cover;
-
-    transition: transform 0.4s ease;
+    border: 0;
   }
 
-  .gy-video-card:hover .gy-video-thumb img {
-    transform: scale(1.035);
-  }
-
-  .gy-video-play {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-
-    width: 56px;
-    height: 56px;
-
-    transform: translate(-50%, -50%);
-
-    display: grid;
-    place-items: center;
-
-    border: 2px solid rgba(255, 255, 255, 0.92);
-    border-radius: 50%;
-
-    background: rgba(5, 55, 41, 0.89);
-    color: #ffffff;
-
-    font-size: 20px;
-
-    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.22);
-  }
-
-  .gy-video-copy {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
-
-    padding: 21px;
-  }
-
-  .gy-video-label {
+  .gy-video-caption {
     display: block;
-    margin-bottom: 8px;
+    padding: 12px 15px;
 
-    color: #678149;
+    color: #52615b;
+    background: #ffffff;
+
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 9px;
-    font-weight: 800;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-  }
-
-  .gy-video-copy h3 {
-    margin: 0 0 10px !important;
-
-    color: #17382c;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 22px !important;
-    font-weight: 600 !important;
-    line-height: 1.18 !important;
-    text-transform: none !important;
-  }
-
-  .gy-video-copy p {
-    margin: 0 0 18px;
-
-    color: #596861;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 1.65;
-  }
-
-  .gy-video-link {
-    margin-top: auto;
-
-    color: #0d4b38;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 0.055em;
-    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.5;
   }
 
 
@@ -773,13 +671,11 @@ toc: false
 
   @media (max-width: 1050px) {
     .gy-summary-grid,
-    .gy-video-grid,
     .gy-observation-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .gy-intro-grid,
-    .gy-latest,
+    .gy-timeline-row,
     .gy-class-grid {
       grid-template-columns: 1fr;
     }
@@ -826,9 +722,14 @@ toc: false
     }
 
     .gy-summary-grid,
-    .gy-video-grid,
     .gy-observation-grid {
       grid-template-columns: 1fr;
+    }
+
+    .gy-timeline-row {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 22px 0;
     }
 
     .gy-summary-card {
@@ -995,8 +896,8 @@ toc: false
       </h2>
 
       <p>
-        We will replace these sample milestones with the real mango timeline
-        after reviewing the videos and dates.
+        Each chapter pairs a major stage of the mango journey with a video
+        documenting what was happening at that point in the story.
       </p>
 
     </div>
@@ -1004,9 +905,9 @@ toc: false
 
     <div class="gy-timeline">
 
-      <div class="gy-timeline-item">
-        <span class="gy-timeline-dot"></span>
-        <div class="gy-timeline-card">
+      <div class="gy-timeline-row">
+
+        <div class="gy-timeline-copy">
           <span>Early Journey</span>
           <h3>Planting &amp; Establishment</h3>
           <p>
@@ -1014,11 +915,26 @@ toc: false
             of becoming established in the food forest.
           </p>
         </div>
+
+        <div class="gy-timeline-video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/fWInJ0BgSrc"
+            title="Mango planting and establishment video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <span class="gy-video-caption">
+            Planting &amp; establishment — corresponding mango journey video.
+          </span>
+        </div>
+
       </div>
 
-      <div class="gy-timeline-item">
-        <span class="gy-timeline-dot"></span>
-        <div class="gy-timeline-card">
+
+      <div class="gy-timeline-row">
+
+        <div class="gy-timeline-copy">
           <span>Summer</span>
           <h3>Growing Through Phoenix Heat</h3>
           <p>
@@ -1026,11 +942,26 @@ toc: false
             trees respond as they become larger and more established.
           </p>
         </div>
+
+        <div class="gy-timeline-video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/1g6e9jNbSFU"
+            title="Mango growing through Phoenix heat video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <span class="gy-video-caption">
+            Phoenix summer heat — corresponding mango journey video.
+          </span>
+        </div>
+
       </div>
 
-      <div class="gy-timeline-item">
-        <span class="gy-timeline-dot"></span>
-        <div class="gy-timeline-card">
+
+      <div class="gy-timeline-row">
+
+        <div class="gy-timeline-copy">
           <span>Winter</span>
           <h3>Cold, Damage &amp; Recovery</h3>
           <p>
@@ -1038,11 +969,26 @@ toc: false
             how trees respond afterward and what growth returns.
           </p>
         </div>
+
+        <div class="gy-timeline-video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/vIFplp4Gr4A"
+            title="Mango cold damage and recovery video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <span class="gy-video-caption">
+            Winter cold, damage &amp; recovery — corresponding mango journey video.
+          </span>
+        </div>
+
       </div>
 
-      <div class="gy-timeline-item">
-        <span class="gy-timeline-dot"></span>
-        <div class="gy-timeline-card">
+
+      <div class="gy-timeline-row">
+
+        <div class="gy-timeline-copy">
           <span>Milestone</span>
           <h3>Flowering &amp; Fruit</h3>
           <p>
@@ -1050,11 +996,26 @@ toc: false
             and changing performance of mango trees over time.
           </p>
         </div>
+
+        <div class="gy-timeline-video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/XRxiuP-KnTI"
+            title="Mango flowering and fruit video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <span class="gy-video-caption">
+            Flowering &amp; fruit — corresponding mango journey video.
+          </span>
+        </div>
+
       </div>
 
-      <div class="gy-timeline-item">
-        <span class="gy-timeline-dot"></span>
-        <div class="gy-timeline-card">
+
+      <div class="gy-timeline-row">
+
+        <div class="gy-timeline-copy">
           <span>Today</span>
           <h3>The Journey Continues</h3>
           <p>
@@ -1062,6 +1023,20 @@ toc: false
             recover, and change in future seasons.
           </p>
         </div>
+
+        <div class="gy-timeline-video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/crtFOrofTEw"
+            title="Current mango journey update video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          <span class="gy-video-caption">
+            The journey continues — current chapter of the mango story.
+          </span>
+        </div>
+
       </div>
 
     </div>
@@ -1071,420 +1046,7 @@ toc: false
 </section>
 
 
-<section id="journey-videos" class="gy-plant-section white">
 
-  <div class="gy-plant-inner">
-
-    <div class="gy-section-heading">
-
-      <span class="gy-section-label">
-        Follow the Journey
-      </span>
-
-      <h2>
-        Mango Videos Through the Years
-      </h2>
-
-      <p>
-        These videos document different moments in the mango journey. Once we
-        review the titles and dates, we can organize them chronologically and
-        label the major milestones each video captures.
-      </p>
-
-    </div>
-
-
-    <div class="gy-video-grid">
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=AWLLKQFSG28"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/AWLLKQFSG28/maxresdefault.jpg"
-              alt="Mango journey video 1">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 1: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=XRxiuP-KnTI"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/XRxiuP-KnTI/maxresdefault.jpg"
-              alt="Mango journey video 2">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 2: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=54M0KVPLuC4"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/54M0KVPLuC4/maxresdefault.jpg"
-              alt="Mango journey video 3">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 3: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=omNPMxeyGRg"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/omNPMxeyGRg/maxresdefault.jpg"
-              alt="Mango journey video 4">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 4: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=7OCNacIXNxs"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/7OCNacIXNxs/maxresdefault.jpg"
-              alt="Mango journey video 5">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 5: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=vLTvHxZEEPQ"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/vLTvHxZEEPQ/maxresdefault.jpg"
-              alt="Mango journey video 6">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 6: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=WuJObvWbNpw"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/WuJObvWbNpw/maxresdefault.jpg"
-              alt="Mango journey video 7">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 7: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=vIFplp4Gr4A"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/vIFplp4Gr4A/maxresdefault.jpg"
-              alt="Mango journey video 8">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 8: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=yLQ4DdmHOwc"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/yLQ4DdmHOwc/maxresdefault.jpg"
-              alt="Mango journey video 9">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 9: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=8dK96llbEu4"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/8dK96llbEu4/maxresdefault.jpg"
-              alt="Mango journey video 10">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 10: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=crtFOrofTEw"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/crtFOrofTEw/maxresdefault.jpg"
-              alt="Mango journey video 11">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 11: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=1g6e9jNbSFU"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/1g6e9jNbSFU/maxresdefault.jpg"
-              alt="Mango journey video 12">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 12: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=R9LTwt8dD6g"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/R9LTwt8dD6g/maxresdefault.jpg"
-              alt="Mango journey video 13">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 13: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=fWInJ0BgSrc"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/fWInJ0BgSrc/maxresdefault.jpg"
-              alt="Mango journey video 14">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 14: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=6iP8uzYcPSs"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/6iP8uzYcPSs/maxresdefault.jpg"
-              alt="Mango journey video 15">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 15: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-        <a class="gy-video-card"
-           href="https://www.youtube.com/watch?v=J1nM-wqyIK8"
-           target="_blank"
-           rel="noopener">
-
-          <div class="gy-video-thumb">
-            <img
-              src="https://img.youtube.com/vi/J1nM-wqyIK8/maxresdefault.jpg"
-              alt="Mango journey video 16">
-            <span class="gy-video-play">▶</span>
-          </div>
-
-          <div class="gy-video-copy">
-            <span class="gy-video-label">Mango Journey</span>
-            <h3>Video 16: Add Exact Title Here</h3>
-            <p>
-              Add a one- or two-sentence summary here after we review this
-              video's title, date, and what part of the mango journey it documents.
-            </p>
-            <span class="gy-video-link">Watch on YouTube →</span>
-          </div>
-
-        </a>
-
-    </div>
-
-  </div>
-
-</section>
 
 
 <section class="gy-plant-section light">
@@ -1543,60 +1105,7 @@ toc: false
 </section>
 
 
-<section class="gy-plant-section white">
 
-  <div class="gy-plant-inner">
-
-    <div class="gy-latest">
-
-      <div class="gy-latest-copy">
-
-        <span class="gy-section-label">
-          Latest Mango Update
-        </span>
-
-        <h2>
-          Where the Mango Journey Stands Now
-        </h2>
-
-        <p>
-          Once we determine which of the videos you provided is the newest
-          dedicated mango update, we can feature it here so returning visitors
-          can immediately jump to the current chapter.
-        </p>
-
-        <a
-          class="gy-plant-button"
-          href="https://www.youtube.com/watch?v=J1nM-wqyIK8"
-          target="_blank"
-          rel="noopener">
-          Watch Latest Update
-        </a>
-
-      </div>
-
-
-      <a
-        class="gy-latest-image"
-        href="https://www.youtube.com/watch?v=J1nM-wqyIK8"
-        target="_blank"
-        rel="noopener">
-
-        <img
-          src="https://img.youtube.com/vi/J1nM-wqyIK8/maxresdefault.jpg"
-          alt="Latest mango update from The Green Yard">
-
-        <span class="gy-video-play">
-          ▶
-        </span>
-
-      </a>
-
-    </div>
-
-  </div>
-
-</section>
 
 
 <section class="gy-plant-section dark">
