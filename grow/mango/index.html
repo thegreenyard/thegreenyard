@@ -643,6 +643,145 @@ ul.task-list li input[type="checkbox"] {
   }
 
 
+
+  /* =========================================================
+     QUICK MANGO HIGHLIGHTS / SHORTS
+     ========================================================= */
+
+  .gy-shorts-wrap {
+    overflow-x: auto;
+    padding-bottom: 8px;
+
+    scrollbar-width: thin;
+    scrollbar-color: rgba(23, 56, 44, 0.28) transparent;
+  }
+
+  .gy-shorts-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(205px, 1fr));
+    gap: 18px;
+
+    min-width: 1080px;
+  }
+
+  .gy-short-card {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(7, 56, 44, 0.12);
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: inherit !important;
+    text-decoration: none !important;
+
+    box-shadow: 0 8px 22px rgba(18, 47, 36, 0.08);
+
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .gy-short-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(18, 47, 36, 0.14);
+  }
+
+  .gy-short-thumb {
+    position: relative;
+
+    overflow: hidden;
+
+    aspect-ratio: 9 / 16;
+
+    background: #143c2f;
+  }
+
+  .gy-short-thumb img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.35s ease;
+  }
+
+  .gy-short-card:hover .gy-short-thumb img {
+    transform: scale(1.035);
+  }
+
+  .gy-short-badge {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 58px;
+    height: 58px;
+
+    display: grid;
+    place-items: center;
+
+    border-radius: 16px;
+
+    background: #ff0033;
+    color: #ffffff;
+
+    font-size: 23px;
+    line-height: 1;
+
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.24);
+  }
+
+  .gy-short-copy {
+    padding: 18px 16px 20px;
+  }
+
+  .gy-short-label {
+    display: block;
+    margin-bottom: 7px;
+
+    color: #66804b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  .gy-short-copy h3 {
+    margin: 0 0 9px !important;
+
+    color: #17382c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    text-transform: none !important;
+  }
+
+  .gy-short-copy p {
+    margin: 0;
+
+    color: #5c6963;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 700px) {
+    .gy-shorts-grid {
+      grid-template-columns: repeat(11, minmax(190px, 1fr));
+      min-width: 2250px;
+    }
+  }
+
+
   /* =========================================================
      OBSERVATIONS
      ========================================================= */
@@ -1170,6 +1309,375 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
+
+
+<section class="gy-plant-section white">
+
+  <div class="gy-plant-inner">
+
+    <div class="gy-section-heading">
+
+      <span class="gy-section-label">
+        Quick Mango Highlights
+      </span>
+
+      <h2 class="anchored">
+        Short Updates From the Journey
+      </h2>
+
+      <p>
+        Not every chapter needs a full-length update. These short videos capture
+        quick observations, fruit, flowering, seasonal changes, and other
+        moments from the mango journey through the years.
+      </p>
+
+    </div>
+
+
+    <div class="gy-shorts-wrap">
+
+      <div class="gy-shorts-grid">
+
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/AWLLKQFSG28" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/AWLLKQFSG28/maxresdefault.jpg" alt="Mango short highlight 1">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 1
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/54M0KVPLuC4" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/54M0KVPLuC4/maxresdefault.jpg" alt="Mango short highlight 2">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 2
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/omNPMxeyGRg" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/omNPMxeyGRg/maxresdefault.jpg" alt="Mango short highlight 3">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 3
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/7OCNacIXNxs" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/7OCNacIXNxs/maxresdefault.jpg" alt="Mango short highlight 4">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 4
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/vLTvHxZEEPQ" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/vLTvHxZEEPQ/maxresdefault.jpg" alt="Mango short highlight 5">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 5
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/WuJObvWbNpw" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/WuJObvWbNpw/maxresdefault.jpg" alt="Mango short highlight 6">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 6
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/yLQ4DdmHOwc" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/yLQ4DdmHOwc/maxresdefault.jpg" alt="Mango short highlight 7">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 7
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/8dK96llbEu4" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/8dK96llbEu4/maxresdefault.jpg" alt="Mango short highlight 8">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 8
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/R9LTwt8dD6g" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/R9LTwt8dD6g/maxresdefault.jpg" alt="Mango short highlight 9">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 9
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/6iP8uzYcPSs" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/6iP8uzYcPSs/maxresdefault.jpg" alt="Mango short highlight 10">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 10
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+        <a class="gy-short-card" href="https://www.youtube.com/shorts/J1nM-wqyIK8" target="_blank" rel="noopener">
+
+          <div class="gy-short-thumb">
+
+            <img src="https://img.youtube.com/vi/J1nM-wqyIK8/maxresdefault.jpg" alt="Mango short highlight 11">
+
+            <span class="gy-short-badge">
+              ▶
+            </span>
+
+          </div>
+
+          <div class="gy-short-copy">
+
+            <span class="gy-short-label">
+              Quick Mango Highlight
+            </span>
+
+            <h3 class="anchored">
+              Mango Short 11
+            </h3>
+
+            <p>
+              A quick moment from the mango journey in Phoenix.
+            </p>
+
+          </div>
+
+        </a>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
 
 <section class="gy-plant-section light">
