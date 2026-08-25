@@ -765,13 +765,7 @@ toc: false
       src="../images/phoenix-grown-peaches.jpg"
       class="gy-grow-slide is-active"
       alt="" fetchpriority="high">
-
-    <img
-      src="../images/phoenix-food-forest-pond.jpg"
-      class="gy-grow-slide"
-      alt="">
      
-
     <img
       src="../images/mango-flowering-phoenix.jpg"
       class="gy-grow-slide"
@@ -793,6 +787,10 @@ toc: false
       alt="">
 <img
       src="../images/phoenix-mango-fruit-hero.jpg"
+      class="gy-grow-slide"
+      alt="">
+  <img
+      src="../images/phoenix-food-forest-pond.jpg"
       class="gy-grow-slide"
       alt="">
 
