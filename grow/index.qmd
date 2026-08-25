@@ -761,16 +761,16 @@ toc: false
 
   <div class="gy-grow-slideshow" aria-hidden="true">
 
+ <img
+      src="../images/phoenix-grown-peaches.jpg"
+      class="gy-grow-slide"
+      alt="" fetchpriority="high">
+
     <img
       src="../images/phoenix-food-forest-pond.jpg"
       class="gy-grow-slide is-active"
-      alt=""
-      fetchpriority="high">
-
-    <img
-      src="../images/phoenix-grown-peaches.jpg"
-      class="gy-grow-slide"
       alt="">
+     
 
     <img
       src="../images/mango-flowering-phoenix.jpg"
