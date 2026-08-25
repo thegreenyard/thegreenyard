@@ -791,6 +791,10 @@ toc: false
       src="../images/schuyler-food-forest.jpg"
       class="gy-grow-slide"
       alt="">
+<img
+      src="../images/phoenix-mango-fruit-hero.jpg"
+      class="gy-grow-slide"
+      alt="">
 
     <img
       src="../images/planting-food-forest-phoenix.jpg"
