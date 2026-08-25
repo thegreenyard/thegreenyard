@@ -670,11 +670,11 @@ object-position: center;
     class="gy-tours-slide is-active"
     alt="">
 
-  <img
-    src="../images/hero-03-aerial-food-forest.png"
+ <img
+    src="../images/hero-07-young-food-forest-aerial.png"
     class="gy-tours-slide"
-    alt=""
-    fetchpriority="high">
+    alt="">
+
 
   <img
     src="../images/hero-04-bananas.png"
@@ -683,11 +683,6 @@ object-position: center;
 
   <img
     src="../images/hero-05-food-forest-understory.png"
-    class="gy-tours-slide"
-    alt="">
-
-  <img
-    src="../images/hero-07-young-food-forest-aerial.png"
     class="gy-tours-slide"
     alt="">
 
