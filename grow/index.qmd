@@ -768,10 +768,6 @@ toc: false
       alt=""
       fetchpriority="high">
 
-    <img
-      src="../images/phoenix-food-forest-pond.jpg"
-      class="gy-grow-slide"
-      alt="">
 
     <img
       src="../images/mango-flowering-phoenix.jpg"
@@ -800,6 +796,10 @@ toc: false
 
     <img
       src="../images/planting-food-forest-phoenix.jpg"
+      class="gy-grow-slide"
+      alt="">
+   <img
+      src="../images/phoenix-food-forest-pond.jpg"
       class="gy-grow-slide"
       alt="">
 
