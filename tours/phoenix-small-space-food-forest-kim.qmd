@@ -1,0 +1,636 @@
+---
+title: "Tiny Phoenix Backyard Food Forest: Kim’s 24 Fruit Trees"
+description: "Tour Kim’s small Phoenix backyard food forest, where 24 fruit trees, tropical plants, edible landscaping, and carefully managed microclimates create surprising abundance in limited space."
+author: "The Green Yard"
+date: 2026-08-28
+lang: en
+
+canonical-url: "https://thegreenyardaz.com/tours/phoenix-small-space-food-forest-kim.html"
+
+image: "https://img.youtube.com/vi/DEvduDQTxqI/maxresdefault.jpg"
+image-alt: "Kim touring her small Phoenix backyard food forest filled with fruit trees and tropical plants"
+
+keywords:
+  - Phoenix food forest
+  - Arizona food forest
+  - small backyard food forest
+  - Phoenix fruit trees
+  - tropical fruit Phoenix
+  - edible landscaping Phoenix
+  - small space gardening
+  - backyard orchard Arizona
+  - mango Phoenix
+  - longan Phoenix
+  - starfruit Phoenix
+  - white sapote Phoenix
+
+categories:
+  - Arizona
+  - Phoenix
+  - Food Forest Tours
+  - Small Space Gardening
+  - Tropical Fruit
+  - Edible Landscaping
+
+page-layout: full
+toc: true
+toc-location: right
+open-graph: true
+twitter-card: true
+
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "VideoObject",
+                "@id": "https://thegreenyardaz.com/tours/phoenix-small-space-food-forest-kim.html#video",
+                "name": "Kim’s Tiny Phoenix Backyard Food Forest",
+                "description": "Tour Kim’s small Phoenix backyard food forest, where 24 fruit trees, tropical plants, edible landscaping, and carefully managed microclimates create surprising abundance in limited space.",
+                "thumbnailUrl": [
+                  "https://img.youtube.com/vi/DEvduDQTxqI/maxresdefault.jpg"
+                ],
+                "uploadDate": "2026-08-28",
+                "embedUrl": "https://www.youtube.com/embed/DEvduDQTxqI",
+                "contentUrl": "https://www.youtube.com/watch?v=DEvduDQTxqI",
+                "url": "https://thegreenyardaz.com/tours/phoenix-small-space-food-forest-kim.html",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                }
+              },
+              {
+                "@type": "Article",
+                "@id": "https://thegreenyardaz.com/tours/phoenix-small-space-food-forest-kim.html#article",
+                "headline": "Tiny Phoenix Backyard Food Forest: Kim’s 24 Fruit Trees",
+                "description": "Kim shows how a very small Phoenix property can support 24 fruit trees, tropical plants, edible groundcovers, flowering ornamentals, and a productive backyard food forest.",
+                "datePublished": "2026-08-28",
+                "dateModified": "2026-08-28",
+                "author": {
+                  "@type": "Organization",
+                  "name": "The Green Yard"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://thegreenyardaz.com/"
+                },
+                "mainEntityOfPage": {
+                  "@id": "https://thegreenyardaz.com/tours/phoenix-small-space-food-forest-kim.html"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Food Forest Tours",
+                    "item": "https://thegreenyardaz.com/tours/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Arizona",
+                    "item": "https://thegreenyardaz.com/tours/arizona/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Kim’s Phoenix Food Forest",
+                    "item": "https://thegreenyardaz.com/tours/phoenix-small-space-food-forest-kim.html"
+                  }
+                ]
+              }
+            ]
+          }
+          </script>
+---
+
+```{=html}
+<style>
+body:has(.tour-page){background:#fff;color:#2f3a35}
+body:has(.tour-page) #title-block-header,
+body:has(.tour-page) .quarto-title-block{display:none!important}
+body:has(.tour-page) main.content{max-width:none!important;width:100%!important;padding-top:0!important}
+.tour-page{width:min(1180px,calc(100% - 44px));margin:0 auto;padding:34px 0 80px}
+.tour-page,.tour-page *{box-sizing:border-box}
+.tour-page p{font-family:Arial,Helvetica,sans-serif;color:#56645e;font-size:16px;line-height:1.78}
+.tour-page h1,.tour-page h2,.tour-page h3{color:#173e31;font-family:Georgia,"Times New Roman",serif;text-transform:none!important}
+
+.main-video{width:100%;margin:0 0 18px;overflow:hidden;border-radius:10px;box-shadow:0 14px 35px rgba(19,54,42,.12);background:#0d3328}
+.main-video iframe{display:block;width:100%;aspect-ratio:16/9;height:auto;border:0}
+
+.tour-breadcrumbs{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 28px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#7a8781}
+.tour-breadcrumbs a{color:#4e7663;text-decoration:none}
+.tour-breadcrumbs a:hover{text-decoration:underline}
+.tour-breadcrumbs .sep{color:#aab2ae}
+
+.tour-header{margin:0 0 30px;padding-bottom:28px;border-bottom:1px solid #e3e8e5}
+.tour-eyebrow{display:block;margin:0 0 10px;color:#658149;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.tour-header h1{max-width:1000px;margin:0 0 18px!important;font-size:clamp(39px,5vw,65px)!important;font-weight:600!important;line-height:1.03!important;letter-spacing:-.025em!important}
+.tour-description{max-width:930px;margin:0 0 18px!important;font-size:18px!important;line-height:1.7!important}
+.tour-category-row{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.tour-category{display:inline-block;padding:7px 10px;border-radius:999px;background:#eef2e2;color:#5c7646;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:800;letter-spacing:.055em;text-transform:uppercase}
+.tour-meta{display:grid;grid-template-columns:repeat(2,minmax(0,max-content));gap:24px 55px}
+.meta-label{display:block;margin-bottom:4px;color:#7b8982;font-family:Arial,Helvetica,sans-serif;font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.meta-value{color:#263f35;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:700}
+
+.tour-lead{max-width:940px;margin:0 0 36px!important;color:#3f5049!important;font-family:Georgia,"Times New Roman",serif!important;font-size:clamp(20px,2vw,25px)!important;line-height:1.65!important}
+
+.quick-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0 0 58px}
+.fact-card{min-height:116px;padding:18px 19px;border:1px solid #dfe6e2;border-radius:8px;background:#f9faf8}
+.fact-label{display:block;margin:0 0 7px;color:#67804d;font-family:Arial,Helvetica,sans-serif;font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.fact-value{display:block;color:#173e31;font-family:Georgia,"Times New Roman",serif;font-size:18px;font-weight:600;line-height:1.25}
+
+.tour-section{margin:0 0 58px}
+.tour-section h2{margin:0 0 19px!important;padding-bottom:12px;border-bottom:1px solid #e5e9e7;font-size:clamp(30px,3vw,43px)!important;font-weight:600!important;line-height:1.08!important;letter-spacing:-.015em!important}
+.tour-section h3{margin:30px 0 10px!important;font-size:24px!important;font-weight:600!important;line-height:1.18!important}
+.tour-section p{max-width:940px;margin:0 0 18px}
+
+.tour-highlight{margin:27px 0;padding:24px 27px;border-left:5px solid #6e8d50;border-radius:5px;background:#f2f3e9}
+.tour-highlight strong{display:block;margin-bottom:8px;color:#173e31;font-family:Georgia,"Times New Roman",serif;font-size:21px}
+.tour-highlight p{margin:0!important}
+
+.plant-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:24px}
+.plant-card{padding:19px;border:1px solid #e0e6e2;border-radius:7px;background:#fafbf9}
+.plant-card strong{display:block;margin-bottom:6px;color:#244a3a;font-family:Georgia,"Times New Roman",serif;font-size:18px}
+.plant-card span{color:#67746e;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.55}
+
+.plant-details{margin-top:24px;border:1px solid #dfe6e2;border-radius:8px;background:#fff;overflow:hidden}
+.plant-details summary{cursor:pointer;padding:17px 20px;color:#173e31;background:#f6f7f3;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:800;letter-spacing:.03em}
+.plant-details-content{padding:20px 22px}
+.plant-details-content ul{columns:3;column-gap:34px;margin:0;padding-left:20px}
+.plant-details-content li{break-inside:avoid;margin:0 0 8px;color:#5b6862;font-family:Arial,Helvetica,sans-serif;font-size:14px}
+
+.shorts-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:25px}
+.short-card{display:grid;grid-template-columns:150px minmax(0,1fr);overflow:hidden;border:1px solid #dfe6e2;border-radius:8px;background:#fff;color:inherit!important;text-decoration:none!important;box-shadow:0 7px 20px rgba(18,47,36,.06);transition:transform .2s ease,box-shadow .2s ease}
+.short-card:hover{transform:translateY(-3px);box-shadow:0 12px 27px rgba(18,47,36,.12)}
+.short-image{position:relative;overflow:hidden;background:#123d2f}
+.short-image img{display:block;width:100%;height:100%;min-height:260px;object-fit:cover}
+.short-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:54px;height:54px;display:grid;place-items:center;border-radius:15px;background:#ff0033;color:#fff;font-size:20px;box-shadow:0 7px 18px rgba(0,0,0,.22)}
+.short-copy{padding:22px 20px}
+.short-copy span{display:block;margin-bottom:8px;color:#68814e;font-family:Arial,Helvetica,sans-serif;font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.short-copy h3{margin:0 0 10px!important;font-size:21px!important}
+.short-copy p{margin:0!important;font-size:13px;line-height:1.65}
+
+.takeaway{padding:28px 30px;border-radius:8px;background:#143f31}
+.takeaway p{max-width:100%;color:rgba(255,255,255,.91)!important}
+.takeaway p:last-child{margin-bottom:0}
+
+.related-tour{display:grid;grid-template-columns:minmax(340px,.95fr) minmax(0,1.05fr);gap:28px;align-items:center;overflow:hidden;border:1px solid #dfe6e2;border-radius:9px;background:#f8f8f4}
+.related-tour-image img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.related-tour-copy{padding:25px 28px 25px 0}
+.related-tour-copy h3{margin-top:0!important}
+.related-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.tour-button{display:inline-flex;align-items:center;justify-content:center;padding:12px 17px;border-radius:5px;background:#1b6244;color:#fff!important;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:800;letter-spacing:.04em;text-decoration:none!important;text-transform:uppercase}
+.tour-button-secondary{background:#dde5d5;color:#234536!important}
+
+@media(max-width:950px){
+  .quick-facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .plant-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .shorts-grid{grid-template-columns:1fr}
+  .related-tour{grid-template-columns:1fr}
+  .related-tour-copy{padding:0 24px 25px}
+}
+@media(max-width:650px){
+  .tour-page{width:min(100% - 28px,1180px);padding-top:20px}
+  .quick-facts,.plant-grid{grid-template-columns:1fr}
+  .tour-meta{grid-template-columns:1fr;gap:13px}
+  .short-card{grid-template-columns:115px minmax(0,1fr)}
+  .short-image img{min-height:220px}
+  .plant-details-content ul{columns:1}
+}
+</style>
+
+<main class="tour-page">
+
+<div class="main-video">
+  <iframe
+    src="https://www.youtube.com/embed/DEvduDQTxqI"
+    title="Kim's tiny Phoenix backyard food forest tour"
+    loading="eager"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<nav class="tour-breadcrumbs" aria-label="Breadcrumb">
+  <a href="../index.html">Food Forest Tours</a>
+  <span class="sep">/</span>
+  <a href="arizona/index.html">Arizona</a>
+  <span class="sep">/</span>
+  <span>Kim’s Phoenix Food Forest</span>
+</nav>
+
+<header class="tour-header">
+  <span class="tour-eyebrow">Arizona Food Forest Tour</span>
+
+  <h1>Tiny Phoenix Backyard Food Forest: Kim’s 24 Fruit Trees</h1>
+
+  <div class="tour-category-row">
+    <span class="tour-category">Phoenix</span>
+    <span class="tour-category">Small-Space Growing</span>
+    <span class="tour-category">Tropical Fruit</span>
+    <span class="tour-category">Edible Landscaping</span>
+  </div>
+
+  <p class="tour-description">
+    Step inside Kim’s compact Phoenix garden, where 24 fruit trees,
+    tropical plants, edible groundcovers, flowering ornamentals, and
+    carefully managed shade create an incredible amount of abundance in
+    a very limited amount of growing space.
+  </p>
+
+  <div class="tour-meta">
+    <div>
+      <span class="meta-label">Host</span>
+      <span class="meta-value">Kim</span>
+    </div>
+    <div>
+      <span class="meta-label">Published</span>
+      <span class="meta-value">August 28, 2026</span>
+    </div>
+  </div>
+</header>
+
+<p class="tour-lead">
+Kim’s garden is a reminder that abundance does not require acres of land.
+On a small northwest Phoenix property, she has built a diverse edible
+landscape by fitting fruit trees, tropical plants, flowering species, and
+useful shade plants into nearly every available pocket of space.
+</p>
+
+<section class="quick-facts" aria-label="Tour snapshot">
+  <div class="fact-card"><span class="fact-label">Garden</span><span class="fact-value">Private Phoenix Food Forest</span></div>
+  <div class="fact-card"><span class="fact-label">Host</span><span class="fact-value">Kim</span></div>
+  <div class="fact-card"><span class="fact-label">Location</span><span class="fact-value">Northwest Phoenix, Arizona</span></div>
+  <div class="fact-card"><span class="fact-label">Fruit Trees</span><span class="fact-value">24</span></div>
+  <div class="fact-card"><span class="fact-label">Plantable Space</span><span class="fact-value">About 110 ft × 11 ft</span></div>
+  <div class="fact-card"><span class="fact-label">Growing Style</span><span class="fact-value">Compact & High-Diversity</span></div>
+  <div class="fact-card"><span class="fact-label">Primary Challenge</span><span class="fact-value">Heat, Wind & Limited Space</span></div>
+  <div class="fact-card"><span class="fact-label">Tour Length</span><span class="fact-value">About 35 Minutes</span></div>
+</section>
+
+<section class="tour-section">
+<h2>How Much Can You Grow in a Tiny Phoenix Yard?</h2>
+<p>
+Kim’s property is a corner lot with very little plantable ground and an
+oversized swimming pool occupying much of the backyard. Instead of treating
+those limitations as reasons not to grow food, she has spent years learning
+how to use small planting strips, containers, narrow side yards, and carefully
+chosen pockets around the house.
+</p>
+<p>
+By the end of the tour, Kim counts 24 fruit trees on the property. She estimates
+that she has only about 110 feet by 11 feet of practical planting space. The
+result is not a traditional orchard with large trees spaced far apart. It is a
+dense collection of compact trees, tropical plants, vines, groundcovers,
+flowers, and useful ornamentals fitted together around the realities of the
+property.
+</p>
+<div class="tour-highlight">
+<strong>The central lesson of Kim’s garden</strong>
+<p>
+You do not need acres of land to create an abundant edible landscape.
+Kim’s yard shows what can happen when limited space is treated as a design
+challenge rather than a reason not to plant.
+</p>
+</div>
+</section>
+
+<section class="tour-section">
+<h2>A Garden Designed Around the Phoenix Sun</h2>
+<p>
+One of the clearest patterns in Kim’s garden is how intentionally she thinks
+about exposure. Her corner property has very little protection from western
+sun and wind, so different areas of the yard are used for different types of
+plants.
+</p>
+<p>
+The east side of the house is especially important for tropicals. During the
+hottest part of summer, that side begins receiving automatic afternoon shade.
+Kim explains that this is where she concentrates many of the plants that need
+relief from the most intense June, July, and August sun.
+</p>
+<p>
+Elsewhere, temporary plants and vines become part of the shade system. Castor
+beans can grow quickly enough to create seasonal protection, while vines are
+allowed to cover the pergola during summer and then removed in winter so the
+mangoes below can receive more sun.
+</p>
+<p>
+Bamboo also plays a role. On the west side of the pergola, it helps block late
+afternoon summer sun that was reaching the mango trees after the overhead
+shade had already been established.
+</p>
+</section>
+
+<section class="tour-section">
+<h2>Keeping Fruit Trees Small on Purpose</h2>
+<p>
+Kim repeatedly points out that many of her trees are intentionally kept
+compact. Part of that decision comes from the size of the property, but it is
+also about making the garden easier to manage.
+</p>
+<p>
+Her Pakistan mulberry has grown aggressively enough that she regularly has to
+cut back several feet of growth. She ultimately decides that the tree may need
+to leave the yard because of how quickly it occupies space. Other trees are
+pruned to stay within reach instead of becoming full-size specimens.
+</p>
+<p>
+That same principle shows up throughout the property. A limequat that could
+become much larger is kept small. White sapote, mango, starfruit, Barbados
+cherry, citrus, and ornamentals are all managed within the scale of the yard.
+Kim is designing for a garden she can continue enjoying rather than maximizing
+the ultimate height of every tree.
+</p>
+</section>
+
+<section class="tour-section">
+<h2>Mangoes in a Small-Space Phoenix Food Forest</h2>
+<p>
+Mangoes appear throughout Kim’s garden, and several have unusual stories.
+Some began as nursery discards that still had enough life left in them to be
+rescued and planted. One front-yard mango has remained relatively compact
+while producing heavily.
+</p>
+<p>
+On the east side, a Carrie mango is recovering after a period when the garden
+received less care. Another older mango planted in 2017 had once grown above
+the roofline before suffering badly and beginning a new recovery cycle.
+</p>
+<p>
+Near the pond, Kim originally imagined creating a larger mango-growing zone.
+As her interest in the pond increased, the pond expanded and the mango space
+became smaller. Three mango trees remain in that area, surrounded by a system
+that changes with the seasons.
+</p>
+<p>
+Summer vines create shade overhead, while winter removal allows more sunlight
+into the area. Several of the mangoes also receive water drawn directly from
+the pond.
+</p>
+</section>
+
+<section class="tour-section">
+<h2>Fruit Trees Packed Into the Landscape</h2>
+<p>
+The variety in Kim’s compact garden is what makes the tour especially
+surprising. Mangoes share the property with subtropical fruit, citrus,
+traditional Arizona fruit trees, and a large collection of tropical and
+flowering plants.
+</p>
+<div class="plant-grid">
+  <div class="plant-card"><strong>Mango</strong><span>Several trees, including Carrie mango and rescued nursery trees.</span></div>
+  <div class="plant-card"><strong>Longan</strong><span>A young tree that has surprised Kim with its tolerance of the sunny site.</span></div>
+  <div class="plant-card"><strong>Starfruit</strong><span>A productive tree that fruits repeatedly and has performed well in the yard.</span></div>
+  <div class="plant-card"><strong>Limequat</strong><span>One of Kim’s favorite fruits, eaten fresh for its aromatic skin and tart interior.</span></div>
+  <div class="plant-card"><strong>White Guava</strong><span>A compact tree that produced a substantial winter crop before cycling into new growth.</span></div>
+  <div class="plant-card"><strong>White Sapote</strong><span>A Redlands white sapote kept within the scale of the small yard.</span></div>
+  <div class="plant-card"><strong>Florida Prince Peach</strong><span>A low-chill peach that produced hundreds of fruit in a stronger season.</span></div>
+  <div class="plant-card"><strong>Barbados Cherry</strong><span>A fast-growing tree planted in 2017 and heavily pruned to stay manageable.</span></div>
+  <div class="plant-card"><strong>Papaya</strong><span>Seed-grown papaya used as a temporary layer while longer-lived trees establish nearby.</span></div>
+</div>
+</section>
+
+<section class="tour-section">
+<h2>Tropical Plants, Flowers, and Useful Fillers</h2>
+<p>
+Kim’s yard is not made up of fruit trees alone. Plumerias, hibiscus, cannas,
+sweet almond bush, tropical milkweed, vines, bamboo, sweet potato, monstera,
+elephant food, and other plants occupy the spaces between trees.
+</p>
+<p>
+Some are there primarily because they are beautiful. Others have practical
+jobs. Sweet potato covers and cools exposed soil. Castor bean can become quick
+summer shade. Bamboo blocks unwanted views and intense afternoon sun. Tropical
+milkweed supports monarch butterflies. Flowering plants add color and habitat
+throughout the food forest.
+</p>
+<p>
+The result feels less like a conventional orchard and more like a compact,
+layered edible landscape where fruit production, shade, privacy, pollinators,
+and aesthetics all overlap.
+</p>
+</section>
+
+<section class="tour-section">
+<h2>The Recovery Yard</h2>
+<p>
+An important part of Kim’s story is that the garden has not moved forward in a
+perfect straight line. She explains that during a difficult period of her life,
+many plants received far less care than they normally would have.
+</p>
+<p>
+Some trees were lost. Others were badly stressed. Several of the trees shown
+during the tour are in the process of rebuilding growth rather than displaying
+their full potential.
+</p>
+<p>
+Kim describes the property as a “recovery yard.” That makes the garden more
+interesting, not less. Visitors are seeing a real landscape where plants have
+been neglected, moved, cut back, replanted, reconsidered, and given another
+chance.
+</p>
+<p>
+Her older mango is a good example. After declining badly, Kim uncovered a
+buried root flare, increased attention, added shade, and watched the tree begin
+pushing strong recovery growth again.
+</p>
+</section>
+
+<section class="tour-section">
+<h2>A Pond That Changed the Garden</h2>
+<p>
+What began as a small pond eventually became one of Kim’s favorite parts of
+the backyard. As the pond expanded, it changed the original planting plan and
+reduced the number of mangoes that could remain in the area.
+</p>
+<p>
+The pond also became part of how nearby mango trees are managed. Kim lowers
+the water level, mixes the nutrient-rich material from the fish system, and
+uses a sump pump to move pond water into the surrounding mango zone.
+</p>
+<p>
+More importantly, the pond shows how gardens evolve around the people who live
+in them. The most “efficient” use of the space might have been to keep every
+mango tree. Kim discovered that she enjoyed the pond more, so the food forest
+changed with her.
+</p>
+</section>
+
+<section class="tour-section">
+<h2>Plants With Jobs</h2>
+<p>
+Kim often chooses plants based on what she needs a particular location to do.
+A Barbados cherry helps block early sunlight from reaching the bedroom. Another
+guava is being grown to eventually provide shade at a different time of day.
+Bamboo screens a distracting view. Seasonal vines protect mangoes from summer
+sun.
+</p>
+<p>
+That way of thinking is especially useful in a small landscape because every
+square foot matters. A plant can produce fruit while also creating privacy,
+cooling the house, shading another plant, covering the soil, or improving the
+way a space feels.
+</p>
+</section>
+
+<section class="tour-section">
+<h2>Plants Featured in Kim’s Phoenix Garden</h2>
+<p>
+The tour moves through an unusually diverse plant collection. The list below
+collects many of the fruiting, edible, flowering, and tropical plants Kim
+mentions during the visit.
+</p>
+
+<details class="plant-details">
+<summary>View the expanded plant list</summary>
+<div class="plant-details-content">
+<ul>
+  <li>Green Indian jujube</li>
+  <li>Royal poinciana</li>
+  <li>Plumeria</li>
+  <li>Mango</li>
+  <li>Sumo orange</li>
+  <li>Monstera</li>
+  <li>Natal plum</li>
+  <li>Cassia fistula / golden shower tree</li>
+  <li>Morning glory bush</li>
+  <li>Surinam cherry</li>
+  <li>Sweet almond bush</li>
+  <li>Tropical milkweed</li>
+  <li>June plum</li>
+  <li>Ice cream bean</li>
+  <li>Castor bean</li>
+  <li>Heliconia</li>
+  <li>Pakistan mulberry</li>
+  <li>Guava berry</li>
+  <li>Carrie mango</li>
+  <li>Meiwa kumquat</li>
+  <li>White guava</li>
+  <li>Limequat</li>
+  <li>Longan</li>
+  <li>Cara Cara orange</li>
+  <li>Silk floss tree</li>
+  <li>Papaya</li>
+  <li>Sweet potato</li>
+  <li>Snow Queen hibiscus</li>
+  <li>Tropical hibiscus</li>
+  <li>Chaya spinach</li>
+  <li>Singapore dwarf plumeria</li>
+  <li>Starfruit</li>
+  <li>Madagascar rubber vine</li>
+  <li>Star jasmine</li>
+  <li>Tango mandarin</li>
+  <li>Banana</li>
+  <li>Fukushu kumquat</li>
+  <li>Vietnamese Turk’s cap hibiscus</li>
+  <li>Redlands white sapote</li>
+  <li>Florida Prince peach</li>
+  <li>Barbados cherry</li>
+  <li>Ruby Supreme guava</li>
+  <li>Elephant food</li>
+  <li>Four o’clocks</li>
+  <li>Wisteria</li>
+  <li>Lemon</li>
+  <li>Bamboo</li>
+</ul>
+</div>
+</details>
+</section>
+
+<section class="tour-section">
+<h2>Two Quick Highlights From Kim’s Garden</h2>
+<p>
+These short videos capture a few additional moments from the tour. More Shorts
+can be added here later as new highlights from Kim’s garden are published.
+</p>
+
+<div class="shorts-grid">
+
+  <a class="short-card" href="https://www.youtube.com/shorts/lEHKxUD6-Ms" target="_blank" rel="noopener noreferrer">
+    <div class="short-image">
+      <img src="https://img.youtube.com/vi/lEHKxUD6-Ms/maxresdefault.jpg" alt="Short highlight from Kim's Phoenix food forest" loading="lazy">
+      <span class="short-play">▶</span>
+    </div>
+    <div class="short-copy">
+      <span>Quick Garden Highlight</span>
+      <h3>A Quick Look Inside Kim’s Phoenix Garden</h3>
+      <p>Watch one of the short highlights from this small-space Phoenix food forest tour.</p>
+    </div>
+  </a>
+
+  <a class="short-card" href="https://www.youtube.com/shorts/4gkftP6zb08" target="_blank" rel="noopener noreferrer">
+    <div class="short-image">
+      <img src="https://img.youtube.com/vi/4gkftP6zb08/maxresdefault.jpg" alt="Short highlight from Kim's compact Phoenix edible landscape" loading="lazy">
+      <span class="short-play">▶</span>
+    </div>
+    <div class="short-copy">
+      <span>Quick Garden Highlight</span>
+      <h3>Small Space, Surprising Abundance</h3>
+      <p>See another quick moment from Kim’s densely planted Phoenix garden.</p>
+    </div>
+  </a>
+
+</div>
+</section>
+
+<section class="tour-section">
+<h2>The Green Yard Takeaway</h2>
+<div class="takeaway">
+<p>
+Kim’s Phoenix garden demonstrates that abundance is not simply a function of
+property size. Her landscape works because she is willing to keep trees small,
+use different exposures intentionally, let plants perform multiple jobs, and
+continually reconsider how the limited space should be used.
+</p>
+<p>
+The garden is also still changing. Some trees are recovering, new fruit trees
+are waiting to be planted, the pond may grow again, and Kim is already thinking
+about how different areas will look in another year or two. That ongoing
+evolution is part of what makes the property worth revisiting.
+</p>
+</div>
+</section>
+
+<section class="tour-section">
+<h2>Continue Exploring Arizona Food Forests</h2>
+<div class="related-tour">
+
+  <div class="related-tour-image">
+    <img src="https://img.youtube.com/vi/0uxQGmZKBeI/maxresdefault.jpg" alt="Arizona backyard food forest tour" loading="lazy">
+  </div>
+
+  <div class="related-tour-copy">
+    <h3>Explore Another Arizona Food Forest</h3>
+    <p>
+      Continue exploring how Arizona growers are creating productive edible
+      landscapes in the Sonoran Desert, including tropical fruit experiments,
+      microclimates, pruning, shade, and long-term adaptation.
+    </p>
+
+    <div class="related-actions">
+      <a class="tour-button" href="glendale-backyard-food-forest-cedar.html">Explore the Tour</a>
+      <a class="tour-button tour-button-secondary" href="arizona/index.html">Explore Arizona</a>
+    </div>
+  </div>
+
+</div>
+</section>
+
+</main>
+```
