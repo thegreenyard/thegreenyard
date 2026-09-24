@@ -1,1 +1,1224 @@
+---
+title: "Florida Food Forests, Farms & Edible Landscapes"
+description: "Explore food forests, regenerative farms, tropical fruit gardens, agroforestry systems, and edible landscapes documented by The Green Yard across Florida."
+format:
+  html:
+    toc: false
+    page-layout: full
+    title-block-banner: false
+---
 
+<style>
+
+/* =========================================================
+   THE GREEN YARD — FLORIDA LOCATION HUB
+   ========================================================= */
+
+:root {
+  --gy-dark: #0b3328;
+  --gy-green: #173f31;
+  --gy-mid: #557a3e;
+  --gy-lime: #d6ed91;
+  --gy-cream: #f8f6ef;
+  --gy-white: #ffffff;
+  --gy-text: #56645f;
+  --gy-line: #d8ddd8;
+}
+
+/* Remove Quarto title block */
+.quarto-title-block,
+#title-block-header {
+  display: none !important;
+}
+
+#quarto-content {
+  padding: 0 !important;
+}
+
+main.content {
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* =========================================================
+   SHARED
+   ========================================================= */
+
+.gy-shell {
+  width: min(1500px, calc(100% - 56px));
+  margin: 0 auto;
+}
+
+.gy-kicker {
+  margin: 0 0 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gy-mid);
+}
+
+.gy-section-title {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(42px, 5vw, 68px);
+  line-height: .98;
+  color: var(--gy-dark);
+}
+
+.gy-section-intro {
+  max-width: 850px;
+  margin: 24px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.75;
+  color: var(--gy-text);
+}
+
+.gy-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 24px;
+  border-radius: 5px;
+  background: var(--gy-dark);
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: transform .18s ease, background .18s ease;
+}
+
+.gy-button:hover {
+  background: #15533e;
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.gy-location-hero {
+  position: relative;
+  min-height: 610px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  /*
+  FLORIDA PHOTOGRAPHY GOES HERE LATER.
+
+  We can replace this background with either:
+  1. one large Florida image, or
+  2. the Florida photo collage/mosaic.
+  */
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(5, 40, 30, .98) 0%,
+      rgba(8, 52, 39, .94) 48%,
+      rgba(18, 72, 51, .86) 100%
+    );
+}
+
+.gy-location-hero-inner {
+  position: relative;
+  z-index: 2;
+  padding: 90px 0;
+  max-width: 900px;
+}
+
+.gy-location-hero .gy-kicker {
+  color: var(--gy-lime);
+}
+
+.gy-location-hero h1 {
+  margin: 0;
+  max-width: 900px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(58px, 7vw, 96px);
+  line-height: .94;
+  letter-spacing: -.035em;
+  color: white;
+}
+
+.gy-location-hero p {
+  max-width: 800px;
+  margin: 30px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 1.65;
+  color: rgba(255,255,255,.88);
+}
+
+.gy-location-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 32px;
+  margin-top: 38px;
+}
+
+.gy-location-stat {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+  color: var(--gy-lime);
+}
+
+
+/* =========================================================
+   INTRO / MEET THE GROWERS
+   ========================================================= */
+
+.gy-growers-intro {
+  padding: 105px 0 55px;
+  background: var(--gy-cream);
+}
+
+
+/* =========================================================
+   GROWER FEATURES
+   ========================================================= */
+
+.gy-growers {
+  background: var(--gy-cream);
+  padding-bottom: 110px;
+}
+
+.gy-grower {
+  display: grid;
+  grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+  gap: 70px;
+  align-items: center;
+  padding: 75px 0;
+  border-bottom: 1px solid var(--gy-line);
+}
+
+.gy-grower:last-child {
+  border-bottom: 0;
+}
+
+.gy-grower.reverse .gy-grower-copy {
+  order: 2;
+}
+
+.gy-grower.reverse .gy-grower-media {
+  order: 1;
+}
+
+.gy-grower-location {
+  margin-bottom: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--gy-mid);
+}
+
+.gy-grower h2 {
+  margin: 0 0 22px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(36px, 4vw, 56px);
+  line-height: 1.02;
+  color: var(--gy-dark);
+}
+
+.gy-grower p {
+  margin: 0 0 26px;
+  max-width: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--gy-text);
+}
+
+.gy-grower-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 28px;
+}
+
+.gy-grower-tag {
+  padding: 8px 11px;
+  border-radius: 3px;
+  background: #e9eddf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--gy-green);
+}
+
+
+/* =========================================================
+   VIDEO / MEDIA PLACEHOLDER
+   ========================================================= */
+
+.gy-grower-media {
+  width: 100%;
+}
+
+.gy-video-placeholder {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(135deg, #173f31, #0b3328);
+  box-shadow: 0 22px 48px rgba(0,0,0,.14);
+}
+
+.gy-video-placeholder span {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--gy-lime);
+}
+
+
+/* =========================================================
+   MULTIPLE TOURS FROM SAME GROWER
+   ========================================================= */
+
+.gy-more-tours {
+  margin-top: 30px;
+  padding-top: 24px;
+  border-top: 1px solid var(--gy-line);
+}
+
+.gy-more-label {
+  margin-bottom: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--gy-mid);
+}
+
+.gy-tour-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.gy-tour-link {
+  display: inline-block;
+  padding: 10px 13px;
+  border: 1px solid #cbd3cc;
+  border-radius: 3px;
+  color: var(--gy-dark) !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.gy-tour-link:hover {
+  background: var(--gy-dark);
+  border-color: var(--gy-dark);
+  color: white !important;
+}
+
+
+/* =========================================================
+   FLORIDA CONTEXT
+   ========================================================= */
+
+.gy-context {
+  padding: 110px 0;
+  background: white;
+}
+
+.gy-context-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 55px;
+}
+
+.gy-context-card {
+  padding: 32px;
+  border-top: 4px solid var(--gy-mid);
+  background: var(--gy-cream);
+}
+
+.gy-context-card h3 {
+  margin: 0 0 13px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 27px;
+  color: var(--gy-dark);
+}
+
+.gy-context-card p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--gy-text);
+}
+
+
+/* =========================================================
+   PLANTS
+   ========================================================= */
+
+.gy-plants {
+  padding: 110px 0;
+  background: var(--gy-dark);
+}
+
+.gy-plants .gy-kicker {
+  color: var(--gy-lime);
+}
+
+.gy-plants .gy-section-title {
+  color: white;
+}
+
+.gy-plants .gy-section-intro {
+  color: rgba(255,255,255,.72);
+}
+
+.gy-plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 55px;
+}
+
+.gy-plant-group {
+  padding: 28px;
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 6px;
+  background: rgba(255,255,255,.05);
+}
+
+.gy-plant-group h3 {
+  margin: 0 0 17px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  color: var(--gy-lime);
+}
+
+.gy-plant-group p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.9;
+  color: rgba(255,255,255,.82);
+}
+
+
+/* =========================================================
+   LESSONS
+   ========================================================= */
+
+.gy-lessons {
+  padding: 110px 0;
+  background: var(--gy-cream);
+}
+
+.gy-lessons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 55px;
+}
+
+.gy-lesson {
+  padding: 32px 0 32px;
+  border-top: 1px solid var(--gy-line);
+}
+
+.gy-lesson-number {
+  margin-bottom: 17px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  font-style: italic;
+  color: var(--gy-mid);
+}
+
+.gy-lesson h3 {
+  margin: 0 0 14px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 28px;
+  line-height: 1.12;
+  color: var(--gy-dark);
+}
+
+.gy-lesson p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--gy-text);
+}
+
+
+/* =========================================================
+   OTHER LOCATIONS
+   ========================================================= */
+
+.gy-next {
+  padding: 95px 0;
+  background: white;
+}
+
+.gy-location-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 35px;
+}
+
+.gy-location-link {
+  padding: 15px 19px;
+  border: 1px solid var(--gy-line);
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--gy-dark) !important;
+  text-decoration: none !important;
+}
+
+.gy-location-link:hover {
+  background: var(--gy-dark);
+  color: white !important;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1050px) {
+
+  .gy-grower {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .gy-grower.reverse .gy-grower-copy,
+  .gy-grower.reverse .gy-grower-media {
+    order: initial;
+  }
+
+  .gy-context-grid,
+  .gy-plant-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gy-lessons-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 650px) {
+
+  .gy-shell {
+    width: min(100% - 32px, 1500px);
+  }
+
+  .gy-location-hero {
+    min-height: 570px;
+  }
+
+  .gy-location-hero-inner {
+    padding: 70px 0;
+  }
+
+  .gy-location-hero h1 {
+    font-size: 52px;
+  }
+
+  .gy-location-hero p {
+    font-size: 18px;
+  }
+
+  .gy-growers-intro {
+    padding: 75px 0 25px;
+  }
+
+  .gy-grower {
+    padding: 55px 0;
+  }
+
+  .gy-context,
+  .gy-plants,
+  .gy-lessons {
+    padding: 80px 0;
+  }
+
+  .gy-context-grid,
+  .gy-plant-grid,
+  .gy-lessons-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+</style>
+
+
+<!-- ======================================================
+     HERO
+     ====================================================== -->
+
+<section class="gy-location-hero">
+
+  <div class="gy-shell">
+
+    <div class="gy-location-hero-inner">
+
+      <div class="gy-kicker">Explore Florida</div>
+
+      <h1>
+        Growing Food<br>
+        in Florida
+      </h1>
+
+      <p>
+        From tropical backyard food forests to regenerative farms and
+        experimental agroforestry systems, meet the growers creating
+        abundance across Florida.
+      </p>
+
+      <div class="gy-location-stats">
+        <span class="gy-location-stat">9 Published Tours</span>
+        <span class="gy-location-stat">Tampa to Miami</span>
+        <span class="gy-location-stat">Food Forests · Farms · Tropical Fruit</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ======================================================
+     MEET THE GROWERS
+     ====================================================== -->
+
+<section class="gy-growers-intro">
+
+  <div class="gy-shell">
+
+    <div class="gy-kicker">Meet the Growers</div>
+
+    <h2 class="gy-section-title">
+      Florida Through the<br>
+      People Growing It
+    </h2>
+
+    <p class="gy-section-intro">
+      There is no single way to grow food in Florida. Across these tours,
+      we visit backyard food forests, working farms, community growing
+      spaces, nurseries, and experimental agroforestry systems to see
+      what people are actually growing and how they are making it work.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section class="gy-growers">
+
+  <div class="gy-shell">
+
+
+    <!-- GREEN FLAMINGO -->
+
+    <article class="gy-grower">
+
+      <div class="gy-grower-copy">
+
+        <div class="gy-grower-location">
+          Oak Hill, Florida
+        </div>
+
+        <h2>Green Flamingo Organics</h2>
+
+        <p>
+          Liz and the team at Green Flamingo Organics are building a
+          productive small farm around regenerative and no-till practices.
+          Across roughly 2.75 acres, production beds are integrated with
+          cover crops, succession planting, companion planting, seed
+          saving, tarping, compost, and community programs.
+        </p>
+
+        <div class="gy-grower-tags">
+          <span class="gy-grower-tag">Regenerative Farming</span>
+          <span class="gy-grower-tag">No-Till</span>
+          <span class="gy-grower-tag">Cover Crops</span>
+          <span class="gy-grower-tag">CSA</span>
+        </div>
+
+        <a
+          class="gy-button"
+          href="/tours/green-flamingo-organics-regenerative-farm.html">
+          Explore Green Flamingo →
+        </a>
+
+      </div>
+
+      <div class="gy-grower-media">
+        <div class="gy-video-placeholder">
+          <span>Green Flamingo Organics — Featured Video</span>
+        </div>
+      </div>
+
+    </article>
+
+
+    <!-- REBEL FARMS -->
+
+    <article class="gy-grower reverse">
+
+      <div class="gy-grower-copy">
+
+        <div class="gy-grower-location">
+          New Smyrna Beach, Florida
+        </div>
+
+        <h2>Rebel Farms</h2>
+
+        <p>
+          Tyson and Maggie are treating Rebel Farms as a real-world
+          experiment in agriculture and community. Their food forest
+          systems test tropical fruit, cultivar performance, freeze
+          tolerance, flooding, canopy design, and soil building to learn
+          what can reliably produce in their part of Florida.
+        </p>
+
+        <div class="gy-grower-tags">
+          <span class="gy-grower-tag">Agroforestry</span>
+          <span class="gy-grower-tag">Food Forest</span>
+          <span class="gy-grower-tag">Tropical Fruit</span>
+          <span class="gy-grower-tag">Plant Trials</span>
+        </div>
+
+        <a
+          class="gy-button"
+          href="/tours/rebel-farms-new-smyrna-beach-food-forest.html">
+          Explore Rebel Farms →
+        </a>
+
+      </div>
+
+      <div class="gy-grower-media">
+        <div class="gy-video-placeholder">
+          <span>Rebel Farms — Featured Video</span>
+        </div>
+      </div>
+
+    </article>
+
+
+    <!-- GONZA GARDENS -->
+
+    <article class="gy-grower">
+
+      <div class="gy-grower-copy">
+
+        <div class="gy-grower-location">
+          Tampa, Florida
+        </div>
+
+        <h2>Gonza Gardens</h2>
+
+        <p>
+          KC has transformed a residential Tampa property into a
+          high-density tropical food forest where fruit trees, perennial
+          vegetables, rare ornamentals, pollinator plants, ponds, and
+          propagation areas share the same landscape.
+        </p>
+
+        <div class="gy-grower-tags">
+          <span class="gy-grower-tag">Residential Food Forest</span>
+          <span class="gy-grower-tag">Tropical Fruit</span>
+          <span class="gy-grower-tag">Dense Planting</span>
+          <span class="gy-grower-tag">Zone 10A</span>
+        </div>
+
+        <div class="gy-more-tours">
+
+          <div class="gy-more-label">
+            Explore the Gonza Gardens Tours
+          </div>
+
+          <div class="gy-tour-links">
+
+            <a
+              class="gy-tour-link"
+              href="/tours/tampa-front-yard-food-forest-gonza-gardens.html">
+              Front Yard Tour →
+            </a>
+
+            <a
+              class="gy-tour-link"
+              href="/tours/tampa-back-yard-food-forest-gonza-gardens.html">
+              Backyard Tour →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="gy-grower-media">
+        <div class="gy-video-placeholder">
+          <span>Gonza Gardens — Featured Video</span>
+        </div>
+      </div>
+
+    </article>
+
+
+    <!-- CENTRAL FLORIDA / RYAN -->
+
+    <article class="gy-grower reverse">
+
+      <div class="gy-grower-copy">
+
+        <div class="gy-grower-location">
+          Central Florida
+        </div>
+
+        <h2>Ryan's Growing Systems</h2>
+
+        <p>
+          Ryan's Central Florida property gives us two different views
+          of productive perennial growing: a hidden food forest and the
+          larger agroforestry systems surrounding it. Together, the tours
+          show how food production can be layered into larger landscapes.
+        </p>
+
+        <div class="gy-grower-tags">
+          <span class="gy-grower-tag">Agroforestry</span>
+          <span class="gy-grower-tag">Food Forest</span>
+          <span class="gy-grower-tag">Perennial Systems</span>
+        </div>
+
+        <div class="gy-more-tours">
+
+          <div class="gy-more-label">
+            Explore Ryan's Tours
+          </div>
+
+          <div class="gy-tour-links">
+
+            <a
+              class="gy-tour-link"
+              href="/tours/central-florida-secret-food-forest.html">
+              Secret Food Forest →
+            </a>
+
+            <a
+              class="gy-tour-link"
+              href="/tours/central-florida-agroforestry-systems.html">
+              Agroforestry Systems →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="gy-grower-media">
+        <div class="gy-video-placeholder">
+          <span>Central Florida — Featured Video</span>
+        </div>
+      </div>
+
+    </article>
+
+
+    <!-- FINCA MORADA -->
+
+    <article class="gy-grower">
+
+      <div class="gy-grower-copy">
+
+        <div class="gy-grower-location">
+          Miami, Florida
+        </div>
+
+        <h2>Finca Morada</h2>
+
+        <p>
+          Finca Morada shows another side of Florida edible landscaping,
+          combining food-producing plants with native species and a
+          landscape designed around both people and the surrounding
+          ecological community.
+        </p>
+
+        <div class="gy-grower-tags">
+          <span class="gy-grower-tag">Food Forest</span>
+          <span class="gy-grower-tag">Native Plants</span>
+          <span class="gy-grower-tag">Edible Landscape</span>
+          <span class="gy-grower-tag">Miami</span>
+        </div>
+
+        <div class="gy-more-tours">
+
+          <div class="gy-more-label">
+            Explore Finca Morada
+          </div>
+
+          <div class="gy-tour-links">
+
+            <a
+              class="gy-tour-link"
+              href="/tours/miami-front-yard-food-forest-finca-morada.html">
+              Front Yard Tour →
+            </a>
+
+            <a
+              class="gy-tour-link"
+              href="/tours/miami-community-food-forest-tour-finca-morada.html">
+              Backyard & Community Tour →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="gy-grower-media">
+        <div class="gy-video-placeholder">
+          <span>Finca Morada — Featured Video</span>
+        </div>
+      </div>
+
+    </article>
+
+
+    <!-- BEEZ TROPICAL GARDEN -->
+
+    <article class="gy-grower reverse">
+
+      <div class="gy-grower-copy">
+
+        <div class="gy-grower-location">
+          Homestead, Florida
+        </div>
+
+        <h2>Beez Tropical Garden</h2>
+
+        <p>
+          In Homestead, the Florida catalog moves deep into tropical
+          fruit territory. Beez Tropical Garden gives us a look inside a
+          nursery environment where tropical and subtropical fruit trees
+          are propagated, grown, and shared with other growers.
+        </p>
+
+        <div class="gy-grower-tags">
+          <span class="gy-grower-tag">Tropical Fruit</span>
+          <span class="gy-grower-tag">Nursery</span>
+          <span class="gy-grower-tag">Propagation</span>
+          <span class="gy-grower-tag">Homestead</span>
+        </div>
+
+        <a
+          class="gy-button"
+          href="/tours/homestead-tropical-fruit-nursery-bees-tropical-garden.html">
+          Explore Beez Tropical Garden →
+        </a>
+
+      </div>
+
+      <div class="gy-grower-media">
+        <div class="gy-video-placeholder">
+          <span>Beez Tropical Garden — Featured Video</span>
+        </div>
+      </div>
+
+    </article>
+
+
+  </div>
+
+</section>
+
+
+<!-- ======================================================
+     GROWING IN FLORIDA
+     ====================================================== -->
+
+<section class="gy-context">
+
+  <div class="gy-shell">
+
+    <div class="gy-kicker">Growing in Florida</div>
+
+    <h2 class="gy-section-title">
+      One State.<br>
+      Very Different Growing Conditions.
+    </h2>
+
+    <p class="gy-section-intro">
+      These tours don't provide one formula for growing in Florida.
+      Instead, they show how growers adapt to the conditions around them —
+      from Tampa and Central Florida to the Atlantic coast, Miami, and
+      Homestead.
+    </p>
+
+    <div class="gy-context-grid">
+
+      <div class="gy-context-card">
+        <h3>Warmth</h3>
+        <p>
+          Florida's climate creates opportunities for tropical and
+          subtropical plants that would be difficult to grow across much
+          of the continental United States.
+        </p>
+      </div>
+
+      <div class="gy-context-card">
+        <h3>Cold</h3>
+        <p>
+          Warm does not mean frost-free everywhere. Rebel Farms shows
+          how a major freeze can quickly reveal which species and
+          cultivars are actually resilient.
+        </p>
+      </div>
+
+      <div class="gy-context-card">
+        <h3>Water</h3>
+        <p>
+          Florida growers may deal with heavy rainfall, flooding, drought
+          periods, and intense humidity — sometimes within the same
+          growing system.
+        </p>
+      </div>
+
+      <div class="gy-context-card">
+        <h3>Soil</h3>
+        <p>
+          Across these properties, growers use mulch, compost, cover
+          crops, chop-and-drop, living roots, and other strategies to
+          continually build their soils.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ======================================================
+     PLANTS
+     ====================================================== -->
+
+<section class="gy-plants">
+
+  <div class="gy-shell">
+
+    <div class="gy-kicker">Across the Tours</div>
+
+    <h2 class="gy-section-title">
+      What We're Finding<br>
+      Growing in Florida
+    </h2>
+
+    <p class="gy-section-intro">
+      These aren't generic recommendations for the state. They're plants
+      and growing groups we've actually encountered while documenting
+      Florida growers for The Green Yard.
+    </p>
+
+    <div class="gy-plant-grid">
+
+      <div class="gy-plant-group">
+        <h3>Tropical Fruit</h3>
+        <p>
+          Mango · Banana · Jackfruit · Starfruit · Sapodilla ·
+          Black Sapote · Acerola · Passion Fruit
+        </p>
+      </div>
+
+      <div class="gy-plant-group">
+        <h3>Avocados & Citrus</h3>
+        <p>
+          Avocado cultivars · Calamondin · Limequat · Persian Lime ·
+          Meyer Lemon · Additional citrus trials
+        </p>
+      </div>
+
+      <div class="gy-plant-group">
+        <h3>Annual Production</h3>
+        <p>
+          Lettuce · Carrots · Turnips · Kale · Fennel · Cilantro ·
+          Dill · Pea Shoots · Beans
+        </p>
+      </div>
+
+      <div class="gy-plant-group">
+        <h3>Support Plants</h3>
+        <p>
+          Gingers · Turmeric · Cover crops · Pollinator plants ·
+          Native canopy · Soil-building species
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ======================================================
+     LESSONS
+     ====================================================== -->
+
+<section class="gy-lessons">
+
+  <div class="gy-shell">
+
+    <div class="gy-kicker">What We're Learning</div>
+
+    <h2 class="gy-section-title">
+      Lessons From<br>
+      Florida Growers
+    </h2>
+
+    <p class="gy-section-intro">
+      Every property is different, but several ideas continue to appear
+      as we document how people are producing food across Florida.
+    </p>
+
+    <div class="gy-lessons-grid">
+
+      <div class="gy-lesson">
+        <div class="gy-lesson-number">01</div>
+        <h3>Diversity Creates Options</h3>
+        <p>
+          Growing many species and cultivars allows growers to see what
+          succeeds when weather, pests, or other conditions change.
+        </p>
+      </div>
+
+      <div class="gy-lesson">
+        <div class="gy-lesson-number">02</div>
+        <h3>Build the Soil</h3>
+        <p>
+          Cover crops, mulch, compost, living roots, and chop-and-drop
+          appear repeatedly across very different Florida systems.
+        </p>
+      </div>
+
+      <div class="gy-lesson">
+        <div class="gy-lesson-number">03</div>
+        <h3>Test Before You Scale</h3>
+        <p>
+          Real-world plant performance can matter more than what a label
+          says should grow in a particular climate.
+        </p>
+      </div>
+
+      <div class="gy-lesson">
+        <div class="gy-lesson-number">04</div>
+        <h3>Use the Whole Property</h3>
+        <p>
+          Front yards, side yards, native canopy, ponds, fences, and
+          small pockets of sunlight can all become productive spaces.
+        </p>
+      </div>
+
+      <div class="gy-lesson">
+        <div class="gy-lesson-number">05</div>
+        <h3>Grow for Your Microclimate</h3>
+        <p>
+          Florida isn't one growing environment. Coastal exposure,
+          freezes, flooding, shade, and urban heat can change what works.
+        </p>
+      </div>
+
+      <div class="gy-lesson">
+        <div class="gy-lesson-number">06</div>
+        <h3>Abundance Can Be Shared</h3>
+        <p>
+          CSAs, neighbors, volunteers, community gardens, nurseries, and
+          shared harvests show that these landscapes can reach beyond a
+          single household.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ======================================================
+     CONTINUE EXPLORING
+     ====================================================== -->
+
+<section class="gy-next">
+
+  <div class="gy-shell">
+
+    <div class="gy-kicker">Keep Exploring</div>
+
+    <h2 class="gy-section-title">
+      Explore Another Location
+    </h2>
+
+    <div class="gy-location-links">
+
+      <a class="gy-location-link" href="/locations/arizona.html">
+        Arizona →
+      </a>
+
+      <a class="gy-location-link" href="/locations/california.html">
+        California →
+      </a>
+
+      <a class="gy-location-link" href="/locations/peru.html">
+        Peru →
+      </a>
+
+      <a class="gy-location-link" href="/locations/south-korea.html">
+        South Korea →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
