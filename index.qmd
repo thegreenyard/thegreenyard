@@ -926,47 +926,46 @@ page-layout: full
         </article>
 
 
-        <!-- MOST RECENT TOUR -->
-<article class="gy-tour-card">
+               <!-- MOST RECENT TOUR -->
+        <article class="gy-tour-card">
 
-  <div class="gy-tour-copy">
+          <div class="gy-tour-copy">
 
-    <div class="gy-section-label">Most Recent Tour</div>
+            <div class="gy-section-label">Most Recent Tour</div>
 
-    <h2>
-      24 Fruit Trees in a Tiny Phoenix Backyard Food Forest
-    </h2>
+            <h2>
+              Inside a Small Regenerative Farm Doing Things Differently
+            </h2>
 
-    <p>
-      Tour Kim’s small Phoenix backyard food forest, where 24 fruit trees,
-      tropical plants, edible landscaping, and carefully planned microclimates
-      create an incredible amount of abundance in a very limited space.
-    </p>
+            <p>
+              Visit Green Flamingo Organics in Oak Hill, Florida, where Liz uses
+              regenerative practices including no-till bed preparation, cover crops,
+              succession planting, companion planting, and seed saving to build a
+              productive small farm.
+            </p>
 
-    <a
-      class="gy-watch-button"
-      href="tours/phoenix-small-space-food-forest-kim.html">
-      Explore the Tour
-    </a>
+            <a
+              class="gy-watch-button"
+              href="tours/green-flamingo-organics-regenerative-farm.html">
+              Explore the Tour
+            </a>
 
-  </div>
+          </div>
 
-  <a
-    class="gy-tour-image"
-    href="tours/phoenix-small-space-food-forest-kim.html"
-    aria-label="Explore Kim’s small-space Phoenix food forest tour">
+          <a
+            class="gy-tour-image"
+            href="tours/green-flamingo-organics-regenerative-farm.html"
+            aria-label="Explore the Green Flamingo Organics regenerative farm tour">
 
-    <img
-      src="https://img.youtube.com/vi/DEvduDQTxqI/maxresdefault.jpg"
-      alt="Kim’s small Phoenix backyard food forest with 24 fruit trees">
+            <img
+              src="https://img.youtube.com/vi/LG9scETXd8k/maxresdefault.jpg"
+              alt="Green Flamingo Organics regenerative farm in Oak Hill, Florida">
 
-    <span class="gy-tour-play">▶</span>
+            <span class="gy-tour-play">▶</span>
 
-  </a>
+          </a>
 
-</article>
-
-</div>
+        </article>
 
 
       <!-- RIGHT COLUMN: PLANT JOURNEYS -->
