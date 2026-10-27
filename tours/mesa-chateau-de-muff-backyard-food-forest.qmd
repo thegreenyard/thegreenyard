@@ -1,15 +1,16 @@
 ---
 title: "Inside Bob's Incredible Backyard Food Forest in Mesa, Arizona"
-description: "Tour Chateau de Muff in East Mesa, Arizona, where Bob grows productive tropical, subtropical and deciduous fruit trees using microclimates, irrigation, pruning and hand-pollination."
+description: "Tour Bob the Greenman's East Mesa, Arizona backyard food forest, featuring tropical and subtropical fruit trees, microclimates, irrigation, pruning, and hand-pollination."
 author: "The Green Yard"
 date: 2026-10-27
+date-modified: 2026-10-27
 lang: en
 canonical-url: "https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html"
 image: "https://img.youtube.com/vi/X6m3GuQot0w/maxresdefault.jpg"
-image-alt: "Bob's Chateau de Muff backyard food forest in East Mesa, Arizona"
+image-alt: "Bob's productive backyard food forest in East Mesa, Arizona"
 keywords:
   - Mesa Arizona food forest
-  - Chateau de Muff
+  - Bob the Greenman
   - Phoenix backyard food forest
   - Arizona tropical fruit trees
   - June plum Arizona
@@ -17,6 +18,7 @@ keywords:
   - desert fruit tree microclimates
 categories:
   - Arizona
+  - Mesa
   - Food Forest Tours
   - Tropical Fruit
   - Edible Landscaping
@@ -29,22 +31,110 @@ format:
   html:
     include-in-header:
       - text: |
-          <meta name="robots" content="index, follow, max-image-preview:large">
+          <meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+
           <script type="application/ld+json">
           {
-            "@context":"https://schema.org",
-            "@type":"VideoObject",
-            "name":"Inside Bob's Incredible Backyard Food Forest in Mesa, Arizona",
-            "description":"Tour Bob's productive Chateau de Muff backyard food forest in East Mesa, Arizona.",
-            "thumbnailUrl":"https://img.youtube.com/vi/X6m3GuQot0w/maxresdefault.jpg",
-            "embedUrl":"https://www.youtube.com/embed/X6m3GuQot0w",
-            "contentUrl":"https://www.youtube.com/watch?v=X6m3GuQot0w",
-            "url":"https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html",
-            "publisher":{"@type":"Organization","name":"The Green Yard","url":"https://www.thegreenyardaz.com/"}
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "VideoObject",
+                "@id": "https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html#video",
+                "name": "Inside Bob's Incredible Backyard Food Forest in Mesa, Arizona",
+                "description": "Explore Bob the Greenman’s productive East Mesa food forest and his approach to microclimates, irrigation, pruning, and fruit production.",
+                "thumbnailUrl": [
+                  "https://img.youtube.com/vi/X6m3GuQot0w/maxresdefault.jpg"
+                ],
+                "uploadDate": "2026-10-27",
+                "embedUrl": "https://www.youtube.com/embed/X6m3GuQot0w",
+                "contentUrl": "https://www.youtube.com/watch?v=X6m3GuQot0w",
+                "url": "https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html",
+                "mainEntityOfPage": {
+                  "@id": "https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://www.thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                }
+              },
+              {
+                "@type": "Article",
+                "@id": "https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html#article",
+                "headline": "Inside Bob's Incredible Backyard Food Forest in Mesa, Arizona",
+                "description": "Tour Bob the Greenman’s backyard food forest in East Mesa, Arizona, featuring tropical fruit trees, microclimates and real harvests.",
+                "datePublished": "2026-10-27",
+                "dateModified": "2026-10-27",
+                "inLanguage": "en-US",
+                "image": [
+                  "https://img.youtube.com/vi/X6m3GuQot0w/maxresdefault.jpg"
+                ],
+                "author": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://www.thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "The Green Yard",
+                  "url": "https://www.thegreenyardaz.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.thegreenyardaz.com/images/green-yard-logo.jpg"
+                  }
+                },
+                "mainEntity": {
+                  "@id": "https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html#video"
+                },
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id": "https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html#breadcrumbs",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.thegreenyardaz.com/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Food Forest Tours",
+                    "item": "https://www.thegreenyardaz.com/tours/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Arizona",
+                    "item": "https://www.thegreenyardaz.com/locations/arizona.html"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Bob the Greenman",
+                    "item": "https://www.thegreenyardaz.com/tours/mesa-chateau-de-muff-backyard-food-forest.html"
+                  }
+                ]
+              }
+            ]
           }
           </script>
 ---
 
+```{=html}
 <style>
 
 /* =========================================================
@@ -704,23 +794,495 @@ format:
 
 }
 </style>
+
 <main class="tour-page">
-<div class="video-wrap"><iframe src="https://www.youtube.com/embed/X6m3GuQot0w?rel=0" title="Inside Bob's Incredible Backyard Food Forest in Mesa, Arizona" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Food Forest Tours</a><span class="breadcrumb-separator">/</span><a href="../locations/arizona.html">Arizona</a><span class="breadcrumb-separator">/</span><span aria-current="page">Chateau de Muff</span></nav>
-<header class="tour-header"><h1>Inside Bob's Incredible Backyard Food Forest in Mesa, Arizona</h1><div class="tour-categories"><span class="tour-category">Arizona</span><span class="tour-category">Backyard Food Forest</span><span class="tour-category">Tropical Fruit</span><span class="tour-category">Desert Gardening</span></div><p class="tour-description">At Chateau de Muff in East Mesa, Bob has transformed his backyard into a productive collection of tropical, subtropical and deciduous fruit trees — with some remarkable harvests to show for it.</p><div class="tour-meta"><div><span class="meta-label">Host</span><span class="meta-value">Bob · Chateau de Muff</span></div><div><span class="meta-label">Location</span><span class="meta-value">East Mesa, Arizona</span></div></div></header>
-<p class="tour-lead">Bob's garden is a reminder that growing unusual fruit trees in the Phoenix desert takes more than planting and hoping for the best. Years of observation, experimenting with microclimates, adjusting irrigation, pruning and hand-pollination have helped him turn a backyard collection into a fruit-producing landscape.</p>
-<section class="quick-facts" aria-label="Tour quick facts"><div class="fact-card"><span class="fact-label">Garden</span><span class="fact-value">Chateau de Muff</span></div><div class="fact-card"><span class="fact-label">Grower</span><span class="fact-value">Bob</span></div><div class="fact-card"><span class="fact-label">Location</span><span class="fact-value">East Mesa, Arizona</span></div><div class="fact-card"><span class="fact-label">Garden Type</span><span class="fact-value">Backyard Food Forest</span></div><div class="fact-card"><span class="fact-label">Growing Climate</span><span class="fact-value">Phoenix Desert</span></div><div class="fact-card"><span class="fact-label">Key Strategies</span><span class="fact-value">Shade & Microclimates</span></div><div class="fact-card"><span class="fact-label">Garden Care</span><span class="fact-value">Irrigation & Pruning</span></div><div class="fact-card"><span class="fact-label">Fruit Production</span><span class="fact-value">Hand-Pollination & Tree Care</span></div></section>
-<section class="tour-section"><h2>Inside Bob's East Mesa Backyard Food Forest</h2><p>At Chateau de Muff, Bob has spent years filling his East Mesa backyard with a diverse mix of fruit trees. Some are familiar to Arizona gardeners; others, including sugar apple and June plum, are much less common sights in a desert backyard.</p><p>What makes this garden especially compelling is that many of the trees are already producing. Rather than just walking through a wishlist of rare plants, Bob shares what he has learned from growing them: where he sourced trees, which challenges he has encountered, and how he has changed his approach over time.</p><p>Throughout the tour, the focus returns to a central idea: the conditions around a plant — and the care it receives — can make a tremendous difference in whether it simply survives or eventually bears fruit.</p></section>
-<section class="tour-section"><h2>What You'll Learn From Chateau de Muff</h2><div class="learn-grid"><div class="learn-item">How Bob uses microclimates and shade to help protect sensitive fruit trees</div><div class="learn-item">Why irrigation needs careful attention in a hot, dry desert backyard</div><div class="learn-item">How pruning helps manage a diverse collection of trees</div><div class="learn-item">Where hand-pollination can help improve fruit set</div><div class="learn-item">Which tropical and subtropical fruit trees are already producing in his garden</div><div class="learn-item">Why experimentation and adapting over time matter as much as plant selection</div></div></section>
-<section class="tour-section"><h2>Four Shorts From Chateau de Muff</h2><p>Take a closer look at Bob's backyard food forest through these four short videos, then watch the full tour above for the complete story.</p><div class="short-grid"><article class="short-card"><div class="short-video"><iframe src="https://www.youtube.com/embed/jQiwjlI3H8k" title="Chateau de Muff garden short 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><h3>Chateau de Muff · Short 1</h3></article>
-<article class="short-card"><div class="short-video"><iframe src="https://www.youtube.com/embed/vo0PMjgU4TM" title="Chateau de Muff garden short 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><h3>Chateau de Muff · Short 2</h3></article>
-<article class="short-card"><div class="short-video"><iframe src="https://www.youtube.com/embed/-ESh5ebNhMA" title="Chateau de Muff garden short 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><h3>Chateau de Muff · Short 3</h3></article>
-<article class="short-card"><div class="short-video"><iframe src="https://www.youtube.com/embed/PnD7Vflk2mg" title="Chateau de Muff garden short 4" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><h3>Chateau de Muff · Short 4</h3></article></div></section>
-<section class="tour-section"><h2>Creating Microclimates for Sensitive Fruit Trees</h2><p>In the Phoenix area, summer heat and direct afternoon sun can be especially challenging for tropical and subtropical plants. Bob pays attention to the conditions within his own yard, using the surrounding vegetation and shade to create more protected spaces for sensitive trees.</p><p>One of the plants he discusses is moringa, which can contribute shade while also producing edible leaves and young pods. The larger lesson is that plants can support one another: a tree does not always need to be grown primarily for its fruit to play an important role in a food forest.</p><p>As the garden matures, these relationships can change. A young tree may need protection that an established canopy later provides, making garden design an ongoing process rather than a one-time planting plan.</p></section>
-<section class="tour-section"><h2>Irrigation, Pruning, and Learning Through Experience</h2><p>Growing a wide variety of fruit trees in East Mesa requires adapting to desert conditions. Bob talks about managing irrigation, choosing where to plant, and making pruning decisions to help keep the backyard productive and manageable.</p><p>Different species respond differently to heat, water, and seasonal changes. Instead of presenting a single formula that works for every tree, Bob explains the lessons he has learned through years of observation, successes, and setbacks.</p><p>His garden shows why the long-term process matters: sourcing an unusual tree may be exciting, but understanding how to care for it in your particular backyard is what helps turn that experiment into a lasting part of the landscape.</p></section>
-<section class="tour-section"><h2>From Unusual Trees to Real Fruit Harvests</h2><p>One of the highlights of Chateau de Muff is the range of fruit Bob is already harvesting. The tour features sugar apples, June plums, sherbet berries, passion fruit, guavas, longans, bananas, and more — an impressive mix for a residential garden in the Phoenix desert.</p><p>Bob also discusses hand-pollination, a useful technique for certain fruit trees that may not reliably set fruit without some help. Along with pruning, watering, and microclimate management, this attention to fruit production helps explain why so many of his plants have progressed beyond simply growing.</p><p>For other backyard growers, the takeaway is not that every species will thrive everywhere. It's that thoughtful placement, patience, and willingness to adapt can expand what is possible in a challenging climate.</p></section>
-<section class="tour-section"><h2>Fruit Trees and Plants Featured at Chateau de Muff</h2><p>This is a selection of fruiting plants mentioned in the tour description, not a complete inventory of Bob's garden.</p><div class="species-overview"><div class="species-overview-grid"><div class="species-stat"><span class="species-stat-label">Sugar Apple</span><span class="species-stat-value">Tropical fruit tree</span></div><div class="species-stat"><span class="species-stat-label">June Plum</span><span class="species-stat-value">Tropical fruit tree</span></div><div class="species-stat"><span class="species-stat-label">Sherbet Berry</span><span class="species-stat-value">Unusual fruit</span></div><div class="species-stat"><span class="species-stat-label">Passion Fruit</span><span class="species-stat-value">Fruiting vine</span></div><div class="species-stat"><span class="species-stat-label">Guava</span><span class="species-stat-value">Subtropical fruit</span></div><div class="species-stat"><span class="species-stat-label">Longan</span><span class="species-stat-value">Subtropical fruit tree</span></div><div class="species-stat"><span class="species-stat-label">Banana</span><span class="species-stat-value">Tropical fruit</span></div><div class="species-stat"><span class="species-stat-label">Moringa</span><span class="species-stat-value">Shade & edible leaves</span></div></div></div></section>
-<section class="tour-section"><h2>The Green Yard Takeaway</h2><p>Chateau de Muff shows what can happen when a grower spends years learning from the land in front of them. Bob has not simply collected unusual fruit trees; he has worked to understand their needs, create more favorable growing conditions, and help them produce. His backyard is a compelling example of abundance built through curiosity, patience, and adaptation.</p></section>
-<section class="tour-section"><h2>Learn More and Keep Exploring</h2><p>Follow Bob's garden and see more from The Green Yard.</p><ul><li><a href="https://www.youtube.com/channel/UC-boQN4uShpOXl8hqG3vtXw" target="_blank" rel="noopener">Bob's YouTube channel — The Green Man</a></li><li><a href="https://www.youtube.com/watch?v=X6m3GuQot0w" target="_blank" rel="noopener">Watch the complete Chateau de Muff tour on YouTube</a></li><li><a href="../locations/arizona.html">Explore more Arizona food forests</a></li></ul></section>
-<section class="tour-section"><h2>Related Arizona Food Forest Tour</h2><p>Continue exploring how other Arizona growers build productive edible landscapes in the desert.</p><a href="phoenix-small-space-food-forest-kim.html"><img src="https://img.youtube.com/vi/DEvduDQTxqI/hqdefault.jpg" alt="Kim's small Phoenix backyard food forest" loading="lazy" style="width:min(360px,100%);border-radius:8px;"></a><p><a href="phoenix-small-space-food-forest-kim.html">24 Fruit Trees in a Tiny Phoenix Backyard Food Forest — Kim's Garden →</a></p></section>
+ <div class="video-wrap">
+  <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/X6m3GuQot0w?rel=0" title="Inside Bob's Incredible Backyard Food Forest in Mesa, Arizona">
+  </iframe>
+ </div>
+ <nav aria-label="Breadcrumb" class="breadcrumbs">
+  <a href="../index.html">
+   Food Forest Tours
+  </a>
+  <span class="breadcrumb-separator">
+   /
+  </span>
+  <a href="../locations/arizona.html">
+   Arizona
+  </a>
+  <span class="breadcrumb-separator">
+   /
+  </span>
+  <span aria-current="page">
+   Bob the Greenman
+  </span>
+ </nav>
+ <header class="tour-header">
+  <h1>
+   Inside Bob's Incredible Backyard Food Forest in Mesa, Arizona
+  </h1>
+  <div class="tour-categories">
+   <span class="tour-category">
+    Arizona
+   </span>
+   <span class="tour-category">
+    Backyard Food Forest
+   </span>
+   <span class="tour-category">
+    Tropical Fruit
+   </span>
+   <span class="tour-category">
+    Desert Gardening
+   </span>
+  </div>
+  <p class="tour-description">
+   At Bob the Greenman in East Mesa, Bob has transformed his backyard into a productive collection of tropical, subtropical and deciduous fruit trees — with some remarkable harvests to show for it.
+  </p>
+  <div class="tour-meta">
+   <div>
+    <span class="meta-label">
+     Host
+    </span>
+    <span class="meta-value">
+     Bob · Bob the Greenman
+    </span>
+   </div>
+   <div>
+    <span class="meta-label">
+     Location
+    </span>
+    <span class="meta-value">
+     East Mesa, Arizona
+    </span>
+   </div>
+  </div>
+ </header>
+ <p class="tour-lead">
+  Bob's garden is a reminder that growing unusual fruit trees in the Phoenix desert takes more than planting and hoping for the best. Years of observation, experimenting with microclimates, adjusting irrigation, pruning and hand-pollination have helped him turn a backyard collection into a fruit-producing landscape.
+ </p>
+ <section aria-label="Tour quick facts" class="quick-facts">
+  <div class="fact-card">
+   <span class="fact-label">
+    Garden
+   </span>
+   <span class="fact-value">
+    Bob the Greenman
+   </span>
+  </div>
+  <div class="fact-card">
+   <span class="fact-label">
+    Grower
+   </span>
+   <span class="fact-value">
+    Bob
+   </span>
+  </div>
+  <div class="fact-card">
+   <span class="fact-label">
+    Location
+   </span>
+   <span class="fact-value">
+    East Mesa, Arizona
+   </span>
+  </div>
+  <div class="fact-card">
+   <span class="fact-label">
+    Garden Type
+   </span>
+   <span class="fact-value">
+    Backyard Food Forest
+   </span>
+  </div>
+  <div class="fact-card">
+   <span class="fact-label">
+    Growing Climate
+   </span>
+   <span class="fact-value">
+    Phoenix Desert
+   </span>
+  </div>
+  <div class="fact-card">
+   <span class="fact-label">
+    Key Strategies
+   </span>
+   <span class="fact-value">
+    Shade &amp; Microclimates
+   </span>
+  </div>
+  <div class="fact-card">
+   <span class="fact-label">
+    Garden Care
+   </span>
+   <span class="fact-value">
+    Irrigation &amp; Pruning
+   </span>
+  </div>
+  <div class="fact-card">
+   <span class="fact-label">
+    Fruit Production
+   </span>
+   <span class="fact-value">
+    Hand-Pollination &amp; Tree Care
+   </span>
+  </div>
+ </section>
+ <section class="tour-section">
+  <h2>
+   Inside Bob's East Mesa Backyard Food Forest
+  </h2>
+  <p>
+   At Bob the Greenman, Bob has spent years filling his East Mesa backyard with a diverse mix of fruit trees. Some are familiar to Arizona gardeners; others, including sugar apple and June plum, are much less common sights in a desert backyard.
+  </p>
+  <p>
+   What makes this garden especially compelling is that many of the trees are already producing. Rather than just walking through a wishlist of rare plants, Bob shares what he has learned from growing them: where he sourced trees, which challenges he has encountered, and how he has changed his approach over time.
+  </p>
+  <p>
+   Throughout the tour, the focus returns to a central idea: the conditions around a plant — and the care it receives — can make a tremendous difference in whether it simply survives or eventually bears fruit.
+  </p>
+ </section>
+ <section class="tour-section">
+  <h2>
+   What You’ll Learn From Bob the Greenman
+  </h2>
+  <div class="learn-grid">
+   <div class="learn-item">
+    How Bob uses microclimates and shade to help protect sensitive fruit trees
+   </div>
+   <div class="learn-item">
+    Why irrigation needs careful attention in a hot, dry desert backyard
+   </div>
+   <div class="learn-item">
+    How pruning helps manage a diverse collection of trees
+   </div>
+   <div class="learn-item">
+    Where hand-pollination can help improve fruit set
+   </div>
+   <div class="learn-item">
+    Which tropical and subtropical fruit trees are already producing in his garden
+   </div>
+   <div class="learn-item">
+    Why experimentation and adapting over time matter as much as plant selection
+   </div>
+  </div>
+ </section>
+ <section class="tour-section">
+  <h2>
+   Four Shorts From Bob the Greenman
+  </h2>
+  <p>
+   Take a closer look at Bob's backyard food forest through these four short videos, then watch the full tour above for the complete story.
+  </p>
+  <div class="short-grid">
+   <article class="short-card">
+    <div class="short-video">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/jQiwjlI3H8k" title="Bob the Greenman garden short 1">
+     </iframe>
+    </div>
+    <div class="short-copy">
+     <h3>
+      Bob’s Garden — Short 1
+     </h3>
+     <p>
+      A short highlight from Bob’s East Mesa backyard food forest.
+     </p>
+    </div>
+   </article>
+   <article class="short-card">
+    <div class="short-video">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vo0PMjgU4TM" title="Bob the Greenman garden short 2">
+     </iframe>
+    </div>
+    <div class="short-copy">
+     <h3>
+      Bob’s Garden — Short 2
+     </h3>
+     <p>
+      A short highlight from Bob’s East Mesa backyard food forest.
+     </p>
+    </div>
+   </article>
+   <article class="short-card">
+    <div class="short-video">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-ESh5ebNhMA" title="Bob the Greenman garden short 3">
+     </iframe>
+    </div>
+    <div class="short-copy">
+     <h3>
+      Bob’s Garden — Short 3
+     </h3>
+     <p>
+      A short highlight from Bob’s East Mesa backyard food forest.
+     </p>
+    </div>
+   </article>
+   <article class="short-card">
+    <div class="short-video">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/PnD7Vflk2mg" title="Bob the Greenman garden short 4">
+     </iframe>
+    </div>
+    <div class="short-copy">
+     <h3>
+      Bob’s Garden — Short 4
+     </h3>
+     <p>
+      A short highlight from Bob’s East Mesa backyard food forest.
+     </p>
+    </div>
+   </article>
+  </div>
+ </section>
+ <section class="tour-section">
+  <h2>
+   Creating Microclimates for Sensitive Fruit Trees
+  </h2>
+  <p>
+   In the Phoenix area, summer heat and direct afternoon sun can be especially challenging for tropical and subtropical plants. Bob pays attention to the conditions within his own yard, using the surrounding vegetation and shade to create more protected spaces for sensitive trees.
+  </p>
+  <p>
+   One of the plants he discusses is moringa, which can contribute shade while also producing edible leaves and young pods. The larger lesson is that plants can support one another: a tree does not always need to be grown primarily for its fruit to play an important role in a food forest.
+  </p>
+  <p>
+   As the garden matures, these relationships can change. A young tree may need protection that an established canopy later provides, making garden design an ongoing process rather than a one-time planting plan.
+  </p>
+ </section>
+ <section class="tour-section">
+  <h2>
+   Irrigation, Pruning, and Learning Through Experience
+  </h2>
+  <p>
+   Growing a wide variety of fruit trees in East Mesa requires adapting to desert conditions. Bob talks about managing irrigation, choosing where to plant, and making pruning decisions to help keep the backyard productive and manageable.
+  </p>
+  <p>
+   Different species respond differently to heat, water, and seasonal changes. Instead of presenting a single formula that works for every tree, Bob explains the lessons he has learned through years of observation, successes, and setbacks.
+  </p>
+  <p>
+   His garden shows why the long-term process matters: sourcing an unusual tree may be exciting, but understanding how to care for it in your particular backyard is what helps turn that experiment into a lasting part of the landscape.
+  </p>
+ </section>
+ <section class="tour-section">
+  <h2>
+   From Unusual Trees to Real Fruit Harvests
+  </h2>
+  <p>
+   One of the highlights of Bob the Greenman is the range of fruit Bob is already harvesting. The tour features sugar apples, June plums, sherbet berries, passion fruit, guavas, longans, bananas, and more — an impressive mix for a residential garden in the Phoenix desert.
+  </p>
+  <p>
+   Bob also discusses hand-pollination, a useful technique for certain fruit trees that may not reliably set fruit without some help. Along with pruning, watering, and microclimate management, this attention to fruit production helps explain why so many of his plants have progressed beyond simply growing.
+  </p>
+  <p>
+   For other backyard growers, the takeaway is not that every species will thrive everywhere. It's that thoughtful placement, patience, and willingness to adapt can expand what is possible in a challenging climate.
+  </p>
+ </section>
+ <section class="tour-section">
+  <h2>
+   Plants Growing in Bob’s Backyard Food Forest
+  </h2>
+  <p>
+   This is a selection of fruiting plants mentioned in the tour description, not a complete inventory of Bob's garden.
+  </p>
+  <div class="species-overview">
+   <div class="species-overview-grid">
+    <div class="species-stat">
+     <span class="species-stat-label">
+      Sugar Apple
+     </span>
+     <span class="species-stat-value">
+      Tropical fruit tree
+     </span>
+    </div>
+    <div class="species-stat">
+     <span class="species-stat-label">
+      June Plum
+     </span>
+     <span class="species-stat-value">
+      Tropical fruit tree
+     </span>
+    </div>
+    <div class="species-stat">
+     <span class="species-stat-label">
+      Sherbet Berry
+     </span>
+     <span class="species-stat-value">
+      Unusual fruit
+     </span>
+    </div>
+    <div class="species-stat">
+     <span class="species-stat-label">
+      Passion Fruit
+     </span>
+     <span class="species-stat-value">
+      Fruiting vine
+     </span>
+    </div>
+    <div class="species-stat">
+     <span class="species-stat-label">
+      Guava
+     </span>
+     <span class="species-stat-value">
+      Subtropical fruit
+     </span>
+    </div>
+    <div class="species-stat">
+     <span class="species-stat-label">
+      Longan
+     </span>
+     <span class="species-stat-value">
+      Subtropical fruit tree
+     </span>
+    </div>
+    <div class="species-stat">
+     <span class="species-stat-label">
+      Banana
+     </span>
+     <span class="species-stat-value">
+      Tropical fruit
+     </span>
+    </div>
+    <div class="species-stat">
+     <span class="species-stat-label">
+      Moringa
+     </span>
+     <span class="species-stat-value">
+      Shade &amp; edible leaves
+     </span>
+    </div>
+   </div>
+  </div>
+  <div class="featured-plants">
+   <span class="featured-plants-label">
+    Featured Plants
+   </span>
+   <div class="featured-plant-tags">
+    <span class="featured-plant">
+     Sugar apple
+    </span>
+    <span class="featured-plant">
+     June plum
+    </span>
+    <span class="featured-plant">
+     Sherbet berry
+    </span>
+    <span class="featured-plant">
+     Passion fruit
+    </span>
+    <span class="featured-plant">
+     Guava
+    </span>
+    <span class="featured-plant">
+     Longan
+    </span>
+    <span class="featured-plant">
+     Banana
+    </span>
+    <span class="featured-plant">
+     Moringa
+    </span>
+   </div>
+  </div>
+  <details class="species-details">
+   <summary aria-label="Show or hide the documented plant list">
+    <span class="species-summary-closed">
+     Show Documented Plant List
+    </span>
+    <span class="species-summary-open">
+     Hide Documented Plant List
+    </span>
+   </summary>
+   <div class="species-box">
+    <h3>
+     Fruit Trees and Edible Plants
+    </h3>
+    <ul class="species-list">
+     <li>
+      Sugar apple
+     </li>
+     <li>
+      June plum
+     </li>
+     <li>
+      Sherbet berry
+     </li>
+     <li>
+      Passion fruit
+     </li>
+     <li>
+      Guava
+     </li>
+     <li>
+      Longan
+     </li>
+     <li>
+      Banana
+     </li>
+     <li>
+      Moringa
+     </li>
+    </ul>
+   </div>
+  </details>
+ </section>
+ <section class="tour-section">
+  <h2>
+   The Green Yard Takeaway
+  </h2>
+  <div class="takeaway">
+   <p>
+    Bob the Greenman shows what can happen when a grower spends years learning from the land in front of them. Bob has not simply collected unusual fruit trees; he has worked to understand their needs, create more favorable growing conditions, and help them produce. His backyard is a compelling example of abundance built through curiosity, patience, and adaptation.
+   </p>
+  </div>
+ </section>
+ <section class="tour-section">
+  <h2>
+   Learn More and Keep Exploring
+  </h2>
+  <p>
+   Follow Bob's garden and see more from The Green Yard.
+  </p>
+  <div class="link-grid">
+   <a class="resource-card" href="https://www.youtube.com/channel/UC-boQN4uShpOXl8hqG3vtXw" rel="noopener noreferrer" target="_blank">
+    <strong>
+     Bob the Greenman on YouTube
+    </strong>
+    <span>
+     Explore more of Bob’s growing journey.
+    </span>
+   </a>
+   <a class="resource-card" href="https://www.youtube.com/watch?v=X6m3GuQot0w" rel="noopener noreferrer" target="_blank">
+    <strong>
+     Watch the Full Tour on YouTube
+    </strong>
+    <span>
+     Watch Bob’s complete East Mesa backyard food forest tour.
+    </span>
+   </a>
+  </div>
+ </section>
+ <section class="tour-section">
+  <h2>
+   Related Arizona Food Forest Tour
+  </h2>
+  <div class="related-tour">
+   <div class="related-tour-image">
+    <img alt="Kim’s Phoenix backyard food forest" loading="lazy" src="https://img.youtube.com/vi/DEvduDQTxqI/maxresdefault.jpg"/>
+   </div>
+   <div class="related-tour-copy">
+    <h3>
+     Explore Kim’s Small Phoenix Food Forest
+    </h3>
+    <p>
+     See how Kim fits 24 fruit trees into a compact backyard using shade, pruning, and thoughtful planting.
+    </p>
+    <div class="related-actions">
+     <a class="tour-button" href="phoenix-small-space-food-forest-kim.html">
+      Explore Kim’s Tour
+     </a>
+     <a class="tour-button tour-button-secondary" href="../index.html">
+      Explore All Tours
+     </a>
+    </div>
+   </div>
+  </div>
+ </section>
 </main>
+
+```
