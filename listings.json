@@ -1,7 +1,12 @@
 [
   {
+    "listing": "/blog.html",
+    "items": []
+  },
+  {
     "listing": "/tours/index.html",
     "items": [
+      "/tours/mesa-chateau-de-muff-backyard-food-forest.html",
       "/tours/green-flamingo-organics-regenerative-farm.html",
       "/tours/phoenix-small-space-food-forest-kim.html",
       "/tours/rebel-farms-new-smyrna-beach-food-forest.html",
@@ -16,9 +21,5 @@
       "/tours/glendale-front-yard-food-forest-cedar.html",
       "/tours/new-roots-community-farm-san-diego.html"
     ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": []
   }
 ]
