@@ -1,1 +1,101 @@
+---
+title: "Contact The Green Yard"
+description: "Share your garden, suggest a food forest tour, collaborate with The Green Yard, or join the growing class waitlist."
+toc: false
+page-layout: full
+---
 
+```{=html}
+<style>
+.quarto-title-block, #title-block-header { display: none !important; }
+body:has(.gy-contact) main.content,
+body:has(.gy-contact) #quarto-content {
+  max-width: none !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.gy-contact { font-family: Arial, Helvetica, sans-serif; color: #52615b; }
+.gyc-hero {
+  width: 100vw; position: relative; left: 50%; margin-left: -50vw;
+  box-sizing: border-box; background: #082f24; color: white;
+  padding: 76px clamp(24px, 7vw, 110px);
+}
+.gyc-inner { max-width: 1180px; margin: 0 auto; }
+.gyc-label { color: #597548; font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 15px; }
+.gyc-hero .gyc-label { color: #d6ed91; }
+.gy-contact h1, .gy-contact h2, .gy-contact h3 {
+  font-family: Georgia, 'Times New Roman', serif; font-weight: 600; line-height: 1.15; text-transform: none; letter-spacing: -.015em;
+}
+.gy-contact h1 { color: white; font-size: clamp(38px, 5vw, 62px); margin: 0 0 22px; }
+.gyc-hero p { max-width: 760px; font-size: 19px; line-height: 1.7; margin: 0; color: #fff; }
+.gyc-body { width: 100vw; position: relative; left: 50%; margin-left: -50vw; box-sizing: border-box; background: #f7f5ef; padding: 58px clamp(24px, 7vw, 110px) 68px; }
+.gy-contact h2 { color: #17382c; font-size: clamp(28px, 3vw, 40px); margin: 0 0 18px; }
+.gy-contact h3 { color: #17382c; font-size: 25px; margin: 0 0 14px; }
+.gy-contact p, .gy-contact li { line-height: 1.7; }
+.gyc-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; margin: 28px 0 45px; }
+.gyc-card { background: white; border: 1px solid rgba(7,56,44,.14); border-radius: 8px; padding: 28px; }
+.gyc-card p:last-child { margin-bottom: 0; }
+.gyc-email { border-top: 1px solid rgba(23,56,44,.16); padding-top: 38px; text-align: center; }
+.gyc-email p { max-width: 740px; margin: 0 auto 18px; }
+.gyc-email a:not(.gyc-button) { color: #315f49; overflow-wrap: anywhere; }
+.gyc-button { display: inline-flex; justify-content: center; align-items: center; padding: 14px 24px; min-height: 48px; box-sizing: border-box; border-radius: 5px; background: #174936; color: white !important; text-decoration: none !important; font-size: 13px; font-weight: 800; letter-spacing: .045em; text-transform: uppercase; transition: background .2s, transform .2s; }
+.gyc-button:hover { background: #286348; transform: translateY(-2px); }
+.gyc-social { margin-top: 24px !important; }
+.gyc-signoff { margin-top: 30px !important; font-family: Georgia, 'Times New Roman', serif; color: #17382c; font-style: italic; }
+@media(max-width: 950px) { .gyc-grid { grid-template-columns: 1fr; } }
+@media(max-width: 680px) {
+  .gyc-grid { grid-template-columns: 1fr; }
+  .gyc-hero { padding-top: 48px; padding-bottom: 48px; }
+  .gyc-body { padding-top: 40px; padding-bottom: 48px; }
+  .gyc-card { padding: 22px; }
+  .gyc-button { width: 100%; }
+}
+@media(prefers-reduced-motion: reduce) { .gyc-button { transition: none; } }
+</style>
+
+<div class="gy-contact">
+  <section class="gyc-hero">
+    <div class="gyc-inner">
+      <div class="gyc-label">Let's Grow Together</div>
+      <h1>Every Garden Has a Story.</h1>
+      <p>Have an incredible edible landscape, a garden worth sharing, or an idea for The Green Yard? I'd love to hear from you.</p>
+    </div>
+  </section>
+  <section class="gyc-body">
+    <div class="gyc-inner">
+      <div class="gyc-label">Connect With The Green Yard</div>
+      <h2>Let's Share More Stories of Abundance</h2>
+      <p>The Green Yard explores the different ways people around the world live with abundance through plants, food, and edible landscapes. Whether you're growing in a small backyard or on a large farm, there's always something we can learn from one another.</p>
+      <div class="gyc-grid">
+        <article class="gyc-card">
+          <h3>Share Your Green Yard</h3>
+          <p>Have a food forest, edible backyard, community garden, regenerative farm, or another unique growing space you'd like featured? I'm always interested in discovering new gardens and meeting the people behind them, in Arizona and around the world.</p>
+          <p>Tell me a little about your garden, where you're located, and what makes your space special. Photos or links are always welcome!</p>
+        </article>
+        <article class="gyc-card">
+          <h3>Collaborate With Me</h3>
+          <p>Are you a grower, creator, organization, or business interested in working with The Green Yard? I'd love to hear your ideas for garden tours, creative projects, and partnerships that celebrate growing food and connecting with nature.</p>
+          <p>General questions, suggestions, and feedback are welcome too.</p>
+        </article>
+        <article class="gyc-card">
+          <h3>Learn to Grow Your Own Food</h3>
+          <p>Interested in growing your own food, creating an edible landscape, or starting a backyard food forest?</p>
+          <p>I'm developing future classes designed to help people grow with confidence, whether you're just getting started or looking to expand your existing garden.</p>
+          <p>Join the class waitlist to be notified when new learning opportunities become available.</p>
+          <a class="gyc-button" href="mailto:thegreenyardarizona@gmail.com?subject=The%20Green%20Yard%20Class%20Waitlist&amp;body=Hi%2C%20I%27d%20like%20to%20join%20the%20class%20waitlist.%0A%0AName%3A%0ALocation%3A%0ATopics%20I%27m%20interested%20in%3A">Join the Class Waitlist</a>
+        </article>
+      </div>
+      <section class="gyc-email">
+        <div class="gyc-label">Get in Touch</div>
+        <h2>I'd Love to Hear From You</h2>
+        <p>The best way to reach me is by email.</p>
+        <p><a href="mailto:thegreenyardarizona@gmail.com">thegreenyardarizona@gmail.com</a></p>
+        <a class="gyc-button" href="mailto:thegreenyardarizona@gmail.com">Send Me an Email</a>
+        <p class="gyc-social">You can also join the conversation in the comments on The Green Yard YouTube channel.</p>
+        <p class="gyc-signoff">Live green, plant lots, and have fun!</p>
+      </section>
+    </div>
+  </section>
+</div>
+```
