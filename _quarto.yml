@@ -31,8 +31,6 @@ website:
       - href: contact.qmd
         text: Contact
 
-  
-
   page-footer:
     right: "Visit [The Green Yard on YouTube](https://www.youtube.com/@thegreenyardaz)"
 
@@ -41,6 +39,10 @@ format:
     theme: lux
     css: styles.css
     toc: true
+    include-in-header:
+      - text: |
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5786213540854221"
+               crossorigin="anonymous"></script>
 
 editor: visual
 
