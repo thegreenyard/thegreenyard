@@ -1323,25 +1323,6 @@ as it continues to develop.
     <span>Visit the farmstead website.</span>
   </a>
 
-  <a class="resource-card" href="https://ringingcedarsbooks.com/" target="_blank" rel="noopener noreferrer">
-    <strong>The Ringing Cedars of Russia</strong>
-    <span>Learn about the Vladimir Megre book series beginning with Anastasia, discussed as a personal inspiration in the episode.</span>
-  </a>
-</div>
-</section>
-
-<section class="tour-section">
-<h2>Products I Use in My Food Forest</h2>
-<p>As an Amazon Associate, I earn from qualifying purchases.</p>
-<div class="link-grid">
-  <a class="resource-card" href="https://amzn.to/4albDwi" target="_blank" rel="sponsored noopener noreferrer">
-    <strong>Neptune’s Harvest Fish Emulsion</strong>
-    <span>The fish emulsion I use in my own food forest.</span>
-  </a>
-  <a class="resource-card" href="https://amzn.to/49A6238" target="_blank" rel="sponsored noopener noreferrer">
-    <strong>Fiskars Heavy Duty Steel Shovel</strong>
-    <span>My favorite shovel for garden projects.</span>
-  </a>
 </div>
 </section>
 
