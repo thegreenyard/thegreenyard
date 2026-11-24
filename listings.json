@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/blog.html",
-    "items": []
-  },
-  {
     "listing": "/tours/index.html",
     "items": [
       "/tours/bali-regenerative-farmstead-tour.html",
@@ -22,5 +18,9 @@
       "/tours/glendale-front-yard-food-forest-cedar.html",
       "/tours/new-roots-community-farm-san-diego.html"
     ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": []
   }
 ]
